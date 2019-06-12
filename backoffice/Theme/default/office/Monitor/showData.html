@@ -1,0 +1,51 @@
+<extend name="./Theme/default/office_base.html"/>
+<block name="page-content">
+    <div class="layui-row layui-col-space15">
+
+        <div class="layui-col-md12">
+            <div class="layui-form layui-form-pane" style=" padding: 5px;background-color: #fff;">
+                <div class="layui-form-item">
+
+                    <div class="layui-inline">
+                        <label class="layui-form-label">时间</label>
+                        <div class="layui-input-inline">
+                            <select name="time" id="time"  lay-filter="time">
+                                <option value="30">最近三十天</option>
+                                <option value="7">最近七天</option>
+                                <option value="3">最近三天</option>
+                            </select>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div style="clear: both"></div>
+            </div>
+        </div>
+
+        <div class="layui-col-md6">
+            <div class="layui-card">
+                <div class="layui-card-body">
+                    <div id="tired_no"  style="height: 340px;"></div>
+                </div>
+            </div>
+        </div>
+        <div class="layui-col-md6">
+            <div class="layui-card">
+                <div class="layui-card-body">
+                    <div id="tired_type"  style="height: 340px;"></div>
+                </div>
+            </div>
+        </div>
+        <div class="layui-col-md12">
+            <div class="layui-card">
+                <div class="layui-card-body">
+                    <div id="tired_no_time" style="height: 340px;"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+</block>

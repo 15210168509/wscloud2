@@ -1,0 +1,77 @@
+<extend name="./Theme/default/office_base.html" />
+<block name="page-content">
+    <div class="layui-card">
+        <div class="layui-card-body">
+            <div class="searchContainer">
+                <form class="form-horizontal" id="src_form">
+                    <div class="searchTop">
+                        <div class="layui-col-xs6 layui-col-sm6 layui-col-md6">
+                            <span class="searchTitle padding-lr20">快速检索</span>
+                            <input type="hidden" id="companyId" value="{$companyId}">
+                            <input type="hidden" id="deviceTopic" value="{$deviceTopic}">
+                        </div>
+                        <div class="layui-col-xs6 layui-col-sm6 layui-col-md6" style="text-align: right">
+                            <button id="src_bt" class="layui-btn" >搜 索</button>
+                            <button type="reset" id="reset_bt" class="layui-btn" >重 置</button>
+                        </div>
+                    </div>
+                    <div class="layui-form layui-form-pane" style=" padding: 5px;">
+                        <div class="layui-col-xs6 layui-col-sm6 layui-col-md4">
+                            <label class="layui-form-label">名称</label>
+                            <div class="layui-input-inline">
+                                <input type="text" name="username" id="name" placeholder="设备名称" class="layui-input" value="{$where_name}">
+                            </div>
+                        </div>
+                        <div class="layui-col-xs6 layui-col-sm6 layui-col-md4">
+                            <label class="layui-form-label">设备号</label>
+                            <div class="layui-input-inline">
+                                <input type="text" name="username" id="serialNo" placeholder="设备号" class="layui-input" value="{$where_phone}">
+                            </div>
+                        </div>
+
+                        <div style="clear: both"></div>
+                    </div>
+                    <div class="clearfix"></div>
+                </form>
+            </div>
+
+            <table class="layui-hide" id="tableList" lay-filter="tableList"></table>
+            <form class="layui-form layui-form-pane" action="javascript:;" id="editDevice" method="post" style="display: none;margin-top: 10px;width: 300px">
+                <input type="hidden" id="edit_device_id">
+
+                <div class="layui-form-item">
+                    <div class="layui-inline">
+                        <label class="layui-form-label" style="width: 90px">设备名称</label>
+                        <div class="layui-input-inline">
+                            <input type="text" name="device_name_input" id="device_name_input" lay-verify="required" placeholder="设备名称"  autocomplete="off" class="layui-input">
+                        </div>
+                    </div>
+                </div>
+                <div class="layui-form-item">
+                    <div class="layui-inline">
+                        <label class="layui-form-label" style="width: 90px">设备序列号</label>
+                        <div class="layui-input-inline">
+                            <input type="text" name="device_no_input"  id="device_no_input" lay-verify="required" placeholder="设备号"  autocomplete="off" class="layui-input">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="layui-form-item">
+                    <div class="layui-inline">
+                        <label class="layui-form-label" style="width: 90px">SIM卡号</label>
+                        <div class="layui-input-inline">
+                            <input type="text" name="device_sim_no"  id="device_sim_no" lay-verify="required" placeholder="SIM卡号"   autocomplete="off" class="layui-input">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="layui-form-item" style="margin-left: 10px">
+                    <div class="layui-inline">
+                        <button id="editDevice_btn" class="layui-btn" lay-submit="" lay-filter="editDevice">确定</button>
+                    </div>
+                </div>
+            </form>
+
+        </div>
+    </div>
+</block>

@@ -1,0 +1,46 @@
+<extend name="./Theme/default/office_base.html"/>
+<block name="page-content">
+    <div class="layui-card">
+        <div class="layui-card-body">
+
+            <form class="layui-form layui-form-pane" action="javascript:;" method="post">
+
+                <div class="layui-form-item">
+                    <div class="layui-inline">
+                        <label class="layui-form-label" style="width: 90px">车牌号</label>
+                        <div class="layui-input-inline">
+                            <input type="text" name="vehicle_no" lay-verify="required" placeholder="车牌号"  autocomplete="off" class="layui-input">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="layui-form-item">
+                    <div class="layui-inline">
+                        <label class="layui-form-label" style="width: 90px">车型号</label>
+                        <div class="layui-input-inline">
+                            <input type="text" name="model" lay-verify="required" placeholder="车型号"   autocomplete="off" class="layui-input">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="layui-form-item">
+                    <div class="layui-inline">
+                        <label class="layui-form-label" style="width: 90px">设备号</label>
+                        <input type="hidden" id="device_id">
+                        <div class="layui-input-inline">
+                            <input type="text" id="serial_no" name="serial_no" lay-verify="required" placeholder="设备号"  autocomplete="off" class="layui-input">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="layui-form-item">
+                    <div class="layui-inline">
+                        <button id="add_btn" class="layui-btn" lay-submit="" lay-filter="demo1">添加</button>
+                        <button type="reset" class="layui-btn layui-btn-primary">重置</button>
+                    </div>
+                </div>
+            </form>
+
+        </div>
+    </div>
+</block>

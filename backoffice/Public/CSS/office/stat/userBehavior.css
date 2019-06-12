@@ -1,0 +1,81 @@
+.content {
+    padding: 10px 10px;
+}
+.gallery-cont .item {
+    width:20%;
+    display: inline-block;
+}
+
+.gallery-cont .item .photo .img{
+    width:90%;
+    height: 40%;
+    padding-top: 20px;
+    overflow: hidden;
+    cursor:pointer
+}
+.gallery-cont .item .photo .img img{
+    width: 100%;
+    height: 100%;
+}
+.gallery-cont .item .photo .head {
+    width:90%;
+    background: #f9f9f9;
+    overflow: hidden;
+    font-size: 12px;
+    cursor:pointer
+
+}
+
+.gallery-cont .item .photo .head .behavior-value{
+    padding-left: 5px;
+}
+
+#behaviorItemBody {
+    height: auto !important;
+}
+
+/*.behavior-info{
+    width: 960px;
+    height: 620px;
+}*/
+
+.behavior-info .driver-behavior img{
+    width: 480px;
+}
+
+.behavior-info .driver-behavior img,.behavior-warming,.bd-map{
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+}
+
+.behavior-info .driver-behavior, .behavior-warming{
+    height: 360px;
+    line-height: 30px;
+
+}
+
+.layui-col-md2 {
+    text-align: center;
+}
+
+.behavior-info .bd-map{
+    height: 240px;
+    margin-top: 20px
+}
+
+.img {
+    position: relative;
+}
+.video {
+    position: absolute;
+    top: 24px;
+    right: 3px;
+}
+.prism-ErrorMessage{
+    display: none;
+}
+
+.mask{position: fixed;left: 0;top: 60px; right: 0;bottom: 0;background-color: #000;opacity:0.5;filter: Alpha(opacity=50);z-index: 10000000;transition:all 1s;display: none}
+.mask img{padding-top: 60px;margin-right: 20px}
+.mask>img{position: fixed;right:10px;top: 10px;width: 60px;}
+.mask>img:hover{cursor:pointer}

@@ -1,0 +1,18 @@
+<!doctype html>
+<html>
+<head>
+	<title>登陆验证</title>
+	<meta charset="utf-8">
+</head>
+<body>
+	<?php echo $res->res ? "登陆成功 正在跳转首页" : "登陆失败：".$res->msg; ?>
+	<br />
+	正在跳转<?php echo $res->res ? "首页" : "登陆页"; ?> 或 
+	点击<a href="<?php echo $res->res ? "/" : "/Admin/Login"; ?>">返回<?php echo $res->res ? "首页" : "登陆页"; ?></a>
+</body>
+<script>
+	setTimeout(function(){ 
+		window.location = "<?php echo $res->res ? "/" : "/login"; ?>"; 
+	}, <?php echo $res->res ? "3000" : "10000"; ?>);
+</script>
+</html>

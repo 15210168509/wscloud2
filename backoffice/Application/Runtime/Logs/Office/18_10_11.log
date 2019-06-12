@@ -1,0 +1,285 @@
+[ 2018-10-11T14:44:50+08:00 ] ::1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.043073s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.035521s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.035874s ]
+NOTIC: [8] Trying to get property of non-object D:\wamp\www\wscloud\backoffice\Application\Lib\BaseManagementController.class.php 第 50 行.
+
+[ 2018-10-11T14:44:54+08:00 ] ::1 /Office/ManagementLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000930s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001229s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001561s ]
+NOTIC: [8] Undefined index: login D:\wamp\www\wscloud\backoffice\Application\Lib\BaseManagementController.class.php 第 124 行.
+NOTIC: [8] Trying to get property of non-object D:\wamp\www\wscloud\backoffice\Application\Lib\BaseManagementController.class.php 第 124 行.
+NOTIC: [8] Undefined index: login D:\wamp\www\wscloud\backoffice\Application\Lib\BaseManagementController.class.php 第 125 行.
+NOTIC: [8] Trying to get property of non-object D:\wamp\www\wscloud\backoffice\Application\Lib\BaseManagementController.class.php 第 125 行.
+NOTIC: [8] Trying to get property of non-object D:\wamp\www\wscloud\backoffice\Application\Lib\BaseManagementController.class.php 第 87 行.
+NOTIC: [8] Trying to get property of non-object D:\wamp\www\wscloud\backoffice\Application\Lib\BaseManagementController.class.php 第 90 行.
+NOTIC: [8] Undefined offset: -1 D:\wamp\www\wscloud\backoffice\Application\Office\Common\function.php 第 263 行.
+NOTIC: [8] Trying to get property of non-object D:\wamp\www\wscloud\backoffice\Application\Lib\BaseManagementController.class.php 第 100 行.
+NOTIC: [8] Trying to get property of non-object D:\wamp\www\wscloud\backoffice\Application\Lib\BaseManagementController.class.php 第 101 行.
+NOTIC: [8] Trying to get property of non-object D:\wamp\www\wscloud\backoffice\Application\Lib\BaseManagementController.class.php 第 108 行.
+NOTIC: [8] Trying to get property of non-object D:\wamp\www\wscloud\backoffice\Application\Lib\BaseManagementController.class.php 第 111 行.
+NOTIC: [8] Trying to get property of non-object D:\wamp\www\wscloud\backoffice\Application\Office\Model\ApiModel.class.php 第 109 行.
+NOTIC: [8] Trying to get property of non-object D:\wamp\www\wscloud\backoffice\Application\Office\Model\ApiModel.class.php 第 151 行.
+NOTIC: [2] Illegal string offset 'value' D:\wamp\www\wscloud\backoffice\Application\Lib\BaseManagementController.class.php 第 112 行.
+NOTIC: [8] Uninitialized string offset: 0 D:\wamp\www\wscloud\backoffice\Application\Lib\BaseManagementController.class.php 第 112 行.
+NOTIC: [8] Trying to get property of non-object D:\wamp\www\wscloud\backoffice\Application\Office\Model\ApiModel.class.php 第 109 行.
+NOTIC: [8] Trying to get property of non-object D:\wamp\www\wscloud\backoffice\Application\Office\Model\ApiModel.class.php 第 151 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000129s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000291s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.054461s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.054664s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.029101s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.029366s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.011893s ]
+INFO: [ app_end ] --END-- [ RunTime:0.012531s ]
+
+[ 2018-10-11T14:45:02+08:00 ] ::1 /Office/ManagementLogin/loginCheck
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000510s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005672s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005770s ]
+NOTIC: [8] Trying to get property of non-object D:\wamp\www\wscloud\backoffice\Application\Office\Model\ApiModel.class.php 第 109 行.
+
+[ 2018-10-11T14:45:53+08:00 ] ::1 /Office/ManagementLogin/loginCheck
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000491s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003661s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003751s ]
+NOTIC: [8] Trying to get property of non-object D:\wamp\www\wscloud\backoffice\Application\Office\Model\ApiModel.class.php 第 109 行.
+
+[ 2018-10-11T14:45:54+08:00 ] ::1 /Office/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000676s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000654s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000758s ]
+NOTIC: [8] Undefined index: login D:\wamp\www\wscloud\backoffice\Application\Lib\BaseManagementController.class.php 第 124 行.
+NOTIC: [8] Trying to get property of non-object D:\wamp\www\wscloud\backoffice\Application\Lib\BaseManagementController.class.php 第 124 行.
+NOTIC: [8] Undefined index: login D:\wamp\www\wscloud\backoffice\Application\Lib\BaseManagementController.class.php 第 125 行.
+NOTIC: [8] Trying to get property of non-object D:\wamp\www\wscloud\backoffice\Application\Lib\BaseManagementController.class.php 第 125 行.
+NOTIC: [8] Undefined offset: -1 D:\wamp\www\wscloud\backoffice\Application\Office\Common\function.php 第 263 行.
+NOTIC: [8] Undefined offset: 0 D:\wamp\www\wscloud\backoffice\Application\Office\Common\function.php 第 213 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given D:\wamp\www\wscloud\backoffice\Application\Office\Common\function.php 第 213 行.
+NOTIC: [8] Undefined index: openNew D:\wamp\www\wscloud\backoffice\Application\Office\Common\function.php 第 226 行.
+NOTIC: [8] Undefined index: icon D:\wamp\www\wscloud\backoffice\Application\Office\Common\function.php 第 230 行.
+NOTIC: [8] Undefined index: openNew D:\wamp\www\wscloud\backoffice\Application\Office\Common\function.php 第 226 行.
+NOTIC: [8] Undefined index: icon D:\wamp\www\wscloud\backoffice\Application\Office\Common\function.php 第 230 行.
+NOTIC: [8] Undefined offset: 0 D:\wamp\www\wscloud\backoffice\Application\Office\Common\function.php 第 213 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given D:\wamp\www\wscloud\backoffice\Application\Office\Common\function.php 第 213 行.
+NOTIC: [8] Undefined index: openNew D:\wamp\www\wscloud\backoffice\Application\Office\Common\function.php 第 226 行.
+NOTIC: [8] Undefined index: icon D:\wamp\www\wscloud\backoffice\Application\Office\Common\function.php 第 230 行.
+NOTIC: [8] Undefined index: openNew D:\wamp\www\wscloud\backoffice\Application\Office\Common\function.php 第 226 行.
+NOTIC: [8] Undefined index: icon D:\wamp\www\wscloud\backoffice\Application\Office\Common\function.php 第 230 行.
+NOTIC: [8] Undefined offset: 0 D:\wamp\www\wscloud\backoffice\Application\Office\Common\function.php 第 213 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given D:\wamp\www\wscloud\backoffice\Application\Office\Common\function.php 第 213 行.
+NOTIC: [8] Undefined index: openNew D:\wamp\www\wscloud\backoffice\Application\Office\Common\function.php 第 226 行.
+NOTIC: [8] Undefined index: icon D:\wamp\www\wscloud\backoffice\Application\Office\Common\function.php 第 230 行.
+NOTIC: [8] Undefined index: openNew D:\wamp\www\wscloud\backoffice\Application\Office\Common\function.php 第 226 行.
+NOTIC: [8] Undefined index: icon D:\wamp\www\wscloud\backoffice\Application\Office\Common\function.php 第 230 行.
+NOTIC: [8] Undefined offset: 0 D:\wamp\www\wscloud\backoffice\Application\Office\Common\function.php 第 213 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given D:\wamp\www\wscloud\backoffice\Application\Office\Common\function.php 第 213 行.
+NOTIC: [8] Undefined index: openNew D:\wamp\www\wscloud\backoffice\Application\Office\Common\function.php 第 226 行.
+NOTIC: [8] Undefined index: icon D:\wamp\www\wscloud\backoffice\Application\Office\Common\function.php 第 230 行.
+NOTIC: [8] Undefined index: openNew D:\wamp\www\wscloud\backoffice\Application\Office\Common\function.php 第 226 行.
+NOTIC: [8] Undefined index: icon D:\wamp\www\wscloud\backoffice\Application\Office\Common\function.php 第 230 行.
+NOTIC: [8] Undefined index: openNew D:\wamp\www\wscloud\backoffice\Application\Office\Common\function.php 第 226 行.
+NOTIC: [8] Undefined index: icon D:\wamp\www\wscloud\backoffice\Application\Office\Common\function.php 第 230 行.
+NOTIC: [8] Undefined offset: 0 D:\wamp\www\wscloud\backoffice\Application\Office\Common\function.php 第 213 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given D:\wamp\www\wscloud\backoffice\Application\Office\Common\function.php 第 213 行.
+NOTIC: [8] Undefined index: openNew D:\wamp\www\wscloud\backoffice\Application\Office\Common\function.php 第 226 行.
+NOTIC: [8] Undefined index: icon D:\wamp\www\wscloud\backoffice\Application\Office\Common\function.php 第 230 行.
+NOTIC: [8] Undefined index: openNew D:\wamp\www\wscloud\backoffice\Application\Office\Common\function.php 第 226 行.
+NOTIC: [8] Undefined index: icon D:\wamp\www\wscloud\backoffice\Application\Office\Common\function.php 第 230 行.
+NOTIC: [8] Undefined offset: 0 D:\wamp\www\wscloud\backoffice\Application\Office\Common\function.php 第 213 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given D:\wamp\www\wscloud\backoffice\Application\Office\Common\function.php 第 213 行.
+NOTIC: [8] Undefined index: openNew D:\wamp\www\wscloud\backoffice\Application\Office\Common\function.php 第 226 行.
+NOTIC: [8] Undefined index: icon D:\wamp\www\wscloud\backoffice\Application\Office\Common\function.php 第 230 行.
+NOTIC: [8] Undefined index: icon D:\wamp\www\wscloud\backoffice\Application\Office\Common\function.php 第 227 行.
+NOTIC: [8] Undefined offset: 0 D:\wamp\www\wscloud\backoffice\Application\Office\Common\function.php 第 213 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given D:\wamp\www\wscloud\backoffice\Application\Office\Common\function.php 第 213 行.
+NOTIC: [8] Undefined index: openNew D:\wamp\www\wscloud\backoffice\Application\Office\Common\function.php 第 226 行.
+NOTIC: [8] Undefined index: icon D:\wamp\www\wscloud\backoffice\Application\Office\Common\function.php 第 230 行.
+NOTIC: [8] Undefined index: openNew D:\wamp\www\wscloud\backoffice\Application\Office\Common\function.php 第 226 行.
+NOTIC: [8] Undefined index: icon D:\wamp\www\wscloud\backoffice\Application\Office\Common\function.php 第 230 行.
+NOTIC: [8] Undefined index: openNew D:\wamp\www\wscloud\backoffice\Application\Office\Common\function.php 第 226 行.
+NOTIC: [8] Undefined index: icon D:\wamp\www\wscloud\backoffice\Application\Office\Common\function.php 第 230 行.
+NOTIC: [8] Undefined property: stdClass::$id D:\wamp\www\wscloud\backoffice\Application\Lib\BaseManagementController.class.php 第 101 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000083s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000188s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035348s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035456s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000604s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000691s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000814s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000940s ]
+
+[ 2018-10-11T14:45:55+08:00 ] ::1 /Public/Js/office/monitoring/echarts.js.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000389s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001011s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001174s ]
+ERR: 无法加载控制器:Public
+
+[ 2018-10-11T14:45:55+08:00 ] ::1 /Office/Stat/statByTimeGroup
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000688s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000946s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001044s ]
+
+[ 2018-10-11T14:45:58+08:00 ] ::1 /Office/RoadLine/historyLine
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000939s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001397s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001575s ]
+NOTIC: [8] Undefined index: login D:\wamp\www\wscloud\backoffice\Application\Lib\BaseManagementController.class.php 第 124 行.
+NOTIC: [8] Trying to get property of non-object D:\wamp\www\wscloud\backoffice\Application\Lib\BaseManagementController.class.php 第 124 行.
+NOTIC: [8] Undefined index: login D:\wamp\www\wscloud\backoffice\Application\Lib\BaseManagementController.class.php 第 125 行.
+NOTIC: [8] Trying to get property of non-object D:\wamp\www\wscloud\backoffice\Application\Lib\BaseManagementController.class.php 第 125 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, integer given D:\wamp\www\wscloud\backoffice\Application\Office\Common\function.php 第 213 行.
+NOTIC: [8] Undefined index: openNew D:\wamp\www\wscloud\backoffice\Application\Office\Common\function.php 第 226 行.
+NOTIC: [8] Undefined index: icon D:\wamp\www\wscloud\backoffice\Application\Office\Common\function.php 第 230 行.
+NOTIC: [8] Undefined index: openNew D:\wamp\www\wscloud\backoffice\Application\Office\Common\function.php 第 226 行.
+NOTIC: [8] Undefined index: icon D:\wamp\www\wscloud\backoffice\Application\Office\Common\function.php 第 230 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, integer given D:\wamp\www\wscloud\backoffice\Application\Office\Common\function.php 第 213 行.
+NOTIC: [8] Undefined index: openNew D:\wamp\www\wscloud\backoffice\Application\Office\Common\function.php 第 226 行.
+NOTIC: [8] Undefined index: icon D:\wamp\www\wscloud\backoffice\Application\Office\Common\function.php 第 230 行.
+NOTIC: [8] Undefined index: openNew D:\wamp\www\wscloud\backoffice\Application\Office\Common\function.php 第 226 行.
+NOTIC: [8] Undefined index: icon D:\wamp\www\wscloud\backoffice\Application\Office\Common\function.php 第 230 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, integer given D:\wamp\www\wscloud\backoffice\Application\Office\Common\function.php 第 213 行.
+NOTIC: [8] Undefined index: openNew D:\wamp\www\wscloud\backoffice\Application\Office\Common\function.php 第 226 行.
+NOTIC: [8] Undefined index: icon D:\wamp\www\wscloud\backoffice\Application\Office\Common\function.php 第 230 行.
+NOTIC: [8] Undefined index: openNew D:\wamp\www\wscloud\backoffice\Application\Office\Common\function.php 第 226 行.
+NOTIC: [8] Undefined index: icon D:\wamp\www\wscloud\backoffice\Application\Office\Common\function.php 第 230 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, integer given D:\wamp\www\wscloud\backoffice\Application\Office\Common\function.php 第 213 行.
+NOTIC: [8] Undefined index: openNew D:\wamp\www\wscloud\backoffice\Application\Office\Common\function.php 第 226 行.
+NOTIC: [8] Undefined index: icon D:\wamp\www\wscloud\backoffice\Application\Office\Common\function.php 第 230 行.
+NOTIC: [8] Undefined index: openNew D:\wamp\www\wscloud\backoffice\Application\Office\Common\function.php 第 226 行.
+NOTIC: [8] Undefined index: icon D:\wamp\www\wscloud\backoffice\Application\Office\Common\function.php 第 230 行.
+NOTIC: [8] Undefined index: openNew D:\wamp\www\wscloud\backoffice\Application\Office\Common\function.php 第 226 行.
+NOTIC: [8] Undefined index: icon D:\wamp\www\wscloud\backoffice\Application\Office\Common\function.php 第 230 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, integer given D:\wamp\www\wscloud\backoffice\Application\Office\Common\function.php 第 213 行.
+NOTIC: [8] Undefined index: openNew D:\wamp\www\wscloud\backoffice\Application\Office\Common\function.php 第 226 行.
+NOTIC: [8] Undefined index: icon D:\wamp\www\wscloud\backoffice\Application\Office\Common\function.php 第 230 行.
+NOTIC: [8] Undefined index: openNew D:\wamp\www\wscloud\backoffice\Application\Office\Common\function.php 第 226 行.
+NOTIC: [8] Undefined index: icon D:\wamp\www\wscloud\backoffice\Application\Office\Common\function.php 第 230 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, integer given D:\wamp\www\wscloud\backoffice\Application\Office\Common\function.php 第 213 行.
+NOTIC: [8] Undefined index: openNew D:\wamp\www\wscloud\backoffice\Application\Office\Common\function.php 第 226 行.
+NOTIC: [8] Undefined index: icon D:\wamp\www\wscloud\backoffice\Application\Office\Common\function.php 第 230 行.
+NOTIC: [8] Undefined index: icon D:\wamp\www\wscloud\backoffice\Application\Office\Common\function.php 第 227 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, integer given D:\wamp\www\wscloud\backoffice\Application\Office\Common\function.php 第 213 行.
+NOTIC: [8] Undefined index: openNew D:\wamp\www\wscloud\backoffice\Application\Office\Common\function.php 第 226 行.
+NOTIC: [8] Undefined index: icon D:\wamp\www\wscloud\backoffice\Application\Office\Common\function.php 第 230 行.
+NOTIC: [8] Undefined index: openNew D:\wamp\www\wscloud\backoffice\Application\Office\Common\function.php 第 226 行.
+NOTIC: [8] Undefined index: icon D:\wamp\www\wscloud\backoffice\Application\Office\Common\function.php 第 230 行.
+NOTIC: [8] Undefined index: openNew D:\wamp\www\wscloud\backoffice\Application\Office\Common\function.php 第 226 行.
+NOTIC: [8] Undefined index: icon D:\wamp\www\wscloud\backoffice\Application\Office\Common\function.php 第 230 行.
+NOTIC: [8] Undefined property: stdClass::$id D:\wamp\www\wscloud\backoffice\Application\Lib\BaseManagementController.class.php 第 101 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000070s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000169s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031063s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031169s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000829s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000916s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001075s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001211s ]
+
+[ 2018-10-11T14:46:03+08:00 ] ::1 /Office/RoadLine/searchVehicle?keywords=j
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000685s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001467s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001612s ]
+NOTIC: [8] Undefined index: data D:\wamp\www\wscloud\backoffice\Application\Office\Controller\RoadLineController.class.php 第 77 行.
+
+[ 2018-10-11T14:46:03+08:00 ] ::1 /Office/RoadLine/searchVehicle?keywords=ji
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000650s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000557s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000644s ]
+NOTIC: [8] Undefined index: data D:\wamp\www\wscloud\backoffice\Application\Office\Controller\RoadLineController.class.php 第 77 行.
+
+[ 2018-10-11T14:46:04+08:00 ] ::1 /Office/RoadLine/searchVehicle?keywords=j
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000490s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000591s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000715s ]
+NOTIC: [8] Undefined index: data D:\wamp\www\wscloud\backoffice\Application\Office\Controller\RoadLineController.class.php 第 77 行.
+
+[ 2018-10-11T14:46:05+08:00 ] ::1 /Office/RoadLine/searchVehicle?keywords=j
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000725s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000772s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000911s ]
+NOTIC: [8] Undefined index: data D:\wamp\www\wscloud\backoffice\Application\Office\Controller\RoadLineController.class.php 第 77 行.
+
+[ 2018-10-11T14:46:05+08:00 ] ::1 /Office/RoadLine/searchVehicle?keywords=ji
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000483s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000595s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000692s ]
+NOTIC: [8] Undefined index: data D:\wamp\www\wscloud\backoffice\Application\Office\Controller\RoadLineController.class.php 第 77 行.
+
+[ 2018-10-11T14:46:05+08:00 ] ::1 /Office/RoadLine/searchVehicle?keywords=%E5%86%80
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000532s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000850s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001045s ]
+
+[ 2018-10-11T14:46:06+08:00 ] ::1 /Office/RoadLine/searchVehicle?keywords=%E5%86%80
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000487s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000669s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000794s ]
+
+[ 2018-10-11T14:46:15+08:00 ] ::1 /Office/RoadLine/getVehicleHistoryPoint
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000478s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000622s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000753s ]
+NOTIC: [8] Undefined index: data D:\wamp\www\wscloud\backoffice\Application\Office\Controller\RoadLineController.class.php 第 136 行.
+

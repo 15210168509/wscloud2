@@ -1,0 +1,49 @@
+[ 2019-02-20T09:47:57+08:00 ] ::1 /Home/System/getSystemSetting/companyId//type/20/token/null
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000803s ]
+INFO: [ url_dispatch ] --START--
+INFO: Run Lib\Behavior\SignCheckBehavior [ RunTime:0.011056s ]
+NOTIC: [8] Undefined index: token D:\wamp\www\wscloud\api\Application\Lib\Behavior\TokenCheckBehavior.class.php 第 35 行.
+
+[ 2019-02-20T09:47:58+08:00 ] ::1 /Home/Admin/getAdminMsgCount/status/10/token/null
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000069s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001905s ]
+INFO: [ url_dispatch ] --START--
+INFO: Run Lib\Behavior\SignCheckBehavior [ RunTime:0.005624s ]
+
+[ 2019-02-20T14:28:22+08:00 ] ::1 /Test/testRedis
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000614s ]
+INFO: [ url_dispatch ] --START--
+INFO: Run Lib\Behavior\SignCheckBehavior [ RunTime:0.001418s ]
+INFO: Run Lib\Behavior\TokenCheckBehavior [ RunTime:0.001689s ]
+INFO: Run Lib\Behavior\MethodCheckBehavior [ RunTime:0.018971s ]
+INFO: [ url_dispatch ] --END-- [ RunTime:0.022299s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.049770s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.049874s ]
+
+[ 2019-02-20T14:28:22+08:00 ] ::1 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000478s ]
+
+[ 2019-02-20T14:28:33+08:00 ] ::1 /Test/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000700s ]
+INFO: [ url_dispatch ] --START--
+INFO: Run Lib\Behavior\SignCheckBehavior [ RunTime:0.001959s ]
+INFO: Run Lib\Behavior\TokenCheckBehavior [ RunTime:0.002259s ]
+INFO: Run Lib\Behavior\MethodCheckBehavior [ RunTime:0.001148s ]
+INFO: [ url_dispatch ] --END-- [ RunTime:0.005698s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000962s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001085s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.022403s ]
+INFO: [ app_end ] --END-- [ RunTime:0.022943s ]
+

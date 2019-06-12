@@ -1,0 +1,43 @@
+<extend name="./Theme/default/office_base.html" />
+<block name="page-content">
+    <div class="layui-card">
+        <div class="layui-card-body">
+            <div class="searchContainer">
+                <form class="form-horizontal" id="src_form">
+                    <div class="searchTop">
+                        <div class="layui-col-xs6 layui-col-sm6 layui-col-md6">
+                            <span class="searchTitle padding-lr20">快速检索</span>
+                            <input type="hidden" id="companyId" value="{$companyId}">
+                            <input type="hidden" id="deviceTopic" value="{$deviceTopic}">
+                        </div>
+                        <div class="layui-col-xs6 layui-col-sm6 layui-col-md6" style="text-align: right">
+                            <button id="src_bt" class="layui-btn" >导出</button>
+                            <button type="reset" id="reset_bt" class="layui-btn" >重 置</button>
+                        </div>
+                    </div>
+
+                    <div class="layui-form layui-form-pane" style=" padding: 5px;">
+                        <div class="layui-col-xs6 layui-col-sm6 layui-col-md4">
+                            <label class="layui-form-label">车牌号</label>
+                            <div class="layui-input-inline">
+                                <input type="text" name="username" id="vehicleNo" placeholder="车牌号" class="layui-input" value="{$where_vehicle_no}">
+                            </div>
+                        </div>
+
+                        <div class="layui-col-xs6 layui-col-sm6 layui-col-md4">
+                            <label class="layui-form-label">设备号</label>
+                            <input type="hidden" id="device_id_search">
+                            <div class="layui-input-inline">
+                                <input type="text" id="deviceNo" name="device_no" placeholder="设备号" class="layui-input" value="{$where_device_no}">
+                            </div>
+                        </div>
+                        <div style="clear: both"></div>
+
+                    </div>
+                    <div class="clearfix"></div>
+                </form>
+            </div>
+
+        </div>
+    </div>
+</block>

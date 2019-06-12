@@ -1,0 +1,389 @@
+[ 2018-11-29T09:11:46+08:00 ] ::1 /Test/testRedis
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000527s ]
+INFO: [ url_dispatch ] --START--
+INFO: Run Lib\Behavior\SignCheckBehavior [ RunTime:0.001235s ]
+INFO: Run Lib\Behavior\TokenCheckBehavior [ RunTime:0.001544s ]
+INFO: Run Lib\Behavior\MethodCheckBehavior [ RunTime:0.000838s ]
+INFO: [ url_dispatch ] --END-- [ RunTime:0.003850s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000646s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000743s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000722s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000828s ]
+
+[ 2018-11-29T09:11:46+08:00 ] ::1 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001084s ]
+
+[ 2018-11-29T09:12:45+08:00 ] ::1 /Test/testRedis
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000569s ]
+INFO: [ url_dispatch ] --START--
+INFO: Run Lib\Behavior\SignCheckBehavior [ RunTime:0.001334s ]
+INFO: Run Lib\Behavior\TokenCheckBehavior [ RunTime:0.001546s ]
+INFO: Run Lib\Behavior\MethodCheckBehavior [ RunTime:0.000818s ]
+INFO: [ url_dispatch ] --END-- [ RunTime:0.003918s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000689s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000782s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000879s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000983s ]
+
+[ 2018-11-29T09:41:34+08:00 ] 192.168.1.104 /Device/getDeviceSetting
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001009s ]
+INFO: [ url_dispatch ] --START--
+INFO: Run Lib\Behavior\SignCheckBehavior [ RunTime:0.001376s ]
+INFO: Run Lib\Behavior\TokenCheckBehavior [ RunTime:0.025190s ]
+INFO: Run Lib\Behavior\MethodCheckBehavior [ RunTime:0.000876s ]
+INFO: [ url_dispatch ] --END-- [ RunTime:0.027673s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000735s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000830s ]
+SQL: SHOW COLUMNS FROM `device` [ RunTime:0.0294s ]
+SQL: SELECT * FROM `device` WHERE `serial_no` = '869455045023039' LIMIT 1   [ RunTime:0.0014s ]
+
+[ 2018-11-29T09:42:20+08:00 ] 192.168.1.104 /Device/getDeviceSetting
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000584s ]
+INFO: [ url_dispatch ] --START--
+INFO: Run Lib\Behavior\SignCheckBehavior [ RunTime:0.001335s ]
+INFO: Run Lib\Behavior\TokenCheckBehavior [ RunTime:0.004178s ]
+INFO: Run Lib\Behavior\MethodCheckBehavior [ RunTime:0.000811s ]
+INFO: [ url_dispatch ] --END-- [ RunTime:0.006558s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000682s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000776s ]
+SQL: SHOW COLUMNS FROM `device` [ RunTime:0.0081s ]
+SQL: SELECT * FROM `device` WHERE `serial_no` = '869455045023047' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `device_setting` [ RunTime:0.0133s ]
+SQL: SELECT * FROM `device_setting` WHERE `company_id` = '1447247968' AND `is_common` = 0  [ RunTime:0.0004s ]
+
+[ 2018-11-29T10:04:55+08:00 ] 192.168.1.104 /Device/getDeviceSetting
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000531s ]
+INFO: [ url_dispatch ] --START--
+INFO: Run Lib\Behavior\SignCheckBehavior [ RunTime:0.001476s ]
+INFO: Run Lib\Behavior\TokenCheckBehavior [ RunTime:0.004295s ]
+INFO: Run Lib\Behavior\MethodCheckBehavior [ RunTime:0.000840s ]
+INFO: [ url_dispatch ] --END-- [ RunTime:0.006892s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000698s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000825s ]
+NOTIC: [8] Undefined index: HTTP_RAW_POST_DATA D:\wamp\www\wscloud\api\Application\Home\Controller\DeviceController.class.php 第 412 行.
+
+[ 2018-11-29T10:05:01+08:00 ] 192.168.1.104 /Device/getDeviceSetting
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000533s ]
+INFO: [ url_dispatch ] --START--
+INFO: Run Lib\Behavior\SignCheckBehavior [ RunTime:0.001239s ]
+INFO: Run Lib\Behavior\TokenCheckBehavior [ RunTime:0.003460s ]
+INFO: Run Lib\Behavior\MethodCheckBehavior [ RunTime:0.000849s ]
+INFO: [ url_dispatch ] --END-- [ RunTime:0.005766s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000675s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000769s ]
+NOTIC: [8] Undefined index: HTTP_RAW_POST_DATA D:\wamp\www\wscloud\api\Application\Home\Controller\DeviceController.class.php 第 412 行.
+
+[ 2018-11-29T10:05:17+08:00 ] 192.168.1.104 /Device/getDeviceSetting
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000584s ]
+INFO: [ url_dispatch ] --START--
+INFO: Run Lib\Behavior\SignCheckBehavior [ RunTime:0.001183s ]
+INFO: Run Lib\Behavior\TokenCheckBehavior [ RunTime:0.003319s ]
+INFO: Run Lib\Behavior\MethodCheckBehavior [ RunTime:0.000803s ]
+INFO: [ url_dispatch ] --END-- [ RunTime:0.005516s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000662s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000757s ]
+SQL: SHOW COLUMNS FROM `device` [ RunTime:0.0088s ]
+SQL: SELECT * FROM `device` WHERE `serial_no` = '869455045023047' LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-11-29T10:05:19+08:00 ] 192.168.1.104 /Device/getDeviceSetting
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000687s ]
+INFO: [ url_dispatch ] --START--
+INFO: Run Lib\Behavior\SignCheckBehavior [ RunTime:0.001591s ]
+INFO: Run Lib\Behavior\TokenCheckBehavior [ RunTime:0.004419s ]
+INFO: Run Lib\Behavior\MethodCheckBehavior [ RunTime:0.001178s ]
+INFO: [ url_dispatch ] --END-- [ RunTime:0.007558s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001039s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001199s ]
+SQL: SHOW COLUMNS FROM `device` [ RunTime:0.0480s ]
+SQL: SELECT * FROM `device` WHERE `serial_no` = '869455045023047' LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-11-29T10:38:16+08:00 ] ::1 /Home/System/getSystemSetting/companyId//type/20/token/null
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000886s ]
+INFO: [ url_dispatch ] --START--
+INFO: Run Lib\Behavior\SignCheckBehavior [ RunTime:0.002285s ]
+NOTIC: [8] Undefined index: token D:\wamp\www\wscloud\api\Application\Lib\Behavior\TokenCheckBehavior.class.php 第 35 行.
+
+[ 2018-11-29T10:38:17+08:00 ] ::1 /Home/Admin/getAdminMsgCount/status/10/token/null
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001052s ]
+INFO: [ url_dispatch ] --START--
+INFO: Run Lib\Behavior\SignCheckBehavior [ RunTime:0.002492s ]
+
+[ 2018-11-29T10:38:31+08:00 ] ::1 /Home/login/login/account/13161934946/password/123456/type/10/token/null
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000777s ]
+INFO: [ url_dispatch ] --START--
+INFO: Run Lib\Behavior\SignCheckBehavior [ RunTime:0.001409s ]
+INFO: Run Lib\Behavior\TokenCheckBehavior [ RunTime:0.010194s ]
+INFO: Run Lib\Behavior\MethodCheckBehavior [ RunTime:0.000929s ]
+INFO: [ url_dispatch ] --END-- [ RunTime:0.012769s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000793s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000895s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0338s ]
+SQL: SELECT a.*,c.name company_name FROM admin a left join company as c on a.company_id = c.id  WHERE (  a.account = '13161934946' OR a.phone = '13161934946' OR a.email = '13161934946' ) AND a.password = 'e10adc3949ba59abbe56e057f20f883e' AND a.status = 10 AND a.del_flg = 0 LIMIT 1   [ RunTime:0.0036s ]
+SQL: SHOW COLUMNS FROM `admin_token` [ RunTime:0.0262s ]
+SQL: SELECT * FROM `admin_token` WHERE `admin_id` = '2517844598' AND `del_flg` = 0 AND `type` = 10 LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `admin_token` SET `refresh_token`='5572c814cde1f974fb5627e234da989b',`detail`='5572c814cde1f974fb5627e234da989b_2517844598',`type`='10',`expire_time`='0',`update_time`='1543459111' WHERE `admin_id` = '2517844598' AND `del_flg` = 0 AND `type` = 10 [ RunTime:0.0397s ]
+SQL: SHOW COLUMNS FROM `company` [ RunTime:0.0318s ]
+SQL: SELECT * FROM `company` WHERE `id` = '1447247968' AND `del_flg` = 0 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `company_package` [ RunTime:0.0150s ]
+SQL: SELECT * FROM `company_package` WHERE `company_id` = '1447247968' AND `start_time` <= 1543459111 AND `end_time` > 1543459111 AND `status` = 10 AND `del_flg` = 0 LIMIT 1   [ RunTime:0.0006s ]
+
+[ 2018-11-29T10:38:31+08:00 ] ::1 /Home/Company/checkStatus/companyId/1447247968/token/5572c814cde1f974fb5627e234da989b
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000482s ]
+INFO: [ url_dispatch ] --START--
+INFO: Run Lib\Behavior\SignCheckBehavior [ RunTime:0.001122s ]
+INFO: Run Lib\Behavior\TokenCheckBehavior [ RunTime:0.044500s ]
+INFO: Run Lib\Behavior\MethodCheckBehavior [ RunTime:0.001852s ]
+INFO: [ url_dispatch ] --END-- [ RunTime:0.047860s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001590s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001824s ]
+SQL: SHOW COLUMNS FROM `company` [ RunTime:0.0195s ]
+SQL: SELECT * FROM `company` WHERE `id` = '1447247968' AND `del_flg` = 0 LIMIT 1   [ RunTime:0.0007s ]
+
+[ 2018-11-29T10:38:31+08:00 ] ::1 /Home/DrivingMonitor/statBehavior/companyId/1447247968/startTime/1540867111/endTime/1543459111/token/5572c814cde1f974fb5627e234da989b
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000680s ]
+INFO: [ url_dispatch ] --START--
+INFO: Run Lib\Behavior\SignCheckBehavior [ RunTime:0.001222s ]
+INFO: Run Lib\Behavior\TokenCheckBehavior [ RunTime:0.043417s ]
+INFO: Run Lib\Behavior\MethodCheckBehavior [ RunTime:0.000826s ]
+INFO: [ url_dispatch ] --END-- [ RunTime:0.045687s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001436s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001617s ]
+SQL: SHOW COLUMNS FROM `user_behavior` [ RunTime:0.0204s ]
+SQL: SELECT count(1) count,`code` FROM `user_behavior` WHERE `del_flg` = 0 AND `company_id` = '1447247968' AND ( `create_time` >= '1540867111' AND `create_time` < '1543459111'  ) GROUP BY code ORDER BY count desc LIMIT 6   [ RunTime:0.0024s ]
+
+[ 2018-11-29T10:38:31+08:00 ] ::1 /Home/System/getSystemSetting/companyId/1447247968/type/20/token/5572c814cde1f974fb5627e234da989b
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000850s ]
+INFO: [ url_dispatch ] --START--
+INFO: Run Lib\Behavior\SignCheckBehavior [ RunTime:0.001778s ]
+INFO: Run Lib\Behavior\TokenCheckBehavior [ RunTime:0.023406s ]
+INFO: Run Lib\Behavior\MethodCheckBehavior [ RunTime:0.000858s ]
+INFO: [ url_dispatch ] --END-- [ RunTime:0.026323s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000709s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000801s ]
+SQL: SHOW COLUMNS FROM `system_setting` [ RunTime:0.0169s ]
+SQL: SELECT `value` FROM `system_setting` WHERE `type` = 20 AND `del_flg` = 0 AND `company_id` = '1447247968' LIMIT 1   [ RunTime:0.0006s ]
+
+[ 2018-11-29T10:38:32+08:00 ] ::1 /Home/Admin/getAdminMsgCount/status/10/token/5572c814cde1f974fb5627e234da989b
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000422s ]
+INFO: [ url_dispatch ] --START--
+INFO: Run Lib\Behavior\SignCheckBehavior [ RunTime:0.001390s ]
+INFO: Run Lib\Behavior\TokenCheckBehavior [ RunTime:0.041701s ]
+INFO: Run Lib\Behavior\MethodCheckBehavior [ RunTime:0.000811s ]
+INFO: [ url_dispatch ] --END-- [ RunTime:0.044134s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000716s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000808s ]
+SQL: SHOW COLUMNS FROM `admin_msg` [ RunTime:0.0239s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_msg` WHERE `status` = '10' AND `admin_id` = '2517844598' LIMIT 1   [ RunTime:0.0007s ]
+
+[ 2018-11-29T10:38:32+08:00 ] ::1 /Home/DrivingMonitor/statByTimeGroup/companyId/1447247968/startTime/1543161600/endTime/1543507200/token/5572c814cde1f974fb5627e234da989b
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000669s ]
+INFO: [ url_dispatch ] --START--
+INFO: Run Lib\Behavior\SignCheckBehavior [ RunTime:0.001131s ]
+INFO: Run Lib\Behavior\TokenCheckBehavior [ RunTime:0.027667s ]
+INFO: Run Lib\Behavior\MethodCheckBehavior [ RunTime:0.000793s ]
+INFO: [ url_dispatch ] --END-- [ RunTime:0.029843s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000714s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000828s ]
+SQL: SHOW COLUMNS FROM `user_behavior` [ RunTime:0.0265s ]
+SQL: SELECT FROM_UNIXTIME(create_time, "%H") time,count(1) count,`code` FROM `user_behavior` WHERE `del_flg` = 0 AND `company_id` = '1447247968' AND ( `create_time` >= '1543161600' AND `create_time` < '1543507200'  ) GROUP BY code ,time  [ RunTime:0.0023s ]
+
+[ 2018-11-29T10:38:37+08:00 ] ::1 /Home/System/getSystemSetting/companyId/1447247968/type/20/token/5572c814cde1f974fb5627e234da989b
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000536s ]
+INFO: [ url_dispatch ] --START--
+INFO: Run Lib\Behavior\SignCheckBehavior [ RunTime:0.001202s ]
+INFO: Run Lib\Behavior\TokenCheckBehavior [ RunTime:0.067291s ]
+INFO: Run Lib\Behavior\MethodCheckBehavior [ RunTime:0.003498s ]
+INFO: [ url_dispatch ] --END-- [ RunTime:0.072671s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003893s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004373s ]
+SQL: SHOW COLUMNS FROM `system_setting` [ RunTime:0.0191s ]
+SQL: SELECT `value` FROM `system_setting` WHERE `type` = 20 AND `del_flg` = 0 AND `company_id` = '1447247968' LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2018-11-29T10:38:37+08:00 ] ::1 /Home/Admin/getAdminMsgCount/status/10/token/5572c814cde1f974fb5627e234da989b
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000784s ]
+INFO: [ url_dispatch ] --START--
+INFO: Run Lib\Behavior\SignCheckBehavior [ RunTime:0.001613s ]
+INFO: Run Lib\Behavior\TokenCheckBehavior [ RunTime:0.025368s ]
+INFO: Run Lib\Behavior\MethodCheckBehavior [ RunTime:0.001950s ]
+INFO: [ url_dispatch ] --END-- [ RunTime:0.029297s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000953s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001085s ]
+SQL: SHOW COLUMNS FROM `admin_msg` [ RunTime:0.0122s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_msg` WHERE `status` = '10' AND `admin_id` = '2517844598' LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2018-11-29T10:38:37+08:00 ] ::1 /Home/Device/deviceLists/name/null/serialNo/null/companyId/1447247968/pageSize/10/pageNo/1/token/5572c814cde1f974fb5627e234da989b
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000408s ]
+INFO: [ url_dispatch ] --START--
+INFO: Run Lib\Behavior\SignCheckBehavior [ RunTime:0.001007s ]
+INFO: Run Lib\Behavior\TokenCheckBehavior [ RunTime:0.034819s ]
+INFO: Run Lib\Behavior\MethodCheckBehavior [ RunTime:0.000757s ]
+INFO: [ url_dispatch ] --END-- [ RunTime:0.036807s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000628s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000720s ]
+SQL: SHOW COLUMNS FROM `device` [ RunTime:0.0083s ]
+SQL: SELECT COUNT(*) AS tp_count FROM device d left join company c on d.company_id = c.id  WHERE d.del_flg = 0 AND d.company_id = '1447247968' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT d.*,c.name company_name FROM device d left join company c on d.company_id = c.id  WHERE d.del_flg = 0 AND d.company_id = '1447247968' ORDER BY d.create_time DESC LIMIT 0,10   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: active D:\wamp\www\wscloud\api\Application\Home\Controller\DeviceController.class.php 第 158 行.
+NOTIC: [8] Undefined index: ty_ D:\wamp\www\wscloud\api\Application\Lib\Status.class.php 第 84 行.
+NOTIC: [8] Undefined index: device_no D:\wamp\www\wscloud\api\Application\Home\Controller\DeviceController.class.php 第 159 行.
+NOTIC: [8] Undefined index: active D:\wamp\www\wscloud\api\Application\Home\Controller\DeviceController.class.php 第 158 行.
+NOTIC: [8] Undefined index: ty_ D:\wamp\www\wscloud\api\Application\Lib\Status.class.php 第 84 行.
+NOTIC: [8] Undefined index: device_no D:\wamp\www\wscloud\api\Application\Home\Controller\DeviceController.class.php 第 159 行.
+NOTIC: [8] Undefined index: active D:\wamp\www\wscloud\api\Application\Home\Controller\DeviceController.class.php 第 158 行.
+NOTIC: [8] Undefined index: ty_ D:\wamp\www\wscloud\api\Application\Lib\Status.class.php 第 84 行.
+NOTIC: [8] Undefined index: device_no D:\wamp\www\wscloud\api\Application\Home\Controller\DeviceController.class.php 第 159 行.
+NOTIC: [8] Undefined index: active D:\wamp\www\wscloud\api\Application\Home\Controller\DeviceController.class.php 第 158 行.
+NOTIC: [8] Undefined index: ty_ D:\wamp\www\wscloud\api\Application\Lib\Status.class.php 第 84 行.
+NOTIC: [8] Undefined index: device_no D:\wamp\www\wscloud\api\Application\Home\Controller\DeviceController.class.php 第 159 行.
+NOTIC: [8] Undefined index: active D:\wamp\www\wscloud\api\Application\Home\Controller\DeviceController.class.php 第 158 行.
+NOTIC: [8] Undefined index: ty_ D:\wamp\www\wscloud\api\Application\Lib\Status.class.php 第 84 行.
+NOTIC: [8] Undefined index: device_no D:\wamp\www\wscloud\api\Application\Home\Controller\DeviceController.class.php 第 159 行.
+NOTIC: [8] Undefined index: active D:\wamp\www\wscloud\api\Application\Home\Controller\DeviceController.class.php 第 158 行.
+NOTIC: [8] Undefined index: ty_ D:\wamp\www\wscloud\api\Application\Lib\Status.class.php 第 84 行.
+NOTIC: [8] Undefined index: device_no D:\wamp\www\wscloud\api\Application\Home\Controller\DeviceController.class.php 第 159 行.
+
+[ 2018-11-29T10:40:08+08:00 ] ::1 /Test/topic
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000456s ]
+INFO: [ url_dispatch ] --START--
+INFO: Run Lib\Behavior\SignCheckBehavior [ RunTime:0.001269s ]
+INFO: Run Lib\Behavior\TokenCheckBehavior [ RunTime:0.001964s ]
+INFO: Run Lib\Behavior\MethodCheckBehavior [ RunTime:0.000923s ]
+INFO: [ url_dispatch ] --END-- [ RunTime:0.004459s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000646s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000746s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002845s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003253s ]
+
+[ 2018-11-29T10:40:51+08:00 ] ::1 /Test/topic
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000563s ]
+INFO: [ url_dispatch ] --START--
+INFO: Run Lib\Behavior\SignCheckBehavior [ RunTime:0.001577s ]
+INFO: Run Lib\Behavior\TokenCheckBehavior [ RunTime:0.001849s ]
+INFO: Run Lib\Behavior\MethodCheckBehavior [ RunTime:0.000746s ]
+INFO: [ url_dispatch ] --END-- [ RunTime:0.004403s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000749s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000847s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002206s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002497s ]
+
+[ 2018-11-29T10:41:41+08:00 ] ::1 /Test/topic
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000538s ]
+INFO: [ url_dispatch ] --START--
+INFO: Run Lib\Behavior\SignCheckBehavior [ RunTime:0.001193s ]
+INFO: Run Lib\Behavior\TokenCheckBehavior [ RunTime:0.001499s ]
+INFO: Run Lib\Behavior\MethodCheckBehavior [ RunTime:0.000791s ]
+INFO: [ url_dispatch ] --END-- [ RunTime:0.003694s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000657s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000769s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002877s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003244s ]
+
+[ 2018-11-29T12:02:25+08:00 ] ::1 /Device/sendDeviceInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000547s ]
+INFO: [ url_dispatch ] --START--
+INFO: Run Lib\Behavior\SignCheckBehavior [ RunTime:0.001803s ]
+INFO: Run Lib\Behavior\TokenCheckBehavior [ RunTime:0.003903s ]
+INFO: Run Lib\Behavior\MethodCheckBehavior [ RunTime:0.000903s ]
+INFO: [ url_dispatch ] --END-- [ RunTime:0.006909s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000689s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000786s ]
+NOTIC: [2] fsockopen():  D:\wamp\www\wscloud\api\Application\Lib\Mqtt\MQTT.class.php 第 39 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given D:\wamp\www\wscloud\api\Application\Lib\Mqtt\MQTT.class.php 第 220 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given D:\wamp\www\wscloud\api\Application\Lib\Mqtt\MQTT.class.php 第 221 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003576s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004097s ]
+
+[ 2018-11-29T12:02:30+08:00 ] ::1 /Device/sendDeviceInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000480s ]
+INFO: [ url_dispatch ] --START--
+INFO: Run Lib\Behavior\SignCheckBehavior [ RunTime:0.001087s ]
+INFO: Run Lib\Behavior\TokenCheckBehavior [ RunTime:0.003462s ]
+INFO: Run Lib\Behavior\MethodCheckBehavior [ RunTime:0.000755s ]
+INFO: [ url_dispatch ] --END-- [ RunTime:0.005522s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000667s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000760s ]
+NOTIC: [2] fsockopen():  D:\wamp\www\wscloud\api\Application\Lib\Mqtt\MQTT.class.php 第 39 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given D:\wamp\www\wscloud\api\Application\Lib\Mqtt\MQTT.class.php 第 220 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given D:\wamp\www\wscloud\api\Application\Lib\Mqtt\MQTT.class.php 第 221 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001483s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001673s ]
+

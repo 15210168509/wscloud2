@@ -1,0 +1,5 @@
+[ 2018-07-16T09:59:51+08:00 ] ::1 /img/favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000094s ]
+INFO: [ app_init ] --END-- [ RunTime:0.008527s ]
+

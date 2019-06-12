@@ -1,0 +1,271 @@
+[ 2018-12-07T10:37:33+08:00 ] ::1 /Test/testRedis
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000101s ]
+INFO: [ app_init ] --END-- [ RunTime:0.080154s ]
+INFO: [ url_dispatch ] --START--
+INFO: Run Lib\Behavior\SignCheckBehavior [ RunTime:0.021621s ]
+INFO: Run Lib\Behavior\TokenCheckBehavior [ RunTime:0.011712s ]
+INFO: Run Lib\Behavior\MethodCheckBehavior [ RunTime:0.028607s ]
+INFO: [ url_dispatch ] --END-- [ RunTime:0.062713s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.014416s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.014568s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006291s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006435s ]
+
+[ 2018-12-07T10:37:33+08:00 ] ::1 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001339s ]
+
+[ 2018-12-07T13:42:13+08:00 ] ::1 /Test/testRedis
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000685s ]
+INFO: [ url_dispatch ] --START--
+INFO: Run Lib\Behavior\SignCheckBehavior [ RunTime:0.001775s ]
+INFO: Run Lib\Behavior\TokenCheckBehavior [ RunTime:0.002883s ]
+INFO: Run Lib\Behavior\MethodCheckBehavior [ RunTime:0.001265s ]
+INFO: [ url_dispatch ] --END-- [ RunTime:0.006270s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000948s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001116s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000940s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001110s ]
+
+[ 2018-12-07T16:43:27+08:00 ] ::1 /Test/testRedis
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000483s ]
+INFO: [ url_dispatch ] --START--
+INFO: Run Lib\Behavior\SignCheckBehavior [ RunTime:0.001669s ]
+INFO: Run Lib\Behavior\TokenCheckBehavior [ RunTime:0.001685s ]
+INFO: Run Lib\Behavior\MethodCheckBehavior [ RunTime:0.000848s ]
+INFO: [ url_dispatch ] --END-- [ RunTime:0.004451s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000771s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000894s ]
+
+[ 2018-12-07T16:44:11+08:00 ] ::1 /Test/testRedis
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000534s ]
+INFO: [ url_dispatch ] --START--
+INFO: Run Lib\Behavior\SignCheckBehavior [ RunTime:0.001659s ]
+INFO: Run Lib\Behavior\TokenCheckBehavior [ RunTime:0.001474s ]
+INFO: Run Lib\Behavior\MethodCheckBehavior [ RunTime:0.000794s ]
+INFO: [ url_dispatch ] --END-- [ RunTime:0.004168s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000735s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000829s ]
+
+[ 2018-12-07T16:45:41+08:00 ] ::1 /Test/testRedis
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000544s ]
+INFO: [ url_dispatch ] --START--
+INFO: Run Lib\Behavior\SignCheckBehavior [ RunTime:0.001301s ]
+INFO: Run Lib\Behavior\TokenCheckBehavior [ RunTime:0.001720s ]
+INFO: Run Lib\Behavior\MethodCheckBehavior [ RunTime:0.000829s ]
+INFO: [ url_dispatch ] --END-- [ RunTime:0.004096s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000721s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000815s ]
+
+[ 2018-12-07T16:46:50+08:00 ] ::1 /Test/testRedis
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000678s ]
+INFO: [ url_dispatch ] --START--
+INFO: Run Lib\Behavior\SignCheckBehavior [ RunTime:0.001644s ]
+INFO: Run Lib\Behavior\TokenCheckBehavior [ RunTime:0.001895s ]
+INFO: Run Lib\Behavior\MethodCheckBehavior [ RunTime:0.000970s ]
+INFO: [ url_dispatch ] --END-- [ RunTime:0.004847s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000874s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001022s ]
+
+[ 2018-12-07T16:49:36+08:00 ] ::1 /Test/testRedis
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000534s ]
+INFO: [ url_dispatch ] --START--
+INFO: Run Lib\Behavior\SignCheckBehavior [ RunTime:0.001510s ]
+INFO: Run Lib\Behavior\TokenCheckBehavior [ RunTime:0.001417s ]
+INFO: Run Lib\Behavior\MethodCheckBehavior [ RunTime:0.000741s ]
+INFO: [ url_dispatch ] --END-- [ RunTime:0.003930s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000809s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000947s ]
+
+[ 2018-12-07T16:49:37+08:00 ] ::1 /Test/testRedis
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000533s ]
+INFO: [ url_dispatch ] --START--
+INFO: Run Lib\Behavior\SignCheckBehavior [ RunTime:0.001211s ]
+INFO: Run Lib\Behavior\TokenCheckBehavior [ RunTime:0.001544s ]
+INFO: Run Lib\Behavior\MethodCheckBehavior [ RunTime:0.000780s ]
+INFO: [ url_dispatch ] --END-- [ RunTime:0.003751s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000808s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000913s ]
+
+[ 2018-12-07T16:53:49+08:00 ] ::1 /Test/testRedis
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000463s ]
+INFO: [ url_dispatch ] --START--
+INFO: Run Lib\Behavior\SignCheckBehavior [ RunTime:0.001614s ]
+INFO: Run Lib\Behavior\TokenCheckBehavior [ RunTime:0.001789s ]
+INFO: Run Lib\Behavior\MethodCheckBehavior [ RunTime:0.000727s ]
+INFO: [ url_dispatch ] --END-- [ RunTime:0.004386s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000848s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000966s ]
+
+[ 2018-12-07T16:53:50+08:00 ] ::1 /Test/testRedis
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000568s ]
+INFO: [ url_dispatch ] --START--
+INFO: Run Lib\Behavior\SignCheckBehavior [ RunTime:0.001260s ]
+INFO: Run Lib\Behavior\TokenCheckBehavior [ RunTime:0.001442s ]
+INFO: Run Lib\Behavior\MethodCheckBehavior [ RunTime:0.000754s ]
+INFO: [ url_dispatch ] --END-- [ RunTime:0.003680s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000703s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000797s ]
+
+[ 2018-12-07T16:58:55+08:00 ] ::1 /Test/testRedis
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000512s ]
+INFO: [ url_dispatch ] --START--
+INFO: Run Lib\Behavior\SignCheckBehavior [ RunTime:0.001211s ]
+INFO: Run Lib\Behavior\TokenCheckBehavior [ RunTime:0.001425s ]
+INFO: Run Lib\Behavior\MethodCheckBehavior [ RunTime:0.000751s ]
+INFO: [ url_dispatch ] --END-- [ RunTime:0.003589s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000649s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000741s ]
+
+[ 2018-12-07T17:01:54+08:00 ] ::1 /Test/testRedis
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000832s ]
+INFO: [ url_dispatch ] --START--
+INFO: Run Lib\Behavior\SignCheckBehavior [ RunTime:0.001296s ]
+INFO: Run Lib\Behavior\TokenCheckBehavior [ RunTime:0.001897s ]
+INFO: Run Lib\Behavior\MethodCheckBehavior [ RunTime:0.000875s ]
+INFO: [ url_dispatch ] --END-- [ RunTime:0.004330s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000643s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000754s ]
+
+[ 2018-12-07T17:01:55+08:00 ] ::1 /Test/testRedis
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000522s ]
+INFO: [ url_dispatch ] --START--
+INFO: Run Lib\Behavior\SignCheckBehavior [ RunTime:0.001243s ]
+INFO: Run Lib\Behavior\TokenCheckBehavior [ RunTime:0.001434s ]
+INFO: Run Lib\Behavior\MethodCheckBehavior [ RunTime:0.000768s ]
+INFO: [ url_dispatch ] --END-- [ RunTime:0.003659s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000714s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000805s ]
+
+[ 2018-12-07T17:02:25+08:00 ] ::1 /Test/testRedis
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000735s ]
+INFO: [ url_dispatch ] --START--
+INFO: Run Lib\Behavior\SignCheckBehavior [ RunTime:0.001229s ]
+INFO: Run Lib\Behavior\TokenCheckBehavior [ RunTime:0.001318s ]
+INFO: Run Lib\Behavior\MethodCheckBehavior [ RunTime:0.000685s ]
+INFO: [ url_dispatch ] --END-- [ RunTime:0.003482s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000658s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000793s ]
+
+[ 2018-12-07T17:02:26+08:00 ] ::1 /Test/testRedis
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000503s ]
+INFO: [ url_dispatch ] --START--
+INFO: Run Lib\Behavior\SignCheckBehavior [ RunTime:0.001020s ]
+INFO: Run Lib\Behavior\TokenCheckBehavior [ RunTime:0.001386s ]
+INFO: Run Lib\Behavior\MethodCheckBehavior [ RunTime:0.000719s ]
+INFO: [ url_dispatch ] --END-- [ RunTime:0.003335s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000558s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000649s ]
+
+[ 2018-12-07T17:04:11+08:00 ] ::1 /Test/testRedis
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000468s ]
+INFO: [ url_dispatch ] --START--
+INFO: Run Lib\Behavior\SignCheckBehavior [ RunTime:0.001702s ]
+INFO: Run Lib\Behavior\TokenCheckBehavior [ RunTime:0.001999s ]
+INFO: Run Lib\Behavior\MethodCheckBehavior [ RunTime:0.000776s ]
+INFO: [ url_dispatch ] --END-- [ RunTime:0.004741s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000746s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000867s ]
+
+[ 2018-12-07T17:04:12+08:00 ] ::1 /Test/testRedis
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000564s ]
+INFO: [ url_dispatch ] --START--
+INFO: Run Lib\Behavior\SignCheckBehavior [ RunTime:0.001367s ]
+INFO: Run Lib\Behavior\TokenCheckBehavior [ RunTime:0.001421s ]
+INFO: Run Lib\Behavior\MethodCheckBehavior [ RunTime:0.000775s ]
+INFO: [ url_dispatch ] --END-- [ RunTime:0.003782s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000698s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000787s ]
+
+[ 2018-12-07T17:04:13+08:00 ] ::1 /Test/testRedis
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000530s ]
+INFO: [ url_dispatch ] --START--
+INFO: Run Lib\Behavior\SignCheckBehavior [ RunTime:0.001150s ]
+INFO: Run Lib\Behavior\TokenCheckBehavior [ RunTime:0.001404s ]
+INFO: Run Lib\Behavior\MethodCheckBehavior [ RunTime:0.000703s ]
+INFO: [ url_dispatch ] --END-- [ RunTime:0.003463s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000671s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000762s ]
+
+[ 2018-12-07T17:04:13+08:00 ] ::1 /Test/testRedis
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000598s ]
+INFO: [ url_dispatch ] --START--
+INFO: Run Lib\Behavior\SignCheckBehavior [ RunTime:0.001569s ]
+INFO: Run Lib\Behavior\TokenCheckBehavior [ RunTime:0.001396s ]
+INFO: Run Lib\Behavior\MethodCheckBehavior [ RunTime:0.000737s ]
+INFO: [ url_dispatch ] --END-- [ RunTime:0.003951s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000681s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000779s ]
+
+[ 2018-12-07T17:04:14+08:00 ] ::1 /Test/testRedis
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000571s ]
+INFO: [ url_dispatch ] --START--
+INFO: Run Lib\Behavior\SignCheckBehavior [ RunTime:0.001233s ]
+INFO: Run Lib\Behavior\TokenCheckBehavior [ RunTime:0.001413s ]
+INFO: Run Lib\Behavior\MethodCheckBehavior [ RunTime:0.000747s ]
+INFO: [ url_dispatch ] --END-- [ RunTime:0.003599s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000704s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000796s ]
+

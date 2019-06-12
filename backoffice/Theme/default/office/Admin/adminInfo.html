@@ -1,0 +1,91 @@
+<extend name="./Theme/default/office_base.html"/>
+<block name="page-content">
+    <div class="layui-card">
+        <div class="layui-card-body">
+            <input type="hidden" id="adminId" value="{$admin_id}">
+            <form class="layui-form layui-form-pane" action="javascript:;" method="post">
+
+                <div class="layui-form-item">
+                    <div class="layui-inline">
+                        <label class="layui-form-label" style="width: 90px">姓名</label>
+                        <div class="layui-input-inline">
+                            <input type="text" id="name" name="name" lay-verify="name" placeholder="姓名"  maxlength="4" autocomplete="off" class="layui-input" value="{$adminInfo->name}">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="layui-form-item">
+                    <div class="layui-inline">
+                        <label class="layui-form-label" style="width: 90px">登录账号</label>
+                        <div class="layui-input-inline">
+                            <input type="text" id="account" name="account" lay-verify="account" placeholder="3到16位数字或字母"  maxlength="16" autocomplete="off" class="layui-input" value="{$adminInfo->account}">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="layui-form-item">
+                    <div class="layui-inline">
+                        <label class="layui-form-label" style="width: 90px">手机号码</label>
+                        <div class="layui-input-inline">
+                            <input type="text" id="phone" name="phone" lay-verify="phone|required" placeholder="手机号码" maxlength="11" autocomplete="off" class="layui-input" value="{$adminInfo->phone}">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="layui-form-item">
+                    <div class="layui-inline">
+                        <label class="layui-form-label" style="width: 90px">邮箱</label>
+                        <div class="layui-input-inline">
+                            <input type="text" id="email" name="email" lay-verify="email|required" placeholder="邮箱" maxlength="" autocomplete="off" class="layui-input" value="{$adminInfo->email}">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="layui-form-item" id="updatePass">
+                    <label class="layui-form-label" style="width: 90px">登录密码</label>
+                    <div class="layui-input-inline">
+                        <button id="updatePassBtn" class="layui-btn layui-btn-normal">修改</button>
+                    </div>
+                </div>
+
+                <div id="updatePassDiv" style="display: none">
+                    <div class="layui-form-item">
+                        <div class="layui-inline">
+                            <label class="layui-form-label" style="width: 90px">原密码</label>
+                            <div class="layui-input-inline">
+                                <input type="password" name="oldPassword" id="oldPassword" lay-verify="oldPassword" class="layui-input" maxlength="16" placeholder="不修改，请勿填写"/>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="layui-form-item">
+                        <div class="layui-inline">
+                            <label class="layui-form-label" style="width: 90px">新密码</label>
+                            <div class="layui-input-inline">
+                                <input type="password" name="newPassword" id="newPassword" lay-verify="newPassword" class="layui-input" maxlength="16" placeholder="不修改，请勿填写"/>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="layui-form-item">
+                        <div class="layui-inline">
+                            <label class="layui-form-label" style="width: 90px">确认密码</label>
+                            <div class="layui-input-inline">
+                                <input type="password" name="verifyPassword" id="verifyPassword" lay-verify="verifyPassword" class="layui-input" maxlength="16" placeholder="不修改，请勿填写"/>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+
+                <div class="layui-form-item">
+                    <div class="layui-inline">
+                        <button class="layui-btn" lay-submit="" lay-filter="demo1">修改</button>
+                        <button type="reset" class="layui-btn layui-btn-primary">重置</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</block>

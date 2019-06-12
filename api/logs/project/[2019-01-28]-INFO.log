@@ -1,0 +1,16 @@
+[2019-01-28 11:34:12,347] [16084] RunTime: 0.0001 s
+ - INFO 
+ - RestClient.doPost(D:\wamp\www\wscloud\api\ThinkPHP\Library\Vendor\ApiGateway\RestClient.php:83)
+ - {"message":"rest client","data":"{\"request_host\":\"http:\\\/\\\/localhost:1001\",\"request_path\":\"\\\/OpenService\\\/getAccessToken\\\/token\\\/null\",\"request_method\":\"POST\",\"request_bodys\":{\"\":\"{\\\"appId\\\":\\\"2122957687\\\",\\\"secret\\\":\\\"pJ08nsxRw3O8lXWKiiJY57Vb9lAAi3MHX9BRvz0LgGiu8cbJ3b\\\"}\"},\"response_code\":0,\"response_body\":null,\"response_errorMessage\":null}","topic":""}
+[2019-01-28 11:34:14,596] [16084] RunTime: 2.2491 s
+ - INFO 
+ - RestClient.doGet(D:\wamp\www\wscloud\api\ThinkPHP\Library\Vendor\ApiGateway\RestClient.php:49)
+ - {"message":"rest client","data":"{\"request_host\":\"http:\\\/\\\/localhost:1001\",\"request_path\":\"\\\/UserBehaviorService\\\/getBehaviorList\\\/safeCompanyId\\\/1447247968\\\/pageNo\\\/1\\\/pageSize\\\/10\\\/startTime\\\/null\\\/endTime\\\/null\\\/name\\\/null\\\/phone\\\/null\\\/code\\\/null\\\/serialNo\\\/null\\\/vehicleNo\\\/null\\\/token\\\/null\",\"request_method\":\"GET\",\"request_bodys\":[],\"response_code\":0,\"response_body\":null,\"response_errorMessage\":null}","topic":""}
+[2019-01-28 16:43:58,803] [16084] RunTime: 0.0000 s
+ - INFO 
+ - RestClient.doPost(D:\wamp\www\wscloud\api\ThinkPHP\Library\Vendor\ApiGateway\RestClient.php:83)
+ - {"message":"rest client","data":"{\"request_host\":\"http:\\\/\\\/localhost:1001\",\"request_path\":\"\\\/OpenService\\\/getAccessToken\\\/token\\\/null\",\"request_method\":\"POST\",\"request_bodys\":{\"\":\"{\\\"appId\\\":\\\"2122957687\\\",\\\"secret\\\":\\\"pJ08nsxRw3O8lXWKiiJY57Vb9lAAi3MHX9BRvz0LgGiu8cbJ3b\\\"}\"},\"response_code\":0,\"response_body\":null,\"response_errorMessage\":null}","topic":""}
+[2019-01-28 16:44:03,430] [16084] RunTime: 4.6267 s
+ - INFO 
+ - RestClient.doGet(D:\wamp\www\wscloud\api\ThinkPHP\Library\Vendor\ApiGateway\RestClient.php:49)
+ - {"message":"rest client","data":"{\"request_host\":\"http:\\\/\\\/localhost:1001\",\"request_path\":\"\\\/UserBehaviorService\\\/getBehaviorList\\\/safeCompanyId\\\/1447247968\\\/pageNo\\\/1\\\/pageSize\\\/10\\\/startTime\\\/null\\\/endTime\\\/null\\\/name\\\/null\\\/phone\\\/null\\\/code\\\/null\\\/serialNo\\\/null\\\/vehicleNo\\\/null\\\/token\\\/null\",\"request_method\":\"GET\",\"request_bodys\":[],\"response_code\":0,\"response_body\":null,\"response_errorMessage\":null}","topic":""}

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration xmlns="http://logging.apache.org/log4php/">
+
+    <!-- 标准控制台输出的appender -->
+    <appender name="STDOUT" class="LoggerAppenderConsole">
+        <param name="threshold" value="debug"/>
+        <layout class="LoggerLayoutPattern" >
+            <param name="ConversionPattern" value="[%date{Y-m-d H:i:s,u}] [%t] RunTime: %r s%newline - %-5p%newline - %l%newline - %message%newline%ex"/>
+        </layout>
+    </appender>
+
+    <!-- 记录所有FATAL日志的appender -->
+    <appender name="FATAL-ALL" class="LoggerAppenderDailyFile">
+        <layout class="LoggerLayoutPattern" >
+            <param name="ConversionPattern" value="[%date{Y-m-d H:i:s,u}] [%t] RunTime: %r s%newline - %-5p%newline - %l%newline - %message%newline%ex"/>
+        </layout>
+        <param name="file" value="logs/project/[%s]-FATAL.log" />
+        <param name="threshold" value="fatal"/>
+        <param name="append" value="true" />
+        <param name="datePattern" value="Y-m-d" />
+        <filter class="LoggerFilterLevelRange">
+            <param name="levelMin" value="fatal" />
+            <param name="levelMax" value="fatal" />
+        </filter>
+    </appender>
+
+    <!-- 记录所有ERROR日志的appender -->
+    <appender name="ERROR-ALL" class="LoggerAppenderDailyFile">
+        <layout class="LoggerLayoutPattern" >
+            <param name="ConversionPattern" value="[%date{Y-m-d H:i:s,u}] [%t] RunTime: %r s%newline - %-5p%newline - %l%newline - %message%newline%ex"/>
+        </layout>
+        <param name="file" value="logs/project/[%s]-ERROR.log" />
+        <param name="threshold" value="error"/>
+        <param name="append" value="true" />
+        <param name="datePattern" value="Y-m-d" />
+        <filter class="LoggerFilterLevelRange">
+            <param name="levelMin" value="error" />
+            <param name="levelMax" value="error" />
+        </filter>
+    </appender>
+
+    <!-- 记录所有WARN日志的appender -->
+    <appender name="WARN-ALL" class="LoggerAppenderDailyFile">
+        <layout class="LoggerLayoutPattern" >
+            <param name="ConversionPattern" value="[%date{Y-m-d H:i:s,u}] [%t] RunTime: %r s%newline - %-5p%newline - %l%newline - %message%newline%ex"/>
+        </layout>
+        <param name="file" value="logs/project/[%s]-WARN.log" />
+        <param name="threshold" value="warn"/>
+        <param name="append" value="true" />
+        <param name="datePattern" value="Y-m-d" />
+        <filter class="LoggerFilterLevelRange">
+            <param name="levelMin" value="warn" />
+            <param name="levelMax" value="warn" />
+        </filter>
+    </appender>
+
+    <!-- 记录所有INFO日志的appender -->
+    <appender name="INFO-ALL" class="LoggerAppenderDailyFile">
+        <layout class="LoggerLayoutPattern" >
+            <param name="ConversionPattern" value="[%date{Y-m-d H:i:s,u}] [%t] RunTime: %r s%newline - %-5p%newline - %l%newline - %message%newline%ex"/>
+        </layout>
+        <param name="file" value="logs/project/[%s]-INFO.log" />
+        <param name="threshold" value="info"/>
+        <param name="append" value="true" />
+        <param name="datePattern" value="Y-m-d" />
+        <filter class="LoggerFilterLevelRange">
+            <param name="levelMin" value="info" />
+            <param name="levelMax" value="info" />
+        </filter>
+    </appender>
+
+    <!-- 记录所有DEBUG日志的appender -->
+    <appender name="DEBUG-ALL" class="LoggerAppenderDailyFile">
+        <layout class="LoggerLayoutPattern" >
+            <param name="ConversionPattern" value="[%date{Y-m-d H:i:s,u}] [%t] RunTime: %r s%newline - %-5p%newline - %l%newline - %message%newline%ex"/>
+        </layout>
+        <param name="file" value="logs/project/[%s]-DEBUG.log" />
+        <param name="threshold" value="debug"/>
+        <param name="append" value="true" />
+        <param name="datePattern" value="Y-m-d" />
+        <filter class="LoggerFilterLevelRange">
+            <param name="levelMin" value="debug" />
+            <param name="levelMax" value="debug" />
+        </filter>
+    </appender>
+
+    <root>
+        <!-- 控制错误级别 -->
+        <level value="DEBUG"/>
+        <appender-ref ref="STDOUT"/>
+        <appender-ref ref="FATAL-ALL"/>
+        <appender-ref ref="ERROR-ALL"/>
+        <appender-ref ref="WARN-ALL"/>
+        <appender-ref ref="INFO-ALL"/>
+        <appender-ref ref="DEBUG-ALL"/>
+    </root>
+</configuration>

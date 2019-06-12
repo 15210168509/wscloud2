@@ -1,0 +1,12 @@
+[2018-11-23 17:46:56,192] [9248] RunTime: 0.0000 s
+ - ERROR
+ - Home\Controller\CompanyController.setCompanyDeviceSetting(D:\wamp\www\wscloud\api\Application\Home\Controller\CompanyController.class.php:135)
+ - {"message":"\u521b\u5efa\u9ed8\u8ba4\u8bbe\u5907\u914d\u7f6e\u5931\u8d25\uff0c\u516c\u53f8id\u30101447247968\u3011","data":"[]","topic":""}
+[2018-11-23 17:47:19,695] [9248] RunTime: 0.0000 s
+ - ERROR
+ - Home\Controller\CompanyController.setCompanyDeviceSetting(D:\wamp\www\wscloud\api\Application\Home\Controller\CompanyController.class.php:136)
+ - {"message":"\u521b\u5efa\u9ed8\u8ba4\u8bbe\u5907\u914d\u7f6e\u5931\u8d25\uff0c\u516c\u53f8id\u30101447247968\u3011","data":"[]","topic":""}
+[2018-11-23 17:47:43,351] [9248] RunTime: 0.0000 s
+ - ERROR
+ - Home\Controller\CompanyController.setCompanyDeviceSetting(D:\wamp\www\wscloud\api\Application\Home\Controller\CompanyController.class.php:136)
+ - {"message":"\u521b\u5efa\u9ed8\u8ba4\u8bbe\u5907\u914d\u7f6e\u5931\u8d25\uff0c\u516c\u53f8id\u30101447247968\u3011","data":"[]","topic":""}

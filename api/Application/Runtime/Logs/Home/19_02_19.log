@@ -1,0 +1,406 @@
+[ 2019-02-19T10:59:07+08:00 ] ::1 /Home/System/getSystemSetting/companyId//type/20/token/null
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000086s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002362s ]
+INFO: [ url_dispatch ] --START--
+INFO: Run Lib\Behavior\SignCheckBehavior [ RunTime:0.026202s ]
+NOTIC: [8] Undefined index: token D:\wamp\www\wscloud\api\Application\Lib\Behavior\TokenCheckBehavior.class.php 第 35 行.
+
+[ 2019-02-19T10:59:07+08:00 ] ::1 /Home/Admin/getAdminMsgCount/status/10/token/null
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000081s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001510s ]
+INFO: [ url_dispatch ] --START--
+INFO: Run Lib\Behavior\SignCheckBehavior [ RunTime:0.003411s ]
+
+[ 2019-02-19T10:59:40+08:00 ] ::1 /Home/login/login/account/13161934946/password/123456/type/10/token/null
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000538s ]
+INFO: [ url_dispatch ] --START--
+INFO: Run Lib\Behavior\SignCheckBehavior [ RunTime:0.001268s ]
+INFO: Run Lib\Behavior\TokenCheckBehavior [ RunTime:0.009494s ]
+INFO: Run Lib\Behavior\MethodCheckBehavior [ RunTime:0.014861s ]
+INFO: [ url_dispatch ] --END-- [ RunTime:0.025861s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.016295s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.016402s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.1428s ]
+SQL: SELECT a.*,c.name company_name FROM admin a left join company as c on a.company_id = c.id  WHERE (  a.account = '13161934946' OR a.phone = '13161934946' OR a.email = '13161934946' ) AND a.password = 'e10adc3949ba59abbe56e057f20f883e' AND a.status = 10 AND a.del_flg = 0 LIMIT 1   [ RunTime:0.0467s ]
+SQL: SHOW COLUMNS FROM `admin_token` [ RunTime:0.0166s ]
+SQL: SELECT * FROM `admin_token` WHERE `admin_id` = '2517844598' AND `del_flg` = 0 AND `type` = 10 LIMIT 1   [ RunTime:0.0063s ]
+SQL: UPDATE `admin_token` SET `refresh_token`='c7b84f108735be66363d1e0c6c764e9c',`detail`='c7b84f108735be66363d1e0c6c764e9c_2517844598',`type`='10',`expire_time`='0',`update_time`='1550545180' WHERE `admin_id` = '2517844598' AND `del_flg` = 0 AND `type` = 10 [ RunTime:0.0840s ]
+SQL: SHOW COLUMNS FROM `company` [ RunTime:0.0082s ]
+SQL: SELECT * FROM `company` WHERE `id` = '1447247968' AND `del_flg` = 0 LIMIT 1   [ RunTime:0.0083s ]
+SQL: SHOW COLUMNS FROM `company_package` [ RunTime:0.0253s ]
+SQL: SELECT * FROM `company_package` WHERE `company_id` = '1447247968' AND `start_time` <= 1550545180 AND `end_time` > 1550545180 AND `status` = 10 AND `del_flg` = 0 LIMIT 1   [ RunTime:0.0120s ]
+
+[ 2019-02-19T10:59:41+08:00 ] ::1 /Home/Company/checkStatus/companyId/1447247968/token/c7b84f108735be66363d1e0c6c764e9c
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000583s ]
+INFO: [ url_dispatch ] --START--
+INFO: Run Lib\Behavior\SignCheckBehavior [ RunTime:0.001889s ]
+INFO: Run Lib\Behavior\TokenCheckBehavior [ RunTime:0.054960s ]
+INFO: Run Lib\Behavior\MethodCheckBehavior [ RunTime:0.001118s ]
+INFO: [ url_dispatch ] --END-- [ RunTime:0.058177s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000988s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001079s ]
+SQL: SHOW COLUMNS FROM `company` [ RunTime:0.0092s ]
+SQL: SELECT * FROM `company` WHERE `id` = '1447247968' AND `del_flg` = 0 LIMIT 1   [ RunTime:0.0147s ]
+
+[ 2019-02-19T10:59:41+08:00 ] ::1 /Home/DrivingMonitor/statBehavior/companyId/1447247968/startTime/1547953181/endTime/1550545181/token/c7b84f108735be66363d1e0c6c764e9c
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000760s ]
+INFO: [ url_dispatch ] --START--
+INFO: Run Lib\Behavior\SignCheckBehavior [ RunTime:0.002110s ]
+INFO: Run Lib\Behavior\TokenCheckBehavior [ RunTime:0.039357s ]
+INFO: Run Lib\Behavior\MethodCheckBehavior [ RunTime:0.001130s ]
+INFO: [ url_dispatch ] --END-- [ RunTime:0.042837s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001105s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001204s ]
+SQL: SHOW COLUMNS FROM `user_behavior` [ RunTime:0.0491s ]
+SQL: SELECT count(1) count,`code` FROM `user_behavior` WHERE `del_flg` = 0 AND `company_id` = '1447247968' AND ( `create_time` >= '1547953181' AND `create_time` < '1550545181'  ) GROUP BY code ORDER BY count desc LIMIT 6   [ RunTime:0.0583s ]
+
+[ 2019-02-19T10:59:41+08:00 ] ::1 /Home/System/getSystemSetting/companyId/1447247968/type/20/token/c7b84f108735be66363d1e0c6c764e9c
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001477s ]
+INFO: [ url_dispatch ] --START--
+INFO: Run Lib\Behavior\SignCheckBehavior [ RunTime:0.002669s ]
+INFO: Run Lib\Behavior\TokenCheckBehavior [ RunTime:0.030151s ]
+INFO: Run Lib\Behavior\MethodCheckBehavior [ RunTime:0.001563s ]
+INFO: [ url_dispatch ] --END-- [ RunTime:0.034700s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001425s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001563s ]
+SQL: SHOW COLUMNS FROM `system_setting` [ RunTime:0.0342s ]
+SQL: SELECT `value` FROM `system_setting` WHERE `type` = 20 AND `del_flg` = 0 AND `company_id` = '1447247968' LIMIT 1   [ RunTime:0.0078s ]
+
+[ 2019-02-19T10:59:42+08:00 ] ::1 /Home/Admin/getAdminMsgCount/status/10/token/c7b84f108735be66363d1e0c6c764e9c
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000994s ]
+INFO: [ url_dispatch ] --START--
+INFO: Run Lib\Behavior\SignCheckBehavior [ RunTime:0.002916s ]
+INFO: Run Lib\Behavior\TokenCheckBehavior [ RunTime:0.038266s ]
+INFO: Run Lib\Behavior\MethodCheckBehavior [ RunTime:0.001109s ]
+INFO: [ url_dispatch ] --END-- [ RunTime:0.042551s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001010s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001099s ]
+SQL: SHOW COLUMNS FROM `admin_msg` [ RunTime:0.0147s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_msg` WHERE `status` = '10' AND `admin_id` = '2517844598' LIMIT 1   [ RunTime:0.0240s ]
+
+[ 2019-02-19T10:59:42+08:00 ] ::1 /Home/DrivingMonitor/statByTimeGroup/companyId/1447247968/startTime/1547913600/endTime/1550592000/token/c7b84f108735be66363d1e0c6c764e9c
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000512s ]
+INFO: [ url_dispatch ] --START--
+INFO: Run Lib\Behavior\SignCheckBehavior [ RunTime:0.001557s ]
+INFO: Run Lib\Behavior\TokenCheckBehavior [ RunTime:0.029179s ]
+INFO: Run Lib\Behavior\MethodCheckBehavior [ RunTime:0.001041s ]
+INFO: [ url_dispatch ] --END-- [ RunTime:0.031980s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000933s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001023s ]
+SQL: SHOW COLUMNS FROM `user_behavior` [ RunTime:0.0093s ]
+SQL: SELECT FROM_UNIXTIME(create_time, "%H") time,count(1) count,`code` FROM `user_behavior` WHERE `del_flg` = 0 AND `company_id` = '1447247968' AND ( `create_time` >= '1547913600' AND `create_time` < '1550592000'  ) GROUP BY code ,time  [ RunTime:0.0628s ]
+
+[ 2019-02-19T11:00:19+08:00 ] ::1 /Home/System/getSystemSetting/companyId/1447247968/type/20/token/c7b84f108735be66363d1e0c6c764e9c
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000710s ]
+INFO: [ url_dispatch ] --START--
+INFO: Run Lib\Behavior\SignCheckBehavior [ RunTime:0.001919s ]
+INFO: Run Lib\Behavior\TokenCheckBehavior [ RunTime:0.202161s ]
+INFO: Run Lib\Behavior\MethodCheckBehavior [ RunTime:0.002569s ]
+INFO: [ url_dispatch ] --END-- [ RunTime:0.207043s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002218s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002427s ]
+SQL: SHOW COLUMNS FROM `system_setting` [ RunTime:0.0393s ]
+SQL: SELECT `value` FROM `system_setting` WHERE `type` = 20 AND `del_flg` = 0 AND `company_id` = '1447247968' LIMIT 1   [ RunTime:0.0072s ]
+
+[ 2019-02-19T11:00:20+08:00 ] ::1 /Home/Admin/getAdminMsgCount/status/10/token/c7b84f108735be66363d1e0c6c764e9c
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000964s ]
+INFO: [ url_dispatch ] --START--
+INFO: Run Lib\Behavior\SignCheckBehavior [ RunTime:0.001736s ]
+INFO: Run Lib\Behavior\TokenCheckBehavior [ RunTime:0.233725s ]
+INFO: Run Lib\Behavior\MethodCheckBehavior [ RunTime:0.001100s ]
+INFO: [ url_dispatch ] --END-- [ RunTime:0.236764s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000967s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001054s ]
+SQL: SHOW COLUMNS FROM `admin_msg` [ RunTime:0.0099s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_msg` WHERE `status` = '10' AND `admin_id` = '2517844598' LIMIT 1   [ RunTime:0.0196s ]
+
+[ 2019-02-19T11:00:20+08:00 ] ::1 /Home/DrivingMonitor/statByDayGroup/companyId/1447247968/startTime/1547953220/endTime/1550545220/token/c7b84f108735be66363d1e0c6c764e9c
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000724s ]
+INFO: [ url_dispatch ] --START--
+INFO: Run Lib\Behavior\SignCheckBehavior [ RunTime:0.002624s ]
+INFO: Run Lib\Behavior\TokenCheckBehavior [ RunTime:0.086568s ]
+INFO: Run Lib\Behavior\MethodCheckBehavior [ RunTime:0.001417s ]
+INFO: [ url_dispatch ] --END-- [ RunTime:0.091009s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000986s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001140s ]
+SQL: SHOW COLUMNS FROM `user_behavior` [ RunTime:0.0269s ]
+SQL: SELECT FROM_UNIXTIME(create_time, "%Y-%m-%d") time,count(1) count FROM `user_behavior` WHERE `del_flg` = 0 AND `company_id` = '1447247968' AND ( `create_time` >= '1547953220' AND `create_time` < '1550545220'  ) GROUP BY time  [ RunTime:0.0204s ]
+
+[ 2019-02-19T11:00:21+08:00 ] ::1 /Home/DrivingMonitor/showTiredType/startTime/1547953220/endTime/1550545220/companyId/1447247968/token/c7b84f108735be66363d1e0c6c764e9c
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000575s ]
+INFO: [ url_dispatch ] --START--
+INFO: Run Lib\Behavior\SignCheckBehavior [ RunTime:0.001461s ]
+INFO: Run Lib\Behavior\TokenCheckBehavior [ RunTime:0.073600s ]
+INFO: Run Lib\Behavior\MethodCheckBehavior [ RunTime:0.001233s ]
+INFO: [ url_dispatch ] --END-- [ RunTime:0.076642s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000742s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000848s ]
+SQL: SHOW COLUMNS FROM `user_behavior` [ RunTime:0.1071s ]
+SQL: SELECT `code`,count(code) value FROM `user_behavior` WHERE `del_flg` = 0 AND ( `create_time` > '1547953220' AND `create_time` < '1550545220'  ) AND `company_id` = '1447247968' GROUP BY code  [ RunTime:0.0288s ]
+
+[ 2019-02-19T11:00:21+08:00 ] ::1 /Home/DrivingMonitor/statByTimeGroup/companyId/1447247968/startTime/1547913600/endTime/1550592000/token/c7b84f108735be66363d1e0c6c764e9c
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000625s ]
+INFO: [ url_dispatch ] --START--
+INFO: Run Lib\Behavior\SignCheckBehavior [ RunTime:0.000940s ]
+INFO: Run Lib\Behavior\TokenCheckBehavior [ RunTime:0.139357s ]
+INFO: Run Lib\Behavior\MethodCheckBehavior [ RunTime:0.000816s ]
+INFO: [ url_dispatch ] --END-- [ RunTime:0.141342s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000689s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000781s ]
+SQL: SHOW COLUMNS FROM `user_behavior` [ RunTime:0.0167s ]
+SQL: SELECT FROM_UNIXTIME(create_time, "%H") time,count(1) count,`code` FROM `user_behavior` WHERE `del_flg` = 0 AND `company_id` = '1447247968' AND ( `create_time` >= '1547913600' AND `create_time` < '1550592000'  ) GROUP BY code ,time  [ RunTime:0.0303s ]
+
+[ 2019-02-19T11:00:33+08:00 ] ::1 /Home/DrivingMonitor/statTiredNo/companyId/1447247968/startTime/1550505600/token/c7b84f108735be66363d1e0c6c764e9c
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000530s ]
+INFO: [ url_dispatch ] --START--
+INFO: Run Lib\Behavior\SignCheckBehavior [ RunTime:0.001610s ]
+INFO: Run Lib\Behavior\TokenCheckBehavior [ RunTime:0.027754s ]
+INFO: Run Lib\Behavior\MethodCheckBehavior [ RunTime:0.001055s ]
+INFO: [ url_dispatch ] --END-- [ RunTime:0.030638s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001030s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001131s ]
+SQL: SHOW COLUMNS FROM `user_behavior` [ RunTime:0.0210s ]
+SQL: SELECT `code`,count(code) count FROM `user_behavior` WHERE `del_flg` = 0 AND `company_id` = '1447247968' AND `create_time` >= '1550505600' GROUP BY code  [ RunTime:0.0071s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user_behavior` WHERE `del_flg` = 0 AND `company_id` = '1447247968' AND `create_time` >= '1550505600' LIMIT 1   [ RunTime:0.0128s ]
+
+[ 2019-02-19T11:00:33+08:00 ] ::1 /Home/System/getSystemSetting/companyId/1447247968/type/20/token/c7b84f108735be66363d1e0c6c764e9c
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000612s ]
+INFO: [ url_dispatch ] --START--
+INFO: Run Lib\Behavior\SignCheckBehavior [ RunTime:0.001984s ]
+INFO: Run Lib\Behavior\TokenCheckBehavior [ RunTime:0.037119s ]
+INFO: Run Lib\Behavior\MethodCheckBehavior [ RunTime:0.001106s ]
+INFO: [ url_dispatch ] --END-- [ RunTime:0.040450s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001003s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001098s ]
+SQL: SHOW COLUMNS FROM `system_setting` [ RunTime:0.0125s ]
+SQL: SELECT `value` FROM `system_setting` WHERE `type` = 20 AND `del_flg` = 0 AND `company_id` = '1447247968' LIMIT 1   [ RunTime:0.0069s ]
+
+[ 2019-02-19T11:00:33+08:00 ] ::1 /Home/Admin/getAdminMsgCount/status/10/token/c7b84f108735be66363d1e0c6c764e9c
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000642s ]
+INFO: [ url_dispatch ] --START--
+INFO: Run Lib\Behavior\SignCheckBehavior [ RunTime:0.001861s ]
+INFO: Run Lib\Behavior\TokenCheckBehavior [ RunTime:0.077620s ]
+INFO: Run Lib\Behavior\MethodCheckBehavior [ RunTime:0.002344s ]
+INFO: [ url_dispatch ] --END-- [ RunTime:0.082240s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002902s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003140s ]
+SQL: SHOW COLUMNS FROM `admin_msg` [ RunTime:0.0430s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_msg` WHERE `status` = '10' AND `admin_id` = '2517844598' LIMIT 1   [ RunTime:0.0069s ]
+
+[ 2019-02-19T11:00:34+08:00 ] ::1 /Home/DrivingMonitor/statTiredNo/companyId/1447247968/startTime/1550505600/token/c7b84f108735be66363d1e0c6c764e9c
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000463s ]
+INFO: [ url_dispatch ] --START--
+INFO: Run Lib\Behavior\SignCheckBehavior [ RunTime:0.000932s ]
+INFO: Run Lib\Behavior\TokenCheckBehavior [ RunTime:0.042845s ]
+INFO: Run Lib\Behavior\MethodCheckBehavior [ RunTime:0.000650s ]
+INFO: [ url_dispatch ] --END-- [ RunTime:0.044628s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000638s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000731s ]
+SQL: SHOW COLUMNS FROM `user_behavior` [ RunTime:0.0063s ]
+SQL: SELECT `code`,count(code) count FROM `user_behavior` WHERE `del_flg` = 0 AND `company_id` = '1447247968' AND `create_time` >= '1550505600' GROUP BY code  [ RunTime:0.0130s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user_behavior` WHERE `del_flg` = 0 AND `company_id` = '1447247968' AND `create_time` >= '1550505600' LIMIT 1   [ RunTime:0.0182s ]
+
+[ 2019-02-19T11:00:34+08:00 ] ::1 /Home/DrivingMonitor/showTiredType/startTime/1550505600/endTime/1550545234/companyId/1447247968/token/c7b84f108735be66363d1e0c6c764e9c
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000400s ]
+INFO: [ url_dispatch ] --START--
+INFO: Run Lib\Behavior\SignCheckBehavior [ RunTime:0.000792s ]
+INFO: Run Lib\Behavior\TokenCheckBehavior [ RunTime:0.018651s ]
+INFO: Run Lib\Behavior\MethodCheckBehavior [ RunTime:0.000587s ]
+INFO: [ url_dispatch ] --END-- [ RunTime:0.020235s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000554s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000640s ]
+SQL: SHOW COLUMNS FROM `user_behavior` [ RunTime:0.1513s ]
+SQL: SELECT `code`,count(code) value FROM `user_behavior` WHERE `del_flg` = 0 AND ( `create_time` > '1550505600' AND `create_time` < '1550545234'  ) AND `company_id` = '1447247968' GROUP BY code  [ RunTime:0.0091s ]
+
+[ 2019-02-19T11:00:36+08:00 ] ::1 /Home/GroupsService/typeGroupsLists/companyId/1447247968/type/10/token/c7b84f108735be66363d1e0c6c764e9c
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000551s ]
+INFO: [ url_dispatch ] --START--
+INFO: Run Lib\Behavior\SignCheckBehavior [ RunTime:0.001545s ]
+INFO: Run Lib\Behavior\TokenCheckBehavior [ RunTime:0.162886s ]
+INFO: Run Lib\Behavior\MethodCheckBehavior [ RunTime:0.001048s ]
+INFO: [ url_dispatch ] --END-- [ RunTime:0.165837s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001093s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001302s ]
+SQL: SHOW COLUMNS FROM `groups` [ RunTime:0.0337s ]
+SQL: SELECT `id`,`name`,`type` FROM `groups` WHERE `del_flg` = 0 AND `company_id` = '1447247968' AND `type` = 10  [ RunTime:0.0287s ]
+SQL: SHOW COLUMNS FROM `vehicle` [ RunTime:0.0099s ]
+SQL: SELECT v.* FROM vehicle v left join vehicle_groups as vg on vg.vehicle_id=v.id  WHERE v.del_flg = 0 AND v.company_id = '1447247968' GROUP BY v.id ORDER BY v.create_time desc  [ RunTime:0.0791s ]
+SQL: SELECT v.* FROM vehicle v left join vehicle_groups as vg on vg.vehicle_id=v.id  WHERE v.del_flg = 0 AND v.company_id = '1447247968' AND vg.del_flg = 0 AND vg.group_id = '1326183120' GROUP BY vg.id ORDER BY v.create_time desc  [ RunTime:0.0139s ]
+SQL: SELECT v.* FROM vehicle v left join vehicle_groups as vg on vg.vehicle_id=v.id  WHERE v.del_flg = 0 AND v.company_id = '1447247968' AND vg.del_flg = 0 AND vg.group_id = '3818165557' GROUP BY vg.id ORDER BY v.create_time desc  [ RunTime:0.0106s ]
+SQL: SELECT v.* FROM vehicle v left join vehicle_groups as vg on vg.vehicle_id=v.id  WHERE v.del_flg = 0 AND v.company_id = '1447247968' AND vg.del_flg = 0 AND vg.group_id = '9582847534' GROUP BY vg.id ORDER BY v.create_time desc  [ RunTime:0.0767s ]
+
+[ 2019-02-19T11:03:35+08:00 ] ::1 /Home/DrivingMonitor/statByDayGroup/companyId/1447247968/startTime/1549789414/endTime/1550545414/token/c7b84f108735be66363d1e0c6c764e9c
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000772s ]
+INFO: [ url_dispatch ] --START--
+INFO: Run Lib\Behavior\SignCheckBehavior [ RunTime:0.001002s ]
+INFO: Run Lib\Behavior\TokenCheckBehavior [ RunTime:0.079921s ]
+INFO: Run Lib\Behavior\MethodCheckBehavior [ RunTime:0.000874s ]
+INFO: [ url_dispatch ] --END-- [ RunTime:0.082048s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000910s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001029s ]
+SQL: SHOW COLUMNS FROM `user_behavior` [ RunTime:0.0397s ]
+SQL: SELECT FROM_UNIXTIME(create_time, "%Y-%m-%d") time,count(1) count FROM `user_behavior` WHERE `del_flg` = 0 AND `company_id` = '1447247968' AND ( `create_time` >= '1549789414' AND `create_time` < '1550545414'  ) GROUP BY time  [ RunTime:0.0401s ]
+
+[ 2019-02-19T11:03:35+08:00 ] ::1 /Home/DrivingMonitor/showTiredType/startTime/1549789415/endTime/1550545415/companyId/1447247968/token/c7b84f108735be66363d1e0c6c764e9c
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000700s ]
+INFO: [ url_dispatch ] --START--
+INFO: Run Lib\Behavior\SignCheckBehavior [ RunTime:0.001517s ]
+INFO: Run Lib\Behavior\TokenCheckBehavior [ RunTime:0.029686s ]
+INFO: Run Lib\Behavior\MethodCheckBehavior [ RunTime:0.001156s ]
+INFO: [ url_dispatch ] --END-- [ RunTime:0.032707s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000863s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000988s ]
+SQL: SHOW COLUMNS FROM `user_behavior` [ RunTime:0.0101s ]
+SQL: SELECT `code`,count(code) value FROM `user_behavior` WHERE `del_flg` = 0 AND ( `create_time` > '1549789415' AND `create_time` < '1550545415'  ) AND `company_id` = '1447247968' GROUP BY code  [ RunTime:0.0043s ]
+
+[ 2019-02-19T11:03:35+08:00 ] ::1 /Home/DrivingMonitor/statByTimeGroup/companyId/1447247968/startTime/1549900800/endTime/1550592000/token/c7b84f108735be66363d1e0c6c764e9c
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000529s ]
+INFO: [ url_dispatch ] --START--
+INFO: Run Lib\Behavior\SignCheckBehavior [ RunTime:0.000800s ]
+INFO: Run Lib\Behavior\TokenCheckBehavior [ RunTime:0.021796s ]
+INFO: Run Lib\Behavior\MethodCheckBehavior [ RunTime:0.000581s ]
+INFO: [ url_dispatch ] --END-- [ RunTime:0.023379s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000521s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000606s ]
+SQL: SHOW COLUMNS FROM `user_behavior` [ RunTime:0.0091s ]
+SQL: SELECT FROM_UNIXTIME(create_time, "%H") time,count(1) count,`code` FROM `user_behavior` WHERE `del_flg` = 0 AND `company_id` = '1447247968' AND ( `create_time` >= '1549900800' AND `create_time` < '1550592000'  ) GROUP BY code ,time  [ RunTime:0.0101s ]
+
+[ 2019-02-19T11:04:18+08:00 ] ::1 /Home/DrivingMonitor/statByDayGroup/companyId/1447247968/startTime/1547953455/endTime/1550545455/token/c7b84f108735be66363d1e0c6c764e9c
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000598s ]
+INFO: [ url_dispatch ] --START--
+INFO: Run Lib\Behavior\SignCheckBehavior [ RunTime:0.000793s ]
+INFO: Run Lib\Behavior\TokenCheckBehavior [ RunTime:3.033012s ]
+INFO: Run Lib\Behavior\MethodCheckBehavior [ RunTime:0.004232s ]
+INFO: [ url_dispatch ] --END-- [ RunTime:3.038654s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007519s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007917s ]
+SQL: SHOW COLUMNS FROM `user_behavior` [ RunTime:0.0060s ]
+SQL: SELECT FROM_UNIXTIME(create_time, "%Y-%m-%d") time,count(1) count FROM `user_behavior` WHERE `del_flg` = 0 AND `company_id` = '1447247968' AND ( `create_time` >= '1547953455' AND `create_time` < '1550545455'  ) GROUP BY time  [ RunTime:0.0069s ]
+
+[ 2019-02-19T11:04:18+08:00 ] ::1 /Home/DrivingMonitor/showTiredType/startTime/1547953458/endTime/1550545458/companyId/1447247968/token/c7b84f108735be66363d1e0c6c764e9c
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000469s ]
+INFO: [ url_dispatch ] --START--
+INFO: Run Lib\Behavior\SignCheckBehavior [ RunTime:0.000768s ]
+INFO: Run Lib\Behavior\TokenCheckBehavior [ RunTime:0.020998s ]
+INFO: Run Lib\Behavior\MethodCheckBehavior [ RunTime:0.000730s ]
+INFO: [ url_dispatch ] --END-- [ RunTime:0.022715s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000899s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001028s ]
+SQL: SHOW COLUMNS FROM `user_behavior` [ RunTime:0.0168s ]
+SQL: SELECT `code`,count(code) value FROM `user_behavior` WHERE `del_flg` = 0 AND ( `create_time` > '1547953458' AND `create_time` < '1550545458'  ) AND `company_id` = '1447247968' GROUP BY code  [ RunTime:0.0115s ]
+
+[ 2019-02-19T11:04:19+08:00 ] ::1 /Home/DrivingMonitor/statByTimeGroup/companyId/1447247968/startTime/1547913600/endTime/1550592000/token/c7b84f108735be66363d1e0c6c764e9c
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000445s ]
+INFO: [ url_dispatch ] --START--
+INFO: Run Lib\Behavior\SignCheckBehavior [ RunTime:0.000824s ]
+INFO: Run Lib\Behavior\TokenCheckBehavior [ RunTime:0.065780s ]
+INFO: Run Lib\Behavior\MethodCheckBehavior [ RunTime:0.000703s ]
+INFO: [ url_dispatch ] --END-- [ RunTime:0.067524s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000632s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000718s ]
+SQL: SHOW COLUMNS FROM `user_behavior` [ RunTime:0.0842s ]
+SQL: SELECT FROM_UNIXTIME(create_time, "%H") time,count(1) count,`code` FROM `user_behavior` WHERE `del_flg` = 0 AND `company_id` = '1447247968' AND ( `create_time` >= '1547913600' AND `create_time` < '1550592000'  ) GROUP BY code ,time  [ RunTime:0.0053s ]
+
+[ 2019-02-19T11:28:19+08:00 ] ::1 /Home/Login/logOut/type/10/token/c7b84f108735be66363d1e0c6c764e9c
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000461s ]
+INFO: [ url_dispatch ] --START--
+INFO: Run Lib\Behavior\SignCheckBehavior [ RunTime:0.001045s ]
+INFO: Run Lib\Behavior\TokenCheckBehavior [ RunTime:0.150497s ]
+INFO: Run Lib\Behavior\MethodCheckBehavior [ RunTime:0.000775s ]
+INFO: [ url_dispatch ] --END-- [ RunTime:0.152534s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000695s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000784s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0046s ]
+SQL: SELECT * FROM `admin` WHERE `id` = '2517844598' AND `status` = 10 AND `del_flg` = 0 LIMIT 1   [ RunTime:0.0965s ]
+SQL: SHOW COLUMNS FROM `admin_token` [ RunTime:0.0057s ]
+SQL: UPDATE `admin_token` SET `refresh_token`='',`detail`='',`expire_time`='0',`update_time`='1550546899' WHERE `admin_id` = '2517844598' AND `del_flg` = 0 AND `type` = 10 [ RunTime:0.0686s ]
+
+[ 2019-02-19T11:28:19+08:00 ] ::1 /Home/System/getSystemSetting/companyId//type/20/token/null
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000394s ]
+INFO: [ url_dispatch ] --START--
+INFO: Run Lib\Behavior\SignCheckBehavior [ RunTime:0.000940s ]
+NOTIC: [8] Undefined index: token D:\wamp\www\wscloud\api\Application\Lib\Behavior\TokenCheckBehavior.class.php 第 35 行.
+
+[ 2019-02-19T11:28:19+08:00 ] ::1 /Home/Admin/getAdminMsgCount/status/10/token/null
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000423s ]
+INFO: [ url_dispatch ] --START--
+INFO: Run Lib\Behavior\SignCheckBehavior [ RunTime:0.000802s ]
+

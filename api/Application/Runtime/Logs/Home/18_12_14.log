@@ -1,0 +1,37 @@
+[ 2018-12-14T09:47:05+08:00 ] ::1 /Test/topic
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.008171s ]
+INFO: [ url_dispatch ] --START--
+INFO: Run Lib\Behavior\SignCheckBehavior [ RunTime:0.024725s ]
+INFO: Run Lib\Behavior\TokenCheckBehavior [ RunTime:0.015511s ]
+INFO: Run Lib\Behavior\MethodCheckBehavior [ RunTime:0.016756s ]
+INFO: [ url_dispatch ] --END-- [ RunTime:0.057837s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.014948s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015574s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003134s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003587s ]
+
+[ 2018-12-14T09:47:05+08:00 ] ::1 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001426s ]
+
+[ 2018-12-14T09:48:30+08:00 ] ::1 /Test/topic
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000546s ]
+INFO: [ url_dispatch ] --START--
+INFO: Run Lib\Behavior\SignCheckBehavior [ RunTime:0.001149s ]
+INFO: Run Lib\Behavior\TokenCheckBehavior [ RunTime:0.001623s ]
+INFO: Run Lib\Behavior\MethodCheckBehavior [ RunTime:0.000701s ]
+INFO: [ url_dispatch ] --END-- [ RunTime:0.003680s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000669s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000774s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003565s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004227s ]
+

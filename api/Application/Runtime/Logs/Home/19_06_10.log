@@ -1,0 +1,570 @@
+[ 2019-06-10T11:44:09+08:00 ] ::1 /Home/System/getSystemSetting/companyId//type/20/token/null
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000077s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002404s ]
+INFO: [ url_dispatch ] --START--
+INFO: Run Lib\Behavior\SignCheckBehavior [ RunTime:0.035078s ]
+NOTIC: [8] Undefined index: token D:\wamp\www\wscloud\api\Application\Lib\Behavior\TokenCheckBehavior.class.php 第 35 行.
+ERR: Redis server went away
+
+[ 2019-06-10T11:44:11+08:00 ] ::1 /Home/Admin/getAdminMsgCount/status/10/token/null
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001317s ]
+INFO: [ url_dispatch ] --START--
+INFO: Run Lib\Behavior\SignCheckBehavior [ RunTime:0.001577s ]
+ERR: Redis server went away
+
+[ 2019-06-10T11:45:00+08:00 ] ::1 /Home/System/getSystemSetting/companyId//type/20/token/null
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000481s ]
+INFO: [ url_dispatch ] --START--
+INFO: Run Lib\Behavior\SignCheckBehavior [ RunTime:0.001738s ]
+NOTIC: [8] Undefined index: token D:\wamp\www\wscloud\api\Application\Lib\Behavior\TokenCheckBehavior.class.php 第 35 行.
+ERR: Redis server went away
+
+[ 2019-06-10T11:45:01+08:00 ] ::1 /Home/Admin/getAdminMsgCount/status/10/token/null
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000581s ]
+INFO: [ url_dispatch ] --START--
+INFO: Run Lib\Behavior\SignCheckBehavior [ RunTime:0.001640s ]
+ERR: Redis server went away
+
+[ 2019-06-10T11:49:25+08:00 ] ::1 /Home/System/getSystemSetting/companyId//type/20/token/null
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000495s ]
+INFO: [ url_dispatch ] --START--
+INFO: Run Lib\Behavior\SignCheckBehavior [ RunTime:0.001153s ]
+NOTIC: [8] Undefined index: token D:\wamp\www\wscloud\api\Application\Lib\Behavior\TokenCheckBehavior.class.php 第 35 行.
+ERR: Redis server went away
+
+[ 2019-06-10T11:49:26+08:00 ] ::1 /Home/Admin/getAdminMsgCount/status/10/token/null
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000873s ]
+INFO: [ url_dispatch ] --START--
+INFO: Run Lib\Behavior\SignCheckBehavior [ RunTime:0.001191s ]
+ERR: Redis server went away
+
+[ 2019-06-10T11:49:44+08:00 ] ::1 /Home/System/getSystemSetting/companyId//type/20/token/null
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000413s ]
+INFO: [ url_dispatch ] --START--
+INFO: Run Lib\Behavior\SignCheckBehavior [ RunTime:0.000910s ]
+NOTIC: [8] Undefined index: token D:\wamp\www\wscloud\api\Application\Lib\Behavior\TokenCheckBehavior.class.php 第 35 行.
+ERR: Redis server went away
+
+[ 2019-06-10T11:49:45+08:00 ] ::1 /Home/Admin/getAdminMsgCount/status/10/token/null
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000464s ]
+INFO: [ url_dispatch ] --START--
+INFO: Run Lib\Behavior\SignCheckBehavior [ RunTime:0.000885s ]
+ERR: Redis server went away
+
+[ 2019-06-10T11:49:49+08:00 ] ::1 /Home/System/getSystemSetting/companyId//type/20/token/null
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000416s ]
+INFO: [ url_dispatch ] --START--
+INFO: Run Lib\Behavior\SignCheckBehavior [ RunTime:0.000814s ]
+NOTIC: [8] Undefined index: token D:\wamp\www\wscloud\api\Application\Lib\Behavior\TokenCheckBehavior.class.php 第 35 行.
+ERR: Redis server went away
+
+[ 2019-06-10T11:49:50+08:00 ] ::1 /Home/Admin/getAdminMsgCount/status/10/token/null
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000548s ]
+INFO: [ url_dispatch ] --START--
+INFO: Run Lib\Behavior\SignCheckBehavior [ RunTime:0.001043s ]
+ERR: Redis server went away
+
+[ 2019-06-10T11:53:15+08:00 ] ::1 /Home/System/getSystemSetting/companyId//type/20/token/null
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001053s ]
+INFO: [ url_dispatch ] --START--
+INFO: Run Lib\Behavior\SignCheckBehavior [ RunTime:0.001654s ]
+NOTIC: [8] Undefined index: token D:\wamp\www\wscloud\api\Application\Lib\Behavior\TokenCheckBehavior.class.php 第 35 行.
+ERR: Redis server went away
+
+[ 2019-06-10T11:53:16+08:00 ] ::1 /Home/Admin/getAdminMsgCount/status/10/token/null
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000553s ]
+INFO: [ url_dispatch ] --START--
+INFO: Run Lib\Behavior\SignCheckBehavior [ RunTime:0.000998s ]
+ERR: Redis server went away
+
+[ 2019-06-10T11:53:25+08:00 ] ::1 /Home/System/getSystemSetting/companyId//type/20/token/null
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000769s ]
+INFO: [ url_dispatch ] --START--
+INFO: Run Lib\Behavior\SignCheckBehavior [ RunTime:0.001195s ]
+NOTIC: [8] Undefined index: token D:\wamp\www\wscloud\api\Application\Lib\Behavior\TokenCheckBehavior.class.php 第 35 行.
+ERR: Redis server went away
+
+[ 2019-06-10T11:53:26+08:00 ] ::1 /Home/Admin/getAdminMsgCount/status/10/token/null
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000721s ]
+INFO: [ url_dispatch ] --START--
+INFO: Run Lib\Behavior\SignCheckBehavior [ RunTime:0.001422s ]
+ERR: Redis server went away
+
+[ 2019-06-10T13:17:41+08:00 ] ::1 /Home/System/getSystemSetting/companyId//type/20/token/null
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000583s ]
+INFO: [ url_dispatch ] --START--
+INFO: Run Lib\Behavior\SignCheckBehavior [ RunTime:0.001530s ]
+NOTIC: [8] Undefined index: token D:\wamp\www\wscloud\api\Application\Lib\Behavior\TokenCheckBehavior.class.php 第 35 行.
+ERR: Redis server went away
+
+[ 2019-06-10T13:17:42+08:00 ] ::1 /Home/Admin/getAdminMsgCount/status/10/token/null
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000467s ]
+INFO: [ url_dispatch ] --START--
+INFO: Run Lib\Behavior\SignCheckBehavior [ RunTime:0.001930s ]
+ERR: Redis server went away
+
+[ 2019-06-10T13:18:05+08:00 ] ::1 /Home/Manager/getManagerMsgCount/status/10/token/null
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000492s ]
+INFO: [ url_dispatch ] --START--
+INFO: Run Lib\Behavior\SignCheckBehavior [ RunTime:0.001363s ]
+ERR: Redis server went away
+
+[ 2019-06-10T13:18:48+08:00 ] ::1 /Home/login/login/account/1447247968/password/123456/type/30/token/null
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000711s ]
+INFO: [ url_dispatch ] --START--
+INFO: Run Lib\Behavior\SignCheckBehavior [ RunTime:0.001505s ]
+INFO: Run Lib\Behavior\TokenCheckBehavior [ RunTime:0.011211s ]
+INFO: Run Lib\Behavior\MethodCheckBehavior [ RunTime:0.026383s ]
+INFO: [ url_dispatch ] --END-- [ RunTime:0.039344s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.021363s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.021491s ]
+SQL: SHOW COLUMNS FROM `manager` [ RunTime:0.0534s ]
+SQL: SELECT * FROM `manager` WHERE (  `account` = '1447247968' OR `phone` = '1447247968' OR `email` = '1447247968' ) AND `password` = 'e10adc3949ba59abbe56e057f20f883e' AND `status` = 10 AND `del_flg` = 0 LIMIT 1   [ RunTime:0.0339s ]
+
+[ 2019-06-10T13:19:58+08:00 ] ::1 /Home/login/login/account/13161934946/password/123456/type/30/token/null
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000491s ]
+INFO: [ url_dispatch ] --START--
+INFO: Run Lib\Behavior\SignCheckBehavior [ RunTime:0.001106s ]
+INFO: Run Lib\Behavior\TokenCheckBehavior [ RunTime:0.002617s ]
+INFO: Run Lib\Behavior\MethodCheckBehavior [ RunTime:0.000788s ]
+INFO: [ url_dispatch ] --END-- [ RunTime:0.004717s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000712s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000799s ]
+SQL: SHOW COLUMNS FROM `manager` [ RunTime:0.0286s ]
+SQL: SELECT * FROM `manager` WHERE (  `account` = '13161934946' OR `phone` = '13161934946' OR `email` = '13161934946' ) AND `password` = 'e10adc3949ba59abbe56e057f20f883e' AND `status` = 10 AND `del_flg` = 0 LIMIT 1   [ RunTime:0.0054s ]
+ERR: Redis server went away
+
+[ 2019-06-10T13:20:14+08:00 ] ::1 /Home/login/login/account/13161934946/password/123456/type/30/token/null
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000706s ]
+INFO: [ url_dispatch ] --START--
+INFO: Run Lib\Behavior\SignCheckBehavior [ RunTime:0.001541s ]
+INFO: Run Lib\Behavior\TokenCheckBehavior [ RunTime:0.004264s ]
+INFO: Run Lib\Behavior\MethodCheckBehavior [ RunTime:0.001040s ]
+INFO: [ url_dispatch ] --END-- [ RunTime:0.007112s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000860s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000978s ]
+SQL: SHOW COLUMNS FROM `manager` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `manager` WHERE (  `account` = '13161934946' OR `phone` = '13161934946' OR `email` = '13161934946' ) AND `password` = 'e10adc3949ba59abbe56e057f20f883e' AND `status` = 10 AND `del_flg` = 0 LIMIT 1   [ RunTime:0.4084s ]
+ERR: Redis server went away
+
+[ 2019-06-10T13:25:35+08:00 ] ::1 /Home/login/login/account/lwq1/password/123456/type/30/token/null
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000545s ]
+INFO: [ url_dispatch ] --START--
+INFO: Run Lib\Behavior\SignCheckBehavior [ RunTime:0.001288s ]
+INFO: Run Lib\Behavior\TokenCheckBehavior [ RunTime:0.003156s ]
+INFO: Run Lib\Behavior\MethodCheckBehavior [ RunTime:0.000856s ]
+INFO: [ url_dispatch ] --END-- [ RunTime:0.005543s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000759s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000861s ]
+SQL: SHOW COLUMNS FROM `manager` [ RunTime:0.0161s ]
+SQL: SELECT * FROM `manager` WHERE (  `account` = 'lwq1' OR `phone` = 'lwq1' OR `email` = 'lwq1' ) AND `password` = 'e10adc3949ba59abbe56e057f20f883e' AND `status` = 10 AND `del_flg` = 0 LIMIT 1   [ RunTime:0.0040s ]
+ERR: Redis server went away
+
+[ 2019-06-10T13:26:17+08:00 ] ::1 /Home/login/login/account/lwq/password/123456/type/30/token/null
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000771s ]
+INFO: [ url_dispatch ] --START--
+INFO: Run Lib\Behavior\SignCheckBehavior [ RunTime:0.001405s ]
+INFO: Run Lib\Behavior\TokenCheckBehavior [ RunTime:0.006782s ]
+INFO: Run Lib\Behavior\MethodCheckBehavior [ RunTime:0.000924s ]
+INFO: [ url_dispatch ] --END-- [ RunTime:0.009450s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000791s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000879s ]
+SQL: SHOW COLUMNS FROM `manager` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `manager` WHERE (  `account` = 'lwq' OR `phone` = 'lwq' OR `email` = 'lwq' ) AND `password` = 'e10adc3949ba59abbe56e057f20f883e' AND `status` = 10 AND `del_flg` = 0 LIMIT 1   [ RunTime:0.0042s ]
+ERR: Redis server went away
+
+[ 2019-06-10T13:27:53+08:00 ] ::1 /Home/login/login/account/lwq/password/123456/type/30/token/null
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000984s ]
+INFO: [ url_dispatch ] --START--
+INFO: Run Lib\Behavior\SignCheckBehavior [ RunTime:0.001940s ]
+INFO: Run Lib\Behavior\TokenCheckBehavior [ RunTime:0.003546s ]
+INFO: Run Lib\Behavior\MethodCheckBehavior [ RunTime:0.000858s ]
+INFO: [ url_dispatch ] --END-- [ RunTime:0.006591s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000770s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000872s ]
+SQL: SHOW COLUMNS FROM `manager` [ RunTime:0.0150s ]
+SQL: SELECT * FROM `manager` WHERE (  `account` = 'lwq' OR `phone` = 'lwq' OR `email` = 'lwq' ) AND `password` = 'e10adc3949ba59abbe56e057f20f883e' AND `status` = 10 AND `del_flg` = 0 LIMIT 1   [ RunTime:0.0088s ]
+ERR: Redis server went away
+
+[ 2019-06-10T13:28:10+08:00 ] ::1 /Home/Manager/getManagerMsgCount/status/10/token/null
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000687s ]
+INFO: [ url_dispatch ] --START--
+INFO: Run Lib\Behavior\SignCheckBehavior [ RunTime:0.001537s ]
+ERR: Redis server went away
+
+[ 2019-06-10T13:28:16+08:00 ] ::1 /Home/login/login/account/lwq/password/123456/type/30/token/null
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000980s ]
+INFO: [ url_dispatch ] --START--
+INFO: Run Lib\Behavior\SignCheckBehavior [ RunTime:0.001852s ]
+INFO: Run Lib\Behavior\TokenCheckBehavior [ RunTime:0.003606s ]
+INFO: Run Lib\Behavior\MethodCheckBehavior [ RunTime:0.001576s ]
+INFO: [ url_dispatch ] --END-- [ RunTime:0.007382s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000885s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001004s ]
+SQL: SHOW COLUMNS FROM `manager` [ RunTime:0.0134s ]
+SQL: SELECT * FROM `manager` WHERE (  `account` = 'lwq' OR `phone` = 'lwq' OR `email` = 'lwq' ) AND `password` = 'e10adc3949ba59abbe56e057f20f883e' AND `status` = 10 AND `del_flg` = 0 LIMIT 1   [ RunTime:0.0118s ]
+ERR: Redis server went away
+
+[ 2019-06-10T13:28:31+08:00 ] ::1 /Home/Manager/getManagerMsgCount/status/10/token/null
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000623s ]
+INFO: [ url_dispatch ] --START--
+INFO: Run Lib\Behavior\SignCheckBehavior [ RunTime:0.001102s ]
+ERR: Redis server went away
+
+[ 2019-06-10T13:28:41+08:00 ] ::1 /Home/login/login/account/lwq/password/123456/type/30/token/null
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000590s ]
+INFO: [ url_dispatch ] --START--
+INFO: Run Lib\Behavior\SignCheckBehavior [ RunTime:0.001477s ]
+INFO: Run Lib\Behavior\TokenCheckBehavior [ RunTime:0.004061s ]
+INFO: Run Lib\Behavior\MethodCheckBehavior [ RunTime:0.000823s ]
+INFO: [ url_dispatch ] --END-- [ RunTime:0.006611s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000744s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000841s ]
+SQL: SHOW COLUMNS FROM `manager` [ RunTime:0.0345s ]
+SQL: SELECT * FROM `manager` WHERE (  `account` = 'lwq' OR `phone` = 'lwq' OR `email` = 'lwq' ) AND `password` = 'e10adc3949ba59abbe56e057f20f883e' AND `status` = 10 AND `del_flg` = 0 LIMIT 1   [ RunTime:0.0337s ]
+ERR: Redis server went away
+
+[ 2019-06-10T13:30:07+08:00 ] ::1 /Home/login/login/account/lwq/password/123456/type/30/token/null
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000556s ]
+INFO: [ url_dispatch ] --START--
+INFO: Run Lib\Behavior\SignCheckBehavior [ RunTime:0.001262s ]
+INFO: Run Lib\Behavior\TokenCheckBehavior [ RunTime:0.002940s ]
+INFO: Run Lib\Behavior\MethodCheckBehavior [ RunTime:0.000814s ]
+INFO: [ url_dispatch ] --END-- [ RunTime:0.005239s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000650s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000737s ]
+SQL: SHOW COLUMNS FROM `manager` [ RunTime:0.0400s ]
+SQL: SELECT * FROM `manager` WHERE (  `account` = 'lwq' OR `phone` = 'lwq' OR `email` = 'lwq' ) AND `password` = 'e10adc3949ba59abbe56e057f20f883e' AND `status` = 10 AND `del_flg` = 0 LIMIT 1   [ RunTime:0.0086s ]
+ERR: Redis server went away
+
+[ 2019-06-10T13:33:03+08:00 ] ::1 /Home/login/login/account/lwq/password/123456/type/30/token/null
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000664s ]
+INFO: [ url_dispatch ] --START--
+INFO: Run Lib\Behavior\SignCheckBehavior [ RunTime:0.001382s ]
+INFO: Run Lib\Behavior\TokenCheckBehavior [ RunTime:0.003136s ]
+INFO: Run Lib\Behavior\MethodCheckBehavior [ RunTime:0.000748s ]
+INFO: [ url_dispatch ] --END-- [ RunTime:0.005470s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000790s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000920s ]
+SQL: SHOW COLUMNS FROM `manager` [ RunTime:0.0196s ]
+SQL: SELECT * FROM `manager` WHERE (  `account` = 'lwq' OR `phone` = 'lwq' OR `email` = 'lwq' ) AND `password` = 'e10adc3949ba59abbe56e057f20f883e' AND `status` = 10 AND `del_flg` = 0 LIMIT 1   [ RunTime:0.0042s ]
+ERR: Redis server went away
+
+[ 2019-06-10T13:33:31+08:00 ] ::1 /Home/Manager/getManagerMsgCount/status/10/token/null
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000540s ]
+INFO: [ url_dispatch ] --START--
+INFO: Run Lib\Behavior\SignCheckBehavior [ RunTime:0.004006s ]
+ERR: Redis server went away
+
+[ 2019-06-10T13:33:36+08:00 ] ::1 /Home/login/login/account/lwq/password/123456/type/30/token/null
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000648s ]
+INFO: [ url_dispatch ] --START--
+INFO: Run Lib\Behavior\SignCheckBehavior [ RunTime:0.001716s ]
+INFO: Run Lib\Behavior\TokenCheckBehavior [ RunTime:0.003374s ]
+INFO: Run Lib\Behavior\MethodCheckBehavior [ RunTime:0.000985s ]
+INFO: [ url_dispatch ] --END-- [ RunTime:0.006294s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000791s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000877s ]
+SQL: SHOW COLUMNS FROM `manager` [ RunTime:0.0150s ]
+SQL: SELECT * FROM `manager` WHERE (  `account` = 'lwq' OR `phone` = 'lwq' OR `email` = 'lwq' ) AND `password` = 'e10adc3949ba59abbe56e057f20f883e' AND `status` = 10 AND `del_flg` = 0 LIMIT 1   [ RunTime:0.0037s ]
+ERR: Redis server went away
+
+[ 2019-06-10T13:35:21+08:00 ] ::1 /Home/login/login/account/lwq/password/123456/type/30/token/null
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000664s ]
+INFO: [ url_dispatch ] --START--
+INFO: Run Lib\Behavior\SignCheckBehavior [ RunTime:0.001374s ]
+INFO: Run Lib\Behavior\TokenCheckBehavior [ RunTime:0.003541s ]
+INFO: Run Lib\Behavior\MethodCheckBehavior [ RunTime:0.001205s ]
+INFO: [ url_dispatch ] --END-- [ RunTime:0.006366s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000883s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000982s ]
+SQL: SHOW COLUMNS FROM `manager` [ RunTime:0.0236s ]
+SQL: SELECT * FROM `manager` WHERE (  `account` = 'lwq' OR `phone` = 'lwq' OR `email` = 'lwq' ) AND `password` = 'e10adc3949ba59abbe56e057f20f883e' AND `status` = 10 AND `del_flg` = 0 LIMIT 1   [ RunTime:0.0045s ]
+ERR: Redis server went away
+
+[ 2019-06-10T13:36:05+08:00 ] ::1 /Home/Manager/getManagerMsgCount/status/10/token/null
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000605s ]
+INFO: [ url_dispatch ] --START--
+INFO: Run Lib\Behavior\SignCheckBehavior [ RunTime:0.001437s ]
+ERR: Redis server went away
+
+[ 2019-06-10T13:40:07+08:00 ] ::1 /Home/Manager/getManagerMsgCount/status/10/token/null
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000673s ]
+INFO: [ url_dispatch ] --START--
+INFO: Run Lib\Behavior\SignCheckBehavior [ RunTime:0.001627s ]
+ERR: Redis server went away
+
+[ 2019-06-10T13:40:18+08:00 ] ::1 /Home/login/login/account/lwq/password/123456/type/30/token/null
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000064s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000778s ]
+INFO: [ url_dispatch ] --START--
+INFO: Run Lib\Behavior\SignCheckBehavior [ RunTime:0.001321s ]
+INFO: Run Lib\Behavior\TokenCheckBehavior [ RunTime:0.004207s ]
+INFO: Run Lib\Behavior\MethodCheckBehavior [ RunTime:0.000996s ]
+INFO: [ url_dispatch ] --END-- [ RunTime:0.006730s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000815s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000902s ]
+SQL: SHOW COLUMNS FROM `manager` [ RunTime:0.0255s ]
+SQL: SELECT * FROM `manager` WHERE (  `account` = 'lwq' OR `phone` = 'lwq' OR `email` = 'lwq' ) AND `password` = 'e10adc3949ba59abbe56e057f20f883e' AND `status` = 10 AND `del_flg` = 0 LIMIT 1   [ RunTime:0.0050s ]
+ERR: Redis server went away
+
+[ 2019-06-10T13:45:18+08:00 ] ::1 /Home/Manager/getManagerMsgCount/status/10/token/null
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000687s ]
+INFO: [ url_dispatch ] --START--
+INFO: Run Lib\Behavior\SignCheckBehavior [ RunTime:0.001541s ]
+ERR: Redis server went away
+
+[ 2019-06-10T13:45:28+08:00 ] ::1 /Home/login/login/account/lwq/password/123456/type/30/token/null
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000765s ]
+INFO: [ url_dispatch ] --START--
+INFO: Run Lib\Behavior\SignCheckBehavior [ RunTime:0.001614s ]
+INFO: Run Lib\Behavior\TokenCheckBehavior [ RunTime:0.004031s ]
+INFO: Run Lib\Behavior\MethodCheckBehavior [ RunTime:0.000837s ]
+INFO: [ url_dispatch ] --END-- [ RunTime:0.006704s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000759s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000845s ]
+SQL: SHOW COLUMNS FROM `manager` [ RunTime:0.0183s ]
+SQL: SELECT * FROM `manager` WHERE (  `account` = 'lwq' OR `phone` = 'lwq' OR `email` = 'lwq' ) AND `password` = 'e10adc3949ba59abbe56e057f20f883e' AND `status` = 10 AND `del_flg` = 0 LIMIT 1   [ RunTime:0.0052s ]
+ERR: Redis server went away
+
+[ 2019-06-10T13:50:35+08:00 ] ::1 /Home/Manager/getManagerMsgCount/status/10/token/null
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000829s ]
+INFO: [ url_dispatch ] --START--
+INFO: Run Lib\Behavior\SignCheckBehavior [ RunTime:0.001415s ]
+ERR: Redis server went away
+
+[ 2019-06-10T13:50:44+08:00 ] ::1 /Home/login/login/account/lwq/password/123456/type/30/token/null
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000576s ]
+INFO: [ url_dispatch ] --START--
+INFO: Run Lib\Behavior\SignCheckBehavior [ RunTime:0.001319s ]
+INFO: Run Lib\Behavior\TokenCheckBehavior [ RunTime:0.004656s ]
+INFO: Run Lib\Behavior\MethodCheckBehavior [ RunTime:0.001037s ]
+INFO: [ url_dispatch ] --END-- [ RunTime:0.007329s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001266s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001434s ]
+SQL: SHOW COLUMNS FROM `manager` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `manager` WHERE (  `account` = 'lwq' OR `phone` = 'lwq' OR `email` = 'lwq' ) AND `password` = 'e10adc3949ba59abbe56e057f20f883e' AND `status` = 10 AND `del_flg` = 0 LIMIT 1   [ RunTime:0.0863s ]
+ERR: Redis server went away
+
+[ 2019-06-10T13:51:45+08:00 ] ::1 /Home/Manager/getManagerMsgCount/status/10/token/null
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001429s ]
+INFO: [ url_dispatch ] --START--
+INFO: Run Lib\Behavior\SignCheckBehavior [ RunTime:0.001916s ]
+ERR: Redis server went away
+
+[ 2019-06-10T14:00:51+08:00 ] ::1 /Home/System/getSystemSetting/companyId//type/20/token/null
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000501s ]
+INFO: [ url_dispatch ] --START--
+INFO: Run Lib\Behavior\SignCheckBehavior [ RunTime:0.001180s ]
+NOTIC: [8] Undefined index: token D:\wamp\www\wscloud\api\Application\Lib\Behavior\TokenCheckBehavior.class.php 第 35 行.
+ERR: Redis server went away
+
+[ 2019-06-10T14:00:52+08:00 ] ::1 /Home/Admin/getAdminMsgCount/status/10/token/null
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001841s ]
+INFO: [ url_dispatch ] --START--
+INFO: Run Lib\Behavior\SignCheckBehavior [ RunTime:0.001485s ]
+ERR: Redis server went away
+
+[ 2019-06-10T14:02:52+08:00 ] ::1 /Home/Admin/sendMobileVerificationCode/phone/15210168509/token/null
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000598s ]
+INFO: [ url_dispatch ] --START--
+INFO: Run Lib\Behavior\SignCheckBehavior [ RunTime:0.001679s ]
+INFO: Run Lib\Behavior\TokenCheckBehavior [ RunTime:0.004200s ]
+INFO: Run Lib\Behavior\MethodCheckBehavior [ RunTime:0.000926s ]
+INFO: [ url_dispatch ] --END-- [ RunTime:0.007011s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000807s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000894s ]
+SQL: SHOW COLUMNS FROM `sms` [ RunTime:0.0239s ]
+SQL: SELECT * FROM `sms` WHERE `type` = 1 AND `del_flg` = 0 LIMIT 1   [ RunTime:0.0059s ]
+ERR: Redis server went away
+
+[ 2019-06-10T14:02:59+08:00 ] ::1 /Home/System/getSystemSetting/companyId//type/20/token/null
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000957s ]
+INFO: [ url_dispatch ] --START--
+INFO: Run Lib\Behavior\SignCheckBehavior [ RunTime:0.001379s ]
+NOTIC: [8] Undefined index: token D:\wamp\www\wscloud\api\Application\Lib\Behavior\TokenCheckBehavior.class.php 第 35 行.
+ERR: Redis server went away
+
+[ 2019-06-10T14:03:00+08:00 ] ::1 /Home/Admin/getAdminMsgCount/status/10/token/null
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000549s ]
+INFO: [ url_dispatch ] --START--
+INFO: Run Lib\Behavior\SignCheckBehavior [ RunTime:0.001341s ]
+ERR: Redis server went away
+
+[ 2019-06-10T14:03:08+08:00 ] ::1 /Home/Admin/sendMobileVerificationCode/phone/15210168509/token/null
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000538s ]
+INFO: [ url_dispatch ] --START--
+INFO: Run Lib\Behavior\SignCheckBehavior [ RunTime:0.001302s ]
+INFO: Run Lib\Behavior\TokenCheckBehavior [ RunTime:0.004463s ]
+INFO: Run Lib\Behavior\MethodCheckBehavior [ RunTime:0.001703s ]
+INFO: [ url_dispatch ] --END-- [ RunTime:0.007811s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001573s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001711s ]
+SQL: SHOW COLUMNS FROM `sms` [ RunTime:0.0139s ]
+SQL: SELECT * FROM `sms` WHERE `type` = 1 AND `del_flg` = 0 LIMIT 1   [ RunTime:0.0039s ]
+ERR: Redis server went away
+
+[ 2019-06-10T18:33:50+08:00 ] ::1 /Home/System/getSystemSetting/companyId//type/20/token/null
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000486s ]
+INFO: [ url_dispatch ] --START--
+INFO: Run Lib\Behavior\SignCheckBehavior [ RunTime:0.001857s ]
+NOTIC: [8] Undefined index: token D:\wamp\www\wscloud\api\Application\Lib\Behavior\TokenCheckBehavior.class.php 第 35 行.
+ERR: Redis server went away
+
+[ 2019-06-10T18:33:51+08:00 ] ::1 /Home/Admin/getAdminMsgCount/status/10/token/null
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000576s ]
+INFO: [ url_dispatch ] --START--
+INFO: Run Lib\Behavior\SignCheckBehavior [ RunTime:0.001445s ]
+ERR: Redis server went away
+
+[ 2019-06-10T18:34:00+08:00 ] ::1 /Home/Manager/getManagerMsgCount/status/10/token/null
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000577s ]
+INFO: [ url_dispatch ] --START--
+INFO: Run Lib\Behavior\SignCheckBehavior [ RunTime:0.001318s ]
+ERR: Redis server went away
+
+[ 2019-06-10T18:34:23+08:00 ] ::1 /Home/login/login/account/lwq1/password/123456/type/30/token/null
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000466s ]
+INFO: [ url_dispatch ] --START--
+INFO: Run Lib\Behavior\SignCheckBehavior [ RunTime:0.001266s ]
+INFO: Run Lib\Behavior\TokenCheckBehavior [ RunTime:0.003638s ]
+INFO: Run Lib\Behavior\MethodCheckBehavior [ RunTime:0.023623s ]
+INFO: [ url_dispatch ] --END-- [ RunTime:0.028807s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015963s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.016110s ]
+SQL: SHOW COLUMNS FROM `manager` [ RunTime:0.0102s ]
+SQL: SELECT * FROM `manager` WHERE (  `account` = 'lwq1' OR `phone` = 'lwq1' OR `email` = 'lwq1' ) AND `password` = 'e10adc3949ba59abbe56e057f20f883e' AND `status` = 10 AND `del_flg` = 0 LIMIT 1   [ RunTime:0.0156s ]
+ERR: Redis server went away
+
+[ 2019-06-10T18:34:57+08:00 ] ::1 /Home/login/login/account/lwq1/password/123456/type/30/token/null
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000511s ]
+INFO: [ url_dispatch ] --START--
+INFO: Run Lib\Behavior\SignCheckBehavior [ RunTime:0.001255s ]
+INFO: Run Lib\Behavior\TokenCheckBehavior [ RunTime:0.004061s ]
+INFO: Run Lib\Behavior\MethodCheckBehavior [ RunTime:0.000897s ]
+INFO: [ url_dispatch ] --END-- [ RunTime:0.006502s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000784s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000885s ]
+SQL: SHOW COLUMNS FROM `manager` [ RunTime:0.0263s ]
+SQL: SELECT * FROM `manager` WHERE (  `account` = 'lwq1' OR `phone` = 'lwq1' OR `email` = 'lwq1' ) AND `password` = 'e10adc3949ba59abbe56e057f20f883e' AND `status` = 10 AND `del_flg` = 0 LIMIT 1   [ RunTime:0.0147s ]
+ERR: Redis server went away
+

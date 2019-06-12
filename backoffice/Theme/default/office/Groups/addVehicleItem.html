@@ -1,0 +1,27 @@
+<extend name="./Theme/default/office_base.html"/>
+<block name="page-content">
+    <div class="layui-card">
+        <div class="layui-card-body">
+
+            <form class="layui-form" action="javascript:;" method="post" id="open_ws">
+                <input type="hidden" name="vehicleId" id="vehicle_id">
+                <input type="hidden" name="groupsId" value="{$groupsId}">
+                <div class="layui-form-item">
+                    <div class="layui-inline">
+                        <label class="layui-form-label"style="width: 90px">车牌号</label>
+                        <div class="layui-input-inline">
+                            <input type="tel" name="vehicle_no" id="vehicle_no" lay-verify="required" placeholder="请输入车牌号" maxlength="7"  autocomplete="off" class="layui-input">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="layui-form-item">
+                    <div class="layui-input-block">
+                        <button class="layui-btn" lay-submit="" lay-filter="demo1" id="add_btn">添加</button>
+                    </div>
+                </div>
+            </form>
+
+        </div>
+    </div>
+</block>

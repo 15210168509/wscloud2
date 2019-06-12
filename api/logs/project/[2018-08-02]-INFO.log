@@ -1,0 +1,12 @@
+[2018-08-02 10:09:07,904] [17620] RunTime: 0.0000 s
+ - INFO 
+ - RestClient.doGet(D:\wamp\www\wscloud\api\ThinkPHP\Library\Vendor\ApiGateway\RestClient.php:49)
+ - {"message":"rest client","data":"{\"request_host\":\"http:\\\/\\\/192.168.1.133:100\",\"request_path\":\"\\\/OpenService\\\/getTiredValueBySafePlatform\\\/deviceNo\\\/1234567\\\/startTime\\\/1533052800\\\/endTime\\\/1533175726\\\/limit\\\/30\\\/token\\\/e36b0e3b29777c08c353470b4f4e6ed4\",\"request_method\":\"GET\",\"request_bodys\":[],\"response_code\":0,\"response_body\":null,\"response_errorMessage\":null}","topic":""}
+[2018-08-02 10:09:29,404] [17620] RunTime: 0.0000 s
+ - INFO 
+ - RestClient.doGet(D:\wamp\www\wscloud\api\ThinkPHP\Library\Vendor\ApiGateway\RestClient.php:49)
+ - {"message":"rest client","data":"{\"request_host\":\"http:\\\/\\\/192.168.1.133:100\",\"request_path\":\"\\\/OpenService\\\/getTiredValueBySafePlatform\\\/deviceNo\\\/1234567\\\/startTime\\\/1533052800\\\/endTime\\\/1533175748\\\/limit\\\/30\\\/token\\\/e36b0e3b29777c08c353470b4f4e6ed4\",\"request_method\":\"GET\",\"request_bodys\":[],\"response_code\":0,\"response_body\":null,\"response_errorMessage\":null}","topic":""}
+[2018-08-02 10:09:50,955] [17620] RunTime: 0.0000 s
+ - INFO 
+ - RestClient.doGet(D:\wamp\www\wscloud\api\ThinkPHP\Library\Vendor\ApiGateway\RestClient.php:49)
+ - {"message":"rest client","data":"{\"request_host\":\"http:\\\/\\\/192.168.1.133:100\",\"request_path\":\"\\\/OpenService\\\/getTiredValueBySafePlatform\\\/deviceNo\\\/1234567\\\/startTime\\\/1533052800\\\/endTime\\\/1533175769\\\/limit\\\/30\\\/token\\\/e36b0e3b29777c08c353470b4f4e6ed4\",\"request_method\":\"GET\",\"request_bodys\":[],\"response_code\":0,\"response_body\":null,\"response_errorMessage\":null}","topic":""}

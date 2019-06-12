@@ -1,0 +1,168 @@
+<extend name="./Theme/admin/admin_base.html" />
+<block name="page-content">
+
+    <div class="layui-card">
+        <div class="layui-card-body">
+
+                <div class="layui-card">
+                    <div class="layui-card-header"><a href="{$baseUrl}/Behavior/lists/companyId/{$companyInfo['id']}/company/{$companyInfo['name']}">预警信息(查看列表)</a></div>
+                    <div class="layui-card-body">
+                        <div class="layui-carousel layadmin-carousel layadmin-backlog" lay-anim="" lay-indicator="inside" lay-arrow="none" style="width: 100%;">
+                            <ul class="layui-row layui-col-space10 layui-this">
+                                <li class="layui-col-xs4">
+                                        <span class="layadmin-backlog-body">
+                                        <h3>当日警报次数</h3>
+                                        <p><cite>{$monitor['today']}</cite></p>
+                                    </span>
+                                </li>
+                                <li class="layui-col-xs4">
+                                        <span class="layadmin-backlog-body">
+                                        <h3>总警报次数</h3>
+                                        <p><cite>{$monitor['all']}</cite></p>
+                                    </span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+
+            <div class="layui-tab layui-tab-card">
+                <ul class="layui-tab-title">
+                    <li class="layui-this">基本信息</li>
+                    <li>公司数据</li>
+                </ul>
+                <div class="layui-tab-content">
+                    <div class="layui-tab-item layui-show">
+                        <form class="layui-form layui-form-pane" action="">
+
+                            <div class="layui-form-item">
+                                <label class="layui-form-label">公司名称</label>
+                                <div class="layui-input-inline">
+                                    <input type="text" readonly autocomplete="off" class="layui-input" value="{$companyInfo['name']}">
+                                </div>
+                            </div>
+
+                            <div class="layui-form-item">
+                                <label class="layui-form-label">联系方式</label>
+                                <div class="layui-input-inline">
+                                    <input type="text" readonly class="layui-input" value="{$companyInfo['phone']}">
+                                </div>
+                            </div>
+
+                            <div class="layui-form-item">
+                                <label class="layui-form-label">邮箱</label>
+                                <div class="layui-input-inline">
+                                    <input type="text" readonly class="layui-input" value="{$companyInfo['email']}">
+                                </div>
+                            </div>
+
+                            <div class="layui-form-item">
+                                <label class="layui-form-label">注册时间</label>
+                                <div class="layui-input-inline">
+                                    <input type="text" readonly class="layui-input" value="{$companyInfo['create_time_str']}">
+                                </div>
+                            </div>
+                            <div class="layui-form-item">
+                                <if condition="$companyInfo['package']">
+                                    <div class="layui-inline">
+                                        <label class="layui-form-label">套餐时间</label>
+                                        <div class="layui-input-inline" style="width: 100px;">
+                                            <input readonly type="text" autocomplete="off" class="layui-input" value="{$companyInfo['package']['start_time_str']}">
+                                        </div>
+                                        <div class="layui-form-mid">至</div>
+                                        <div class="layui-input-inline" style="width: 100px;">
+                                            <input readonly type="text" autocomplete="off" class="layui-input" value="{$companyInfo['package']['end_time_str']}">
+                                        </div>
+                                    </div>
+                                <else />
+                                    <label class="layui-form-label">套餐</label>
+                                    <div class="layui-input-inline">
+                                        <input type="text" readonly class="layui-input" value="暂无">
+                                    </div>
+                                </if>
+                            </div>
+                            <div class="layui-form-item">
+                                <label class="layui-form-label">套餐设备数</label>
+                                <div class="layui-input-inline">
+                                    <input type="text" readonly class="layui-input" value="{$companyInfo['package']['devices']}">
+                                </div>
+                            </div>
+                            <div class="layui-form-item">
+                                <label class="layui-form-label">已用设备数</label>
+                                <div class="layui-input-inline">
+                                    <input type="text" readonly class="layui-input" value="{$companyInfo['package']['device_use']}">
+                                </div>
+                            </div>
+
+                        </form>
+                    </div>
+
+                    <div class="layui-tab-item">
+
+                        <div class="layui-card">
+                            <div class="layui-card-header"><a href="{$baseUrl}/Device/lists/companyId/{$companyInfo['id']}/company/{$companyInfo['name']}">设备数据(查看列表)</a></div>
+                            <div class="layui-card-body">
+                                <div class="layui-carousel layadmin-carousel layadmin-backlog" lay-anim="" lay-indicator="inside" lay-arrow="none" style="width: 100%;">
+                                    <ul class="layui-row layui-col-space10 layui-this">
+                                        <li class="layui-col-xs4">
+                                            <span class="layadmin-backlog-body"><h3>总数量</h3><p><cite><?php echo $baseData['device_enable']+$baseData['device_disable']; ?></cite></p></span>
+                                        </li>
+                                        <li class="layui-col-xs4">
+                                            <span class="layadmin-backlog-body"><h3>未删设备数</h3><p><cite>{$baseData['device_enable']}</cite></p></span>
+                                        </li>
+                                        <li class="layui-col-xs4">
+                                            <span class="layadmin-backlog-body"><h3>已删设备数</h3><p><cite>{$baseData['device_disable']}</cite></p></span>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="layui-card">
+                            <div class="layui-card-header"><a href="{$baseUrl}/Driver/lists/companyId/{$companyInfo['id']}/company/{$companyInfo['name']}">司机数据(查看列表)</a></div>
+                            <div class="layui-card-body">
+                                <div class="layui-carousel layadmin-carousel layadmin-backlog" lay-anim="" lay-indicator="inside" lay-arrow="none" style="width: 100%;">
+                                    <ul class="layui-row layui-col-space10 layui-this">
+                                        <li class="layui-col-xs4">
+                                            <span class="layadmin-backlog-body"><h3>总数量</h3><p><cite><?php echo $baseData['driver_enable']+$baseData['driver_disable']; ?></cite></p></span>
+                                        </li>
+                                        <li class="layui-col-xs4">
+                                            <span class="layadmin-backlog-body"><h3>未删司机数</h3><p><cite>{$baseData['driver_enable']}</cite></p></span>
+                                        </li>
+                                        <li class="layui-col-xs4">
+                                            <span class="layadmin-backlog-body"><h3>已删司机数</h3><p><cite>{$baseData['driver_disable']}</cite></p></span>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="layui-card">
+                            <div class="layui-card-header"><a href="{$baseUrl}/Vehicle/lists/companyId/{$companyInfo['id']}/company/{$companyInfo['name']}">车辆数据(查看列表)</a> </div>
+                            <div class="layui-card-body">
+                                <div class="layui-carousel layadmin-carousel layadmin-backlog" lay-anim="" lay-indicator="inside" lay-arrow="none" style="width: 100%;">
+                                    <ul class="layui-row layui-col-space10 layui-this">
+                                        <li class="layui-col-xs4">
+                                            <span class="layadmin-backlog-body"><h3>总数量</h3><p><cite><?php echo $baseData['vehicle_enable']+$baseData['vehicle_disable']; ?></cite></p></span>
+                                        </li>
+                                        <li class="layui-col-xs4">
+                                            <span class="layadmin-backlog-body"><h3>未删车辆数</h3><p><cite>{$baseData['vehicle_enable']}</cite></p></span>
+                                        </li>
+                                        <li class="layui-col-xs4">
+                                            <span class="layadmin-backlog-body"><h3>已删车辆数</h3><p><cite>{$baseData['vehicle_disable']}</cite></p></span>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+</block>

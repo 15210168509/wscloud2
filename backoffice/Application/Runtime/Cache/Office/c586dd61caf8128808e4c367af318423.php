@@ -1,0 +1,220 @@
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
+<html style="background-color: #f2f2f2;color: #666;">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>微视云监控平台</title>
+    <link rel="icon" href="/Public/Images/office/logo.png" type="image/x-icon"/>
+    <link rel="stylesheet" href="/Public/layui/css/layui.css">
+    <link rel="stylesheet" href="/Public/layui/css/layim.css">
+    <link rel="stylesheet" href="/Public/CSS/global.css">
+    <!--<link rel="stylesheet" href="/Public/CSS/base.css">-->
+
+    <?php if(isset($css_files)): if(is_array($css_files)): foreach($css_files as $css_file_path=>$media): ?><link href='/Public/CSS/<?php echo ($css_file_path); ?>?version=<?php echo ($version); ?>' rel="stylesheet" type="text/css" /><?php endforeach; endif; endif; ?>
+
+</head>
+<body class="layui-layout-body">
+<div class="layui-layout layui-layout-admin">
+    <input type="hidden" id="baseUrl" value="<?php echo ($baseUrl); ?>">
+    <input type="hidden" id="warningDialog" value="<?php echo ($warningDialog); ?>">
+    <input type="hidden" value="<?php echo ($adminTopic); ?>" id="adminTopic" />
+    <input type="hidden" value="<?php echo ($mqttServer); ?>" id="mqttServer" />
+    <input type="hidden" value="<?php echo ($mqttServerPort); ?>" id="mqttServerPort" />
+    <input type="hidden" value="<?php echo ($tiredWarningNumber); ?>" id="tiredWarningNumber" />
+    <div class="layui-header">
+    <div class="layui-logo" style="width: 190px;"><img style="width: 24%;margin: 5px;" src="/Public/Images/office/web-logo.png">微视云监控平台</div>
+
+        <?php echo ($topMenu); ?>
+        <!--头部menu end-->
+        <ul class="layui-nav layui-layout-right">
+            <li class="layui-nav-item">
+                <a href="<?php echo ($baseUrl); ?>/Driver/behaviorLists">
+                    <i class="layui-icon layui-icon-notice"><span class="layui-badge" id="waringNum">0</span></i>
+                </a>
+
+            </li>
+
+            <li class="layui-nav-item">
+                <a href="<?php echo ($baseUrl); ?>/Admin/adminMsg">
+                    <i class="layui-icon layui-icon-reply-fill"><span  class="layui-badge" id="msgNum"><?php echo ($msgNum); ?></span></i>
+                </a>
+
+            </li>
+
+            <li class="layui-nav-item">
+                <a href="javascript:;">公司：<?php echo ($companyName); ?></a>
+            </li>
+
+            <li class="layui-nav-item">
+                <a href="javascript:;">管理员：<?php echo ($username); ?></a>
+                <dl class="layui-nav-child">
+                    <dd><a href="<?php echo ($baseUrl); ?>/Admin/adminInfo">个人信息</a></dd>
+                    <dd><a href="<?php echo ($baseUrl); ?>/Logout">退出</a></dd>
+                </dl>
+            </li>
+        </ul>
+    </div>
+
+    <div class="layui-side layui-bg-black">
+        <div class="layui-side-scroll">
+            <?php echo ($menu); ?>
+        </div>
+    </div>
+
+    <div class="layui-body">
+        <div style="background-color: #f5f5f5;min-height: 40px;line-height: 40px;padding: 0 12px 0;">
+            <span class="layui-breadcrumb" lay-separator=">">
+
+                <?php if(is_array($breadcrumb)): foreach($breadcrumb as $name=>$url): if(!empty($url)): ?><a href="<?php echo ($url); ?>"><?php echo ($name); ?></a>
+
+                                <?php else: ?>
+                                <a href="#"><?php echo ($name); ?></a><?php endif; endforeach; endif; ?>
+            </span>
+        </div>
+
+        <!-- 内容主体区域 -->
+        <div class="layui-fluid">
+            
+    <div class="layui-card">
+        <div class="layui-card-body">
+            <div class="searchContainer">
+                <form class="form-horizontal" id="src_form">
+                    <input type="hidden" id="groupsId" value="<?php echo ($groupsId); ?>">
+                    <input type="hidden" id="vehicleGroup" value="">
+                    <div class="searchTop">
+                        <div class="layui-col-xs6 layui-col-sm6 layui-col-md6">
+                            <span class="searchTitle padding-lr20">快速检索</span>
+                        </div>
+                        <div class="layui-col-xs6 layui-col-sm6 layui-col-md6" style="text-align: right">
+                            <button id="src_bt" class="layui-btn" >搜 索</button>
+                            <button type="reset" id="reset_bt" class="layui-btn" >重 置</button>
+                        </div>
+                    </div>
+                    <div class="layui-form layui-form-pane" style=" padding: 5px;">
+                        <div class="layui-col-xs6 layui-col-sm6 layui-col-md4">
+                            <label class="layui-form-label">车牌号码</label>
+                            <div class="layui-input-inline">
+                                <input type="text" name="username" id="where_vehicle_no" placeholder="车牌号码" class="layui-input" value="<?php echo ($where_vehicle_no); ?>">
+                            </div>
+                        </div>
+                        <div class="layui-col-xs6 layui-col-sm6 layui-col-md4">
+                            <label class="layui-form-label">车辆型号</label>
+                            <div class="layui-input-inline">
+                                <input type="text" name="username" id="vehicle_model" placeholder="车辆型号" class="layui-input" value="<?php echo ($where_model); ?>">
+                            </div>
+                        </div>
+
+                        <div class="layui-col-xs6 layui-col-sm6 layui-col-md4">
+                            <label class="layui-form-label">车辆状态</label>
+                            <div class="layui-input-inline">
+                                <select name="vehicle_status" id="vehicle_status">
+                                    <option value="null" <?php if($where_status == 'null'): ?>selected="selected"<?php endif; ?>>所有</option>
+                                    <option value="10" <?php if($where_status == 10): ?>selected="selected"<?php endif; ?>>正常</option>
+                                    <option value="20" <?php if($where_status == 20): ?>selected="selected"<?php endif; ?>>锁定</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div style="clear: both"></div>
+                    </div>
+
+                    <div class="clearfix"></div>
+                </form>
+            </div>
+            <button class="layui-btn" id="addVehicle">添加车辆</button>
+            <table class="layui-hide" id="tableList" lay-filter="tableList"></table>
+        </div>
+    </div>
+
+    <form class="layui-form" action="javascript:;" method="post" id="alert_form" style="display: none;padding-top: 20px">
+        <input type="hidden" name="vehicleId" id="vehicle_id">
+        <input type="hidden" name="groupsId" value="<?php echo ($groupsId); ?>">
+        <div class="layui-form-item">
+            <div class="layui-inline">
+                <label class="layui-form-label"style="width: 90px">车牌号码</label>
+                <div class="layui-input-inline">
+                    <input type="tel" name="vehicle_no" id="vehicle_no" lay-verify="required" placeholder="请输入车牌号码" maxlength="7"  autocomplete="off" class="layui-input">
+                </div>
+            </div>
+        </div>
+
+        <div class="layui-form-item">
+            <div class="layui-input-block">
+                <button class="layui-btn" lay-submit="" lay-filter="demo1" id="add_btn">添加</button>
+            </div>
+        </div>
+    </form>
+
+    <form class="layui-form" action="javascript:;" method="post" id="groupListForm" style="display: none;margin: 10px">
+        <div class="layui-form-item" id="groupList">
+
+        </div>
+
+        <div class="layui-form-item" style="text-align: right">
+            <button class="layui-btn" id="moveGroup"  lay-filter="formDemo">确定</button>
+        </div>
+    </form>
+
+
+        </div>
+
+    </div>
+
+    <div class="site-tree-mobile layui-hide"><i class="layui-icon"></i></div>
+
+    <div class="layui-footer">
+        <!-- 底部固定区域 -->
+
+    </div>
+</div>
+<!--行为弹出-->
+<div class="warning-pop" style="width: 300px;display: none">
+    <div class="layim-chat-box">
+        <div class="layim-chat layim-chat-friend layui-show">
+            <div class="layim-chat-main">
+                <div style="padding-top: 10px">
+                    <span class="layui-badge" style="background-color: #EA0000">危险</span>
+                    <span class="layui-badge" style="background-color: #FF7575">严重</span>
+                    <span class="layui-badge" style="background-color: #FF79BC">较重</span>
+                    <span class="layui-badge" style="background-color: #FFA6FF">轻微</span>
+                    <span class="layui-badge" style="background-color: #96FED1">正常</span>
+                </div>
+                <ul id="chat-main"></ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="site-mobile-shade"></div>
+<script src="/Public/Js/jquery.min.js"></script>
+<script src="/Public/layui/layui.js"></script>
+<script src="/Public/Js/office/mqttws31.js?version=<?php echo ($version); ?>"></script>
+<script src="/Public/Js/office/getNews.js?version=<?php echo ($version); ?>"></script>
+<script>
+    //JavaScript代码区域
+    layui.use('element', function(){
+        var element = layui.element;
+        var treeMobile = $('.site-tree-mobile'),
+                shadeMobile = $('.site-mobile-shade');
+
+        treeMobile.on('click', function(){
+            $('body').addClass('site-mobile');
+        });
+
+        shadeMobile.on('click', function(){
+            $('body').removeClass('site-mobile');
+        });
+    });
+
+</script>
+<!-- add page js-->
+<?php if(isset($js_all_files)): if(is_array($js_all_files)): foreach($js_all_files as $key=>$js_file_path): ?><script src="<?php echo ($js_file_path); ?>" type="text/javascript"></script><?php endforeach; endif; endif; ?>
+<!-- end of add js-->
+
+<!-- add page js-->
+<?php if(isset($js_files)): if(is_array($js_files)): foreach($js_files as $key=>$js_file_path): ?><script src="/Public/Js/<?php echo ($js_file_path); ?>?version=<?php echo ($version); ?>" type="text/javascript"></script><?php endforeach; endif; endif; ?>
+
+
+
+<!-- end of add js-->
+</body>
+</html>

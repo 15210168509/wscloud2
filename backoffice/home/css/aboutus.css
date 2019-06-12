@@ -1,0 +1,62 @@
+.us-banner-txt{
+    margin-top:50px;
+    display: inline-block;
+}
+.company-container{
+    text-align: center;
+}
+.field-container{
+    margin:60px auto 20px auto;
+}
+.field{
+    float: left;
+    width: 277px;
+    height: 486px;
+    margin: 10px 20px 0 0;
+    text-align: center;
+    border:1px solid #ccc;
+    /*-webkit-transition: margin-top 0.3s ease-out;*/
+    /*-moz-transition: margin-top 0.3s ease-out;*/
+    /*-ms-transition: margin-top 0.3s ease-out;*/
+    /*-o-transition: margin-top 0.3s ease-out;*/
+    /*transition: margin-top 0.3s ease-out;*/
+    /*background-image: -webkit-linear-gradient(bottom, rgba(22, 58, 111, 0.28) 0%, rgba(30, 98, 208, 0.56) 100%);*/
+    /*background-image: -moz-linear-gradient(bottom, rgba(22, 58, 111, 0.28) 0%, rgba(30, 98, 208, 0.56) 100%);*/
+    /*background-image: -moz-linear-gradient(to top, rgba(22, 58, 111, 0.28) 0%, rgba(30, 98, 208, 0.56) 100%);*/
+    /*background-image: -o-linear-gradient(to top, rgba(22, 58, 111, 0.28) 0%, rgba(30, 98, 208, 0.56) 100%);*/
+    /*background-image: linear-gradient(to top, rgba(22, 58, 111, 0.28) 0%, rgba(30, 98, 208, 0.56) 100%);*/
+    /*background-repeat: repeat;*/
+}
+.field:last-child{
+    margin:10px 0 0 0;
+}
+.field-icon{
+    width:128px;
+    height:128px;
+    margin:0 auto;
+    position: relative;
+
+}
+.field-icon span{
+    position: absolute;
+    top:-60px;
+    border: 1px solid #ccc;
+    border-radius:50%;
+    background-color: #fff;
+    padding:5px;
+}
+.field-desc{
+    padding:8px;
+}
+.field-item{
+
+}
+.margin-bottom-20{
+    margin-bottom: 20px
+}
+.item-img{
+    width: 238px;
+}
+.item-text{
+    width: 962px;;
+}

@@ -1,0 +1,51 @@
+<extend name="./Theme/default/office_base.html" />
+<block name="page-content">
+    <div class="layui-card">
+        <div class="layui-card-body">
+            <div class="searchContainer">
+                <form class="form-horizontal" id="src_form">
+                    <div class="searchTop">
+                        <div class="layui-col-xs6 layui-col-sm6 layui-col-md6">
+                            <span class="searchTitle padding-lr20">快速检索</span>
+                            <input type="hidden" id="companyId" value="{$companyId}">
+                        </div>
+                        <div class="layui-col-xs6 layui-col-sm6 layui-col-md6" style="text-align: right">
+                            <button id="src_bt" class="layui-btn" >搜 索</button>
+                            <button type="reset" id="reset_bt" class="layui-btn" >重 置</button>
+                        </div>
+                    </div>
+                    <div class="layui-form layui-form-pane" style=" padding: 5px;">
+                        <div class="layui-col-xs6 layui-col-sm6 layui-col-md4">
+                            <label class="layui-form-label">开始时间</label>
+                            <div class="layui-input-inline">
+                                <input type="text" name="username" id="startTime" class="layui-input" readonly value="{$where_startTime | date='Y-m-d',###}">
+                            </div>
+                        </div>
+                        <div class="layui-col-xs6 layui-col-sm6 layui-col-md4">
+                            <label class="layui-form-label">结束时间</label>
+                            <div class="layui-input-inline">
+                                <input type="text" name="username" id="endTime" class="layui-input" readonly value="{$where_endTime | date='Y-m-d',###}">
+                            </div>
+                        </div>
+                        <div class="layui-col-xs6 layui-col-sm6 layui-col-md4">
+                            <label class="layui-form-label">用户状态</label>
+                            <div class="layui-input-inline">
+                                <select name="city" id="status">
+                                    <option value="">全部</option>
+                                    <option value="10" <if condition="$where_status eq 10">selected="selected"</if>>已读</option>
+                                    <option value="20" <if condition="$where_status eq 20">selected="selected"</if>>未读</option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <div style="clear: both"></div>
+                    </div>
+                    <div class="clearfix"></div>
+                </form>
+            </div>
+
+            <table class="layui-hide" id="tableList" lay-filter="tableList"></table>
+
+        </div>
+    </div>
+</block>

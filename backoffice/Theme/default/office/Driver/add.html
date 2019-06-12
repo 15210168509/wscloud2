@@ -1,0 +1,91 @@
+<extend name="./Theme/default/office_base.html"/>
+<block name="page-content">
+    <div class="layui-card">
+        <div class="layui-card-body">
+
+            <form class="layui-form layui-form-pane" action="javascript:;" method="post" id="add_driver">
+
+                <div class="layui-form-item">
+                        <label class="layui-form-label"style="width: 90px">司机姓名</label>
+                        <div class="layui-input-inline">
+                            <input type="tel" name="name" lay-verify="name" placeholder="用户姓名" maxlength="7"  autocomplete="off" class="layui-input">
+                        </div>
+                </div>
+
+                <div class="layui-form-item">
+
+                        <label class="layui-form-label" style="width: 90px">司机性别</label>
+                        <div class="layui-input-inline layui-input">
+                            <input type="radio" name="sex" value="1" title="男" checked="">
+                            <input type="radio" name="sex" value="2" title="女">
+                        </div>
+                </div>
+
+                <div class="layui-form-item">
+                        <label class="layui-form-label" style="width: 90px">登录账号</label>
+                        <div class="layui-input-inline">
+                            <input type="text" name="account" lay-verify="account" placeholder="3到16位数字或字母"  maxlength="16" autocomplete="off" class="layui-input">
+                        </div>
+                </div>
+
+                <div class="layui-form-item">
+                        <label class="layui-form-label" style="width: 90px">手机号码</label>
+                        <div class="layui-input-inline">
+                            <input type="text" name="phone" id="phone" lay-verify="phone|required" placeholder="手机号码" maxlength="11" autocomplete="off" class="layui-input">
+                        </div>
+                </div>
+
+                <div class="layui-form-item">
+                    <label class="layui-form-label" style="width: 90px">登录密码</label>
+                    <div class="layui-input-inline">
+                        <input type="password" name="password" lay-verify="password" id="password" placeholder="请填写6到16位密码" maxlength="16" autocomplete="off" class="layui-input">
+                    </div>
+                </div>
+
+                <div class="layui-form-item">
+                    <label class="layui-form-label" style="width: 90px">确认密码</label>
+                    <div class="layui-input-inline">
+                        <input type="password" name="verify_password" lay-verify="verify_password" id="verify_password" placeholder="请填写6到16位密码" maxlength="16" autocomplete="off" class="layui-input">
+                    </div>
+                </div>
+
+                <div class="layui-form-item">
+                        <label class="layui-form-label" style="width: 90px">驾龄</label>
+                        <div class="layui-input-inline">
+                            <input type="text" name="driving_age" lay-verify="driving_age" placeholder="驾龄" maxlength="2" autocomplete="off" class="layui-input">
+                        </div>
+                </div>
+
+                <div class="layui-form-item">
+                        <label class="layui-form-label" style="width: 90px">驾驶证号</label>
+                        <div class="layui-input-inline">
+                            <input type="text" name="certification_code" placeholder="驾驶证号" maxlength="18" lay-verify="certification_code" autocomplete="off" class="layui-input">
+                        </div>
+                </div>
+
+                <div class="layui-form-item">
+                        <label class="layui-form-label" style="width: 90px">驾驶证到期日</label>
+                        <div class="layui-input-inline">
+                            <input type="text" name="certification_expire_time"  id="certification_expire_time" placeholder="到期日" maxlength="10" autocomplete="off" class="layui-input">
+                        </div>
+                </div>
+
+                <div class="layui-form-item">
+                        <label class="layui-form-label" style="width: 90px">司机状态</label>
+                        <div class="layui-input-inline">
+                            <select name="status" id="status">
+                                <option value="10">正常</option>
+                                <option value="20">锁定</option>
+                            </select>
+                    </div>
+                </div>
+
+                <div class="layui-form-item">
+                        <button class="layui-btn" lay-submit="" lay-filter="demo1" id="add_btn">提交</button>
+                        <button type="reset" class="layui-btn layui-btn-primary">重置</button>
+                    </div>
+            </form>
+
+        </div>
+    </div>
+</block>

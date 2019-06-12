@@ -1,0 +1,8 @@
+#判断rewrite_module模块是否开启，如果开启执行里面的代码
+
+<IfModule mod_rewrite.c>
+ RewriteEngine on
+ RewriteCond %{REQUEST_FILENAME} !-d
+ RewriteCond %{REQUEST_FILENAME} !-f
+ RewriteRule ^(.*)$ index.php/$1 [QSA,PT,L]
+</IfModule>

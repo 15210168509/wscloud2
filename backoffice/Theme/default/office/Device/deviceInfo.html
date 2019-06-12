@@ -1,0 +1,39 @@
+<extend name="./Theme/default/office_base.html" />
+<block name="page-content">
+    <div class="layui-card">
+        <div class="layui-card-body">
+            <input type="hidden" id="serialNo" value="{$serialNo}">
+            <input type="hidden" id="deviceTopic" value="{$deviceTopic}">
+            <form class="layui-form" action="javascript:;" method="" id="">
+
+                <div class="layui-form-item">
+                    <label class="layui-form-label">低头角度</label>
+                    <div class="layui-input-inline">
+                        <input type="text" class="layui-input" name="60" value="" placeholder="请输入-30— -10的整数" lay-verify="60">
+                    </div>
+                </div>
+
+                <div class="layui-form-item">
+                    <label class="layui-form-label">左顾角度</label>
+                    <div class="layui-input-inline">
+                        <input type="text" class="layui-input" name="80" value="" placeholder="请输入-35— -15的整数" lay-verify="80">
+                    </div>
+                </div>
+
+                <div class="layui-form-item">
+                    <label class="layui-form-label">右盼角度</label>
+                    <div class="layui-input-inline">
+                        <input type="text" class="layui-input" name="90" value="" placeholder="请输入15—35的整数" lay-verify="90">
+                    </div>
+                </div>
+
+                <div class="layui-form-item">
+                    <div class="layui-inline">
+                        <button class="layui-btn" lay-submit="" lay-filter="submit" id="submit">提交</button>
+                    </div>
+                </div>
+
+            </form>
+        </div>
+    </div>
+</block>

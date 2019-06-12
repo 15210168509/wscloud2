@@ -1,0 +1,168 @@
+<extend name="./Theme/default/office_base.html" />
+<block name="page-content">
+    <div class="layui-card">
+        <div class="layui-card-body">
+            <form class="layui-form" action="javascript:;" method="" id="">
+
+                <div class="layui-form-item">
+                    <label class="layui-form-label">低速报警</label>
+                    <div class="layui-input-block">
+                        <input type="checkbox" <if condition="$setting[10] == 0">checked</if> name="10" lay-skin="switch" lay-filter="switchTest" lay-text="开|关">
+
+                    </div>
+                </div>
+
+                <div class="layui-form-item">
+                    <label class="layui-form-label">警报声音</label>
+                    <div class="layui-input-block">
+                        <input type="checkbox" <if condition="$setting[20] == 1">checked</if>  name="20" lay-skin="switch" lay-filter="switchTest" lay-text="开|关">
+                    </div>
+                </div>
+
+                <div class="layui-form-item">
+                    <label class="layui-form-label">抽烟报警</label>
+                    <div class="layui-input-block">
+                        <input type="checkbox" <if condition="$setting[30] == 1">checked</if>  name="30" lay-skin="switch" lay-filter="switchTest" lay-text="开|关">
+                    </div>
+                </div>
+
+                <div class="layui-form-item">
+                    <label class="layui-form-label">打电话报警</label>
+                    <div class="layui-input-block">
+                        <input type="checkbox" <if condition="$setting[40] == 1">checked</if>  name="40" lay-skin="switch" lay-filter="switchTest" lay-text="开|关">
+                    </div>
+                </div>
+
+                <div class="layui-form-item">
+                    <label class="layui-form-label">左顾右盼报警</label>
+                    <div class="layui-input-block">
+                        <input type="checkbox" <if condition="$setting[50] == 1">checked</if>  name="50" lay-skin="switch" lay-filter="switchTest" lay-text="开|关">
+                    </div>
+                </div>
+
+                <!--<div class="layui-form-item">
+                    <label class="layui-form-label">低头角度</label>
+                    <div class="layui-input-inline">
+                        <input type="text" class="layui-input" name="60" value="{$setting[60]}">
+                    </div>
+                </div>-->
+
+                <div class="layui-form-item">
+                    <label class="layui-form-label">左顾右盼延时</label>
+                    <div class="layui-input-inline">
+                        <input placeholder="取值0.5-1.5，以5递增" lay-verify="70" type="text" class="layui-input" name="70" value="{$setting[70]}">
+                    </div>
+                    <div class="layui-form-mid layui-word-aux">秒</div>
+                </div>
+
+                <!--<div class="layui-form-item">
+                    <label class="layui-form-label">左顾角度</label>
+                    <div class="layui-input-inline">
+                        <input type="text" class="layui-input" name="80" value="{$setting[80]}">
+                    </div>
+                </div>
+
+                <div class="layui-form-item">
+                    <label class="layui-form-label">右盼角度</label>
+                    <div class="layui-input-inline">
+                        <input type="text" class="layui-input" name="90" value="{$setting[90]}">
+                    </div>
+                </div>-->
+
+                <div class="layui-form-item">
+                    <label class="layui-form-label">闭眼延时</label>
+                    <div class="layui-input-inline">
+                        <input placeholder="取值0.5-5，以0.5递增" lay-verify="100" type="text" class="layui-input" name="100" value="{$setting[100]}">
+                    </div>
+                    <div class="layui-form-mid layui-word-aux">秒</div>
+                </div>
+
+                <div class="layui-form-item">
+                    <label class="layui-form-label">低头报警间隔</label>
+                    <div class="layui-input-inline">
+                        <input placeholder="取值为正整数" lay-verify="110" type="text" class="layui-input" name="110" value="{$setting[110]}">
+                    </div>
+                    <div class="layui-form-mid layui-word-aux">秒</div>
+                </div>
+
+                <div class="layui-form-item">
+                    <label class="layui-form-label">闭眼报警间隔</label>
+                    <div class="layui-input-inline">
+                        <input placeholder="取值为正整数" lay-verify="110" type="text" class="layui-input" name="120" value="{$setting[120]}">
+                    </div>
+                    <div class="layui-form-mid layui-word-aux">秒</div>
+                </div>
+
+                <div class="layui-form-item">
+                    <label class="layui-form-label">打哈欠报警间隔</label>
+                    <div class="layui-input-inline">
+                        <input placeholder="取值为正整数" lay-verify="110" type="text" class="layui-input" name="130" value="{$setting[130]}">
+                    </div>
+                    <div class="layui-form-mid layui-word-aux">秒</div>
+                </div>
+
+                <div class="layui-form-item">
+                    <label class="layui-form-label">抽烟报警间隔</label>
+                    <div class="layui-input-inline">
+                        <input placeholder="取值为正整数" lay-verify="110" type="text" class="layui-input" name="140" value="{$setting[140]}">
+                    </div>
+                    <div class="layui-form-mid layui-word-aux">秒</div>
+                </div>
+
+                <div class="layui-form-item">
+                    <label class="layui-form-label">打电话报警间隔</label>
+                    <div class="layui-input-inline">
+                        <input placeholder="取值为正整数" lay-verify="110" type="text" class="layui-input" name="150" value="{$setting[150]}">
+                    </div>
+                    <div class="layui-form-mid layui-word-aux">秒</div>
+                </div>
+
+                <div class="layui-form-item">
+                    <label class="layui-form-label">左顾右盼报警间隔</label>
+                    <div class="layui-input-inline">
+                        <input placeholder="取值为正整数" lay-verify="110" type="text" class="layui-input" name="160" value="{$setting[160]}">
+                    </div>
+                    <div class="layui-form-mid layui-word-aux">秒</div>
+                </div>
+
+                <div class="layui-form-item">
+                    <label class="layui-form-label">抽烟延时</label>
+                    <div class="layui-input-inline">
+                        <input placeholder="取值为正整数" lay-verify="110" type="text" class="layui-input" name="170" value="{$setting[170]}">
+                    </div>
+                    <div class="layui-form-mid layui-word-aux">秒</div>
+                </div>
+
+                <div class="layui-form-item">
+                    <label class="layui-form-label">打电话延时</label>
+                    <div class="layui-input-inline">
+                        <input placeholder="取值为正整数" lay-verify="110" type="text" class="layui-input" name="180" value="{$setting[180]}">
+                    </div>
+                    <div class="layui-form-mid layui-word-aux">秒</div>
+                </div>
+
+                <div class="layui-form-item">
+                    <label class="layui-form-label">低头延时</label>
+                    <div class="layui-input-inline">
+                        <input placeholder="取值为正整数" lay-verify="110" type="text" class="layui-input" name="190" value="{$setting[190]}">
+                    </div>
+                    <div class="layui-form-mid layui-word-aux">秒</div>
+                </div>
+
+                <div class="layui-form-item">
+                    <label class="layui-form-label">上传nv21图片</label>
+                    <div class="layui-input-block">
+                        <input type="checkbox" <if condition="$setting[200] == 1">checked</if>  name="200" lay-skin="switch" lay-filter="switchTest" lay-text="开|关">
+                    </div>
+                </div>
+
+                <div class="layui-form-item">
+                    <div class="layui-inline">
+                        <button class="layui-btn" lay-submit="" lay-filter="submit" id="submit">提交</button>
+                    </div>
+                </div>
+
+            </form>
+        </div>
+    </div>
+</block>

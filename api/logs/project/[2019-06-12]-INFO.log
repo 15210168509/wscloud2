@@ -1,0 +1,8 @@
+[2019-06-12 10:34:54,987] [14472] RunTime: 0.0000 s
+ - INFO 
+ - Home\Controller\ManagerController.delManager(D:\wamp\www\wscloud\api\Application\Home\Controller\ManagerController.class.php:265)
+ - {"message":"DELECT::1","data":1,"topic":""}
+[2019-06-12 10:35:34,207] [14472] RunTime: 0.0000 s
+ - INFO 
+ - Home\Controller\ManagerController.delManager(D:\wamp\www\wscloud\api\Application\Home\Controller\ManagerController.class.php:265)
+ - {"message":"DELECT::1","data":1,"topic":""}

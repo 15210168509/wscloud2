@@ -1,0 +1,28 @@
+[2018-08-01 13:27:01,290] [2000] RunTime: 0.0000 s
+ - INFO 
+ - RestClient.doGet(D:\wamp\www\wscloud\api\ThinkPHP\Library\Vendor\ApiGateway\RestClient.php:49)
+ - {"message":"rest client","data":"{\"request_host\":\"http:\\\/\\\/192.168.1.133:100\",\"request_path\":\"\\\/OpenService\\\/getTiredValueBySafePlatform\\\/deviceNo\\\/12456\\\/startTime\\\/1532966400\\\/endTime\\\/1533101199\\\/limit\\\/30\\\/token\\\/bf0c240f0d539ac3276f005bfcc8c1cc\",\"request_method\":\"GET\",\"request_bodys\":[],\"response_code\":0,\"response_body\":null,\"response_errorMessage\":null}","topic":""}
+[2018-08-01 13:27:22,966] [2000] RunTime: 0.0000 s
+ - INFO 
+ - RestClient.doGet(D:\wamp\www\wscloud\api\ThinkPHP\Library\Vendor\ApiGateway\RestClient.php:49)
+ - {"message":"rest client","data":"{\"request_host\":\"http:\\\/\\\/192.168.1.133:100\",\"request_path\":\"\\\/OpenService\\\/getTiredValueBySafePlatform\\\/deviceNo\\\/12456\\\/startTime\\\/1532966400\\\/endTime\\\/1533101221\\\/limit\\\/30\\\/token\\\/bf0c240f0d539ac3276f005bfcc8c1cc\",\"request_method\":\"GET\",\"request_bodys\":[],\"response_code\":0,\"response_body\":null,\"response_errorMessage\":null}","topic":""}
+[2018-08-01 13:27:44,526] [2000] RunTime: 0.0000 s
+ - INFO 
+ - RestClient.doGet(D:\wamp\www\wscloud\api\ThinkPHP\Library\Vendor\ApiGateway\RestClient.php:49)
+ - {"message":"rest client","data":"{\"request_host\":\"http:\\\/\\\/192.168.1.133:100\",\"request_path\":\"\\\/OpenService\\\/getTiredValueBySafePlatform\\\/deviceNo\\\/12456\\\/startTime\\\/1532966400\\\/endTime\\\/1533101243\\\/limit\\\/30\\\/token\\\/bf0c240f0d539ac3276f005bfcc8c1cc\",\"request_method\":\"GET\",\"request_bodys\":[],\"response_code\":0,\"response_body\":null,\"response_errorMessage\":null}","topic":""}
+[2018-08-01 13:28:06,108] [2000] RunTime: 0.0000 s
+ - INFO 
+ - RestClient.doGet(D:\wamp\www\wscloud\api\ThinkPHP\Library\Vendor\ApiGateway\RestClient.php:49)
+ - {"message":"rest client","data":"{\"request_host\":\"http:\\\/\\\/192.168.1.133:100\",\"request_path\":\"\\\/OpenService\\\/getTiredValueBySafePlatform\\\/deviceNo\\\/12456\\\/startTime\\\/1532966400\\\/endTime\\\/1533101264\\\/limit\\\/30\\\/token\\\/bf0c240f0d539ac3276f005bfcc8c1cc\",\"request_method\":\"GET\",\"request_bodys\":[],\"response_code\":0,\"response_body\":null,\"response_errorMessage\":null}","topic":""}
+[2018-08-01 13:28:27,677] [2000] RunTime: 0.0000 s
+ - INFO 
+ - RestClient.doGet(D:\wamp\www\wscloud\api\ThinkPHP\Library\Vendor\ApiGateway\RestClient.php:49)
+ - {"message":"rest client","data":"{\"request_host\":\"http:\\\/\\\/192.168.1.133:100\",\"request_path\":\"\\\/OpenService\\\/getTiredValueBySafePlatform\\\/deviceNo\\\/12456\\\/startTime\\\/1532966400\\\/endTime\\\/1533101286\\\/limit\\\/30\\\/token\\\/bf0c240f0d539ac3276f005bfcc8c1cc\",\"request_method\":\"GET\",\"request_bodys\":[],\"response_code\":0,\"response_body\":null,\"response_errorMessage\":null}","topic":""}
+[2018-08-01 13:28:49,204] [2000] RunTime: 0.0000 s
+ - INFO 
+ - RestClient.doGet(D:\wamp\www\wscloud\api\ThinkPHP\Library\Vendor\ApiGateway\RestClient.php:49)
+ - {"message":"rest client","data":"{\"request_host\":\"http:\\\/\\\/192.168.1.133:100\",\"request_path\":\"\\\/OpenService\\\/getTiredValueBySafePlatform\\\/deviceNo\\\/12456\\\/startTime\\\/1532966400\\\/endTime\\\/1533101307\\\/limit\\\/30\\\/token\\\/bf0c240f0d539ac3276f005bfcc8c1cc\",\"request_method\":\"GET\",\"request_bodys\":[],\"response_code\":0,\"response_body\":null,\"response_errorMessage\":null}","topic":""}
+[2018-08-01 13:29:10,424] [2000] RunTime: 21.2202 s
+ - INFO 
+ - RestClient.doGet(D:\wamp\www\wscloud\api\ThinkPHP\Library\Vendor\ApiGateway\RestClient.php:49)
+ - {"message":"rest client","data":"{\"request_host\":\"http:\\\/\\\/192.168.1.133:100\",\"request_path\":\"\\\/OpenService\\\/getTiredValueBySafePlatform\\\/deviceNo\\\/12535\\\/startTime\\\/1532966400\\\/endTime\\\/1533101329\\\/limit\\\/30\\\/token\\\/bf0c240f0d539ac3276f005bfcc8c1cc\",\"request_method\":\"GET\",\"request_bodys\":[],\"response_code\":0,\"response_body\":null,\"response_errorMessage\":null}","topic":""}

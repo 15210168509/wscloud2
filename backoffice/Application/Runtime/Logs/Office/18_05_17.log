@@ -1,0 +1,529 @@
+[ 2018-05-17T09:05:21+08:00 ] ::1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000085s ]
+INFO: [ app_init ] --END-- [ RunTime:0.049801s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.009636s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010325s ]
+NOTIC: [8] Trying to get property of non-object D:\wamp\www\wscloud\backoffice\Application\Lib\BaseManagementController.class.php 第 50 行.
+
+[ 2018-05-17T09:05:21+08:00 ] ::1 /ManagementLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000070s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001350s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001531s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001803s ]
+NOTIC: [8] Undefined index: login D:\wamp\www\wscloud\backoffice\Application\Lib\BaseManagementController.class.php 第 123 行.
+NOTIC: [8] Trying to get property of non-object D:\wamp\www\wscloud\backoffice\Application\Lib\BaseManagementController.class.php 第 123 行.
+NOTIC: [8] Undefined index: login D:\wamp\www\wscloud\backoffice\Application\Lib\BaseManagementController.class.php 第 124 行.
+NOTIC: [8] Trying to get property of non-object D:\wamp\www\wscloud\backoffice\Application\Lib\BaseManagementController.class.php 第 124 行.
+NOTIC: [8] Trying to get property of non-object D:\wamp\www\wscloud\backoffice\Application\Lib\BaseManagementController.class.php 第 87 行.
+NOTIC: [8] Trying to get property of non-object D:\wamp\www\wscloud\backoffice\Application\Lib\BaseManagementController.class.php 第 90 行.
+NOTIC: [8] Undefined offset: -1 D:\wamp\www\wscloud\backoffice\Application\Office\Common\function.php 第 255 行.
+NOTIC: [8] Trying to get property of non-object D:\wamp\www\wscloud\backoffice\Application\Lib\BaseManagementController.class.php 第 100 行.
+NOTIC: [8] Trying to get property of non-object D:\wamp\www\wscloud\backoffice\Application\Lib\BaseManagementController.class.php 第 101 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000234s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000397s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039583s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039759s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.008028s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008183s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.011925s ]
+INFO: [ app_end ] --END-- [ RunTime:0.012086s ]
+
+[ 2018-05-17T09:05:25+08:00 ] ::1 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000910s ]
+
+[ 2018-05-17T09:06:01+08:00 ] ::1 /Office/ManagementLogin/loginCheck
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000823s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001253s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001454s ]
+NOTIC: [2] include_once(../log4php/logger.php): failed to open stream: No such file or directory D:\wamp\www\wscloud\backoffice\ThinkPHP\Library\Vendor\ApiGateway\RestClient.php 第 4 行.
+NOTIC: [2] include_once(): Failed opening '../log4php/logger.php' for inclusion (include_path='.;C:\php\pear') D:\wamp\www\wscloud\backoffice\ThinkPHP\Library\Vendor\ApiGateway\RestClient.php 第 4 行.
+NOTIC: [512] log4php: Configuration failed. File not found at [./Application/Office/Conf/log4php.xml]. Using default configuration. D:\wamp\www\wscloud\backoffice\ThinkPHP\Library\Vendor\log4php\configurators\LoggerConfiguratorDefault.php 第 475 行.
+NOTIC: [512] log4php: [LoggerAppenderFile:default]: Required parameter 'file' not set. Closing appender. D:\wamp\www\wscloud\backoffice\ThinkPHP\Library\Vendor\log4php\LoggerAppender.php 第 283 行.
+NOTIC: [8] Trying to get property of non-object D:\wamp\www\wscloud\backoffice\Application\Office\Model\ApiModel.class.php 第 108 行.
+
+[ 2018-05-17T09:07:15+08:00 ] ::1 /Office/ManagementLogin/loginCheck
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000787s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001128s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001296s ]
+NOTIC: [2] include_once(../log4php/logger.php): failed to open stream: No such file or directory D:\wamp\www\wscloud\backoffice\ThinkPHP\Library\Vendor\ApiGateway\RestClient.php 第 4 行.
+NOTIC: [2] include_once(): Failed opening '../log4php/logger.php' for inclusion (include_path='.;C:\php\pear') D:\wamp\www\wscloud\backoffice\ThinkPHP\Library\Vendor\ApiGateway\RestClient.php 第 4 行.
+NOTIC: [512] log4php: Configuration failed. File not found at [./Application/Office/Conf/log4php.xml]. Using default configuration. D:\wamp\www\wscloud\backoffice\ThinkPHP\Library\Vendor\log4php\configurators\LoggerConfiguratorDefault.php 第 475 行.
+NOTIC: [512] log4php: [LoggerAppenderFile:default]: Required parameter 'file' not set. Closing appender. D:\wamp\www\wscloud\backoffice\ThinkPHP\Library\Vendor\log4php\LoggerAppender.php 第 283 行.
+NOTIC: [8] Trying to get property of non-object D:\wamp\www\wscloud\backoffice\Application\Office\Model\ApiModel.class.php 第 108 行.
+
+[ 2018-05-17T09:07:51+08:00 ] ::1 /ManagementLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000941s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001427s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001637s ]
+NOTIC: [8] Undefined index: login D:\wamp\www\wscloud\backoffice\Application\Lib\BaseManagementController.class.php 第 123 行.
+NOTIC: [8] Trying to get property of non-object D:\wamp\www\wscloud\backoffice\Application\Lib\BaseManagementController.class.php 第 123 行.
+NOTIC: [8] Undefined index: login D:\wamp\www\wscloud\backoffice\Application\Lib\BaseManagementController.class.php 第 124 行.
+NOTIC: [8] Trying to get property of non-object D:\wamp\www\wscloud\backoffice\Application\Lib\BaseManagementController.class.php 第 124 行.
+NOTIC: [8] Trying to get property of non-object D:\wamp\www\wscloud\backoffice\Application\Lib\BaseManagementController.class.php 第 87 行.
+NOTIC: [8] Trying to get property of non-object D:\wamp\www\wscloud\backoffice\Application\Lib\BaseManagementController.class.php 第 90 行.
+NOTIC: [8] Undefined offset: -1 D:\wamp\www\wscloud\backoffice\Application\Office\Common\function.php 第 255 行.
+NOTIC: [8] Trying to get property of non-object D:\wamp\www\wscloud\backoffice\Application\Lib\BaseManagementController.class.php 第 100 行.
+NOTIC: [8] Trying to get property of non-object D:\wamp\www\wscloud\backoffice\Application\Lib\BaseManagementController.class.php 第 101 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000142s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000246s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010080s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010187s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000595s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000689s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000738s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000835s ]
+
+[ 2018-05-17T09:09:00+08:00 ] ::1 /Office/ManagementLogin/loginCheck
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000771s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001325s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001473s ]
+NOTIC: [2] include_once(../log4php/logger.php): failed to open stream: No such file or directory D:\wamp\www\wscloud\backoffice\ThinkPHP\Library\Vendor\ApiGateway\RestClient.php 第 4 行.
+NOTIC: [2] include_once(): Failed opening '../log4php/logger.php' for inclusion (include_path='.;C:\php\pear') D:\wamp\www\wscloud\backoffice\ThinkPHP\Library\Vendor\ApiGateway\RestClient.php 第 4 行.
+NOTIC: [512] log4php: Configuration failed. File not found at [./Application/Office/Conf/log4php.xml]. Using default configuration. D:\wamp\www\wscloud\backoffice\ThinkPHP\Library\Vendor\log4php\configurators\LoggerConfiguratorDefault.php 第 475 行.
+NOTIC: [512] log4php: [LoggerAppenderFile:default]: Required parameter 'file' not set. Closing appender. D:\wamp\www\wscloud\backoffice\ThinkPHP\Library\Vendor\log4php\LoggerAppender.php 第 283 行.
+NOTIC: [8] Trying to get property of non-object D:\wamp\www\wscloud\backoffice\Application\Office\Model\ApiModel.class.php 第 108 行.
+
+[ 2018-05-17T09:09:56+08:00 ] ::1 /Office/ManagementLogin/loginCheck
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000960s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001136s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001339s ]
+NOTIC: [2] include_once(../log4php/logger.php): failed to open stream: No such file or directory D:\wamp\www\wscloud\backoffice\ThinkPHP\Library\Vendor\ApiGateway\RestClient.php 第 4 行.
+NOTIC: [2] include_once(): Failed opening '../log4php/logger.php' for inclusion (include_path='.;C:\php\pear') D:\wamp\www\wscloud\backoffice\ThinkPHP\Library\Vendor\ApiGateway\RestClient.php 第 4 行.
+NOTIC: [512] log4php: Configuration failed. File not found at [./Application/Office/Conf/log4php.xml]. Using default configuration. D:\wamp\www\wscloud\backoffice\ThinkPHP\Library\Vendor\log4php\configurators\LoggerConfiguratorDefault.php 第 475 行.
+NOTIC: [512] log4php: [LoggerAppenderFile:default]: Required parameter 'file' not set. Closing appender. D:\wamp\www\wscloud\backoffice\ThinkPHP\Library\Vendor\log4php\LoggerAppender.php 第 283 行.
+NOTIC: [8] Trying to get property of non-object D:\wamp\www\wscloud\backoffice\Application\Office\Model\ApiModel.class.php 第 108 行.
+
+[ 2018-05-17T09:09:56+08:00 ] ::1 /Office/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000730s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001109s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001281s ]
+NOTIC: [8] Undefined index: login D:\wamp\www\wscloud\backoffice\Application\Lib\BaseManagementController.class.php 第 123 行.
+NOTIC: [8] Trying to get property of non-object D:\wamp\www\wscloud\backoffice\Application\Lib\BaseManagementController.class.php 第 123 行.
+NOTIC: [8] Undefined index: login D:\wamp\www\wscloud\backoffice\Application\Lib\BaseManagementController.class.php 第 124 行.
+NOTIC: [8] Trying to get property of non-object D:\wamp\www\wscloud\backoffice\Application\Lib\BaseManagementController.class.php 第 124 行.
+NOTIC: [8] Undefined offset: -1 D:\wamp\www\wscloud\backoffice\Application\Office\Common\function.php 第 255 行.
+NOTIC: [8] Undefined offset: 0 D:\wamp\www\wscloud\backoffice\Application\Office\Common\function.php 第 212 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given D:\wamp\www\wscloud\backoffice\Application\Office\Common\function.php 第 212 行.
+NOTIC: [8] Undefined index: icon D:\wamp\www\wscloud\backoffice\Application\Office\Common\function.php 第 225 行.
+NOTIC: [8] Undefined index: icon D:\wamp\www\wscloud\backoffice\Application\Office\Common\function.php 第 225 行.
+NOTIC: [8] Undefined offset: 0 D:\wamp\www\wscloud\backoffice\Application\Office\Common\function.php 第 212 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given D:\wamp\www\wscloud\backoffice\Application\Office\Common\function.php 第 212 行.
+NOTIC: [8] Undefined index: icon D:\wamp\www\wscloud\backoffice\Application\Office\Common\function.php 第 225 行.
+NOTIC: [8] Undefined index: icon D:\wamp\www\wscloud\backoffice\Application\Office\Common\function.php 第 225 行.
+NOTIC: [8] Undefined offset: 0 D:\wamp\www\wscloud\backoffice\Application\Office\Common\function.php 第 212 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given D:\wamp\www\wscloud\backoffice\Application\Office\Common\function.php 第 212 行.
+NOTIC: [8] Undefined index: icon D:\wamp\www\wscloud\backoffice\Application\Office\Common\function.php 第 225 行.
+NOTIC: [8] Undefined index: icon D:\wamp\www\wscloud\backoffice\Application\Office\Common\function.php 第 225 行.
+NOTIC: [8] Undefined offset: 0 D:\wamp\www\wscloud\backoffice\Application\Office\Common\function.php 第 212 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given D:\wamp\www\wscloud\backoffice\Application\Office\Common\function.php 第 212 行.
+NOTIC: [8] Undefined index: icon D:\wamp\www\wscloud\backoffice\Application\Office\Common\function.php 第 225 行.
+NOTIC: [8] Undefined index: icon D:\wamp\www\wscloud\backoffice\Application\Office\Common\function.php 第 225 行.
+NOTIC: [8] Undefined offset: 0 D:\wamp\www\wscloud\backoffice\Application\Office\Common\function.php 第 212 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given D:\wamp\www\wscloud\backoffice\Application\Office\Common\function.php 第 212 行.
+NOTIC: [8] Undefined index: icon D:\wamp\www\wscloud\backoffice\Application\Office\Common\function.php 第 225 行.
+NOTIC: [8] Undefined index: icon D:\wamp\www\wscloud\backoffice\Application\Office\Common\function.php 第 225 行.
+NOTIC: [8] Undefined property: stdClass::$id D:\wamp\www\wscloud\backoffice\Application\Lib\BaseManagementController.class.php 第 101 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000084s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000233s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036046s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036313s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000899s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001075s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001090s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001234s ]
+
+[ 2018-05-17T09:10:05+08:00 ] ::1 /Vehicle/lists
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000596s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000565s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000667s ]
+NOTIC: [2] include_once(../log4php/logger.php): failed to open stream: No such file or directory D:\wamp\www\wscloud\backoffice\ThinkPHP\Library\Vendor\ApiGateway\RestClient.php 第 4 行.
+NOTIC: [2] include_once(): Failed opening '../log4php/logger.php' for inclusion (include_path='.;C:\php\pear') D:\wamp\www\wscloud\backoffice\ThinkPHP\Library\Vendor\ApiGateway\RestClient.php 第 4 行.
+NOTIC: [512] log4php: Configuration failed. File not found at [./Application/Office/Conf/log4php.xml]. Using default configuration. D:\wamp\www\wscloud\backoffice\ThinkPHP\Library\Vendor\log4php\configurators\LoggerConfiguratorDefault.php 第 475 行.
+NOTIC: [512] log4php: [LoggerAppenderFile:default]: Required parameter 'file' not set. Closing appender. D:\wamp\www\wscloud\backoffice\ThinkPHP\Library\Vendor\log4php\LoggerAppender.php 第 283 行.
+NOTIC: [8] Undefined index: login D:\wamp\www\wscloud\backoffice\Application\Lib\BaseManagementController.class.php 第 123 行.
+NOTIC: [8] Trying to get property of non-object D:\wamp\www\wscloud\backoffice\Application\Lib\BaseManagementController.class.php 第 123 行.
+NOTIC: [8] Undefined index: login D:\wamp\www\wscloud\backoffice\Application\Lib\BaseManagementController.class.php 第 124 行.
+NOTIC: [8] Trying to get property of non-object D:\wamp\www\wscloud\backoffice\Application\Lib\BaseManagementController.class.php 第 124 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, integer given D:\wamp\www\wscloud\backoffice\Application\Office\Common\function.php 第 212 行.
+NOTIC: [8] Undefined index: icon D:\wamp\www\wscloud\backoffice\Application\Office\Common\function.php 第 225 行.
+NOTIC: [8] Undefined index: icon D:\wamp\www\wscloud\backoffice\Application\Office\Common\function.php 第 225 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, integer given D:\wamp\www\wscloud\backoffice\Application\Office\Common\function.php 第 212 行.
+NOTIC: [8] Undefined index: icon D:\wamp\www\wscloud\backoffice\Application\Office\Common\function.php 第 225 行.
+NOTIC: [8] Undefined index: icon D:\wamp\www\wscloud\backoffice\Application\Office\Common\function.php 第 225 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, integer given D:\wamp\www\wscloud\backoffice\Application\Office\Common\function.php 第 212 行.
+NOTIC: [8] Undefined index: icon D:\wamp\www\wscloud\backoffice\Application\Office\Common\function.php 第 225 行.
+NOTIC: [8] Undefined index: icon D:\wamp\www\wscloud\backoffice\Application\Office\Common\function.php 第 225 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, integer given D:\wamp\www\wscloud\backoffice\Application\Office\Common\function.php 第 212 行.
+NOTIC: [8] Undefined index: icon D:\wamp\www\wscloud\backoffice\Application\Office\Common\function.php 第 225 行.
+NOTIC: [8] Undefined index: icon D:\wamp\www\wscloud\backoffice\Application\Office\Common\function.php 第 225 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, integer given D:\wamp\www\wscloud\backoffice\Application\Office\Common\function.php 第 212 行.
+NOTIC: [8] Undefined index: icon D:\wamp\www\wscloud\backoffice\Application\Office\Common\function.php 第 225 行.
+NOTIC: [8] Undefined index: icon D:\wamp\www\wscloud\backoffice\Application\Office\Common\function.php 第 225 行.
+NOTIC: [8] Undefined property: stdClass::$id D:\wamp\www\wscloud\backoffice\Application\Lib\BaseManagementController.class.php 第 101 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000176s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000413s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039150s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039403s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001212s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001443s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001505s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001731s ]
+
+[ 2018-05-17T09:10:05+08:00 ] ::1 /Vehicle/search?page=1&limit=10&vehicle_no=null&companyId=5091033445
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000491s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000717s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000824s ]
+NOTIC: [2] include_once(../log4php/logger.php): failed to open stream: No such file or directory D:\wamp\www\wscloud\backoffice\ThinkPHP\Library\Vendor\ApiGateway\RestClient.php 第 4 行.
+NOTIC: [2] include_once(): Failed opening '../log4php/logger.php' for inclusion (include_path='.;C:\php\pear') D:\wamp\www\wscloud\backoffice\ThinkPHP\Library\Vendor\ApiGateway\RestClient.php 第 4 行.
+NOTIC: [512] log4php: Configuration failed. File not found at [./Application/Office/Conf/log4php.xml]. Using default configuration. D:\wamp\www\wscloud\backoffice\ThinkPHP\Library\Vendor\log4php\configurators\LoggerConfiguratorDefault.php 第 475 行.
+NOTIC: [512] log4php: [LoggerAppenderFile:default]: Required parameter 'file' not set. Closing appender. D:\wamp\www\wscloud\backoffice\ThinkPHP\Library\Vendor\log4php\LoggerAppender.php 第 283 行.
+NOTIC: [8] Undefined property: stdClass::$action D:\wamp\www\wscloud\backoffice\Application\Office\Controller\VehicleController.class.php 第 114 行.
+NOTIC: [8] Undefined property: stdClass::$action D:\wamp\www\wscloud\backoffice\Application\Office\Controller\VehicleController.class.php 第 114 行.
+NOTIC: [8] Undefined index: draw D:\wamp\www\wscloud\backoffice\Application\Lib\ListManagementController.class.php 第 103 行.
+
+[ 2018-05-17T09:11:35+08:00 ] ::1 /Vehicle/lists
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000385s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000589s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000687s ]
+NOTIC: [2] include_once(../log4php/logger.php): failed to open stream: No such file or directory D:\wamp\www\wscloud\backoffice\ThinkPHP\Library\Vendor\ApiGateway\RestClient.php 第 4 行.
+NOTIC: [2] include_once(): Failed opening '../log4php/logger.php' for inclusion (include_path='.;C:\php\pear') D:\wamp\www\wscloud\backoffice\ThinkPHP\Library\Vendor\ApiGateway\RestClient.php 第 4 行.
+NOTIC: [512] log4php: Configuration failed. File not found at [./Application/Office/Conf/log4php.xml]. Using default configuration. D:\wamp\www\wscloud\backoffice\ThinkPHP\Library\Vendor\log4php\configurators\LoggerConfiguratorDefault.php 第 475 行.
+NOTIC: [512] log4php: [LoggerAppenderFile:default]: Required parameter 'file' not set. Closing appender. D:\wamp\www\wscloud\backoffice\ThinkPHP\Library\Vendor\log4php\LoggerAppender.php 第 283 行.
+NOTIC: [8] Undefined index: login D:\wamp\www\wscloud\backoffice\Application\Lib\BaseManagementController.class.php 第 123 行.
+NOTIC: [8] Trying to get property of non-object D:\wamp\www\wscloud\backoffice\Application\Lib\BaseManagementController.class.php 第 123 行.
+NOTIC: [8] Undefined index: login D:\wamp\www\wscloud\backoffice\Application\Lib\BaseManagementController.class.php 第 124 行.
+NOTIC: [8] Trying to get property of non-object D:\wamp\www\wscloud\backoffice\Application\Lib\BaseManagementController.class.php 第 124 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, integer given D:\wamp\www\wscloud\backoffice\Application\Office\Common\function.php 第 212 行.
+NOTIC: [8] Undefined index: icon D:\wamp\www\wscloud\backoffice\Application\Office\Common\function.php 第 225 行.
+NOTIC: [8] Undefined index: icon D:\wamp\www\wscloud\backoffice\Application\Office\Common\function.php 第 225 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, integer given D:\wamp\www\wscloud\backoffice\Application\Office\Common\function.php 第 212 行.
+NOTIC: [8] Undefined index: icon D:\wamp\www\wscloud\backoffice\Application\Office\Common\function.php 第 225 行.
+NOTIC: [8] Undefined index: icon D:\wamp\www\wscloud\backoffice\Application\Office\Common\function.php 第 225 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, integer given D:\wamp\www\wscloud\backoffice\Application\Office\Common\function.php 第 212 行.
+NOTIC: [8] Undefined index: icon D:\wamp\www\wscloud\backoffice\Application\Office\Common\function.php 第 225 行.
+NOTIC: [8] Undefined index: icon D:\wamp\www\wscloud\backoffice\Application\Office\Common\function.php 第 225 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, integer given D:\wamp\www\wscloud\backoffice\Application\Office\Common\function.php 第 212 行.
+NOTIC: [8] Undefined index: icon D:\wamp\www\wscloud\backoffice\Application\Office\Common\function.php 第 225 行.
+NOTIC: [8] Undefined index: icon D:\wamp\www\wscloud\backoffice\Application\Office\Common\function.php 第 225 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, integer given D:\wamp\www\wscloud\backoffice\Application\Office\Common\function.php 第 212 行.
+NOTIC: [8] Undefined index: icon D:\wamp\www\wscloud\backoffice\Application\Office\Common\function.php 第 225 行.
+NOTIC: [8] Undefined index: icon D:\wamp\www\wscloud\backoffice\Application\Office\Common\function.php 第 225 行.
+NOTIC: [8] Undefined property: stdClass::$id D:\wamp\www\wscloud\backoffice\Application\Lib\BaseManagementController.class.php 第 101 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000064s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000160s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011439s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011576s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000582s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000695s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000661s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000756s ]
+
+[ 2018-05-17T09:11:35+08:00 ] ::1 /Vehicle/search?page=1&limit=10&vehicle_no=null&companyId=5091033445
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000505s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000658s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000752s ]
+NOTIC: [2] include_once(../log4php/logger.php): failed to open stream: No such file or directory D:\wamp\www\wscloud\backoffice\ThinkPHP\Library\Vendor\ApiGateway\RestClient.php 第 4 行.
+NOTIC: [2] include_once(): Failed opening '../log4php/logger.php' for inclusion (include_path='.;C:\php\pear') D:\wamp\www\wscloud\backoffice\ThinkPHP\Library\Vendor\ApiGateway\RestClient.php 第 4 行.
+NOTIC: [512] log4php: Configuration failed. File not found at [./Application/Office/Conf/log4php.xml]. Using default configuration. D:\wamp\www\wscloud\backoffice\ThinkPHP\Library\Vendor\log4php\configurators\LoggerConfiguratorDefault.php 第 475 行.
+NOTIC: [512] log4php: [LoggerAppenderFile:default]: Required parameter 'file' not set. Closing appender. D:\wamp\www\wscloud\backoffice\ThinkPHP\Library\Vendor\log4php\LoggerAppender.php 第 283 行.
+NOTIC: [8] Undefined property: stdClass::$action D:\wamp\www\wscloud\backoffice\Application\Office\Controller\VehicleController.class.php 第 114 行.
+NOTIC: [8] Undefined property: stdClass::$action D:\wamp\www\wscloud\backoffice\Application\Office\Controller\VehicleController.class.php 第 114 行.
+NOTIC: [8] Undefined index: draw D:\wamp\www\wscloud\backoffice\Application\Lib\ListManagementController.class.php 第 103 行.
+
+[ 2018-05-17T09:13:02+08:00 ] ::1 /Vehicle/lists
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000510s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000687s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000787s ]
+NOTIC: [2] include_once(../log4php/logger.php): failed to open stream: No such file or directory D:\wamp\www\wscloud\backoffice\ThinkPHP\Library\Vendor\ApiGateway\RestClient.php 第 4 行.
+NOTIC: [2] include_once(): Failed opening '../log4php/logger.php' for inclusion (include_path='.;C:\php\pear') D:\wamp\www\wscloud\backoffice\ThinkPHP\Library\Vendor\ApiGateway\RestClient.php 第 4 行.
+NOTIC: [512] log4php: Configuration failed. File not found at [./Application/Office/Conf/log4php.xml]. Using default configuration. D:\wamp\www\wscloud\backoffice\ThinkPHP\Library\Vendor\log4php\configurators\LoggerConfiguratorDefault.php 第 475 行.
+NOTIC: [512] log4php: [LoggerAppenderFile:default]: Required parameter 'file' not set. Closing appender. D:\wamp\www\wscloud\backoffice\ThinkPHP\Library\Vendor\log4php\LoggerAppender.php 第 283 行.
+NOTIC: [8] Undefined index: login D:\wamp\www\wscloud\backoffice\Application\Lib\BaseManagementController.class.php 第 123 行.
+NOTIC: [8] Trying to get property of non-object D:\wamp\www\wscloud\backoffice\Application\Lib\BaseManagementController.class.php 第 123 行.
+NOTIC: [8] Undefined index: login D:\wamp\www\wscloud\backoffice\Application\Lib\BaseManagementController.class.php 第 124 行.
+NOTIC: [8] Trying to get property of non-object D:\wamp\www\wscloud\backoffice\Application\Lib\BaseManagementController.class.php 第 124 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, integer given D:\wamp\www\wscloud\backoffice\Application\Office\Common\function.php 第 212 行.
+NOTIC: [8] Undefined index: icon D:\wamp\www\wscloud\backoffice\Application\Office\Common\function.php 第 225 行.
+NOTIC: [8] Undefined index: icon D:\wamp\www\wscloud\backoffice\Application\Office\Common\function.php 第 225 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, integer given D:\wamp\www\wscloud\backoffice\Application\Office\Common\function.php 第 212 行.
+NOTIC: [8] Undefined index: icon D:\wamp\www\wscloud\backoffice\Application\Office\Common\function.php 第 225 行.
+NOTIC: [8] Undefined index: icon D:\wamp\www\wscloud\backoffice\Application\Office\Common\function.php 第 225 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, integer given D:\wamp\www\wscloud\backoffice\Application\Office\Common\function.php 第 212 行.
+NOTIC: [8] Undefined index: icon D:\wamp\www\wscloud\backoffice\Application\Office\Common\function.php 第 225 行.
+NOTIC: [8] Undefined index: icon D:\wamp\www\wscloud\backoffice\Application\Office\Common\function.php 第 225 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, integer given D:\wamp\www\wscloud\backoffice\Application\Office\Common\function.php 第 212 行.
+NOTIC: [8] Undefined index: icon D:\wamp\www\wscloud\backoffice\Application\Office\Common\function.php 第 225 行.
+NOTIC: [8] Undefined index: icon D:\wamp\www\wscloud\backoffice\Application\Office\Common\function.php 第 225 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, integer given D:\wamp\www\wscloud\backoffice\Application\Office\Common\function.php 第 212 行.
+NOTIC: [8] Undefined index: icon D:\wamp\www\wscloud\backoffice\Application\Office\Common\function.php 第 225 行.
+NOTIC: [8] Undefined index: icon D:\wamp\www\wscloud\backoffice\Application\Office\Common\function.php 第 225 行.
+NOTIC: [8] Undefined property: stdClass::$id D:\wamp\www\wscloud\backoffice\Application\Lib\BaseManagementController.class.php 第 101 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000064s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000168s ]
+NOTIC: [8] Undefined variable: groups D:\wamp\www\wscloud\backoffice\Application\Runtime\Cache\Office\e9e5395ea957a524e53cba583159ceee.php 第 94 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012592s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012744s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000784s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000899s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000724s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000822s ]
+
+[ 2018-05-17T09:13:03+08:00 ] ::1 /Vehicle/search?page=1&limit=10&vehicle_no=null&companyId=5091033445
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000572s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000834s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000952s ]
+NOTIC: [2] include_once(../log4php/logger.php): failed to open stream: No such file or directory D:\wamp\www\wscloud\backoffice\ThinkPHP\Library\Vendor\ApiGateway\RestClient.php 第 4 行.
+NOTIC: [2] include_once(): Failed opening '../log4php/logger.php' for inclusion (include_path='.;C:\php\pear') D:\wamp\www\wscloud\backoffice\ThinkPHP\Library\Vendor\ApiGateway\RestClient.php 第 4 行.
+NOTIC: [512] log4php: Configuration failed. File not found at [./Application/Office/Conf/log4php.xml]. Using default configuration. D:\wamp\www\wscloud\backoffice\ThinkPHP\Library\Vendor\log4php\configurators\LoggerConfiguratorDefault.php 第 475 行.
+NOTIC: [512] log4php: [LoggerAppenderFile:default]: Required parameter 'file' not set. Closing appender. D:\wamp\www\wscloud\backoffice\ThinkPHP\Library\Vendor\log4php\LoggerAppender.php 第 283 行.
+NOTIC: [8] Undefined property: stdClass::$action D:\wamp\www\wscloud\backoffice\Application\Office\Controller\VehicleController.class.php 第 114 行.
+NOTIC: [8] Undefined property: stdClass::$action D:\wamp\www\wscloud\backoffice\Application\Office\Controller\VehicleController.class.php 第 114 行.
+NOTIC: [8] Undefined index: draw D:\wamp\www\wscloud\backoffice\Application\Lib\ListManagementController.class.php 第 103 行.
+
+[ 2018-05-17T09:14:34+08:00 ] ::1 /Admin/adminMsg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000487s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000669s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000767s ]
+NOTIC: [8] Undefined index: login D:\wamp\www\wscloud\backoffice\Application\Lib\BaseManagementController.class.php 第 123 行.
+NOTIC: [8] Trying to get property of non-object D:\wamp\www\wscloud\backoffice\Application\Lib\BaseManagementController.class.php 第 123 行.
+NOTIC: [8] Undefined index: login D:\wamp\www\wscloud\backoffice\Application\Lib\BaseManagementController.class.php 第 124 行.
+NOTIC: [8] Trying to get property of non-object D:\wamp\www\wscloud\backoffice\Application\Lib\BaseManagementController.class.php 第 124 行.
+NOTIC: [8] Undefined offset: -1 D:\wamp\www\wscloud\backoffice\Application\Office\Common\function.php 第 255 行.
+NOTIC: [8] Undefined offset: 0 D:\wamp\www\wscloud\backoffice\Application\Office\Common\function.php 第 212 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given D:\wamp\www\wscloud\backoffice\Application\Office\Common\function.php 第 212 行.
+NOTIC: [8] Undefined index: icon D:\wamp\www\wscloud\backoffice\Application\Office\Common\function.php 第 225 行.
+NOTIC: [8] Undefined index: icon D:\wamp\www\wscloud\backoffice\Application\Office\Common\function.php 第 225 行.
+NOTIC: [8] Undefined offset: 0 D:\wamp\www\wscloud\backoffice\Application\Office\Common\function.php 第 212 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given D:\wamp\www\wscloud\backoffice\Application\Office\Common\function.php 第 212 行.
+NOTIC: [8] Undefined index: icon D:\wamp\www\wscloud\backoffice\Application\Office\Common\function.php 第 225 行.
+NOTIC: [8] Undefined index: icon D:\wamp\www\wscloud\backoffice\Application\Office\Common\function.php 第 225 行.
+NOTIC: [8] Undefined offset: 0 D:\wamp\www\wscloud\backoffice\Application\Office\Common\function.php 第 212 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given D:\wamp\www\wscloud\backoffice\Application\Office\Common\function.php 第 212 行.
+NOTIC: [8] Undefined index: icon D:\wamp\www\wscloud\backoffice\Application\Office\Common\function.php 第 225 行.
+NOTIC: [8] Undefined index: icon D:\wamp\www\wscloud\backoffice\Application\Office\Common\function.php 第 225 行.
+NOTIC: [8] Undefined offset: 0 D:\wamp\www\wscloud\backoffice\Application\Office\Common\function.php 第 212 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given D:\wamp\www\wscloud\backoffice\Application\Office\Common\function.php 第 212 行.
+NOTIC: [8] Undefined index: icon D:\wamp\www\wscloud\backoffice\Application\Office\Common\function.php 第 225 行.
+NOTIC: [8] Undefined index: icon D:\wamp\www\wscloud\backoffice\Application\Office\Common\function.php 第 225 行.
+NOTIC: [8] Undefined offset: 0 D:\wamp\www\wscloud\backoffice\Application\Office\Common\function.php 第 212 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given D:\wamp\www\wscloud\backoffice\Application\Office\Common\function.php 第 212 行.
+NOTIC: [8] Undefined index: icon D:\wamp\www\wscloud\backoffice\Application\Office\Common\function.php 第 225 行.
+NOTIC: [8] Undefined index: icon D:\wamp\www\wscloud\backoffice\Application\Office\Common\function.php 第 225 行.
+NOTIC: [8] Undefined property: stdClass::$id D:\wamp\www\wscloud\backoffice\Application\Lib\BaseManagementController.class.php 第 101 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000061s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000153s ]
+NOTIC: [8] Undefined variable: companyId D:\wamp\www\wscloud\backoffice\Application\Runtime\Cache\Office\aa689e38bde93bf6dbf5d4a5212dd542.php 第 66 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given D:\wamp\www\wscloud\backoffice\Application\Runtime\Cache\Office\aa689e38bde93bf6dbf5d4a5212dd542.php 第 77 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given D:\wamp\www\wscloud\backoffice\Application\Runtime\Cache\Office\aa689e38bde93bf6dbf5d4a5212dd542.php 第 83 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027596s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027688s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000550s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000632s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000670s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000757s ]
+
+[ 2018-05-17T09:14:35+08:00 ] ::1 /Admin/msgSearch?page=1&limit=10&startTime=null&endTime=null&status=null
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000843s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001138s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001384s ]
+NOTIC: [2] include_once(../log4php/logger.php): failed to open stream: No such file or directory D:\wamp\www\wscloud\backoffice\ThinkPHP\Library\Vendor\ApiGateway\RestClient.php 第 4 行.
+NOTIC: [2] include_once(): Failed opening '../log4php/logger.php' for inclusion (include_path='.;C:\php\pear') D:\wamp\www\wscloud\backoffice\ThinkPHP\Library\Vendor\ApiGateway\RestClient.php 第 4 行.
+NOTIC: [512] log4php: Configuration failed. File not found at [./Application/Office/Conf/log4php.xml]. Using default configuration. D:\wamp\www\wscloud\backoffice\ThinkPHP\Library\Vendor\log4php\configurators\LoggerConfiguratorDefault.php 第 475 行.
+NOTIC: [512] log4php: [LoggerAppenderFile:default]: Required parameter 'file' not set. Closing appender. D:\wamp\www\wscloud\backoffice\ThinkPHP\Library\Vendor\log4php\LoggerAppender.php 第 283 行.
+NOTIC: [8] Undefined property: stdClass::$action D:\wamp\www\wscloud\backoffice\Application\Office\Controller\AdminController.class.php 第 224 行.
+NOTIC: [8] Undefined index: draw D:\wamp\www\wscloud\backoffice\Application\Lib\ListManagementController.class.php 第 103 行.
+
+[ 2018-05-17T09:14:48+08:00 ] ::1 /Vehicle/lists
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000492s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000643s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000740s ]
+NOTIC: [2] include_once(../log4php/logger.php): failed to open stream: No such file or directory D:\wamp\www\wscloud\backoffice\ThinkPHP\Library\Vendor\ApiGateway\RestClient.php 第 4 行.
+NOTIC: [2] include_once(): Failed opening '../log4php/logger.php' for inclusion (include_path='.;C:\php\pear') D:\wamp\www\wscloud\backoffice\ThinkPHP\Library\Vendor\ApiGateway\RestClient.php 第 4 行.
+NOTIC: [512] log4php: Configuration failed. File not found at [./Application/Office/Conf/log4php.xml]. Using default configuration. D:\wamp\www\wscloud\backoffice\ThinkPHP\Library\Vendor\log4php\configurators\LoggerConfiguratorDefault.php 第 475 行.
+NOTIC: [512] log4php: [LoggerAppenderFile:default]: Required parameter 'file' not set. Closing appender. D:\wamp\www\wscloud\backoffice\ThinkPHP\Library\Vendor\log4php\LoggerAppender.php 第 283 行.
+NOTIC: [8] Undefined index: login D:\wamp\www\wscloud\backoffice\Application\Lib\BaseManagementController.class.php 第 123 行.
+NOTIC: [8] Trying to get property of non-object D:\wamp\www\wscloud\backoffice\Application\Lib\BaseManagementController.class.php 第 123 行.
+NOTIC: [8] Undefined index: login D:\wamp\www\wscloud\backoffice\Application\Lib\BaseManagementController.class.php 第 124 行.
+NOTIC: [8] Trying to get property of non-object D:\wamp\www\wscloud\backoffice\Application\Lib\BaseManagementController.class.php 第 124 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, integer given D:\wamp\www\wscloud\backoffice\Application\Office\Common\function.php 第 212 行.
+NOTIC: [8] Undefined index: icon D:\wamp\www\wscloud\backoffice\Application\Office\Common\function.php 第 225 行.
+NOTIC: [8] Undefined index: icon D:\wamp\www\wscloud\backoffice\Application\Office\Common\function.php 第 225 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, integer given D:\wamp\www\wscloud\backoffice\Application\Office\Common\function.php 第 212 行.
+NOTIC: [8] Undefined index: icon D:\wamp\www\wscloud\backoffice\Application\Office\Common\function.php 第 225 行.
+NOTIC: [8] Undefined index: icon D:\wamp\www\wscloud\backoffice\Application\Office\Common\function.php 第 225 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, integer given D:\wamp\www\wscloud\backoffice\Application\Office\Common\function.php 第 212 行.
+NOTIC: [8] Undefined index: icon D:\wamp\www\wscloud\backoffice\Application\Office\Common\function.php 第 225 行.
+NOTIC: [8] Undefined index: icon D:\wamp\www\wscloud\backoffice\Application\Office\Common\function.php 第 225 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, integer given D:\wamp\www\wscloud\backoffice\Application\Office\Common\function.php 第 212 行.
+NOTIC: [8] Undefined index: icon D:\wamp\www\wscloud\backoffice\Application\Office\Common\function.php 第 225 行.
+NOTIC: [8] Undefined index: icon D:\wamp\www\wscloud\backoffice\Application\Office\Common\function.php 第 225 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, integer given D:\wamp\www\wscloud\backoffice\Application\Office\Common\function.php 第 212 行.
+NOTIC: [8] Undefined index: icon D:\wamp\www\wscloud\backoffice\Application\Office\Common\function.php 第 225 行.
+NOTIC: [8] Undefined index: icon D:\wamp\www\wscloud\backoffice\Application\Office\Common\function.php 第 225 行.
+NOTIC: [8] Undefined property: stdClass::$id D:\wamp\www\wscloud\backoffice\Application\Lib\BaseManagementController.class.php 第 101 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000095s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000237s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016230s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016382s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000740s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000870s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000932s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001067s ]
+
+[ 2018-05-17T09:14:48+08:00 ] ::1 /Vehicle/search?page=1&limit=10&vehicle_no=null&companyId=5091033445
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000682s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000588s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000677s ]
+NOTIC: [2] include_once(../log4php/logger.php): failed to open stream: No such file or directory D:\wamp\www\wscloud\backoffice\ThinkPHP\Library\Vendor\ApiGateway\RestClient.php 第 4 行.
+NOTIC: [2] include_once(): Failed opening '../log4php/logger.php' for inclusion (include_path='.;C:\php\pear') D:\wamp\www\wscloud\backoffice\ThinkPHP\Library\Vendor\ApiGateway\RestClient.php 第 4 行.
+NOTIC: [512] log4php: Configuration failed. File not found at [./Application/Office/Conf/log4php.xml]. Using default configuration. D:\wamp\www\wscloud\backoffice\ThinkPHP\Library\Vendor\log4php\configurators\LoggerConfiguratorDefault.php 第 475 行.
+NOTIC: [512] log4php: [LoggerAppenderFile:default]: Required parameter 'file' not set. Closing appender. D:\wamp\www\wscloud\backoffice\ThinkPHP\Library\Vendor\log4php\LoggerAppender.php 第 283 行.
+NOTIC: [8] Undefined property: stdClass::$action D:\wamp\www\wscloud\backoffice\Application\Office\Controller\VehicleController.class.php 第 114 行.
+NOTIC: [8] Undefined property: stdClass::$action D:\wamp\www\wscloud\backoffice\Application\Office\Controller\VehicleController.class.php 第 114 行.
+NOTIC: [8] Undefined index: draw D:\wamp\www\wscloud\backoffice\Application\Lib\ListManagementController.class.php 第 103 行.
+
+[ 2018-05-17T10:13:14+08:00 ] ::1 /Vehicle/lists
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000604s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000688s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000787s ]
+NOTIC: [2] include_once(../log4php/logger.php): failed to open stream: No such file or directory D:\wamp\www\wscloud\backoffice\ThinkPHP\Library\Vendor\ApiGateway\RestClient.php 第 4 行.
+NOTIC: [2] include_once(): Failed opening '../log4php/logger.php' for inclusion (include_path='.;C:\php\pear') D:\wamp\www\wscloud\backoffice\ThinkPHP\Library\Vendor\ApiGateway\RestClient.php 第 4 行.
+NOTIC: [512] log4php: Configuration failed. File not found at [./Application/Office/Conf/log4php.xml]. Using default configuration. D:\wamp\www\wscloud\backoffice\ThinkPHP\Library\Vendor\log4php\configurators\LoggerConfiguratorDefault.php 第 475 行.
+NOTIC: [512] log4php: [LoggerAppenderFile:default]: Required parameter 'file' not set. Closing appender. D:\wamp\www\wscloud\backoffice\ThinkPHP\Library\Vendor\log4php\LoggerAppender.php 第 283 行.
+NOTIC: [8] Undefined index: login D:\wamp\www\wscloud\backoffice\Application\Lib\BaseManagementController.class.php 第 123 行.
+NOTIC: [8] Trying to get property of non-object D:\wamp\www\wscloud\backoffice\Application\Lib\BaseManagementController.class.php 第 123 行.
+NOTIC: [8] Undefined index: login D:\wamp\www\wscloud\backoffice\Application\Lib\BaseManagementController.class.php 第 124 行.
+NOTIC: [8] Trying to get property of non-object D:\wamp\www\wscloud\backoffice\Application\Lib\BaseManagementController.class.php 第 124 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, integer given D:\wamp\www\wscloud\backoffice\Application\Office\Common\function.php 第 212 行.
+NOTIC: [8] Undefined index: icon D:\wamp\www\wscloud\backoffice\Application\Office\Common\function.php 第 225 行.
+NOTIC: [8] Undefined index: icon D:\wamp\www\wscloud\backoffice\Application\Office\Common\function.php 第 225 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, integer given D:\wamp\www\wscloud\backoffice\Application\Office\Common\function.php 第 212 行.
+NOTIC: [8] Undefined index: icon D:\wamp\www\wscloud\backoffice\Application\Office\Common\function.php 第 225 行.
+NOTIC: [8] Undefined index: icon D:\wamp\www\wscloud\backoffice\Application\Office\Common\function.php 第 225 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, integer given D:\wamp\www\wscloud\backoffice\Application\Office\Common\function.php 第 212 行.
+NOTIC: [8] Undefined index: icon D:\wamp\www\wscloud\backoffice\Application\Office\Common\function.php 第 225 行.
+NOTIC: [8] Undefined index: icon D:\wamp\www\wscloud\backoffice\Application\Office\Common\function.php 第 225 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, integer given D:\wamp\www\wscloud\backoffice\Application\Office\Common\function.php 第 212 行.
+NOTIC: [8] Undefined index: icon D:\wamp\www\wscloud\backoffice\Application\Office\Common\function.php 第 225 行.
+NOTIC: [8] Undefined index: icon D:\wamp\www\wscloud\backoffice\Application\Office\Common\function.php 第 225 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, integer given D:\wamp\www\wscloud\backoffice\Application\Office\Common\function.php 第 212 行.
+NOTIC: [8] Undefined index: icon D:\wamp\www\wscloud\backoffice\Application\Office\Common\function.php 第 225 行.
+NOTIC: [8] Undefined index: icon D:\wamp\www\wscloud\backoffice\Application\Office\Common\function.php 第 225 行.
+NOTIC: [8] Undefined property: stdClass::$id D:\wamp\www\wscloud\backoffice\Application\Lib\BaseManagementController.class.php 第 101 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000061s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000156s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013238s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013356s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000451s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000533s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000650s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000736s ]
+
+[ 2018-05-17T10:13:15+08:00 ] ::1 /Vehicle/search?page=1&limit=10&vehicle_no=null&companyId=5091033445
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000537s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000942s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001087s ]
+NOTIC: [2] include_once(../log4php/logger.php): failed to open stream: No such file or directory D:\wamp\www\wscloud\backoffice\ThinkPHP\Library\Vendor\ApiGateway\RestClient.php 第 4 行.
+NOTIC: [2] include_once(): Failed opening '../log4php/logger.php' for inclusion (include_path='.;C:\php\pear') D:\wamp\www\wscloud\backoffice\ThinkPHP\Library\Vendor\ApiGateway\RestClient.php 第 4 行.
+NOTIC: [512] log4php: Configuration failed. File not found at [./Application/Office/Conf/log4php.xml]. Using default configuration. D:\wamp\www\wscloud\backoffice\ThinkPHP\Library\Vendor\log4php\configurators\LoggerConfiguratorDefault.php 第 475 行.
+NOTIC: [512] log4php: [LoggerAppenderFile:default]: Required parameter 'file' not set. Closing appender. D:\wamp\www\wscloud\backoffice\ThinkPHP\Library\Vendor\log4php\LoggerAppender.php 第 283 行.
+NOTIC: [8] Undefined property: stdClass::$action D:\wamp\www\wscloud\backoffice\Application\Office\Controller\VehicleController.class.php 第 114 行.
+NOTIC: [8] Undefined property: stdClass::$action D:\wamp\www\wscloud\backoffice\Application\Office\Controller\VehicleController.class.php 第 114 行.
+NOTIC: [8] Undefined index: draw D:\wamp\www\wscloud\backoffice\Application\Lib\ListManagementController.class.php 第 103 行.
+

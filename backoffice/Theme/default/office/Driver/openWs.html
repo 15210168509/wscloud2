@@ -1,0 +1,70 @@
+<extend name="./Theme/default/office_base.html"/>
+<block name="page-content">
+    <div class="layui-card">
+        <div class="layui-card-body">
+
+            <form class="layui-form" action="javascript:;" method="post" id="open_ws">
+                <input type="hidden" name="id" value="{$driverInfo['id']}">
+                <div class="layui-form-item">
+                    <div class="layui-inline">
+                        <label class="layui-form-label"style="width: 90px">司机姓名</label>
+                        <div class="layui-input-inline">
+                            <input type="tel" name="name" lay-verify="name" placeholder="用户姓名" maxlength="7" value="{$driverInfo['name']}"  autocomplete="off" class="layui-input">
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="layui-form-item">
+                    <div class="layui-inline">
+                        <label class="layui-form-label" style="width: 90px">登录账号</label>
+                        <div class="layui-input-inline">
+                            <input type="text" name="account" lay-verify="account" disabled placeholder="3到16位数字或字母" value="{$driverInfo['account']}"  maxlength="16" autocomplete="off" class="layui-input layui-btn-disabled">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="layui-form-item">
+                    <div class="layui-inline">
+                        <label class="layui-form-label" style="width: 90px">手机号码</label>
+                        <div class="layui-input-inline">
+                            <input type="text" name="phone" id="phone" lay-verify="phone|required" disabled placeholder="手机号码" value="{$driverInfo['phone']}" maxlength="11" autocomplete="off" class="layui-input layui-btn-disabled">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="layui-form-item">
+                    <label class="layui-form-label" style="width: 90px">登录密码</label>
+                    <div class="layui-input-inline">
+                        <input type="password" name="password" lay-verify="password" id="password" placeholder="请填写6到16位密码" maxlength="16" autocomplete="off" class="layui-input">
+                    </div>
+                </div>
+
+                <div class="layui-form-item">
+                    <label class="layui-form-label" style="width: 90px">确认密码</label>
+                    <div class="layui-input-inline">
+                        <input type="password" name="verify_password" lay-verify="verify_password" id="verify_password" placeholder="请填写6到16位密码" maxlength="16" autocomplete="off" class="layui-input">
+                    </div>
+                </div>
+                <div class="layui-form-item">
+                    <label class="layui-form-label" style="width: 90px">验证码</label>
+                    <div class="layui-input-inline">
+                        <input type="text" name="phone_code" lay-verify="phone_code" id="phone_code" placeholder="请填写手机验证码" maxlength="4" autocomplete="off" class="layui-input">
+                    </div>
+                    <div class="layui-input-inline">
+                        <button class="layui-btn" style="width: 100px" id="send_code">获取验证码</button>
+                    </div>
+
+                </div>
+
+                <div class="layui-form-item">
+                    <div class="layui-input-block">
+                        <button class="layui-btn" lay-submit="" lay-filter="demo1">提交</button>
+                        <button type="reset" class="layui-btn layui-btn-primary">重置</button>
+                    </div>
+                </div>
+            </form>
+
+        </div>
+    </div>
+</block>

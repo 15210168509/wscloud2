@@ -1,0 +1,680 @@
+[ 2018-10-26T18:56:27+08:00 ] ::1 /Office/Stat/showVehicle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000467s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000953s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001129s ]
+NOTIC: [8] Undefined index: speed D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 178 行.
+NOTIC: [8] Undefined index: gps_time D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 179 行.
+NOTIC: [8] Undefined index: gps_time D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 187 行.
+NOTIC: [8] Undefined index: course D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 189 行.
+NOTIC: [8] Undefined index: course D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 189 行.
+NOTIC: [8] Undefined index: course D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 192 行.
+NOTIC: [8] Undefined index: course D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 195 行.
+NOTIC: [8] Undefined index: course D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 198 行.
+NOTIC: [8] Undefined index: speed D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 178 行.
+NOTIC: [8] Undefined index: gps_time D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 179 行.
+NOTIC: [8] Undefined index: gps_time D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 187 行.
+NOTIC: [8] Undefined index: course D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 189 行.
+NOTIC: [8] Undefined index: course D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 189 行.
+NOTIC: [8] Undefined index: course D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 192 行.
+NOTIC: [8] Undefined index: course D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 195 行.
+NOTIC: [8] Undefined index: course D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 198 行.
+NOTIC: [8] Undefined index: speed D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 178 行.
+NOTIC: [8] Undefined index: gps_time D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 179 行.
+NOTIC: [8] Undefined index: gps_time D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 187 行.
+NOTIC: [8] Undefined index: course D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 189 行.
+NOTIC: [8] Undefined index: course D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 189 行.
+NOTIC: [8] Undefined index: course D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 192 行.
+NOTIC: [8] Undefined index: course D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 195 行.
+NOTIC: [8] Undefined index: course D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 198 行.
+
+[ 2018-10-26T18:56:27+08:00 ] ::1 /Office/Stat/showTiredValue
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000587s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001395s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001576s ]
+
+[ 2018-10-26T18:56:31+08:00 ] ::1 /Office/Stat/showTiredValue
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000850s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001317s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001495s ]
+
+[ 2018-10-26T18:56:32+08:00 ] ::1 /Office/Stat/showVehicle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000849s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001158s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001329s ]
+NOTIC: [8] Undefined index: speed D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 178 行.
+NOTIC: [8] Undefined index: gps_time D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 179 行.
+NOTIC: [8] Undefined index: gps_time D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 187 行.
+NOTIC: [8] Undefined index: course D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 189 行.
+NOTIC: [8] Undefined index: course D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 189 行.
+NOTIC: [8] Undefined index: course D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 192 行.
+NOTIC: [8] Undefined index: course D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 195 行.
+NOTIC: [8] Undefined index: course D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 198 行.
+NOTIC: [8] Undefined index: speed D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 178 行.
+NOTIC: [8] Undefined index: gps_time D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 179 行.
+NOTIC: [8] Undefined index: gps_time D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 187 行.
+NOTIC: [8] Undefined index: course D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 189 行.
+NOTIC: [8] Undefined index: course D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 189 行.
+NOTIC: [8] Undefined index: course D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 192 行.
+NOTIC: [8] Undefined index: course D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 195 行.
+NOTIC: [8] Undefined index: course D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 198 行.
+NOTIC: [8] Undefined index: speed D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 178 行.
+NOTIC: [8] Undefined index: gps_time D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 179 行.
+NOTIC: [8] Undefined index: gps_time D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 187 行.
+NOTIC: [8] Undefined index: course D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 189 行.
+NOTIC: [8] Undefined index: course D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 189 行.
+NOTIC: [8] Undefined index: course D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 192 行.
+NOTIC: [8] Undefined index: course D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 195 行.
+NOTIC: [8] Undefined index: course D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 198 行.
+
+[ 2018-10-26T18:56:35+08:00 ] ::1 /Office/Stat/showTiredValue
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000848s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000978s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001167s ]
+
+[ 2018-10-26T18:56:35+08:00 ] ::1 /Office/Stat/showVehicle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000900s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001397s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001587s ]
+NOTIC: [8] Undefined index: speed D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 178 行.
+NOTIC: [8] Undefined index: gps_time D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 179 行.
+NOTIC: [8] Undefined index: gps_time D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 187 行.
+NOTIC: [8] Undefined index: course D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 189 行.
+NOTIC: [8] Undefined index: course D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 189 行.
+NOTIC: [8] Undefined index: course D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 192 行.
+NOTIC: [8] Undefined index: course D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 195 行.
+NOTIC: [8] Undefined index: course D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 198 行.
+NOTIC: [8] Undefined index: speed D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 178 行.
+NOTIC: [8] Undefined index: gps_time D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 179 行.
+NOTIC: [8] Undefined index: gps_time D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 187 行.
+NOTIC: [8] Undefined index: course D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 189 行.
+NOTIC: [8] Undefined index: course D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 189 行.
+NOTIC: [8] Undefined index: course D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 192 行.
+NOTIC: [8] Undefined index: course D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 195 行.
+NOTIC: [8] Undefined index: course D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 198 行.
+NOTIC: [8] Undefined index: speed D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 178 行.
+NOTIC: [8] Undefined index: gps_time D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 179 行.
+NOTIC: [8] Undefined index: gps_time D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 187 行.
+NOTIC: [8] Undefined index: course D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 189 行.
+NOTIC: [8] Undefined index: course D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 189 行.
+NOTIC: [8] Undefined index: course D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 192 行.
+NOTIC: [8] Undefined index: course D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 195 行.
+NOTIC: [8] Undefined index: course D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 198 行.
+
+[ 2018-10-26T18:56:39+08:00 ] ::1 /Office/Stat/showVehicle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000378s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000597s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000717s ]
+NOTIC: [8] Undefined index: speed D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 178 行.
+NOTIC: [8] Undefined index: gps_time D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 179 行.
+NOTIC: [8] Undefined index: gps_time D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 187 行.
+NOTIC: [8] Undefined index: course D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 189 行.
+NOTIC: [8] Undefined index: course D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 189 行.
+NOTIC: [8] Undefined index: course D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 192 行.
+NOTIC: [8] Undefined index: course D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 195 行.
+NOTIC: [8] Undefined index: course D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 198 行.
+NOTIC: [8] Undefined index: speed D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 178 行.
+NOTIC: [8] Undefined index: gps_time D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 179 行.
+NOTIC: [8] Undefined index: gps_time D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 187 行.
+NOTIC: [8] Undefined index: course D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 189 行.
+NOTIC: [8] Undefined index: course D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 189 行.
+NOTIC: [8] Undefined index: course D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 192 行.
+NOTIC: [8] Undefined index: course D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 195 行.
+NOTIC: [8] Undefined index: course D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 198 行.
+NOTIC: [8] Undefined index: speed D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 178 行.
+NOTIC: [8] Undefined index: gps_time D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 179 行.
+NOTIC: [8] Undefined index: gps_time D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 187 行.
+NOTIC: [8] Undefined index: course D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 189 行.
+NOTIC: [8] Undefined index: course D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 189 行.
+NOTIC: [8] Undefined index: course D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 192 行.
+NOTIC: [8] Undefined index: course D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 195 行.
+NOTIC: [8] Undefined index: course D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 198 行.
+
+[ 2018-10-26T18:56:39+08:00 ] ::1 /Office/Stat/showTiredValue
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000547s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000809s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000942s ]
+
+[ 2018-10-26T18:56:43+08:00 ] ::1 /Office/Stat/showVehicle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000754s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000884s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001064s ]
+NOTIC: [8] Undefined index: speed D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 178 行.
+NOTIC: [8] Undefined index: gps_time D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 179 行.
+NOTIC: [8] Undefined index: gps_time D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 187 行.
+NOTIC: [8] Undefined index: course D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 189 行.
+NOTIC: [8] Undefined index: course D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 189 行.
+NOTIC: [8] Undefined index: course D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 192 行.
+NOTIC: [8] Undefined index: course D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 195 行.
+NOTIC: [8] Undefined index: course D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 198 行.
+NOTIC: [8] Undefined index: speed D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 178 行.
+NOTIC: [8] Undefined index: gps_time D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 179 行.
+NOTIC: [8] Undefined index: gps_time D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 187 行.
+NOTIC: [8] Undefined index: course D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 189 行.
+NOTIC: [8] Undefined index: course D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 189 行.
+NOTIC: [8] Undefined index: course D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 192 行.
+NOTIC: [8] Undefined index: course D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 195 行.
+NOTIC: [8] Undefined index: course D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 198 行.
+NOTIC: [8] Undefined index: speed D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 178 行.
+NOTIC: [8] Undefined index: gps_time D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 179 行.
+NOTIC: [8] Undefined index: gps_time D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 187 行.
+NOTIC: [8] Undefined index: course D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 189 行.
+NOTIC: [8] Undefined index: course D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 189 行.
+NOTIC: [8] Undefined index: course D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 192 行.
+NOTIC: [8] Undefined index: course D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 195 行.
+NOTIC: [8] Undefined index: course D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 198 行.
+
+[ 2018-10-26T18:56:43+08:00 ] ::1 /Office/Stat/showTiredValue
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000795s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001200s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001366s ]
+
+[ 2018-10-26T18:56:47+08:00 ] ::1 /Office/Stat/showVehicle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000842s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000992s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001174s ]
+NOTIC: [8] Undefined index: speed D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 178 行.
+NOTIC: [8] Undefined index: gps_time D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 179 行.
+NOTIC: [8] Undefined index: gps_time D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 187 行.
+NOTIC: [8] Undefined index: course D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 189 行.
+NOTIC: [8] Undefined index: course D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 189 行.
+NOTIC: [8] Undefined index: course D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 192 行.
+NOTIC: [8] Undefined index: course D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 195 行.
+NOTIC: [8] Undefined index: course D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 198 行.
+NOTIC: [8] Undefined index: speed D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 178 行.
+NOTIC: [8] Undefined index: gps_time D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 179 行.
+NOTIC: [8] Undefined index: gps_time D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 187 行.
+NOTIC: [8] Undefined index: course D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 189 行.
+NOTIC: [8] Undefined index: course D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 189 行.
+NOTIC: [8] Undefined index: course D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 192 行.
+NOTIC: [8] Undefined index: course D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 195 行.
+NOTIC: [8] Undefined index: course D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 198 行.
+NOTIC: [8] Undefined index: speed D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 178 行.
+NOTIC: [8] Undefined index: gps_time D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 179 行.
+NOTIC: [8] Undefined index: gps_time D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 187 行.
+NOTIC: [8] Undefined index: course D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 189 行.
+NOTIC: [8] Undefined index: course D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 189 行.
+NOTIC: [8] Undefined index: course D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 192 行.
+NOTIC: [8] Undefined index: course D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 195 行.
+NOTIC: [8] Undefined index: course D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 198 行.
+
+[ 2018-10-26T18:56:47+08:00 ] ::1 /Office/Stat/showTiredValue
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000888s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001355s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001541s ]
+
+[ 2018-10-26T18:56:51+08:00 ] ::1 /Office/Stat/showVehicle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000642s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000668s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000822s ]
+NOTIC: [8] Undefined index: speed D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 178 行.
+NOTIC: [8] Undefined index: gps_time D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 179 行.
+NOTIC: [8] Undefined index: gps_time D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 187 行.
+NOTIC: [8] Undefined index: course D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 189 行.
+NOTIC: [8] Undefined index: course D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 189 行.
+NOTIC: [8] Undefined index: course D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 192 行.
+NOTIC: [8] Undefined index: course D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 195 行.
+NOTIC: [8] Undefined index: course D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 198 行.
+NOTIC: [8] Undefined index: speed D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 178 行.
+NOTIC: [8] Undefined index: gps_time D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 179 行.
+NOTIC: [8] Undefined index: gps_time D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 187 行.
+NOTIC: [8] Undefined index: course D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 189 行.
+NOTIC: [8] Undefined index: course D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 189 行.
+NOTIC: [8] Undefined index: course D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 192 行.
+NOTIC: [8] Undefined index: course D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 195 行.
+NOTIC: [8] Undefined index: course D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 198 行.
+NOTIC: [8] Undefined index: speed D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 178 行.
+NOTIC: [8] Undefined index: gps_time D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 179 行.
+NOTIC: [8] Undefined index: gps_time D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 187 行.
+NOTIC: [8] Undefined index: course D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 189 行.
+NOTIC: [8] Undefined index: course D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 189 行.
+NOTIC: [8] Undefined index: course D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 192 行.
+NOTIC: [8] Undefined index: course D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 195 行.
+NOTIC: [8] Undefined index: course D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 198 行.
+
+[ 2018-10-26T18:56:51+08:00 ] ::1 /Office/Stat/showTiredValue
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000665s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000819s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000941s ]
+
+[ 2018-10-26T18:56:55+08:00 ] ::1 /Office/Stat/showVehicle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000552s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000617s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000746s ]
+NOTIC: [8] Undefined index: speed D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 178 行.
+NOTIC: [8] Undefined index: gps_time D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 179 行.
+NOTIC: [8] Undefined index: gps_time D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 187 行.
+NOTIC: [8] Undefined index: course D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 189 行.
+NOTIC: [8] Undefined index: course D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 189 行.
+NOTIC: [8] Undefined index: course D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 192 行.
+NOTIC: [8] Undefined index: course D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 195 行.
+NOTIC: [8] Undefined index: course D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 198 行.
+NOTIC: [8] Undefined index: speed D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 178 行.
+NOTIC: [8] Undefined index: gps_time D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 179 行.
+NOTIC: [8] Undefined index: gps_time D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 187 行.
+NOTIC: [8] Undefined index: course D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 189 行.
+NOTIC: [8] Undefined index: course D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 189 行.
+NOTIC: [8] Undefined index: course D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 192 行.
+NOTIC: [8] Undefined index: course D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 195 行.
+NOTIC: [8] Undefined index: course D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 198 行.
+NOTIC: [8] Undefined index: speed D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 178 行.
+NOTIC: [8] Undefined index: gps_time D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 179 行.
+NOTIC: [8] Undefined index: gps_time D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 187 行.
+NOTIC: [8] Undefined index: course D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 189 行.
+NOTIC: [8] Undefined index: course D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 189 行.
+NOTIC: [8] Undefined index: course D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 192 行.
+NOTIC: [8] Undefined index: course D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 195 行.
+NOTIC: [8] Undefined index: course D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 198 行.
+
+[ 2018-10-26T18:56:55+08:00 ] ::1 /Office/Stat/showTiredValue
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000551s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000876s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001005s ]
+
+[ 2018-10-26T18:56:59+08:00 ] ::1 /Office/Stat/showVehicle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000667s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000817s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000961s ]
+NOTIC: [8] Undefined index: speed D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 178 行.
+NOTIC: [8] Undefined index: gps_time D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 179 行.
+NOTIC: [8] Undefined index: gps_time D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 187 行.
+NOTIC: [8] Undefined index: course D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 189 行.
+NOTIC: [8] Undefined index: course D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 189 行.
+NOTIC: [8] Undefined index: course D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 192 行.
+NOTIC: [8] Undefined index: course D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 195 行.
+NOTIC: [8] Undefined index: course D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 198 行.
+NOTIC: [8] Undefined index: speed D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 178 行.
+NOTIC: [8] Undefined index: gps_time D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 179 行.
+NOTIC: [8] Undefined index: gps_time D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 187 行.
+NOTIC: [8] Undefined index: course D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 189 行.
+NOTIC: [8] Undefined index: course D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 189 行.
+NOTIC: [8] Undefined index: course D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 192 行.
+NOTIC: [8] Undefined index: course D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 195 行.
+NOTIC: [8] Undefined index: course D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 198 行.
+NOTIC: [8] Undefined index: speed D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 178 行.
+NOTIC: [8] Undefined index: gps_time D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 179 行.
+NOTIC: [8] Undefined index: gps_time D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 187 行.
+NOTIC: [8] Undefined index: course D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 189 行.
+NOTIC: [8] Undefined index: course D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 189 行.
+NOTIC: [8] Undefined index: course D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 192 行.
+NOTIC: [8] Undefined index: course D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 195 行.
+NOTIC: [8] Undefined index: course D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 198 行.
+
+[ 2018-10-26T18:57:00+08:00 ] ::1 /Office/Stat/showTiredValue
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000712s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001138s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001293s ]
+
+[ 2018-10-26T18:57:03+08:00 ] ::1 /Office/Stat/showTiredValue
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000446s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000640s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000728s ]
+
+[ 2018-10-26T18:57:03+08:00 ] ::1 /Office/Stat/showVehicle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000548s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000627s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000822s ]
+NOTIC: [8] Undefined index: speed D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 178 行.
+NOTIC: [8] Undefined index: gps_time D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 179 行.
+NOTIC: [8] Undefined index: gps_time D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 187 行.
+NOTIC: [8] Undefined index: course D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 189 行.
+NOTIC: [8] Undefined index: course D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 189 行.
+NOTIC: [8] Undefined index: course D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 192 行.
+NOTIC: [8] Undefined index: course D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 195 行.
+NOTIC: [8] Undefined index: course D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 198 行.
+NOTIC: [8] Undefined index: speed D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 178 行.
+NOTIC: [8] Undefined index: gps_time D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 179 行.
+NOTIC: [8] Undefined index: gps_time D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 187 行.
+NOTIC: [8] Undefined index: course D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 189 行.
+NOTIC: [8] Undefined index: course D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 189 行.
+NOTIC: [8] Undefined index: course D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 192 行.
+NOTIC: [8] Undefined index: course D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 195 行.
+NOTIC: [8] Undefined index: course D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 198 行.
+NOTIC: [8] Undefined index: speed D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 178 行.
+NOTIC: [8] Undefined index: gps_time D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 179 行.
+NOTIC: [8] Undefined index: gps_time D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 187 行.
+NOTIC: [8] Undefined index: course D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 189 行.
+NOTIC: [8] Undefined index: course D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 189 行.
+NOTIC: [8] Undefined index: course D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 192 行.
+NOTIC: [8] Undefined index: course D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 195 行.
+NOTIC: [8] Undefined index: course D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 198 行.
+
+[ 2018-10-26T18:57:07+08:00 ] ::1 /Office/Stat/showTiredValue
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000571s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000589s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000717s ]
+
+[ 2018-10-26T18:57:07+08:00 ] ::1 /Office/Stat/showVehicle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000605s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000805s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000945s ]
+NOTIC: [8] Undefined index: speed D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 178 行.
+NOTIC: [8] Undefined index: gps_time D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 179 行.
+NOTIC: [8] Undefined index: gps_time D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 187 行.
+NOTIC: [8] Undefined index: course D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 189 行.
+NOTIC: [8] Undefined index: course D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 189 行.
+NOTIC: [8] Undefined index: course D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 192 行.
+NOTIC: [8] Undefined index: course D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 195 行.
+NOTIC: [8] Undefined index: course D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 198 行.
+NOTIC: [8] Undefined index: speed D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 178 行.
+NOTIC: [8] Undefined index: gps_time D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 179 行.
+NOTIC: [8] Undefined index: gps_time D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 187 行.
+NOTIC: [8] Undefined index: course D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 189 行.
+NOTIC: [8] Undefined index: course D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 189 行.
+NOTIC: [8] Undefined index: course D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 192 行.
+NOTIC: [8] Undefined index: course D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 195 行.
+NOTIC: [8] Undefined index: course D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 198 行.
+NOTIC: [8] Undefined index: speed D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 178 行.
+NOTIC: [8] Undefined index: gps_time D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 179 行.
+NOTIC: [8] Undefined index: gps_time D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 187 行.
+NOTIC: [8] Undefined index: course D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 189 行.
+NOTIC: [8] Undefined index: course D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 189 行.
+NOTIC: [8] Undefined index: course D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 192 行.
+NOTIC: [8] Undefined index: course D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 195 行.
+NOTIC: [8] Undefined index: course D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 198 行.
+
+[ 2018-10-26T18:57:11+08:00 ] ::1 /Office/Stat/showVehicle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000723s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002266s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002507s ]
+NOTIC: [8] Undefined index: speed D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 178 行.
+NOTIC: [8] Undefined index: gps_time D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 179 行.
+NOTIC: [8] Undefined index: gps_time D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 187 行.
+NOTIC: [8] Undefined index: course D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 189 行.
+NOTIC: [8] Undefined index: course D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 189 行.
+NOTIC: [8] Undefined index: course D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 192 行.
+NOTIC: [8] Undefined index: course D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 195 行.
+NOTIC: [8] Undefined index: course D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 198 行.
+NOTIC: [8] Undefined index: speed D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 178 行.
+NOTIC: [8] Undefined index: gps_time D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 179 行.
+NOTIC: [8] Undefined index: gps_time D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 187 行.
+NOTIC: [8] Undefined index: course D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 189 行.
+NOTIC: [8] Undefined index: course D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 189 行.
+NOTIC: [8] Undefined index: course D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 192 行.
+NOTIC: [8] Undefined index: course D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 195 行.
+NOTIC: [8] Undefined index: course D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 198 行.
+NOTIC: [8] Undefined index: speed D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 178 行.
+NOTIC: [8] Undefined index: gps_time D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 179 行.
+NOTIC: [8] Undefined index: gps_time D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 187 行.
+NOTIC: [8] Undefined index: course D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 189 行.
+NOTIC: [8] Undefined index: course D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 189 行.
+NOTIC: [8] Undefined index: course D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 192 行.
+NOTIC: [8] Undefined index: course D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 195 行.
+NOTIC: [8] Undefined index: course D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 198 行.
+
+[ 2018-10-26T18:57:11+08:00 ] ::1 /Office/Stat/showTiredValue
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001138s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001167s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001326s ]
+
+[ 2018-10-26T18:57:15+08:00 ] ::1 /Office/Stat/showVehicle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000964s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000887s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001087s ]
+NOTIC: [8] Undefined index: speed D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 178 行.
+NOTIC: [8] Undefined index: gps_time D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 179 行.
+NOTIC: [8] Undefined index: gps_time D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 187 行.
+NOTIC: [8] Undefined index: course D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 189 行.
+NOTIC: [8] Undefined index: course D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 189 行.
+NOTIC: [8] Undefined index: course D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 192 行.
+NOTIC: [8] Undefined index: course D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 195 行.
+NOTIC: [8] Undefined index: course D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 198 行.
+NOTIC: [8] Undefined index: speed D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 178 行.
+NOTIC: [8] Undefined index: gps_time D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 179 行.
+NOTIC: [8] Undefined index: gps_time D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 187 行.
+NOTIC: [8] Undefined index: course D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 189 行.
+NOTIC: [8] Undefined index: course D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 189 行.
+NOTIC: [8] Undefined index: course D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 192 行.
+NOTIC: [8] Undefined index: course D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 195 行.
+NOTIC: [8] Undefined index: course D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 198 行.
+NOTIC: [8] Undefined index: speed D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 178 行.
+NOTIC: [8] Undefined index: gps_time D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 179 行.
+NOTIC: [8] Undefined index: gps_time D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 187 行.
+NOTIC: [8] Undefined index: course D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 189 行.
+NOTIC: [8] Undefined index: course D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 189 行.
+NOTIC: [8] Undefined index: course D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 192 行.
+NOTIC: [8] Undefined index: course D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 195 行.
+NOTIC: [8] Undefined index: course D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 198 行.
+
+[ 2018-10-26T18:57:15+08:00 ] ::1 /Office/Stat/showTiredValue
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000993s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000677s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000778s ]
+
+[ 2018-10-26T18:57:19+08:00 ] ::1 /Office/Stat/showVehicle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000759s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000883s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001041s ]
+NOTIC: [8] Undefined index: speed D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 178 行.
+NOTIC: [8] Undefined index: gps_time D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 179 行.
+NOTIC: [8] Undefined index: gps_time D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 187 行.
+NOTIC: [8] Undefined index: course D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 189 行.
+NOTIC: [8] Undefined index: course D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 189 行.
+NOTIC: [8] Undefined index: course D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 192 行.
+NOTIC: [8] Undefined index: course D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 195 行.
+NOTIC: [8] Undefined index: course D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 198 行.
+NOTIC: [8] Undefined index: speed D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 178 行.
+NOTIC: [8] Undefined index: gps_time D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 179 行.
+NOTIC: [8] Undefined index: gps_time D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 187 行.
+NOTIC: [8] Undefined index: course D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 189 行.
+NOTIC: [8] Undefined index: course D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 189 行.
+NOTIC: [8] Undefined index: course D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 192 行.
+NOTIC: [8] Undefined index: course D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 195 行.
+NOTIC: [8] Undefined index: course D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 198 行.
+NOTIC: [8] Undefined index: speed D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 178 行.
+NOTIC: [8] Undefined index: gps_time D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 179 行.
+NOTIC: [8] Undefined index: gps_time D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 187 行.
+NOTIC: [8] Undefined index: course D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 189 行.
+NOTIC: [8] Undefined index: course D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 189 行.
+NOTIC: [8] Undefined index: course D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 192 行.
+NOTIC: [8] Undefined index: course D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 195 行.
+NOTIC: [8] Undefined index: course D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 198 行.
+
+[ 2018-10-26T18:57:19+08:00 ] ::1 /Office/Stat/showTiredValue
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000802s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001398s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001563s ]
+
+[ 2018-10-26T18:57:23+08:00 ] ::1 /Office/Stat/showVehicle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000547s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000572s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000704s ]
+NOTIC: [8] Undefined index: speed D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 178 行.
+NOTIC: [8] Undefined index: gps_time D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 179 行.
+NOTIC: [8] Undefined index: gps_time D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 187 行.
+NOTIC: [8] Undefined index: course D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 189 行.
+NOTIC: [8] Undefined index: course D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 189 行.
+NOTIC: [8] Undefined index: course D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 192 行.
+NOTIC: [8] Undefined index: course D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 195 行.
+NOTIC: [8] Undefined index: course D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 198 行.
+NOTIC: [8] Undefined index: speed D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 178 行.
+NOTIC: [8] Undefined index: gps_time D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 179 行.
+NOTIC: [8] Undefined index: gps_time D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 187 行.
+NOTIC: [8] Undefined index: course D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 189 行.
+NOTIC: [8] Undefined index: course D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 189 行.
+NOTIC: [8] Undefined index: course D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 192 行.
+NOTIC: [8] Undefined index: course D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 195 行.
+NOTIC: [8] Undefined index: course D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 198 行.
+NOTIC: [8] Undefined index: speed D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 178 行.
+NOTIC: [8] Undefined index: gps_time D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 179 行.
+NOTIC: [8] Undefined index: gps_time D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 187 行.
+NOTIC: [8] Undefined index: course D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 189 行.
+NOTIC: [8] Undefined index: course D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 189 行.
+NOTIC: [8] Undefined index: course D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 192 行.
+NOTIC: [8] Undefined index: course D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 195 行.
+NOTIC: [8] Undefined index: course D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 198 行.
+
+[ 2018-10-26T18:57:23+08:00 ] ::1 /Office/Stat/showTiredValue
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000548s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000856s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000982s ]
+
+[ 2018-10-26T18:57:27+08:00 ] ::1 /Office/Stat/showVehicle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000466s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000549s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000648s ]
+NOTIC: [8] Undefined index: speed D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 178 行.
+NOTIC: [8] Undefined index: gps_time D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 179 行.
+NOTIC: [8] Undefined index: gps_time D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 187 行.
+NOTIC: [8] Undefined index: course D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 189 行.
+NOTIC: [8] Undefined index: course D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 189 行.
+NOTIC: [8] Undefined index: course D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 192 行.
+NOTIC: [8] Undefined index: course D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 195 行.
+NOTIC: [8] Undefined index: course D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 198 行.
+NOTIC: [8] Undefined index: speed D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 178 行.
+NOTIC: [8] Undefined index: gps_time D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 179 行.
+NOTIC: [8] Undefined index: gps_time D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 187 行.
+NOTIC: [8] Undefined index: course D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 189 行.
+NOTIC: [8] Undefined index: course D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 189 行.
+NOTIC: [8] Undefined index: course D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 192 行.
+NOTIC: [8] Undefined index: course D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 195 行.
+NOTIC: [8] Undefined index: course D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 198 行.
+NOTIC: [8] Undefined index: speed D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 178 行.
+NOTIC: [8] Undefined index: gps_time D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 179 行.
+NOTIC: [8] Undefined index: gps_time D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 187 行.
+NOTIC: [8] Undefined index: course D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 189 行.
+NOTIC: [8] Undefined index: course D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 189 行.
+NOTIC: [8] Undefined index: course D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 192 行.
+NOTIC: [8] Undefined index: course D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 195 行.
+NOTIC: [8] Undefined index: course D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 198 行.
+
+[ 2018-10-26T18:57:27+08:00 ] ::1 /Office/Stat/showTiredValue
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000516s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000808s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000915s ]
+
+[ 2018-10-26T18:57:31+08:00 ] ::1 /Office/Stat/showVehicle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001168s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001197s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001415s ]
+NOTIC: [8] Undefined index: speed D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 178 行.
+NOTIC: [8] Undefined index: gps_time D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 179 行.
+NOTIC: [8] Undefined index: gps_time D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 187 行.
+NOTIC: [8] Undefined index: course D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 189 行.
+NOTIC: [8] Undefined index: course D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 189 行.
+NOTIC: [8] Undefined index: course D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 192 行.
+NOTIC: [8] Undefined index: course D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 195 行.
+NOTIC: [8] Undefined index: course D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 198 行.
+NOTIC: [8] Undefined index: speed D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 178 行.
+NOTIC: [8] Undefined index: gps_time D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 179 行.
+NOTIC: [8] Undefined index: gps_time D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 187 行.
+NOTIC: [8] Undefined index: course D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 189 行.
+NOTIC: [8] Undefined index: course D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 189 行.
+NOTIC: [8] Undefined index: course D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 192 行.
+NOTIC: [8] Undefined index: course D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 195 行.
+NOTIC: [8] Undefined index: course D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 198 行.
+NOTIC: [8] Undefined index: speed D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 178 行.
+NOTIC: [8] Undefined index: gps_time D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 179 行.
+NOTIC: [8] Undefined index: gps_time D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 187 行.
+NOTIC: [8] Undefined index: course D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 189 行.
+NOTIC: [8] Undefined index: course D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 189 行.
+NOTIC: [8] Undefined index: course D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 192 行.
+NOTIC: [8] Undefined index: course D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 195 行.
+NOTIC: [8] Undefined index: course D:\wamp\www\wscloud\backoffice\Application\Office\Controller\StatController.class.php 第 198 行.
+
+[ 2018-10-26T18:57:31+08:00 ] ::1 /Office/Stat/showTiredValue
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001076s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001016s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001195s ]
+

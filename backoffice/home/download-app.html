@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>APP下载</title>
+<!-- custom-theme -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="" />
+
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" /><!-- bootstrap-css -->
+
+<link href="css/download.css" rel="stylesheet" type="text/css" media="all" />
+
+</head>
+	
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+ 
+ <!--/banner-section-->
+
+<!-- popular packages -->
+<div class="packages" id="packages">
+	<div class="container">
+		<div class="wthree_head_section">
+			<h3 class="title">微视小秘APP下载</h3>
+		</div>
+		<div class="packages_grids">
+			<div class="packages_grid1">
+				<div class="col-md-3 package1">
+					<img src="img/download/logo.jpg" alt="package1" />
+					<button  class="btn btn-primary btn-lg" onclick="downloadApp()">立即下载</button >
+				</div>					
+			</div>
+		</div>
+	</div>
+</div>
+<!-- //popular packages -->
+
+ <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+	 <div class="modal-dialog" role="document">
+		 <div class="modal-content">
+	 		<img src="img/download/open.jpg" style="width: 100%">
+		 </div>
+	 </div>
+ </div>
+
+<!-- //contact -->
+ 
+<!-- footer start here -->
+<div class="footer-agile">
+	<!-- newsletter -->
+		
+	<!-- //newsletter -->
+		<div class="container">
+				<div class="col-sm-8 col-xs-9 copy-w3lsright">
+					<p> &copy; 2018. 华迅微视（香港）科技有限公司</p>
+				</div>
+		</div>
+</div>
+<!-- //footer end here -->
+
+ <script type="text/javascript" src="js/jquery.min.js"></script>
+ <script type="text/javascript" src="js/bootstrap.js"></script>
+
+<script>
+	function downloadApp() {
+		var ua = navigator.userAgent.toLowerCase();
+		var isWeixin = ua.indexOf('micromessenger') != -1;
+		if (isWeixin) {
+			$('#myModal').modal('show');
+		}else{
+			window.location.href = 'https://vshi-android-patch.oss-cn-beijing.aliyuncs.com/app/vshi_v1.0.2.apk';
+		}
+	}
+
+
+</script>
+
+</body>
+</html>

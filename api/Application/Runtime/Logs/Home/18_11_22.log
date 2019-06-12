@@ -1,0 +1,1293 @@
+[ 2018-11-22T18:06:14+08:00 ] ::1 /Home/Device/ajaxAddDeviceSetting/token/3d67b031f5e48be967bbb146960fccaf
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001343s ]
+INFO: [ url_dispatch ] --START--
+INFO: Run Lib\Behavior\SignCheckBehavior [ RunTime:0.002547s ]
+INFO: Run Lib\Behavior\TokenCheckBehavior [ RunTime:0.026188s ]
+INFO: Run Lib\Behavior\MethodCheckBehavior [ RunTime:0.001141s ]
+INFO: [ url_dispatch ] --END-- [ RunTime:0.030293s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001119s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001261s ]
+SQL: SHOW COLUMNS FROM `device_setting` [ RunTime:0.0135s ]
+
+[ 2018-11-22T18:06:41+08:00 ] ::1 /Home/Device/ajaxAddDeviceSetting/token/3d67b031f5e48be967bbb146960fccaf
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000505s ]
+INFO: [ url_dispatch ] --START--
+INFO: Run Lib\Behavior\SignCheckBehavior [ RunTime:0.000903s ]
+INFO: Run Lib\Behavior\TokenCheckBehavior [ RunTime:0.027841s ]
+INFO: Run Lib\Behavior\MethodCheckBehavior [ RunTime:0.000744s ]
+INFO: [ url_dispatch ] --END-- [ RunTime:0.029722s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000900s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001028s ]
+SQL: SHOW COLUMNS FROM `device_setting` [ RunTime:0.0145s ]
+
+[ 2018-11-22T18:08:06+08:00 ] ::1 /Home/Device/ajaxAddDeviceSetting/token/3d67b031f5e48be967bbb146960fccaf
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000517s ]
+INFO: [ url_dispatch ] --START--
+INFO: Run Lib\Behavior\SignCheckBehavior [ RunTime:0.001253s ]
+INFO: Run Lib\Behavior\TokenCheckBehavior [ RunTime:0.018537s ]
+INFO: Run Lib\Behavior\MethodCheckBehavior [ RunTime:0.000951s ]
+INFO: [ url_dispatch ] --END-- [ RunTime:0.021056s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000851s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000989s ]
+SQL: SHOW COLUMNS FROM `device_setting` [ RunTime:0.0098s ]
+
+[ 2018-11-22T18:08:17+08:00 ] ::1 /Home/Device/ajaxAddDeviceSetting/token/3d67b031f5e48be967bbb146960fccaf
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000464s ]
+INFO: [ url_dispatch ] --START--
+INFO: Run Lib\Behavior\SignCheckBehavior [ RunTime:0.001012s ]
+INFO: Run Lib\Behavior\TokenCheckBehavior [ RunTime:0.033004s ]
+INFO: Run Lib\Behavior\MethodCheckBehavior [ RunTime:0.000725s ]
+INFO: [ url_dispatch ] --END-- [ RunTime:0.034966s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000674s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000770s ]
+SQL: SHOW COLUMNS FROM `device_setting` [ RunTime:0.0203s ]
+SQL: UPDATE `device_setting` SET `value`='1',`update_user`='2517844598',`update_time`='1542881296' WHERE `company_id` = '1447247968' AND `type` = 10 [ RunTime:0.0519s ]
+SQL: UPDATE `device_setting` SET `value`='1',`update_user`='2517844598',`update_time`='1542881296' WHERE `company_id` = '1447247968' AND `type` = 20 [ RunTime:0.0346s ]
+SQL: UPDATE `device_setting` SET `value`='1',`update_user`='2517844598',`update_time`='1542881296' WHERE `company_id` = '1447247968' AND `type` = 30 [ RunTime:0.0239s ]
+SQL: UPDATE `device_setting` SET `value`='1',`update_user`='2517844598',`update_time`='1542881296' WHERE `company_id` = '1447247968' AND `type` = 40 [ RunTime:0.0246s ]
+SQL: UPDATE `device_setting` SET `value`='1',`update_user`='2517844598',`update_time`='1542881296' WHERE `company_id` = '1447247968' AND `type` = 50 [ RunTime:0.0242s ]
+SQL: UPDATE `device_setting` SET `value`='20',`update_user`='2517844598',`update_time`='1542881296' WHERE `company_id` = '1447247968' AND `type` = 60 [ RunTime:0.0249s ]
+SQL: UPDATE `device_setting` SET `value`='1.5',`update_user`='2517844598',`update_time`='1542881296' WHERE `company_id` = '1447247968' AND `type` = 70 [ RunTime:0.0243s ]
+SQL: UPDATE `device_setting` SET `value`='25',`update_user`='2517844598',`update_time`='1542881296' WHERE `company_id` = '1447247968' AND `type` = 80 [ RunTime:0.0243s ]
+SQL: UPDATE `device_setting` SET `value`='25',`update_user`='2517844598',`update_time`='1542881296' WHERE `company_id` = '1447247968' AND `type` = 90 [ RunTime:0.0232s ]
+SQL: UPDATE `device_setting` SET `value`='1.5',`update_user`='2517844598',`update_time`='1542881296' WHERE `company_id` = '1447247968' AND `type` = 100 [ RunTime:0.0239s ]
+
+[ 2018-11-22T18:08:31+08:00 ] ::1 /Home/Device/ajaxAddDeviceSetting/token/3d67b031f5e48be967bbb146960fccaf
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000442s ]
+INFO: [ url_dispatch ] --START--
+INFO: Run Lib\Behavior\SignCheckBehavior [ RunTime:0.000996s ]
+INFO: Run Lib\Behavior\TokenCheckBehavior [ RunTime:0.034627s ]
+INFO: Run Lib\Behavior\MethodCheckBehavior [ RunTime:0.000679s ]
+INFO: [ url_dispatch ] --END-- [ RunTime:0.036517s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000743s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000835s ]
+SQL: SHOW COLUMNS FROM `device_setting` [ RunTime:0.0114s ]
+SQL: UPDATE `device_setting` SET `value`='1',`update_user`='2517844598',`update_time`='1542881310' WHERE `company_id` = '1447247968' AND `type` = 20 [ RunTime:0.0734s ]
+SQL: UPDATE `device_setting` SET `value`='1',`update_user`='2517844598',`update_time`='1542881310' WHERE `company_id` = '1447247968' AND `type` = 30 [ RunTime:0.0300s ]
+SQL: UPDATE `device_setting` SET `value`='1',`update_user`='2517844598',`update_time`='1542881310' WHERE `company_id` = '1447247968' AND `type` = 40 [ RunTime:0.0242s ]
+SQL: UPDATE `device_setting` SET `value`='1',`update_user`='2517844598',`update_time`='1542881310' WHERE `company_id` = '1447247968' AND `type` = 50 [ RunTime:0.0248s ]
+SQL: UPDATE `device_setting` SET `value`='20',`update_user`='2517844598',`update_time`='1542881310' WHERE `company_id` = '1447247968' AND `type` = 60 [ RunTime:0.0237s ]
+SQL: UPDATE `device_setting` SET `value`='1.5',`update_user`='2517844598',`update_time`='1542881310' WHERE `company_id` = '1447247968' AND `type` = 70 [ RunTime:0.0236s ]
+SQL: UPDATE `device_setting` SET `value`='25',`update_user`='2517844598',`update_time`='1542881310' WHERE `company_id` = '1447247968' AND `type` = 80 [ RunTime:0.0236s ]
+SQL: UPDATE `device_setting` SET `value`='25',`update_user`='2517844598',`update_time`='1542881310' WHERE `company_id` = '1447247968' AND `type` = 90 [ RunTime:0.0236s ]
+SQL: UPDATE `device_setting` SET `value`='1.5',`update_user`='2517844598',`update_time`='1542881311' WHERE `company_id` = '1447247968' AND `type` = 100 [ RunTime:0.0236s ]
+
+[ 2018-11-22T18:08:45+08:00 ] ::1 /Home/Device/getCompanyDeviceSetting/company_id/1447247968/token/3d67b031f5e48be967bbb146960fccaf
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000498s ]
+INFO: [ url_dispatch ] --START--
+INFO: Run Lib\Behavior\SignCheckBehavior [ RunTime:0.001202s ]
+INFO: Run Lib\Behavior\TokenCheckBehavior [ RunTime:0.026673s ]
+INFO: Run Lib\Behavior\MethodCheckBehavior [ RunTime:0.000791s ]
+INFO: [ url_dispatch ] --END-- [ RunTime:0.028898s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000663s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000757s ]
+SQL: SHOW COLUMNS FROM `device_setting` [ RunTime:0.0085s ]
+SQL: SELECT * FROM `device_setting` WHERE `company_id` = '1447247968'  [ RunTime:0.0004s ]
+
+[ 2018-11-22T18:08:45+08:00 ] ::1 /Home/System/getSystemSetting/companyId/1447247968/type/20/token/3d67b031f5e48be967bbb146960fccaf
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000543s ]
+INFO: [ url_dispatch ] --START--
+INFO: Run Lib\Behavior\SignCheckBehavior [ RunTime:0.001087s ]
+INFO: Run Lib\Behavior\TokenCheckBehavior [ RunTime:0.034846s ]
+INFO: Run Lib\Behavior\MethodCheckBehavior [ RunTime:0.000786s ]
+INFO: [ url_dispatch ] --END-- [ RunTime:0.036963s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000660s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000754s ]
+SQL: SHOW COLUMNS FROM `system_setting` [ RunTime:0.0085s ]
+SQL: SELECT `value` FROM `system_setting` WHERE `type` = 20 AND `del_flg` = 0 AND `company_id` = '1447247968' LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-11-22T18:08:46+08:00 ] ::1 /Home/Admin/getAdminMsgCount/status/10/token/3d67b031f5e48be967bbb146960fccaf
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000469s ]
+INFO: [ url_dispatch ] --START--
+INFO: Run Lib\Behavior\SignCheckBehavior [ RunTime:0.001146s ]
+INFO: Run Lib\Behavior\TokenCheckBehavior [ RunTime:0.026981s ]
+INFO: Run Lib\Behavior\MethodCheckBehavior [ RunTime:0.000880s ]
+INFO: [ url_dispatch ] --END-- [ RunTime:0.029243s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000764s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000862s ]
+SQL: SHOW COLUMNS FROM `admin_msg` [ RunTime:0.0088s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_msg` WHERE `status` = '10' AND `admin_id` = '2517844598' LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-11-22T18:08:50+08:00 ] ::1 /Home/Device/ajaxAddDeviceSetting/token/3d67b031f5e48be967bbb146960fccaf
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000472s ]
+INFO: [ url_dispatch ] --START--
+INFO: Run Lib\Behavior\SignCheckBehavior [ RunTime:0.001191s ]
+INFO: Run Lib\Behavior\TokenCheckBehavior [ RunTime:0.022388s ]
+INFO: Run Lib\Behavior\MethodCheckBehavior [ RunTime:0.001096s ]
+INFO: [ url_dispatch ] --END-- [ RunTime:0.024977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000679s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000779s ]
+SQL: SHOW COLUMNS FROM `device_setting` [ RunTime:0.0093s ]
+SQL: UPDATE `device_setting` SET `value`='1',`update_user`='2517844598',`update_time`='1542881330' WHERE `company_id` = '1447247968' AND `type` = 20 [ RunTime:0.0276s ]
+SQL: UPDATE `device_setting` SET `value`='1',`update_user`='2517844598',`update_time`='1542881330' WHERE `company_id` = '1447247968' AND `type` = 30 [ RunTime:0.0233s ]
+SQL: UPDATE `device_setting` SET `value`='1',`update_user`='2517844598',`update_time`='1542881330' WHERE `company_id` = '1447247968' AND `type` = 40 [ RunTime:0.0331s ]
+SQL: UPDATE `device_setting` SET `value`='1',`update_user`='2517844598',`update_time`='1542881330' WHERE `company_id` = '1447247968' AND `type` = 50 [ RunTime:0.0243s ]
+SQL: UPDATE `device_setting` SET `value`='20',`update_user`='2517844598',`update_time`='1542881330' WHERE `company_id` = '1447247968' AND `type` = 60 [ RunTime:0.0240s ]
+SQL: UPDATE `device_setting` SET `value`='1.5',`update_user`='2517844598',`update_time`='1542881330' WHERE `company_id` = '1447247968' AND `type` = 70 [ RunTime:0.0234s ]
+SQL: UPDATE `device_setting` SET `value`='25',`update_user`='2517844598',`update_time`='1542881330' WHERE `company_id` = '1447247968' AND `type` = 80 [ RunTime:0.0239s ]
+SQL: UPDATE `device_setting` SET `value`='25',`update_user`='2517844598',`update_time`='1542881330' WHERE `company_id` = '1447247968' AND `type` = 90 [ RunTime:0.0233s ]
+SQL: UPDATE `device_setting` SET `value`='1.5',`update_user`='2517844598',`update_time`='1542881330' WHERE `company_id` = '1447247968' AND `type` = 100 [ RunTime:0.0248s ]
+
+[ 2018-11-22T18:09:01+08:00 ] ::1 /Home/Device/getCompanyDeviceSetting/company_id/1447247968/token/3d67b031f5e48be967bbb146960fccaf
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000453s ]
+INFO: [ url_dispatch ] --START--
+INFO: Run Lib\Behavior\SignCheckBehavior [ RunTime:0.001039s ]
+INFO: Run Lib\Behavior\TokenCheckBehavior [ RunTime:0.021892s ]
+INFO: Run Lib\Behavior\MethodCheckBehavior [ RunTime:0.000748s ]
+INFO: [ url_dispatch ] --END-- [ RunTime:0.023899s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000641s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000733s ]
+SQL: SHOW COLUMNS FROM `device_setting` [ RunTime:0.0084s ]
+SQL: SELECT * FROM `device_setting` WHERE `company_id` = '1447247968'  [ RunTime:0.0006s ]
+
+[ 2018-11-22T18:09:01+08:00 ] ::1 /Home/System/getSystemSetting/companyId/1447247968/type/20/token/3d67b031f5e48be967bbb146960fccaf
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000724s ]
+INFO: [ url_dispatch ] --START--
+INFO: Run Lib\Behavior\SignCheckBehavior [ RunTime:0.001306s ]
+INFO: Run Lib\Behavior\TokenCheckBehavior [ RunTime:0.027072s ]
+INFO: Run Lib\Behavior\MethodCheckBehavior [ RunTime:0.000841s ]
+INFO: [ url_dispatch ] --END-- [ RunTime:0.029462s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000741s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000866s ]
+SQL: SHOW COLUMNS FROM `system_setting` [ RunTime:0.0088s ]
+SQL: SELECT `value` FROM `system_setting` WHERE `type` = 20 AND `del_flg` = 0 AND `company_id` = '1447247968' LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2018-11-22T18:09:01+08:00 ] ::1 /Home/Admin/getAdminMsgCount/status/10/token/3d67b031f5e48be967bbb146960fccaf
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000457s ]
+INFO: [ url_dispatch ] --START--
+INFO: Run Lib\Behavior\SignCheckBehavior [ RunTime:0.001268s ]
+INFO: Run Lib\Behavior\TokenCheckBehavior [ RunTime:0.031680s ]
+INFO: Run Lib\Behavior\MethodCheckBehavior [ RunTime:0.000873s ]
+INFO: [ url_dispatch ] --END-- [ RunTime:0.034042s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000763s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000857s ]
+SQL: SHOW COLUMNS FROM `admin_msg` [ RunTime:0.0092s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_msg` WHERE `status` = '10' AND `admin_id` = '2517844598' LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2018-11-22T18:09:05+08:00 ] ::1 /Home/Device/ajaxAddDeviceSetting/token/3d67b031f5e48be967bbb146960fccaf
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000580s ]
+INFO: [ url_dispatch ] --START--
+INFO: Run Lib\Behavior\SignCheckBehavior [ RunTime:0.001375s ]
+INFO: Run Lib\Behavior\TokenCheckBehavior [ RunTime:0.030778s ]
+INFO: Run Lib\Behavior\MethodCheckBehavior [ RunTime:0.000923s ]
+INFO: [ url_dispatch ] --END-- [ RunTime:0.033318s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000669s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000765s ]
+SQL: SHOW COLUMNS FROM `device_setting` [ RunTime:0.0091s ]
+SQL: UPDATE `device_setting` SET `value`='1',`update_user`='2517844598',`update_time`='1542881345' WHERE `company_id` = '1447247968' AND `type` = 20 [ RunTime:0.1104s ]
+SQL: UPDATE `device_setting` SET `value`='1',`update_user`='2517844598',`update_time`='1542881345' WHERE `company_id` = '1447247968' AND `type` = 30 [ RunTime:0.0277s ]
+SQL: UPDATE `device_setting` SET `value`='1',`update_user`='2517844598',`update_time`='1542881345' WHERE `company_id` = '1447247968' AND `type` = 40 [ RunTime:0.0243s ]
+SQL: UPDATE `device_setting` SET `value`='1',`update_user`='2517844598',`update_time`='1542881345' WHERE `company_id` = '1447247968' AND `type` = 50 [ RunTime:0.0236s ]
+SQL: UPDATE `device_setting` SET `value`='20',`update_user`='2517844598',`update_time`='1542881345' WHERE `company_id` = '1447247968' AND `type` = 60 [ RunTime:0.0238s ]
+SQL: UPDATE `device_setting` SET `value`='1.5',`update_user`='2517844598',`update_time`='1542881345' WHERE `company_id` = '1447247968' AND `type` = 70 [ RunTime:0.0237s ]
+SQL: UPDATE `device_setting` SET `value`='25',`update_user`='2517844598',`update_time`='1542881345' WHERE `company_id` = '1447247968' AND `type` = 80 [ RunTime:0.0243s ]
+SQL: UPDATE `device_setting` SET `value`='25',`update_user`='2517844598',`update_time`='1542881345' WHERE `company_id` = '1447247968' AND `type` = 90 [ RunTime:0.0232s ]
+SQL: UPDATE `device_setting` SET `value`='1.5',`update_user`='2517844598',`update_time`='1542881345' WHERE `company_id` = '1447247968' AND `type` = 100 [ RunTime:0.0243s ]
+
+[ 2018-11-22T18:28:20+08:00 ] ::1 /Home/Device/getCompanyDeviceSetting/company_id/1447247968/token/3d67b031f5e48be967bbb146960fccaf
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000805s ]
+INFO: [ url_dispatch ] --START--
+INFO: Run Lib\Behavior\SignCheckBehavior [ RunTime:0.001068s ]
+INFO: Run Lib\Behavior\TokenCheckBehavior [ RunTime:0.018143s ]
+INFO: Run Lib\Behavior\MethodCheckBehavior [ RunTime:0.000715s ]
+INFO: [ url_dispatch ] --END-- [ RunTime:0.020153s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000649s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000739s ]
+SQL: SHOW COLUMNS FROM `device_setting` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `device_setting` WHERE `company_id` = '1447247968'  [ RunTime:0.0004s ]
+
+[ 2018-11-22T18:28:20+08:00 ] ::1 /Home/System/getSystemSetting/companyId/1447247968/type/20/token/3d67b031f5e48be967bbb146960fccaf
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000460s ]
+INFO: [ url_dispatch ] --START--
+INFO: Run Lib\Behavior\SignCheckBehavior [ RunTime:0.000957s ]
+INFO: Run Lib\Behavior\TokenCheckBehavior [ RunTime:0.019281s ]
+INFO: Run Lib\Behavior\MethodCheckBehavior [ RunTime:0.000715s ]
+INFO: [ url_dispatch ] --END-- [ RunTime:0.021215s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000650s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000747s ]
+SQL: SHOW COLUMNS FROM `system_setting` [ RunTime:0.0097s ]
+SQL: SELECT `value` FROM `system_setting` WHERE `type` = 20 AND `del_flg` = 0 AND `company_id` = '1447247968' LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2018-11-22T18:28:20+08:00 ] ::1 /Home/Admin/getAdminMsgCount/status/10/token/3d67b031f5e48be967bbb146960fccaf
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000766s ]
+INFO: [ url_dispatch ] --START--
+INFO: Run Lib\Behavior\SignCheckBehavior [ RunTime:0.000920s ]
+INFO: Run Lib\Behavior\TokenCheckBehavior [ RunTime:0.017834s ]
+INFO: Run Lib\Behavior\MethodCheckBehavior [ RunTime:0.000650s ]
+INFO: [ url_dispatch ] --END-- [ RunTime:0.019647s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000628s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000719s ]
+SQL: SHOW COLUMNS FROM `admin_msg` [ RunTime:0.0091s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_msg` WHERE `status` = '10' AND `admin_id` = '2517844598' LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-11-22T18:28:23+08:00 ] ::1 /Home/Device/getCompanyDeviceSetting/company_id/1447247968/token/3d67b031f5e48be967bbb146960fccaf
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000514s ]
+INFO: [ url_dispatch ] --START--
+INFO: Run Lib\Behavior\SignCheckBehavior [ RunTime:0.001265s ]
+INFO: Run Lib\Behavior\TokenCheckBehavior [ RunTime:0.018571s ]
+INFO: Run Lib\Behavior\MethodCheckBehavior [ RunTime:0.000863s ]
+INFO: [ url_dispatch ] --END-- [ RunTime:0.020926s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000764s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000857s ]
+SQL: SHOW COLUMNS FROM `device_setting` [ RunTime:0.0091s ]
+SQL: SELECT * FROM `device_setting` WHERE `company_id` = '1447247968'  [ RunTime:0.0095s ]
+
+[ 2018-11-22T18:28:23+08:00 ] ::1 /Home/System/getSystemSetting/companyId/1447247968/type/20/token/3d67b031f5e48be967bbb146960fccaf
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000494s ]
+INFO: [ url_dispatch ] --START--
+INFO: Run Lib\Behavior\SignCheckBehavior [ RunTime:0.001774s ]
+INFO: Run Lib\Behavior\TokenCheckBehavior [ RunTime:0.017192s ]
+INFO: Run Lib\Behavior\MethodCheckBehavior [ RunTime:0.000935s ]
+INFO: [ url_dispatch ] --END-- [ RunTime:0.020245s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000690s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000786s ]
+SQL: SHOW COLUMNS FROM `system_setting` [ RunTime:0.0092s ]
+SQL: SELECT `value` FROM `system_setting` WHERE `type` = 20 AND `del_flg` = 0 AND `company_id` = '1447247968' LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2018-11-22T18:28:23+08:00 ] ::1 /Home/Admin/getAdminMsgCount/status/10/token/3d67b031f5e48be967bbb146960fccaf
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000466s ]
+INFO: [ url_dispatch ] --START--
+INFO: Run Lib\Behavior\SignCheckBehavior [ RunTime:0.001130s ]
+INFO: Run Lib\Behavior\TokenCheckBehavior [ RunTime:0.028081s ]
+INFO: Run Lib\Behavior\MethodCheckBehavior [ RunTime:0.000764s ]
+INFO: [ url_dispatch ] --END-- [ RunTime:0.030197s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000664s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000757s ]
+SQL: SHOW COLUMNS FROM `admin_msg` [ RunTime:0.0090s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_msg` WHERE `status` = '10' AND `admin_id` = '2517844598' LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-11-22T18:28:45+08:00 ] ::1 /Home/Device/getCompanyDeviceSetting/company_id/1447247968/token/3d67b031f5e48be967bbb146960fccaf
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000564s ]
+INFO: [ url_dispatch ] --START--
+INFO: Run Lib\Behavior\SignCheckBehavior [ RunTime:0.001244s ]
+INFO: Run Lib\Behavior\TokenCheckBehavior [ RunTime:0.027051s ]
+INFO: Run Lib\Behavior\MethodCheckBehavior [ RunTime:0.000787s ]
+INFO: [ url_dispatch ] --END-- [ RunTime:0.029299s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000581s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000671s ]
+SQL: SHOW COLUMNS FROM `device_setting` [ RunTime:0.0095s ]
+SQL: SELECT * FROM `device_setting` WHERE `company_id` = '1447247968'  [ RunTime:0.0004s ]
+
+[ 2018-11-22T18:28:45+08:00 ] ::1 /Home/System/getSystemSetting/companyId/1447247968/type/20/token/3d67b031f5e48be967bbb146960fccaf
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000435s ]
+INFO: [ url_dispatch ] --START--
+INFO: Run Lib\Behavior\SignCheckBehavior [ RunTime:0.001425s ]
+INFO: Run Lib\Behavior\TokenCheckBehavior [ RunTime:0.020330s ]
+INFO: Run Lib\Behavior\MethodCheckBehavior [ RunTime:0.000858s ]
+INFO: [ url_dispatch ] --END-- [ RunTime:0.022857s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000613s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000703s ]
+SQL: SHOW COLUMNS FROM `system_setting` [ RunTime:0.0236s ]
+SQL: SELECT `value` FROM `system_setting` WHERE `type` = 20 AND `del_flg` = 0 AND `company_id` = '1447247968' LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-11-22T18:28:45+08:00 ] ::1 /Home/Admin/getAdminMsgCount/status/10/token/3d67b031f5e48be967bbb146960fccaf
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000619s ]
+INFO: [ url_dispatch ] --START--
+INFO: Run Lib\Behavior\SignCheckBehavior [ RunTime:0.001127s ]
+INFO: Run Lib\Behavior\TokenCheckBehavior [ RunTime:0.017651s ]
+INFO: Run Lib\Behavior\MethodCheckBehavior [ RunTime:0.000892s ]
+INFO: [ url_dispatch ] --END-- [ RunTime:0.019906s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000688s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000779s ]
+SQL: SHOW COLUMNS FROM `admin_msg` [ RunTime:0.0096s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_msg` WHERE `status` = '10' AND `admin_id` = '2517844598' LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-11-22T18:28:47+08:00 ] ::1 /Home/Device/ajaxAddDeviceSetting/token/3d67b031f5e48be967bbb146960fccaf
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000421s ]
+INFO: [ url_dispatch ] --START--
+INFO: Run Lib\Behavior\SignCheckBehavior [ RunTime:0.000986s ]
+INFO: Run Lib\Behavior\TokenCheckBehavior [ RunTime:0.014732s ]
+INFO: Run Lib\Behavior\MethodCheckBehavior [ RunTime:0.000800s ]
+INFO: [ url_dispatch ] --END-- [ RunTime:0.016733s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000680s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000773s ]
+SQL: SHOW COLUMNS FROM `device_setting` [ RunTime:0.0088s ]
+SQL: UPDATE `device_setting` SET `value`='1',`update_user`='2517844598',`update_time`='1542882527' WHERE `company_id` = '1447247968' AND `type` = 10 [ RunTime:0.0416s ]
+SQL: UPDATE `device_setting` SET `value`='1',`update_user`='2517844598',`update_time`='1542882527' WHERE `company_id` = '1447247968' AND `type` = 20 [ RunTime:0.0224s ]
+SQL: UPDATE `device_setting` SET `value`='1',`update_user`='2517844598',`update_time`='1542882527' WHERE `company_id` = '1447247968' AND `type` = 30 [ RunTime:0.0248s ]
+SQL: UPDATE `device_setting` SET `value`='1',`update_user`='2517844598',`update_time`='1542882527' WHERE `company_id` = '1447247968' AND `type` = 40 [ RunTime:0.0242s ]
+SQL: UPDATE `device_setting` SET `value`='1',`update_user`='2517844598',`update_time`='1542882527' WHERE `company_id` = '1447247968' AND `type` = 50 [ RunTime:0.0248s ]
+SQL: UPDATE `device_setting` SET `value`='20',`update_user`='2517844598',`update_time`='1542882527' WHERE `company_id` = '1447247968' AND `type` = 60 [ RunTime:0.0232s ]
+SQL: UPDATE `device_setting` SET `value`='1.5',`update_user`='2517844598',`update_time`='1542882527' WHERE `company_id` = '1447247968' AND `type` = 70 [ RunTime:0.0239s ]
+SQL: UPDATE `device_setting` SET `value`='25',`update_user`='2517844598',`update_time`='1542882527' WHERE `company_id` = '1447247968' AND `type` = 80 [ RunTime:0.0224s ]
+SQL: UPDATE `device_setting` SET `value`='25',`update_user`='2517844598',`update_time`='1542882527' WHERE `company_id` = '1447247968' AND `type` = 90 [ RunTime:0.0238s ]
+SQL: UPDATE `device_setting` SET `value`='1.5',`update_user`='2517844598',`update_time`='1542882527' WHERE `company_id` = '1447247968' AND `type` = 100 [ RunTime:0.0234s ]
+
+[ 2018-11-22T18:31:33+08:00 ] ::1 /Home/Device/getCompanyDeviceSetting/company_id/1447247968/token/3d67b031f5e48be967bbb146960fccaf
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000709s ]
+INFO: [ url_dispatch ] --START--
+INFO: Run Lib\Behavior\SignCheckBehavior [ RunTime:0.002007s ]
+INFO: Run Lib\Behavior\TokenCheckBehavior [ RunTime:0.307295s ]
+INFO: Run Lib\Behavior\MethodCheckBehavior [ RunTime:0.000803s ]
+INFO: [ url_dispatch ] --END-- [ RunTime:0.310414s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000660s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000752s ]
+SQL: SHOW COLUMNS FROM `device_setting` [ RunTime:0.0283s ]
+SQL: SELECT * FROM `device_setting` WHERE `company_id` = '1447247968'  [ RunTime:0.0004s ]
+
+[ 2018-11-22T18:31:33+08:00 ] ::1 /Home/System/getSystemSetting/companyId/1447247968/type/20/token/3d67b031f5e48be967bbb146960fccaf
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000459s ]
+INFO: [ url_dispatch ] --START--
+INFO: Run Lib\Behavior\SignCheckBehavior [ RunTime:0.001327s ]
+INFO: Run Lib\Behavior\TokenCheckBehavior [ RunTime:0.103885s ]
+INFO: Run Lib\Behavior\MethodCheckBehavior [ RunTime:0.000789s ]
+INFO: [ url_dispatch ] --END-- [ RunTime:0.106269s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000774s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000867s ]
+SQL: SHOW COLUMNS FROM `system_setting` [ RunTime:0.0210s ]
+SQL: SELECT `value` FROM `system_setting` WHERE `type` = 20 AND `del_flg` = 0 AND `company_id` = '1447247968' LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-11-22T18:31:34+08:00 ] ::1 /Home/Admin/getAdminMsgCount/status/10/token/3d67b031f5e48be967bbb146960fccaf
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000535s ]
+INFO: [ url_dispatch ] --START--
+INFO: Run Lib\Behavior\SignCheckBehavior [ RunTime:0.001386s ]
+INFO: Run Lib\Behavior\TokenCheckBehavior [ RunTime:0.077577s ]
+INFO: Run Lib\Behavior\MethodCheckBehavior [ RunTime:0.001921s ]
+INFO: [ url_dispatch ] --END-- [ RunTime:0.081373s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001428s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001626s ]
+SQL: SHOW COLUMNS FROM `admin_msg` [ RunTime:0.0272s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_msg` WHERE `status` = '10' AND `admin_id` = '2517844598' LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2018-11-22T18:34:39+08:00 ] ::1 /Home/Device/getCompanyDeviceSetting/company_id/1447247968/token/3d67b031f5e48be967bbb146960fccaf
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000545s ]
+INFO: [ url_dispatch ] --START--
+INFO: Run Lib\Behavior\SignCheckBehavior [ RunTime:0.001210s ]
+INFO: Run Lib\Behavior\TokenCheckBehavior [ RunTime:0.019334s ]
+INFO: Run Lib\Behavior\MethodCheckBehavior [ RunTime:0.000723s ]
+INFO: [ url_dispatch ] --END-- [ RunTime:0.021493s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000668s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000772s ]
+SQL: SHOW COLUMNS FROM `device_setting` [ RunTime:0.0193s ]
+SQL: SELECT * FROM `device_setting` WHERE `company_id` = '1447247968'  [ RunTime:0.0004s ]
+
+[ 2018-11-22T18:34:39+08:00 ] ::1 /Home/System/getSystemSetting/companyId/1447247968/type/20/token/3d67b031f5e48be967bbb146960fccaf
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000468s ]
+INFO: [ url_dispatch ] --START--
+INFO: Run Lib\Behavior\SignCheckBehavior [ RunTime:0.001199s ]
+INFO: Run Lib\Behavior\TokenCheckBehavior [ RunTime:0.014956s ]
+INFO: Run Lib\Behavior\MethodCheckBehavior [ RunTime:0.000727s ]
+INFO: [ url_dispatch ] --END-- [ RunTime:0.017115s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000597s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000690s ]
+SQL: SHOW COLUMNS FROM `system_setting` [ RunTime:0.0097s ]
+SQL: SELECT `value` FROM `system_setting` WHERE `type` = 20 AND `del_flg` = 0 AND `company_id` = '1447247968' LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-11-22T18:34:39+08:00 ] ::1 /Home/Admin/getAdminMsgCount/status/10/token/3d67b031f5e48be967bbb146960fccaf
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000449s ]
+INFO: [ url_dispatch ] --START--
+INFO: Run Lib\Behavior\SignCheckBehavior [ RunTime:0.001074s ]
+INFO: Run Lib\Behavior\TokenCheckBehavior [ RunTime:0.016609s ]
+INFO: Run Lib\Behavior\MethodCheckBehavior [ RunTime:0.000838s ]
+INFO: [ url_dispatch ] --END-- [ RunTime:0.018749s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000679s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000790s ]
+SQL: SHOW COLUMNS FROM `admin_msg` [ RunTime:0.0121s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_msg` WHERE `status` = '10' AND `admin_id` = '2517844598' LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-11-22T18:34:46+08:00 ] ::1 /Home/Device/ajaxAddDeviceSetting/token/3d67b031f5e48be967bbb146960fccaf
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000540s ]
+INFO: [ url_dispatch ] --START--
+INFO: Run Lib\Behavior\SignCheckBehavior [ RunTime:0.001803s ]
+INFO: Run Lib\Behavior\TokenCheckBehavior [ RunTime:0.021701s ]
+INFO: Run Lib\Behavior\MethodCheckBehavior [ RunTime:0.000835s ]
+INFO: [ url_dispatch ] --END-- [ RunTime:0.024598s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000746s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000840s ]
+SQL: SHOW COLUMNS FROM `device_setting` [ RunTime:0.0212s ]
+SQL: UPDATE `device_setting` SET `value`='1',`update_user`='2517844598',`update_time`='1542882885' WHERE `company_id` = '1447247968' AND `type` = 10 [ RunTime:0.0511s ]
+SQL: UPDATE `device_setting` SET `value`='1',`update_user`='2517844598',`update_time`='1542882885' WHERE `company_id` = '1447247968' AND `type` = 20 [ RunTime:0.0226s ]
+SQL: UPDATE `device_setting` SET `value`='1',`update_user`='2517844598',`update_time`='1542882885' WHERE `company_id` = '1447247968' AND `type` = 30 [ RunTime:0.0243s ]
+SQL: UPDATE `device_setting` SET `value`='1',`update_user`='2517844598',`update_time`='1542882885' WHERE `company_id` = '1447247968' AND `type` = 40 [ RunTime:0.0237s ]
+SQL: UPDATE `device_setting` SET `value`='1',`update_user`='2517844598',`update_time`='1542882886' WHERE `company_id` = '1447247968' AND `type` = 50 [ RunTime:0.0243s ]
+SQL: UPDATE `device_setting` SET `value`='20',`update_user`='2517844598',`update_time`='1542882886' WHERE `company_id` = '1447247968' AND `type` = 60 [ RunTime:0.0233s ]
+SQL: UPDATE `device_setting` SET `value`='1.5',`update_user`='2517844598',`update_time`='1542882886' WHERE `company_id` = '1447247968' AND `type` = 70 [ RunTime:0.0234s ]
+SQL: UPDATE `device_setting` SET `value`='25',`update_user`='2517844598',`update_time`='1542882886' WHERE `company_id` = '1447247968' AND `type` = 80 [ RunTime:0.0234s ]
+SQL: UPDATE `device_setting` SET `value`='25',`update_user`='2517844598',`update_time`='1542882886' WHERE `company_id` = '1447247968' AND `type` = 90 [ RunTime:0.0247s ]
+SQL: UPDATE `device_setting` SET `value`='1.5',`update_user`='2517844598',`update_time`='1542882886' WHERE `company_id` = '1447247968' AND `type` = 100 [ RunTime:0.0295s ]
+
+[ 2018-11-22T18:34:54+08:00 ] ::1 /Home/Device/ajaxAddDeviceSetting/token/3d67b031f5e48be967bbb146960fccaf
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ url_dispatch ] --START--
+INFO: Run Lib\Behavior\SignCheckBehavior [ RunTime:0.001081s ]
+INFO: Run Lib\Behavior\TokenCheckBehavior [ RunTime:0.020587s ]
+INFO: Run Lib\Behavior\MethodCheckBehavior [ RunTime:0.000752s ]
+INFO: [ url_dispatch ] --END-- [ RunTime:0.022657s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000642s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000733s ]
+SQL: SHOW COLUMNS FROM `device_setting` [ RunTime:0.0084s ]
+SQL: UPDATE `device_setting` SET `value`='1',`update_user`='2517844598',`update_time`='1542882894' WHERE `company_id` = '1447247968' AND `type` = 20 [ RunTime:0.0403s ]
+SQL: UPDATE `device_setting` SET `value`='1',`update_user`='2517844598',`update_time`='1542882894' WHERE `company_id` = '1447247968' AND `type` = 30 [ RunTime:0.0225s ]
+SQL: UPDATE `device_setting` SET `value`='1',`update_user`='2517844598',`update_time`='1542882894' WHERE `company_id` = '1447247968' AND `type` = 40 [ RunTime:0.0249s ]
+SQL: UPDATE `device_setting` SET `value`='1',`update_user`='2517844598',`update_time`='1542882894' WHERE `company_id` = '1447247968' AND `type` = 50 [ RunTime:0.0226s ]
+SQL: UPDATE `device_setting` SET `value`='20',`update_user`='2517844598',`update_time`='1542882894' WHERE `company_id` = '1447247968' AND `type` = 60 [ RunTime:0.0244s ]
+SQL: UPDATE `device_setting` SET `value`='1.5',`update_user`='2517844598',`update_time`='1542882894' WHERE `company_id` = '1447247968' AND `type` = 70 [ RunTime:0.0241s ]
+SQL: UPDATE `device_setting` SET `value`='25',`update_user`='2517844598',`update_time`='1542882894' WHERE `company_id` = '1447247968' AND `type` = 80 [ RunTime:0.0246s ]
+SQL: UPDATE `device_setting` SET `value`='25',`update_user`='2517844598',`update_time`='1542882894' WHERE `company_id` = '1447247968' AND `type` = 90 [ RunTime:0.0241s ]
+SQL: UPDATE `device_setting` SET `value`='1.5',`update_user`='2517844598',`update_time`='1542882894' WHERE `company_id` = '1447247968' AND `type` = 100 [ RunTime:0.0247s ]
+
+[ 2018-11-22T18:40:40+08:00 ] ::1 /Home/Device/getCompanyDeviceSetting/company_id/1447247968/token/3d67b031f5e48be967bbb146960fccaf
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000462s ]
+INFO: [ url_dispatch ] --START--
+INFO: Run Lib\Behavior\SignCheckBehavior [ RunTime:0.001116s ]
+INFO: Run Lib\Behavior\TokenCheckBehavior [ RunTime:0.094377s ]
+INFO: Run Lib\Behavior\MethodCheckBehavior [ RunTime:0.002348s ]
+INFO: [ url_dispatch ] --END-- [ RunTime:0.098343s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002095s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002417s ]
+SQL: SHOW COLUMNS FROM `device_setting` [ RunTime:0.0153s ]
+SQL: SELECT * FROM `device_setting` WHERE `company_id` = '1447247968'  [ RunTime:0.0006s ]
+
+[ 2018-11-22T18:40:40+08:00 ] ::1 /Home/System/getSystemSetting/companyId/1447247968/type/20/token/3d67b031f5e48be967bbb146960fccaf
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000533s ]
+INFO: [ url_dispatch ] --START--
+INFO: Run Lib\Behavior\SignCheckBehavior [ RunTime:0.001519s ]
+INFO: Run Lib\Behavior\TokenCheckBehavior [ RunTime:0.042701s ]
+INFO: Run Lib\Behavior\MethodCheckBehavior [ RunTime:0.000763s ]
+INFO: [ url_dispatch ] --END-- [ RunTime:0.045249s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000628s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000717s ]
+SQL: SHOW COLUMNS FROM `system_setting` [ RunTime:0.0175s ]
+SQL: SELECT `value` FROM `system_setting` WHERE `type` = 20 AND `del_flg` = 0 AND `company_id` = '1447247968' LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-11-22T18:40:40+08:00 ] ::1 /Home/Admin/getAdminMsgCount/status/10/token/3d67b031f5e48be967bbb146960fccaf
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000400s ]
+INFO: [ url_dispatch ] --START--
+INFO: Run Lib\Behavior\SignCheckBehavior [ RunTime:0.000997s ]
+INFO: Run Lib\Behavior\TokenCheckBehavior [ RunTime:0.018065s ]
+INFO: Run Lib\Behavior\MethodCheckBehavior [ RunTime:0.000780s ]
+INFO: [ url_dispatch ] --END-- [ RunTime:0.020065s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000601s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000702s ]
+SQL: SHOW COLUMNS FROM `admin_msg` [ RunTime:0.0088s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_msg` WHERE `status` = '10' AND `admin_id` = '2517844598' LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-11-22T18:40:44+08:00 ] ::1 /Home/Device/ajaxAddDeviceSetting/token/3d67b031f5e48be967bbb146960fccaf
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000451s ]
+INFO: [ url_dispatch ] --START--
+INFO: Run Lib\Behavior\SignCheckBehavior [ RunTime:0.001132s ]
+INFO: Run Lib\Behavior\TokenCheckBehavior [ RunTime:0.025903s ]
+INFO: Run Lib\Behavior\MethodCheckBehavior [ RunTime:0.001077s ]
+INFO: [ url_dispatch ] --END-- [ RunTime:0.028366s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000664s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000758s ]
+SQL: SHOW COLUMNS FROM `device_setting` [ RunTime:0.0091s ]
+SQL: UPDATE `device_setting` SET `value`='',`update_user`='2517844598',`update_time`='1542883244' WHERE `company_id` = '1447247968' AND `type` = 0 [ RunTime:0.0003s ]
+
+[ 2018-11-22T18:41:03+08:00 ] ::1 /Home/Device/getCompanyDeviceSetting/company_id/1447247968/token/3d67b031f5e48be967bbb146960fccaf
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ url_dispatch ] --START--
+INFO: Run Lib\Behavior\SignCheckBehavior [ RunTime:0.001247s ]
+INFO: Run Lib\Behavior\TokenCheckBehavior [ RunTime:0.019838s ]
+INFO: Run Lib\Behavior\MethodCheckBehavior [ RunTime:0.000780s ]
+INFO: [ url_dispatch ] --END-- [ RunTime:0.022134s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000652s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000752s ]
+SQL: SHOW COLUMNS FROM `device_setting` [ RunTime:0.0103s ]
+SQL: SELECT * FROM `device_setting` WHERE `company_id` = '1447247968'  [ RunTime:0.0004s ]
+
+[ 2018-11-22T18:41:03+08:00 ] ::1 /Home/System/getSystemSetting/companyId/1447247968/type/20/token/3d67b031f5e48be967bbb146960fccaf
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000533s ]
+INFO: [ url_dispatch ] --START--
+INFO: Run Lib\Behavior\SignCheckBehavior [ RunTime:0.001323s ]
+INFO: Run Lib\Behavior\TokenCheckBehavior [ RunTime:0.026117s ]
+INFO: Run Lib\Behavior\MethodCheckBehavior [ RunTime:0.000793s ]
+INFO: [ url_dispatch ] --END-- [ RunTime:0.028529s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000628s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000731s ]
+SQL: SHOW COLUMNS FROM `system_setting` [ RunTime:0.0091s ]
+SQL: SELECT `value` FROM `system_setting` WHERE `type` = 20 AND `del_flg` = 0 AND `company_id` = '1447247968' LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-11-22T18:41:03+08:00 ] ::1 /Home/Admin/getAdminMsgCount/status/10/token/3d67b031f5e48be967bbb146960fccaf
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000417s ]
+INFO: [ url_dispatch ] --START--
+INFO: Run Lib\Behavior\SignCheckBehavior [ RunTime:0.001115s ]
+INFO: Run Lib\Behavior\TokenCheckBehavior [ RunTime:0.016951s ]
+INFO: Run Lib\Behavior\MethodCheckBehavior [ RunTime:0.000747s ]
+INFO: [ url_dispatch ] --END-- [ RunTime:0.019041s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000590s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000694s ]
+SQL: SHOW COLUMNS FROM `admin_msg` [ RunTime:0.0093s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_msg` WHERE `status` = '10' AND `admin_id` = '2517844598' LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2018-11-22T18:41:36+08:00 ] ::1 /Home/Device/ajaxAddDeviceSetting/token/3d67b031f5e48be967bbb146960fccaf
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000598s ]
+INFO: [ url_dispatch ] --START--
+INFO: Run Lib\Behavior\SignCheckBehavior [ RunTime:0.001040s ]
+INFO: Run Lib\Behavior\TokenCheckBehavior [ RunTime:0.015830s ]
+INFO: Run Lib\Behavior\MethodCheckBehavior [ RunTime:0.000739s ]
+INFO: [ url_dispatch ] --END-- [ RunTime:0.017874s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000763s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000870s ]
+SQL: SHOW COLUMNS FROM `device_setting` [ RunTime:0.0154s ]
+SQL: UPDATE `device_setting` SET `value`='',`update_user`='2517844598',`update_time`='1542883296' WHERE `company_id` = '1447247968' AND `type` = 0 [ RunTime:0.0003s ]
+
+[ 2018-11-22T18:42:10+08:00 ] ::1 /Home/Device/getCompanyDeviceSetting/company_id/1447247968/token/3d67b031f5e48be967bbb146960fccaf
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000517s ]
+INFO: [ url_dispatch ] --START--
+INFO: Run Lib\Behavior\SignCheckBehavior [ RunTime:0.001240s ]
+INFO: Run Lib\Behavior\TokenCheckBehavior [ RunTime:0.030979s ]
+INFO: Run Lib\Behavior\MethodCheckBehavior [ RunTime:0.000960s ]
+INFO: [ url_dispatch ] --END-- [ RunTime:0.033468s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000692s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000789s ]
+SQL: SHOW COLUMNS FROM `device_setting` [ RunTime:0.0208s ]
+SQL: SELECT * FROM `device_setting` WHERE `company_id` = '1447247968'  [ RunTime:0.0004s ]
+
+[ 2018-11-22T18:42:11+08:00 ] ::1 /Home/System/getSystemSetting/companyId/1447247968/type/20/token/3d67b031f5e48be967bbb146960fccaf
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000513s ]
+INFO: [ url_dispatch ] --START--
+INFO: Run Lib\Behavior\SignCheckBehavior [ RunTime:0.001101s ]
+INFO: Run Lib\Behavior\TokenCheckBehavior [ RunTime:0.027741s ]
+INFO: Run Lib\Behavior\MethodCheckBehavior [ RunTime:0.000747s ]
+INFO: [ url_dispatch ] --END-- [ RunTime:0.029822s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000888s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001023s ]
+SQL: SHOW COLUMNS FROM `system_setting` [ RunTime:0.0205s ]
+SQL: SELECT `value` FROM `system_setting` WHERE `type` = 20 AND `del_flg` = 0 AND `company_id` = '1447247968' LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-11-22T18:42:11+08:00 ] ::1 /Home/Admin/getAdminMsgCount/status/10/token/3d67b031f5e48be967bbb146960fccaf
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000553s ]
+INFO: [ url_dispatch ] --START--
+INFO: Run Lib\Behavior\SignCheckBehavior [ RunTime:0.001278s ]
+INFO: Run Lib\Behavior\TokenCheckBehavior [ RunTime:0.030081s ]
+INFO: Run Lib\Behavior\MethodCheckBehavior [ RunTime:0.001727s ]
+INFO: [ url_dispatch ] --END-- [ RunTime:0.033347s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000792s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000898s ]
+SQL: SHOW COLUMNS FROM `admin_msg` [ RunTime:0.0095s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_msg` WHERE `status` = '10' AND `admin_id` = '2517844598' LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-11-22T18:42:14+08:00 ] ::1 /Home/Device/ajaxAddDeviceSetting/token/3d67b031f5e48be967bbb146960fccaf
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000446s ]
+INFO: [ url_dispatch ] --START--
+INFO: Run Lib\Behavior\SignCheckBehavior [ RunTime:0.008006s ]
+INFO: Run Lib\Behavior\TokenCheckBehavior [ RunTime:0.018348s ]
+INFO: Run Lib\Behavior\MethodCheckBehavior [ RunTime:0.000750s ]
+INFO: [ url_dispatch ] --END-- [ RunTime:0.027331s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000749s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000856s ]
+SQL: SHOW COLUMNS FROM `device_setting` [ RunTime:0.0094s ]
+SQL: UPDATE `device_setting` SET `value`='',`update_user`='2517844598',`update_time`='1542883334' WHERE `company_id` = '1447247968' AND `type` = 0 [ RunTime:0.0003s ]
+
+[ 2018-11-22T18:43:22+08:00 ] ::1 /Home/Device/getCompanyDeviceSetting/company_id/1447247968/token/3d67b031f5e48be967bbb146960fccaf
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004681s ]
+INFO: [ url_dispatch ] --START--
+INFO: Run Lib\Behavior\SignCheckBehavior [ RunTime:0.001069s ]
+INFO: Run Lib\Behavior\TokenCheckBehavior [ RunTime:0.016618s ]
+INFO: Run Lib\Behavior\MethodCheckBehavior [ RunTime:0.000741s ]
+INFO: [ url_dispatch ] --END-- [ RunTime:0.018667s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000682s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000772s ]
+SQL: SHOW COLUMNS FROM `device_setting` [ RunTime:0.0091s ]
+SQL: SELECT * FROM `device_setting` WHERE `company_id` = '1447247968'  [ RunTime:0.0005s ]
+
+[ 2018-11-22T18:43:22+08:00 ] ::1 /Home/System/getSystemSetting/companyId/1447247968/type/20/token/3d67b031f5e48be967bbb146960fccaf
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000584s ]
+INFO: [ url_dispatch ] --START--
+INFO: Run Lib\Behavior\SignCheckBehavior [ RunTime:0.004449s ]
+INFO: Run Lib\Behavior\TokenCheckBehavior [ RunTime:0.036162s ]
+INFO: Run Lib\Behavior\MethodCheckBehavior [ RunTime:0.000862s ]
+INFO: [ url_dispatch ] --END-- [ RunTime:0.041756s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000657s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000749s ]
+SQL: SHOW COLUMNS FROM `system_setting` [ RunTime:0.0098s ]
+SQL: SELECT `value` FROM `system_setting` WHERE `type` = 20 AND `del_flg` = 0 AND `company_id` = '1447247968' LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-11-22T18:43:22+08:00 ] ::1 /Home/Admin/getAdminMsgCount/status/10/token/3d67b031f5e48be967bbb146960fccaf
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000568s ]
+INFO: [ url_dispatch ] --START--
+INFO: Run Lib\Behavior\SignCheckBehavior [ RunTime:0.000970s ]
+INFO: Run Lib\Behavior\TokenCheckBehavior [ RunTime:0.040554s ]
+INFO: Run Lib\Behavior\MethodCheckBehavior [ RunTime:0.000688s ]
+INFO: [ url_dispatch ] --END-- [ RunTime:0.042434s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000651s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000740s ]
+SQL: SHOW COLUMNS FROM `admin_msg` [ RunTime:0.0108s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_msg` WHERE `status` = '10' AND `admin_id` = '2517844598' LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-11-22T18:43:25+08:00 ] ::1 /Home/Device/ajaxAddDeviceSetting/token/3d67b031f5e48be967bbb146960fccaf
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000424s ]
+INFO: [ url_dispatch ] --START--
+INFO: Run Lib\Behavior\SignCheckBehavior [ RunTime:0.001095s ]
+INFO: Run Lib\Behavior\TokenCheckBehavior [ RunTime:0.030721s ]
+INFO: Run Lib\Behavior\MethodCheckBehavior [ RunTime:0.000770s ]
+INFO: [ url_dispatch ] --END-- [ RunTime:0.032828s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000660s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000754s ]
+SQL: SHOW COLUMNS FROM `device_setting` [ RunTime:0.0094s ]
+SQL: UPDATE `device_setting` SET `value`='',`update_user`='2517844598',`update_time`='1542883405' WHERE `company_id` = '1447247968' AND `type` = 0 [ RunTime:0.0003s ]
+
+[ 2018-11-22T18:46:21+08:00 ] ::1 /Home/Device/getCompanyDeviceSetting/company_id/1447247968/token/3d67b031f5e48be967bbb146960fccaf
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000422s ]
+INFO: [ url_dispatch ] --START--
+INFO: Run Lib\Behavior\SignCheckBehavior [ RunTime:0.001046s ]
+INFO: Run Lib\Behavior\TokenCheckBehavior [ RunTime:0.026883s ]
+INFO: Run Lib\Behavior\MethodCheckBehavior [ RunTime:0.000855s ]
+INFO: [ url_dispatch ] --END-- [ RunTime:0.029024s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000679s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000779s ]
+SQL: SHOW COLUMNS FROM `device_setting` [ RunTime:0.0085s ]
+SQL: SELECT * FROM `device_setting` WHERE `company_id` = '1447247968'  [ RunTime:0.0004s ]
+
+[ 2018-11-22T18:46:21+08:00 ] ::1 /Home/System/getSystemSetting/companyId/1447247968/type/20/token/3d67b031f5e48be967bbb146960fccaf
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ url_dispatch ] --START--
+INFO: Run Lib\Behavior\SignCheckBehavior [ RunTime:0.001068s ]
+INFO: Run Lib\Behavior\TokenCheckBehavior [ RunTime:0.015274s ]
+INFO: Run Lib\Behavior\MethodCheckBehavior [ RunTime:0.000707s ]
+INFO: [ url_dispatch ] --END-- [ RunTime:0.017302s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000685s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000780s ]
+SQL: SHOW COLUMNS FROM `system_setting` [ RunTime:0.0088s ]
+SQL: SELECT `value` FROM `system_setting` WHERE `type` = 20 AND `del_flg` = 0 AND `company_id` = '1447247968' LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-11-22T18:46:21+08:00 ] ::1 /Home/Admin/getAdminMsgCount/status/10/token/3d67b031f5e48be967bbb146960fccaf
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000416s ]
+INFO: [ url_dispatch ] --START--
+INFO: Run Lib\Behavior\SignCheckBehavior [ RunTime:0.001773s ]
+INFO: Run Lib\Behavior\TokenCheckBehavior [ RunTime:0.015642s ]
+INFO: Run Lib\Behavior\MethodCheckBehavior [ RunTime:0.000806s ]
+INFO: [ url_dispatch ] --END-- [ RunTime:0.018475s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000655s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000744s ]
+SQL: SHOW COLUMNS FROM `admin_msg` [ RunTime:0.0093s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_msg` WHERE `status` = '10' AND `admin_id` = '2517844598' LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-11-22T18:46:25+08:00 ] ::1 /Home/Device/ajaxAddDeviceSetting/token/3d67b031f5e48be967bbb146960fccaf
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000545s ]
+INFO: [ url_dispatch ] --START--
+INFO: Run Lib\Behavior\SignCheckBehavior [ RunTime:0.001284s ]
+INFO: Run Lib\Behavior\TokenCheckBehavior [ RunTime:0.022209s ]
+INFO: Run Lib\Behavior\MethodCheckBehavior [ RunTime:0.000854s ]
+INFO: [ url_dispatch ] --END-- [ RunTime:0.024570s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000734s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000828s ]
+SQL: SHOW COLUMNS FROM `device_setting` [ RunTime:0.0094s ]
+SQL: UPDATE `device_setting` SET `value`='0',`update_user`='2517844598',`update_time`='1542883585' WHERE `company_id` = '1447247968' AND `type` = 10 [ RunTime:0.1035s ]
+SQL: UPDATE `device_setting` SET `value`='1',`update_user`='2517844598',`update_time`='1542883585' WHERE `company_id` = '1447247968' AND `type` = 20 [ RunTime:0.0240s ]
+SQL: UPDATE `device_setting` SET `value`='1',`update_user`='2517844598',`update_time`='1542883585' WHERE `company_id` = '1447247968' AND `type` = 30 [ RunTime:0.0235s ]
+SQL: UPDATE `device_setting` SET `value`='1',`update_user`='2517844598',`update_time`='1542883585' WHERE `company_id` = '1447247968' AND `type` = 40 [ RunTime:0.0232s ]
+SQL: UPDATE `device_setting` SET `value`='1',`update_user`='2517844598',`update_time`='1542883585' WHERE `company_id` = '1447247968' AND `type` = 50 [ RunTime:0.0238s ]
+SQL: UPDATE `device_setting` SET `value`='20',`update_user`='2517844598',`update_time`='1542883585' WHERE `company_id` = '1447247968' AND `type` = 60 [ RunTime:0.0246s ]
+SQL: UPDATE `device_setting` SET `value`='1.5',`update_user`='2517844598',`update_time`='1542883585' WHERE `company_id` = '1447247968' AND `type` = 70 [ RunTime:0.0236s ]
+SQL: UPDATE `device_setting` SET `value`='25',`update_user`='2517844598',`update_time`='1542883585' WHERE `company_id` = '1447247968' AND `type` = 80 [ RunTime:0.0241s ]
+SQL: UPDATE `device_setting` SET `value`='25',`update_user`='2517844598',`update_time`='1542883585' WHERE `company_id` = '1447247968' AND `type` = 90 [ RunTime:0.0238s ]
+SQL: UPDATE `device_setting` SET `value`='1.5',`update_user`='2517844598',`update_time`='1542883585' WHERE `company_id` = '1447247968' AND `type` = 100 [ RunTime:0.0246s ]
+
+[ 2018-11-22T18:46:34+08:00 ] ::1 /Home/Device/getCompanyDeviceSetting/company_id/1447247968/token/3d67b031f5e48be967bbb146960fccaf
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000565s ]
+INFO: [ url_dispatch ] --START--
+INFO: Run Lib\Behavior\SignCheckBehavior [ RunTime:0.001499s ]
+INFO: Run Lib\Behavior\TokenCheckBehavior [ RunTime:0.015146s ]
+INFO: Run Lib\Behavior\MethodCheckBehavior [ RunTime:0.000782s ]
+INFO: [ url_dispatch ] --END-- [ RunTime:0.017687s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000724s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000818s ]
+SQL: SHOW COLUMNS FROM `device_setting` [ RunTime:0.0096s ]
+SQL: SELECT * FROM `device_setting` WHERE `company_id` = '1447247968'  [ RunTime:0.0003s ]
+
+[ 2018-11-22T18:46:34+08:00 ] ::1 /Home/System/getSystemSetting/companyId/1447247968/type/20/token/3d67b031f5e48be967bbb146960fccaf
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000538s ]
+INFO: [ url_dispatch ] --START--
+INFO: Run Lib\Behavior\SignCheckBehavior [ RunTime:0.001068s ]
+INFO: Run Lib\Behavior\TokenCheckBehavior [ RunTime:0.019961s ]
+INFO: Run Lib\Behavior\MethodCheckBehavior [ RunTime:0.001048s ]
+INFO: [ url_dispatch ] --END-- [ RunTime:0.022374s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000736s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000831s ]
+SQL: SHOW COLUMNS FROM `system_setting` [ RunTime:0.0286s ]
+SQL: SELECT `value` FROM `system_setting` WHERE `type` = 20 AND `del_flg` = 0 AND `company_id` = '1447247968' LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2018-11-22T18:46:34+08:00 ] ::1 /Home/Admin/getAdminMsgCount/status/10/token/3d67b031f5e48be967bbb146960fccaf
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000475s ]
+INFO: [ url_dispatch ] --START--
+INFO: Run Lib\Behavior\SignCheckBehavior [ RunTime:0.001088s ]
+INFO: Run Lib\Behavior\TokenCheckBehavior [ RunTime:0.016444s ]
+INFO: Run Lib\Behavior\MethodCheckBehavior [ RunTime:0.000848s ]
+INFO: [ url_dispatch ] --END-- [ RunTime:0.018603s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000740s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000831s ]
+SQL: SHOW COLUMNS FROM `admin_msg` [ RunTime:0.0084s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_msg` WHERE `status` = '10' AND `admin_id` = '2517844598' LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-11-22T18:47:22+08:00 ] ::1 /Home/Device/getCompanyDeviceSetting/company_id/1447247968/token/3d67b031f5e48be967bbb146960fccaf
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000434s ]
+INFO: [ url_dispatch ] --START--
+INFO: Run Lib\Behavior\SignCheckBehavior [ RunTime:0.001065s ]
+INFO: Run Lib\Behavior\TokenCheckBehavior [ RunTime:0.026733s ]
+INFO: Run Lib\Behavior\MethodCheckBehavior [ RunTime:0.000747s ]
+INFO: [ url_dispatch ] --END-- [ RunTime:0.028766s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000641s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000733s ]
+SQL: SHOW COLUMNS FROM `device_setting` [ RunTime:0.0094s ]
+SQL: SELECT * FROM `device_setting` WHERE `company_id` = '1447247968'  [ RunTime:0.0004s ]
+
+[ 2018-11-22T18:47:22+08:00 ] ::1 /Home/System/getSystemSetting/companyId/1447247968/type/20/token/3d67b031f5e48be967bbb146960fccaf
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000440s ]
+INFO: [ url_dispatch ] --START--
+INFO: Run Lib\Behavior\SignCheckBehavior [ RunTime:0.001260s ]
+INFO: Run Lib\Behavior\TokenCheckBehavior [ RunTime:0.016470s ]
+INFO: Run Lib\Behavior\MethodCheckBehavior [ RunTime:0.000786s ]
+INFO: [ url_dispatch ] --END-- [ RunTime:0.018774s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000655s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000750s ]
+SQL: SHOW COLUMNS FROM `system_setting` [ RunTime:0.0110s ]
+SQL: SELECT `value` FROM `system_setting` WHERE `type` = 20 AND `del_flg` = 0 AND `company_id` = '1447247968' LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-11-22T18:47:22+08:00 ] ::1 /Home/Admin/getAdminMsgCount/status/10/token/3d67b031f5e48be967bbb146960fccaf
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000497s ]
+INFO: [ url_dispatch ] --START--
+INFO: Run Lib\Behavior\SignCheckBehavior [ RunTime:0.001055s ]
+INFO: Run Lib\Behavior\TokenCheckBehavior [ RunTime:0.019184s ]
+INFO: Run Lib\Behavior\MethodCheckBehavior [ RunTime:0.001271s ]
+INFO: [ url_dispatch ] --END-- [ RunTime:0.021818s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000915s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001064s ]
+SQL: SHOW COLUMNS FROM `admin_msg` [ RunTime:0.0098s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_msg` WHERE `status` = '10' AND `admin_id` = '2517844598' LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-11-22T18:47:25+08:00 ] ::1 /Home/Device/ajaxAddDeviceSetting/token/3d67b031f5e48be967bbb146960fccaf
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000531s ]
+INFO: [ url_dispatch ] --START--
+INFO: Run Lib\Behavior\SignCheckBehavior [ RunTime:0.001303s ]
+INFO: Run Lib\Behavior\TokenCheckBehavior [ RunTime:0.029103s ]
+INFO: Run Lib\Behavior\MethodCheckBehavior [ RunTime:0.001022s ]
+INFO: [ url_dispatch ] --END-- [ RunTime:0.031695s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000782s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000891s ]
+SQL: SHOW COLUMNS FROM `device_setting` [ RunTime:0.0085s ]
+SQL: UPDATE `device_setting` SET `value`='1',`update_user`='2517844598',`update_time`='1542883644' WHERE `company_id` = '1447247968' AND `type` = 10 [ RunTime:0.0524s ]
+SQL: UPDATE `device_setting` SET `value`='1',`update_user`='2517844598',`update_time`='1542883644' WHERE `company_id` = '1447247968' AND `type` = 20 [ RunTime:0.0237s ]
+SQL: UPDATE `device_setting` SET `value`='1',`update_user`='2517844598',`update_time`='1542883644' WHERE `company_id` = '1447247968' AND `type` = 30 [ RunTime:0.0399s ]
+SQL: UPDATE `device_setting` SET `value`='1',`update_user`='2517844598',`update_time`='1542883644' WHERE `company_id` = '1447247968' AND `type` = 40 [ RunTime:0.0250s ]
+SQL: UPDATE `device_setting` SET `value`='1',`update_user`='2517844598',`update_time`='1542883644' WHERE `company_id` = '1447247968' AND `type` = 50 [ RunTime:0.0233s ]
+SQL: UPDATE `device_setting` SET `value`='20',`update_user`='2517844598',`update_time`='1542883644' WHERE `company_id` = '1447247968' AND `type` = 60 [ RunTime:0.0308s ]
+SQL: UPDATE `device_setting` SET `value`='1.5',`update_user`='2517844598',`update_time`='1542883644' WHERE `company_id` = '1447247968' AND `type` = 70 [ RunTime:0.0226s ]
+SQL: UPDATE `device_setting` SET `value`='25',`update_user`='2517844598',`update_time`='1542883645' WHERE `company_id` = '1447247968' AND `type` = 80 [ RunTime:0.0236s ]
+SQL: UPDATE `device_setting` SET `value`='25',`update_user`='2517844598',`update_time`='1542883645' WHERE `company_id` = '1447247968' AND `type` = 90 [ RunTime:0.0242s ]
+SQL: UPDATE `device_setting` SET `value`='1.5',`update_user`='2517844598',`update_time`='1542883645' WHERE `company_id` = '1447247968' AND `type` = 100 [ RunTime:0.0236s ]
+
+[ 2018-11-22T18:47:28+08:00 ] ::1 /Home/Device/ajaxAddDeviceSetting/token/3d67b031f5e48be967bbb146960fccaf
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000567s ]
+INFO: [ url_dispatch ] --START--
+INFO: Run Lib\Behavior\SignCheckBehavior [ RunTime:0.001183s ]
+INFO: Run Lib\Behavior\TokenCheckBehavior [ RunTime:0.024243s ]
+INFO: Run Lib\Behavior\MethodCheckBehavior [ RunTime:0.000749s ]
+INFO: [ url_dispatch ] --END-- [ RunTime:0.026399s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000639s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000732s ]
+SQL: SHOW COLUMNS FROM `device_setting` [ RunTime:0.0090s ]
+SQL: UPDATE `device_setting` SET `value`='0',`update_user`='2517844598',`update_time`='1542883648' WHERE `company_id` = '1447247968' AND `type` = 10 [ RunTime:0.0410s ]
+SQL: UPDATE `device_setting` SET `value`='1',`update_user`='2517844598',`update_time`='1542883648' WHERE `company_id` = '1447247968' AND `type` = 20 [ RunTime:0.0225s ]
+SQL: UPDATE `device_setting` SET `value`='1',`update_user`='2517844598',`update_time`='1542883648' WHERE `company_id` = '1447247968' AND `type` = 30 [ RunTime:0.0247s ]
+SQL: UPDATE `device_setting` SET `value`='1',`update_user`='2517844598',`update_time`='1542883648' WHERE `company_id` = '1447247968' AND `type` = 40 [ RunTime:0.0244s ]
+SQL: UPDATE `device_setting` SET `value`='1',`update_user`='2517844598',`update_time`='1542883648' WHERE `company_id` = '1447247968' AND `type` = 50 [ RunTime:0.0244s ]
+SQL: UPDATE `device_setting` SET `value`='20',`update_user`='2517844598',`update_time`='1542883648' WHERE `company_id` = '1447247968' AND `type` = 60 [ RunTime:0.0237s ]
+SQL: UPDATE `device_setting` SET `value`='1.5',`update_user`='2517844598',`update_time`='1542883648' WHERE `company_id` = '1447247968' AND `type` = 70 [ RunTime:0.0246s ]
+SQL: UPDATE `device_setting` SET `value`='25',`update_user`='2517844598',`update_time`='1542883648' WHERE `company_id` = '1447247968' AND `type` = 80 [ RunTime:0.0297s ]
+SQL: UPDATE `device_setting` SET `value`='25',`update_user`='2517844598',`update_time`='1542883648' WHERE `company_id` = '1447247968' AND `type` = 90 [ RunTime:0.0242s ]
+SQL: UPDATE `device_setting` SET `value`='1.5',`update_user`='2517844598',`update_time`='1542883648' WHERE `company_id` = '1447247968' AND `type` = 100 [ RunTime:0.0237s ]
+
+[ 2018-11-22T18:49:01+08:00 ] ::1 /Home/Device/getCompanyDeviceSetting/company_id/1447247968/token/3d67b031f5e48be967bbb146960fccaf
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000555s ]
+INFO: [ url_dispatch ] --START--
+INFO: Run Lib\Behavior\SignCheckBehavior [ RunTime:0.001420s ]
+INFO: Run Lib\Behavior\TokenCheckBehavior [ RunTime:0.019854s ]
+INFO: Run Lib\Behavior\MethodCheckBehavior [ RunTime:0.000855s ]
+INFO: [ url_dispatch ] --END-- [ RunTime:0.022358s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000761s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000857s ]
+SQL: SHOW COLUMNS FROM `device_setting` [ RunTime:0.0097s ]
+SQL: SELECT * FROM `device_setting` WHERE `company_id` = '1447247968'  [ RunTime:0.0004s ]
+
+[ 2018-11-22T18:49:01+08:00 ] ::1 /Home/System/getSystemSetting/companyId/1447247968/type/20/token/3d67b031f5e48be967bbb146960fccaf
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000601s ]
+INFO: [ url_dispatch ] --START--
+INFO: Run Lib\Behavior\SignCheckBehavior [ RunTime:0.001152s ]
+INFO: Run Lib\Behavior\TokenCheckBehavior [ RunTime:0.032560s ]
+INFO: Run Lib\Behavior\MethodCheckBehavior [ RunTime:0.000743s ]
+INFO: [ url_dispatch ] --END-- [ RunTime:0.034688s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000592s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000684s ]
+SQL: SHOW COLUMNS FROM `system_setting` [ RunTime:0.0089s ]
+SQL: SELECT `value` FROM `system_setting` WHERE `type` = 20 AND `del_flg` = 0 AND `company_id` = '1447247968' LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-11-22T18:49:01+08:00 ] ::1 /Home/Admin/getAdminMsgCount/status/10/token/3d67b031f5e48be967bbb146960fccaf
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000543s ]
+INFO: [ url_dispatch ] --START--
+INFO: Run Lib\Behavior\SignCheckBehavior [ RunTime:0.001251s ]
+INFO: Run Lib\Behavior\TokenCheckBehavior [ RunTime:0.018069s ]
+INFO: Run Lib\Behavior\MethodCheckBehavior [ RunTime:0.000907s ]
+INFO: [ url_dispatch ] --END-- [ RunTime:0.020483s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000809s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000919s ]
+SQL: SHOW COLUMNS FROM `admin_msg` [ RunTime:0.0086s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_msg` WHERE `status` = '10' AND `admin_id` = '2517844598' LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-11-22T18:53:50+08:00 ] ::1 /Home/System/getSystemSetting/companyId/1447247968/type/20/token/3d67b031f5e48be967bbb146960fccaf
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000437s ]
+INFO: [ url_dispatch ] --START--
+INFO: Run Lib\Behavior\SignCheckBehavior [ RunTime:0.001802s ]
+INFO: Run Lib\Behavior\TokenCheckBehavior [ RunTime:0.016646s ]
+INFO: Run Lib\Behavior\MethodCheckBehavior [ RunTime:0.000834s ]
+INFO: [ url_dispatch ] --END-- [ RunTime:0.019551s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000701s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000794s ]
+SQL: SHOW COLUMNS FROM `system_setting` [ RunTime:0.0090s ]
+SQL: SELECT `value` FROM `system_setting` WHERE `type` = 20 AND `del_flg` = 0 AND `company_id` = '1447247968' LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-11-22T18:53:50+08:00 ] ::1 /Home/Admin/getAdminMsgCount/status/10/token/3d67b031f5e48be967bbb146960fccaf
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000434s ]
+INFO: [ url_dispatch ] --START--
+INFO: Run Lib\Behavior\SignCheckBehavior [ RunTime:0.001014s ]
+INFO: Run Lib\Behavior\TokenCheckBehavior [ RunTime:0.015899s ]
+INFO: Run Lib\Behavior\MethodCheckBehavior [ RunTime:0.000774s ]
+INFO: [ url_dispatch ] --END-- [ RunTime:0.017913s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000625s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000721s ]
+SQL: SHOW COLUMNS FROM `admin_msg` [ RunTime:0.0088s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_msg` WHERE `status` = '10' AND `admin_id` = '2517844598' LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-11-22T18:53:50+08:00 ] ::1 /Home/Device/deviceLists/name/null/serialNo/null/companyId/1447247968/pageSize/10/pageNo/1/token/3d67b031f5e48be967bbb146960fccaf
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000428s ]
+INFO: [ url_dispatch ] --START--
+INFO: Run Lib\Behavior\SignCheckBehavior [ RunTime:0.001199s ]
+INFO: Run Lib\Behavior\TokenCheckBehavior [ RunTime:0.029182s ]
+INFO: Run Lib\Behavior\MethodCheckBehavior [ RunTime:0.000725s ]
+INFO: [ url_dispatch ] --END-- [ RunTime:0.031333s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000578s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000668s ]
+SQL: SHOW COLUMNS FROM `device` [ RunTime:0.0088s ]
+SQL: SELECT COUNT(*) AS tp_count FROM device d left join company c on d.company_id = c.id  WHERE d.del_flg = 0 AND d.company_id = '1447247968' LIMIT 1   [ RunTime:0.0134s ]
+SQL: SELECT d.*,c.name company_name FROM device d left join company c on d.company_id = c.id  WHERE d.del_flg = 0 AND d.company_id = '1447247968' ORDER BY d.create_time DESC LIMIT 0,10   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: active D:\wamp\www\wscloud\api\Application\Home\Controller\DeviceController.class.php 第 132 行.
+NOTIC: [8] Undefined index: ty_ D:\wamp\www\wscloud\api\Application\Lib\Status.class.php 第 84 行.
+NOTIC: [8] Undefined index: active D:\wamp\www\wscloud\api\Application\Home\Controller\DeviceController.class.php 第 132 行.
+NOTIC: [8] Undefined index: ty_ D:\wamp\www\wscloud\api\Application\Lib\Status.class.php 第 84 行.
+NOTIC: [8] Undefined index: active D:\wamp\www\wscloud\api\Application\Home\Controller\DeviceController.class.php 第 132 行.
+NOTIC: [8] Undefined index: ty_ D:\wamp\www\wscloud\api\Application\Lib\Status.class.php 第 84 行.
+NOTIC: [8] Undefined index: active D:\wamp\www\wscloud\api\Application\Home\Controller\DeviceController.class.php 第 132 行.
+NOTIC: [8] Undefined index: ty_ D:\wamp\www\wscloud\api\Application\Lib\Status.class.php 第 84 行.
+NOTIC: [8] Undefined index: active D:\wamp\www\wscloud\api\Application\Home\Controller\DeviceController.class.php 第 132 行.
+NOTIC: [8] Undefined index: ty_ D:\wamp\www\wscloud\api\Application\Lib\Status.class.php 第 84 行.
+NOTIC: [8] Undefined index: active D:\wamp\www\wscloud\api\Application\Home\Controller\DeviceController.class.php 第 132 行.
+NOTIC: [8] Undefined index: ty_ D:\wamp\www\wscloud\api\Application\Lib\Status.class.php 第 84 行.
+
+[ 2018-11-22T18:53:52+08:00 ] ::1 /Home/Device/getDeviceSettingInfo/token/3d67b031f5e48be967bbb146960fccaf
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000552s ]
+INFO: [ url_dispatch ] --START--
+INFO: Run Lib\Behavior\SignCheckBehavior [ RunTime:0.001156s ]
+INFO: Run Lib\Behavior\TokenCheckBehavior [ RunTime:0.003063s ]
+INFO: Run Lib\Behavior\MethodCheckBehavior [ RunTime:0.000972s ]
+INFO: [ url_dispatch ] --END-- [ RunTime:0.005486s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000737s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000886s ]
+
+[ 2018-11-22T18:54:00+08:00 ] 192.168.1.104 /Device/sendDeviceInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000433s ]
+INFO: [ url_dispatch ] --START--
+INFO: Run Lib\Behavior\SignCheckBehavior [ RunTime:0.001174s ]
+INFO: Run Lib\Behavior\TokenCheckBehavior [ RunTime:0.003680s ]
+INFO: Run Lib\Behavior\MethodCheckBehavior [ RunTime:0.001055s ]
+INFO: [ url_dispatch ] --END-- [ RunTime:0.006170s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000787s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000897s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000952s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001088s ]
+
+[ 2018-11-22T18:54:07+08:00 ] ::1 /Home/Device/getCompanyDeviceSetting/company_id/1447247968/token/3d67b031f5e48be967bbb146960fccaf
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000471s ]
+INFO: [ url_dispatch ] --START--
+INFO: Run Lib\Behavior\SignCheckBehavior [ RunTime:0.001159s ]
+INFO: Run Lib\Behavior\TokenCheckBehavior [ RunTime:0.022903s ]
+INFO: Run Lib\Behavior\MethodCheckBehavior [ RunTime:0.000735s ]
+INFO: [ url_dispatch ] --END-- [ RunTime:0.025013s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000631s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000722s ]
+SQL: SHOW COLUMNS FROM `device_setting` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `device_setting` WHERE `company_id` = '1447247968'  [ RunTime:0.0006s ]
+
+[ 2018-11-22T18:54:07+08:00 ] ::1 /Home/System/getSystemSetting/companyId/1447247968/type/20/token/3d67b031f5e48be967bbb146960fccaf
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000558s ]
+INFO: [ url_dispatch ] --START--
+INFO: Run Lib\Behavior\SignCheckBehavior [ RunTime:0.001328s ]
+INFO: Run Lib\Behavior\TokenCheckBehavior [ RunTime:0.019816s ]
+INFO: Run Lib\Behavior\MethodCheckBehavior [ RunTime:0.000847s ]
+INFO: [ url_dispatch ] --END-- [ RunTime:0.022229s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000714s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000807s ]
+SQL: SHOW COLUMNS FROM `system_setting` [ RunTime:0.0096s ]
+SQL: SELECT `value` FROM `system_setting` WHERE `type` = 20 AND `del_flg` = 0 AND `company_id` = '1447247968' LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-11-22T18:54:07+08:00 ] ::1 /Home/Admin/getAdminMsgCount/status/10/token/3d67b031f5e48be967bbb146960fccaf
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000555s ]
+INFO: [ url_dispatch ] --START--
+INFO: Run Lib\Behavior\SignCheckBehavior [ RunTime:0.001286s ]
+INFO: Run Lib\Behavior\TokenCheckBehavior [ RunTime:0.015994s ]
+INFO: Run Lib\Behavior\MethodCheckBehavior [ RunTime:0.000848s ]
+INFO: [ url_dispatch ] --END-- [ RunTime:0.018358s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000870s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000973s ]
+SQL: SHOW COLUMNS FROM `admin_msg` [ RunTime:0.0109s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_msg` WHERE `status` = '10' AND `admin_id` = '2517844598' LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2018-11-22T18:55:29+08:00 ] ::1 /Home/System/getSystemSetting/companyId/1447247968/type/20/token/3d67b031f5e48be967bbb146960fccaf
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000464s ]
+INFO: [ url_dispatch ] --START--
+INFO: Run Lib\Behavior\SignCheckBehavior [ RunTime:0.001156s ]
+INFO: Run Lib\Behavior\TokenCheckBehavior [ RunTime:0.020050s ]
+INFO: Run Lib\Behavior\MethodCheckBehavior [ RunTime:0.000857s ]
+INFO: [ url_dispatch ] --END-- [ RunTime:0.022310s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000699s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000796s ]
+SQL: SHOW COLUMNS FROM `system_setting` [ RunTime:0.0093s ]
+SQL: SELECT `value` FROM `system_setting` WHERE `type` = 20 AND `del_flg` = 0 AND `company_id` = '1447247968' LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-11-22T18:55:29+08:00 ] ::1 /Home/Admin/getAdminMsgCount/status/10/token/3d67b031f5e48be967bbb146960fccaf
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000556s ]
+INFO: [ url_dispatch ] --START--
+INFO: Run Lib\Behavior\SignCheckBehavior [ RunTime:0.001218s ]
+INFO: Run Lib\Behavior\TokenCheckBehavior [ RunTime:0.019433s ]
+INFO: Run Lib\Behavior\MethodCheckBehavior [ RunTime:0.000860s ]
+INFO: [ url_dispatch ] --END-- [ RunTime:0.021736s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000769s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000883s ]
+SQL: SHOW COLUMNS FROM `admin_msg` [ RunTime:0.0096s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_msg` WHERE `status` = '10' AND `admin_id` = '2517844598' LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2018-11-22T18:55:29+08:00 ] ::1 /Home/Device/deviceLists/name/null/serialNo/null/companyId/1447247968/pageSize/10/pageNo/1/token/3d67b031f5e48be967bbb146960fccaf
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000438s ]
+INFO: [ url_dispatch ] --START--
+INFO: Run Lib\Behavior\SignCheckBehavior [ RunTime:0.001065s ]
+INFO: Run Lib\Behavior\TokenCheckBehavior [ RunTime:0.017734s ]
+INFO: Run Lib\Behavior\MethodCheckBehavior [ RunTime:0.000924s ]
+INFO: [ url_dispatch ] --END-- [ RunTime:0.019977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000691s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000801s ]
+SQL: SHOW COLUMNS FROM `device` [ RunTime:0.0086s ]
+SQL: SELECT COUNT(*) AS tp_count FROM device d left join company c on d.company_id = c.id  WHERE d.del_flg = 0 AND d.company_id = '1447247968' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT d.*,c.name company_name FROM device d left join company c on d.company_id = c.id  WHERE d.del_flg = 0 AND d.company_id = '1447247968' ORDER BY d.create_time DESC LIMIT 0,10   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: active D:\wamp\www\wscloud\api\Application\Home\Controller\DeviceController.class.php 第 132 行.
+NOTIC: [8] Undefined index: ty_ D:\wamp\www\wscloud\api\Application\Lib\Status.class.php 第 84 行.
+NOTIC: [8] Undefined index: active D:\wamp\www\wscloud\api\Application\Home\Controller\DeviceController.class.php 第 132 行.
+NOTIC: [8] Undefined index: ty_ D:\wamp\www\wscloud\api\Application\Lib\Status.class.php 第 84 行.
+NOTIC: [8] Undefined index: active D:\wamp\www\wscloud\api\Application\Home\Controller\DeviceController.class.php 第 132 行.
+NOTIC: [8] Undefined index: ty_ D:\wamp\www\wscloud\api\Application\Lib\Status.class.php 第 84 行.
+NOTIC: [8] Undefined index: active D:\wamp\www\wscloud\api\Application\Home\Controller\DeviceController.class.php 第 132 行.
+NOTIC: [8] Undefined index: ty_ D:\wamp\www\wscloud\api\Application\Lib\Status.class.php 第 84 行.
+NOTIC: [8] Undefined index: active D:\wamp\www\wscloud\api\Application\Home\Controller\DeviceController.class.php 第 132 行.
+NOTIC: [8] Undefined index: ty_ D:\wamp\www\wscloud\api\Application\Lib\Status.class.php 第 84 行.
+NOTIC: [8] Undefined index: active D:\wamp\www\wscloud\api\Application\Home\Controller\DeviceController.class.php 第 132 行.
+NOTIC: [8] Undefined index: ty_ D:\wamp\www\wscloud\api\Application\Lib\Status.class.php 第 84 行.
+
+[ 2018-11-22T18:55:45+08:00 ] ::1 /Home/Device/getCompanyDeviceSetting/company_id/1447247968/token/3d67b031f5e48be967bbb146960fccaf
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000618s ]
+INFO: [ url_dispatch ] --START--
+INFO: Run Lib\Behavior\SignCheckBehavior [ RunTime:0.001362s ]
+INFO: Run Lib\Behavior\TokenCheckBehavior [ RunTime:0.019981s ]
+INFO: Run Lib\Behavior\MethodCheckBehavior [ RunTime:0.000765s ]
+INFO: [ url_dispatch ] --END-- [ RunTime:0.022335s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000729s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000846s ]
+SQL: SHOW COLUMNS FROM `device_setting` [ RunTime:0.0089s ]
+SQL: SELECT * FROM `device_setting` WHERE `company_id` = '1447247968'  [ RunTime:0.0004s ]
+
+[ 2018-11-22T18:55:45+08:00 ] ::1 /Home/System/getSystemSetting/companyId/1447247968/type/20/token/3d67b031f5e48be967bbb146960fccaf
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000559s ]
+INFO: [ url_dispatch ] --START--
+INFO: Run Lib\Behavior\SignCheckBehavior [ RunTime:0.001296s ]
+INFO: Run Lib\Behavior\TokenCheckBehavior [ RunTime:0.021088s ]
+INFO: Run Lib\Behavior\MethodCheckBehavior [ RunTime:0.000904s ]
+INFO: [ url_dispatch ] --END-- [ RunTime:0.023573s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000791s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000910s ]
+SQL: SHOW COLUMNS FROM `system_setting` [ RunTime:0.0088s ]
+SQL: SELECT `value` FROM `system_setting` WHERE `type` = 20 AND `del_flg` = 0 AND `company_id` = '1447247968' LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-11-22T18:55:45+08:00 ] ::1 /Home/Admin/getAdminMsgCount/status/10/token/3d67b031f5e48be967bbb146960fccaf
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000621s ]
+INFO: [ url_dispatch ] --START--
+INFO: Run Lib\Behavior\SignCheckBehavior [ RunTime:0.001371s ]
+INFO: Run Lib\Behavior\TokenCheckBehavior [ RunTime:0.016747s ]
+INFO: Run Lib\Behavior\MethodCheckBehavior [ RunTime:0.000908s ]
+INFO: [ url_dispatch ] --END-- [ RunTime:0.019293s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000795s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000912s ]
+SQL: SHOW COLUMNS FROM `admin_msg` [ RunTime:0.0083s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_msg` WHERE `status` = '10' AND `admin_id` = '2517844598' LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-11-22T18:58:54+08:00 ] ::1 /Home/Device/getCompanyDeviceSetting/company_id/1447247968/token/3d67b031f5e48be967bbb146960fccaf
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000443s ]
+INFO: [ url_dispatch ] --START--
+INFO: Run Lib\Behavior\SignCheckBehavior [ RunTime:0.001335s ]
+INFO: Run Lib\Behavior\TokenCheckBehavior [ RunTime:0.023229s ]
+INFO: Run Lib\Behavior\MethodCheckBehavior [ RunTime:0.000733s ]
+INFO: [ url_dispatch ] --END-- [ RunTime:0.025517s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000633s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000726s ]
+SQL: SHOW COLUMNS FROM `device_setting` [ RunTime:0.0088s ]
+SQL: SELECT * FROM `device_setting` WHERE `company_id` = '1447247968'  [ RunTime:0.0004s ]
+
+[ 2018-11-22T18:58:54+08:00 ] ::1 /Home/System/getSystemSetting/companyId/1447247968/type/20/token/3d67b031f5e48be967bbb146960fccaf
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000524s ]
+INFO: [ url_dispatch ] --START--
+INFO: Run Lib\Behavior\SignCheckBehavior [ RunTime:0.001624s ]
+INFO: Run Lib\Behavior\TokenCheckBehavior [ RunTime:0.016061s ]
+INFO: Run Lib\Behavior\MethodCheckBehavior [ RunTime:0.000903s ]
+INFO: [ url_dispatch ] --END-- [ RunTime:0.018886s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000683s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000776s ]
+SQL: SHOW COLUMNS FROM `system_setting` [ RunTime:0.0101s ]
+SQL: SELECT `value` FROM `system_setting` WHERE `type` = 20 AND `del_flg` = 0 AND `company_id` = '1447247968' LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-11-22T18:58:54+08:00 ] ::1 /Home/Admin/getAdminMsgCount/status/10/token/3d67b031f5e48be967bbb146960fccaf
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000490s ]
+INFO: [ url_dispatch ] --START--
+INFO: Run Lib\Behavior\SignCheckBehavior [ RunTime:0.001185s ]
+INFO: Run Lib\Behavior\TokenCheckBehavior [ RunTime:0.018648s ]
+INFO: Run Lib\Behavior\MethodCheckBehavior [ RunTime:0.000831s ]
+INFO: [ url_dispatch ] --END-- [ RunTime:0.020928s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000690s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000781s ]
+SQL: SHOW COLUMNS FROM `admin_msg` [ RunTime:0.0083s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_msg` WHERE `status` = '10' AND `admin_id` = '2517844598' LIMIT 1   [ RunTime:0.0003s ]
+

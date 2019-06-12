@@ -1,0 +1,29 @@
+.content {
+    padding: 10px 10px;
+}
+.gallery-cont .item {
+    width:20%;
+    display: inline-block;
+}
+
+.gallery-cont .item .photo .img{
+    width:90%;
+    height: 40%;
+    padding-top: 20px;
+    overflow: hidden;
+}
+.gallery-cont .item .photo .img img{
+    width: 100%;
+    height: 100%;
+}
+.gallery-cont .item .photo .head {
+    width:90%;
+    background: #f9f9f9;
+    overflow: hidden;
+    text-indent:10px;
+    font-size: 12px;
+}
+
+#behaviorItemBody {
+    height: auto !important;
+}

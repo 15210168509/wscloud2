@@ -1,0 +1,89 @@
+<extend name="./Theme/default/office_base.html" />
+<block name="page-content">
+    <div class="layui-card">
+        <div class="layui-card-body">
+            <div class="searchContainer">
+                <form class="form-horizontal" id="src_form" action="javascript:;" method="post">
+                    <div class="searchTop">
+                        <div class="layui-col-xs6 layui-col-sm6 layui-col-md6">
+                            <span class="searchTitle padding-lr20">快速检索</span>
+                        </div>
+                        <div class="layui-col-xs6 layui-col-sm6 layui-col-md6" style="text-align: right">
+                            <button id="src_bt" lay-submit="" class="layui-btn"  lay-filter="demo1" >导 出</button>
+                            <button type="reset" id="reset_bt" class="layui-btn" >重 置</button>
+                        </div>
+                    </div>
+                    <div class="layui-form layui-form-pane" style=" padding: 5px;">
+                        <div class="layui-form-item">
+                            <div class="layui-inline">
+                                <label class="layui-form-label">时间区间</label>
+                                <div class="layui-input-inline">
+                                    <input type="text" name="username" id="behaviorTime" placeholder="时间区间" class="layui-input" readonly value="{$where_time}">
+                                </div>
+                            </div>
+
+                            <div class="layui-inline">
+                                <label class="layui-form-label">报警类型</label>
+                                <div class="layui-input-inline">
+                                    <select name="code" id="code">
+                                        <option value="null">全部</option>
+                                        <option value="10">打电话</option>
+                                        <option value="11">抽烟</option>
+                                        <option value="12">打哈欠</option>
+                                        <option value="13">左右张望</option>
+                                        <option value="14">低头</option>
+                                        <option value="15">闭眼睛</option>
+                                        <option value="16">遮挡相机</option>
+                                        <option value="17">正常</option>
+                                    </select>
+                                </div>
+                            </div>
+
+                            <div class="layui-inline">
+                                <label class="layui-form-label">设备号</label>
+                                <div class="layui-input-inline">
+                                    <input type="text" name="deviceNo" id="deviceNo" placeholder="设备号" class="layui-input" value="{$where_deviceNo}">
+
+                                </div>
+                            </div>
+
+                            <div class="layui-inline">
+                                <label class="layui-form-label">图片类型</label>
+                                <div class="layui-input-inline">
+                                    <select name="imgType" id="imgType">
+                                        <option value="img">img</option>
+                                        <option value="nv21">nv21</option>
+                                    </select>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="content form-horizontal">
+
+                <div class="main-app">
+                    <div class="cl-mcont" style="background: none;">
+                        <div id="behaviorItemBody" class="gallery-cont">
+
+                        </div>
+                    </div>
+                </div>
+                <div id="pageContainer" style="text-align: right"></div>
+            </div>
+
+        </div>
+
+        <div class="mask">
+            <img src="/Public/Images/office/close.png" alt="">
+        </div>
+
+        <div class="behavior-info" style="display: none">
+            <div class="layui-col-sm12 behaviorPop">
+
+            </div>
+        </div>
+
+    </div>
+</block>

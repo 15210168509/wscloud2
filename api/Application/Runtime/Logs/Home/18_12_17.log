@@ -1,0 +1,37 @@
+[ 2018-12-17T11:43:18+08:00 ] ::1 /Test/testRedis
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000079s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005912s ]
+INFO: [ url_dispatch ] --START--
+INFO: Run Lib\Behavior\SignCheckBehavior [ RunTime:0.056684s ]
+INFO: Run Lib\Behavior\TokenCheckBehavior [ RunTime:0.011831s ]
+INFO: Run Lib\Behavior\MethodCheckBehavior [ RunTime:0.012230s ]
+INFO: [ url_dispatch ] --END-- [ RunTime:0.081643s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015075s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015495s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001040s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001172s ]
+
+[ 2018-12-17T11:43:18+08:00 ] ::1 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-12-17T11:45:38+08:00 ] ::1 /Test/testRedis
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000444s ]
+INFO: [ url_dispatch ] --START--
+INFO: Run Lib\Behavior\SignCheckBehavior [ RunTime:0.001555s ]
+INFO: Run Lib\Behavior\TokenCheckBehavior [ RunTime:0.001774s ]
+INFO: Run Lib\Behavior\MethodCheckBehavior [ RunTime:0.000728s ]
+INFO: [ url_dispatch ] --END-- [ RunTime:0.004299s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000646s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000736s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000685s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000784s ]
+

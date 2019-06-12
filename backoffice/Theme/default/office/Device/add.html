@@ -1,0 +1,76 @@
+<extend name="./Theme/default/office_base.html"/>
+<block name="page-content">
+    <div class="layui-card">
+        <div class="layui-card-body">
+            <div style="margin-bottom: 15px"><i class="layui-icon layui-icon-tips"></i> 剩余可添加设备数量：{$devices}</div>
+
+            <form class="layui-form layui-form-pane" action="javascript:;" method="post">
+
+                <div class="layui-form-item">
+                    <div class="layui-inline">
+                        <label class="layui-form-label" style="width: 90px">设备名称</label>
+                        <div class="layui-input-inline">
+                            <input type="text" name="name" lay-verify="required" placeholder="设备名称"  autocomplete="off" class="layui-input">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="layui-form-item">
+                    <div class="layui-inline">
+                        <label class="layui-form-label" style="width: 90px">设备号</label>
+                        <div class="layui-input-inline">
+                            <input type="text" name="serial_no" lay-verify="required" placeholder="设备号"  maxlength="20" autocomplete="on" class="layui-input">
+                        </div>
+                    </div>
+                </div>
+                <div class="layui-form-item">
+                    <div class="layui-inline">
+                        <label class="layui-form-label" style="width: 90px">SIM卡号</label>
+                        <div class="layui-input-inline">
+                            <input type="text" name="sim_no" placeholder="SIM卡号"  maxlength="25" autocomplete="off" class="layui-input">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="layui-form-item">
+                    <div class="layui-inline">
+                        <label class="layui-form-label" style="width: 90px">设备类型</label>
+                        <div class="layui-input-inline">
+                            <select name="type" id="type">
+                                <option value="10">微视摄像头</option>
+                                <option value="30">ADAS+DMS设备</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="layui-form-item">
+                    <div class="layui-inline">
+                        <label class="layui-form-label" style="width: 90px">设备型号</label>
+                        <div class="layui-input-inline">
+                            <input type="text" name="model" lay-verify="required" placeholder="设备型号" maxlength="" autocomplete="no" class="layui-input">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="layui-form-item">
+                    <label class="layui-form-label" style="width: 90px">状态</label>
+                    <div class="layui-input-inline">
+                        <select name="status" id="status">
+                            <option value="10">正常</option>
+                            <option value="20">锁定</option>
+                        </select>
+                    </div>
+                </div>
+
+
+                <div class="layui-form-item">
+                    <div class="layui-inline">
+                        <button id="add_btn" class="layui-btn" lay-submit="" lay-filter="demo1">立即提交</button>
+                        <button type="reset" class="layui-btn layui-btn-primary">重置</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</block>

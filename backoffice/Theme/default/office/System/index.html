@@ -1,0 +1,52 @@
+<extend name="./Theme/default/office_base.html"/>
+<block name="page-content">
+    <div class="layui-card">
+        <div class="layui-card-body">
+
+            <div class="layui-card" style="box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0)">
+                <div class="layui-card-header">设置预警类型</div>
+                <div class="layui-card-body">
+                    <form class="layui-form" action="javascript:;" method="post" id="warningSetting">
+                        {$warningSetting}
+
+                        <div class="layui-form-item">
+                            <div class="layui-inline">
+                                <button class="layui-btn" lay-submit="" lay-filter="demo1" id="add_btn">提交</button>
+                                <button type="reset" class="layui-btn layui-btn-primary">重置</button>
+                            </div>
+                        </div>
+
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="layui-card">
+        <div class="layui-card-body">
+
+            <div class="layui-card" style="box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0)">
+                <div class="layui-card-header">预警弹框</div>
+                <div class="layui-card-body">
+                    <form class="layui-form" action="javascript:;" method="" id="warning_dialog">
+
+                        <div class="layui-form-item">
+                            <label class="layui-form-label">是否弹框</label>
+                            <div class="layui-input-block">
+                                <input type="checkbox" {$warningDialogPop} name="open" lay-skin="switch" lay-filter="switchTest" lay-text="开|关">
+                            </div>
+                        </div>
+
+                        <div class="layui-form-item">
+                            <div class="layui-inline">
+                                <button class="layui-btn" lay-submit="" lay-filter="submit" id="submit">提交</button>
+                            </div>
+                        </div>
+
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</block>

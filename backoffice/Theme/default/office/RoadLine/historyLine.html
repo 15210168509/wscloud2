@@ -1,0 +1,49 @@
+<extend name="./Theme/default/office_base.html"/>
+<block name="page-content">
+    <div class="layui-card">
+        <div class="layui-card-body">
+            <div class="layui-card">
+                <div class="layui-form layui-form-pane layui-card-header" style="height:auto;" >
+                    <div class="layui-form-item">
+                        <div class="layui-inline">
+                            <label class="layui-form-label">车牌号</label>
+                            <div class="layui-input-block">
+                                <input id="vehicle_no" type="text"  placeholder="请输入车牌号" autocomplete="off" class="layui-input">
+                                <input type="hidden" value="" id="device_no">
+                            </div>
+                        </div>
+                        <div class="layui-inline">
+                            <label class="layui-form-label">回放时间段</label>
+                            <div class="layui-input-block">
+                                <input type="hidden" id="initMinTime" value="{$initMinTime}">
+                                <input type="hidden" id="initMaxTime" value="{$initMaxTime}">
+                                <input type="hidden" id="minTime" value="{$minTime}">
+                                <input type="hidden" id="maxTime" value="{$maxTime}">
+                                <input style="width: 300px;" class="layui-input" id="gpsTime" type="text" value="{$initMinTime} - {$initMaxTime}" readonly="" placeholder="时间区间">
+                            </div>
+                        </div>
+                        <div class="layui-inline">
+                            <button id="sure" class="layui-btn layuiadmin-btn-useradmin">
+                                确定
+                            </button>
+                            <button id="begin" class="layui-btn layui-btn-sm layui-btn-normal">
+                                开始
+                            </button>
+                            <button id="pause" class="layui-btn layui-btn-sm layui-btn-warm">
+                                暂停
+                            </button>
+                            <button id="stop" class="layui-btn layui-btn-sm layui-btn-danger">
+                                停止
+                            </button>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="layui-card-body">
+                    <div id="allmap" style="width: 100%;;height: 600px"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</block>

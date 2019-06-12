@@ -1,0 +1,88 @@
+[2018-07-27 15:05:22,527] [2676] RunTime: 0.0001 s
+ - INFO 
+ - RestClient.doPost(D:\wamp\www\wscloud\api\ThinkPHP\Library\Vendor\ApiGateway\RestClient.php:83)
+ - {"message":"rest client","data":"{\"request_host\":\"http:\\\/\\\/192.168.1.133:100\",\"request_path\":\"\\\/OpenService\\\/getAccessToken\\\/token\\\/null\",\"request_method\":\"POST\",\"request_bodys\":{\"\":\"{\\\"appId\\\":\\\"2122957687\\\",\\\"secret\\\":\\\"pJ08nsxRw3O8lXWKiiJY57Vb9lAAi3MHX9BRvz0LgGiu8cbJ3b\\\"}\"},\"response_code\":0,\"response_body\":null,\"response_errorMessage\":null}","topic":""}
+[2018-07-27 15:05:43,811] [2676] RunTime: 21.2841 s
+ - INFO 
+ - RestClient.doPost(D:\wamp\www\wscloud\api\ThinkPHP\Library\Vendor\ApiGateway\RestClient.php:83)
+ - {"message":"rest client","data":"{\"request_host\":\"http:\\\/\\\/192.168.1.133:100\",\"request_path\":\"\\\/OpenService\\\/userRegister\\\/token\\\/null\",\"request_method\":\"POST\",\"request_bodys\":{\"\":\"{\\\"name\\\":\\\"\\\\u674e\\\\u6587\\\\u7426\\\",\\\"phone\\\":\\\"13200000000\\\",\\\"account\\\":\\\"wenqi\\\",\\\"password\\\":\\\"123456\\\",\\\"code\\\":\\\"\\\"}\"},\"response_code\":0,\"response_body\":null,\"response_errorMessage\":null}","topic":""}
+[2018-07-27 15:06:53,156] [2676] RunTime: 0.0000 s
+ - INFO 
+ - RestClient.doPost(D:\wamp\www\wscloud\api\ThinkPHP\Library\Vendor\ApiGateway\RestClient.php:83)
+ - {"message":"rest client","data":"{\"request_host\":\"http:\\\/\\\/192.168.1.133:100\",\"request_path\":\"\\\/OpenService\\\/getAccessToken\\\/token\\\/null\",\"request_method\":\"POST\",\"request_bodys\":{\"\":\"{\\\"appId\\\":\\\"2122957687\\\",\\\"secret\\\":\\\"pJ08nsxRw3O8lXWKiiJY57Vb9lAAi3MHX9BRvz0LgGiu8cbJ3b\\\"}\"},\"response_code\":0,\"response_body\":null,\"response_errorMessage\":null}","topic":""}
+[2018-07-27 15:07:14,375] [2676] RunTime: 21.2194 s
+ - INFO 
+ - RestClient.doPost(D:\wamp\www\wscloud\api\ThinkPHP\Library\Vendor\ApiGateway\RestClient.php:83)
+ - {"message":"rest client","data":"{\"request_host\":\"http:\\\/\\\/192.168.1.133:100\",\"request_path\":\"\\\/OpenService\\\/userRegister\\\/token\\\/null\",\"request_method\":\"POST\",\"request_bodys\":{\"\":\"{\\\"name\\\":\\\"\\\\u674e\\\\u6587\\\\u7426\\\",\\\"phone\\\":\\\"13200000000\\\",\\\"account\\\":\\\"wenqi\\\",\\\"password\\\":\\\"123456\\\",\\\"code\\\":\\\"\\\"}\"},\"response_code\":0,\"response_body\":null,\"response_errorMessage\":null}","topic":""}
+[2018-07-27 15:08:02,801] [2676] RunTime: 0.0000 s
+ - INFO 
+ - RestClient.doPost(D:\wamp\www\wscloud\api\ThinkPHP\Library\Vendor\ApiGateway\RestClient.php:83)
+ - {"message":"rest client","data":"{\"request_host\":\"http:\\\/\\\/192.168.1.133:100\",\"request_path\":\"\\\/OpenService\\\/getAccessToken\\\/token\\\/null\",\"request_method\":\"POST\",\"request_bodys\":{\"\":\"{\\\"appId\\\":\\\"2122957687\\\",\\\"secret\\\":\\\"pJ08nsxRw3O8lXWKiiJY57Vb9lAAi3MHX9BRvz0LgGiu8cbJ3b\\\"}\"},\"response_code\":0,\"response_body\":null,\"response_errorMessage\":null}","topic":""}
+[2018-07-27 15:08:24,023] [2676] RunTime: 21.2223 s
+ - INFO 
+ - RestClient.doPost(D:\wamp\www\wscloud\api\ThinkPHP\Library\Vendor\ApiGateway\RestClient.php:83)
+ - {"message":"rest client","data":"{\"request_host\":\"http:\\\/\\\/192.168.1.133:100\",\"request_path\":\"\\\/OpenService\\\/userRegister\\\/token\\\/null\",\"request_method\":\"POST\",\"request_bodys\":{\"\":\"{\\\"name\\\":\\\"\\\\u674e\\\\u6587\\\\u7426\\\",\\\"phone\\\":\\\"13200000000\\\",\\\"account\\\":\\\"wenqi\\\",\\\"password\\\":\\\"123456\\\",\\\"code\\\":\\\"\\\"}\"},\"response_code\":0,\"response_body\":null,\"response_errorMessage\":null}","topic":""}
+[2018-07-27 15:09:31,336] [2676] RunTime: 0.0000 s
+ - INFO 
+ - RestClient.doPost(D:\wamp\www\wscloud\api\ThinkPHP\Library\Vendor\ApiGateway\RestClient.php:83)
+ - {"message":"rest client","data":"{\"request_host\":\"http:\\\/\\\/192.168.1.133:100\",\"request_path\":\"\\\/OpenService\\\/getAccessToken\\\/token\\\/null\",\"request_method\":\"POST\",\"request_bodys\":{\"\":\"{\\\"appId\\\":\\\"2122957687\\\",\\\"secret\\\":\\\"pJ08nsxRw3O8lXWKiiJY57Vb9lAAi3MHX9BRvz0LgGiu8cbJ3b\\\"}\"},\"response_code\":0,\"response_body\":null,\"response_errorMessage\":null}","topic":""}
+[2018-07-27 15:09:52,556] [2676] RunTime: 21.2201 s
+ - INFO 
+ - RestClient.doPost(D:\wamp\www\wscloud\api\ThinkPHP\Library\Vendor\ApiGateway\RestClient.php:83)
+ - {"message":"rest client","data":"{\"request_host\":\"http:\\\/\\\/192.168.1.133:100\",\"request_path\":\"\\\/OpenService\\\/userRegister\\\/token\\\/null\",\"request_method\":\"POST\",\"request_bodys\":{\"\":\"{\\\"name\\\":\\\"\\\\u674e\\\\u6587\\\\u7426\\\",\\\"phone\\\":\\\"13200000000\\\",\\\"account\\\":\\\"wenqi\\\",\\\"password\\\":\\\"123456\\\",\\\"code\\\":\\\"\\\"}\"},\"response_code\":0,\"response_body\":null,\"response_errorMessage\":null}","topic":""}
+[2018-07-27 15:11:06,093] [2676] RunTime: 0.0000 s
+ - INFO 
+ - RestClient.doPost(D:\wamp\www\wscloud\api\ThinkPHP\Library\Vendor\ApiGateway\RestClient.php:83)
+ - {"message":"rest client","data":"{\"request_host\":\"http:\\\/\\\/192.168.1.133:100\",\"request_path\":\"\\\/OpenService\\\/getAccessToken\\\/token\\\/null\",\"request_method\":\"POST\",\"request_bodys\":{\"\":\"{\\\"appId\\\":\\\"2122957687\\\",\\\"secret\\\":\\\"pJ08nsxRw3O8lXWKiiJY57Vb9lAAi3MHX9BRvz0LgGiu8cbJ3b\\\"}\"},\"response_code\":0,\"response_body\":null,\"response_errorMessage\":null}","topic":""}
+[2018-07-27 15:11:27,319] [2676] RunTime: 21.2260 s
+ - INFO 
+ - RestClient.doPost(D:\wamp\www\wscloud\api\ThinkPHP\Library\Vendor\ApiGateway\RestClient.php:83)
+ - {"message":"rest client","data":"{\"request_host\":\"http:\\\/\\\/192.168.1.133:100\",\"request_path\":\"\\\/OpenService\\\/userRegister\\\/token\\\/null\",\"request_method\":\"POST\",\"request_bodys\":{\"\":\"{\\\"name\\\":\\\"\\\\u674e\\\\u6587\\\\u7426\\\",\\\"phone\\\":\\\"13200000000\\\",\\\"account\\\":\\\"wenqi\\\",\\\"password\\\":\\\"123456\\\",\\\"code\\\":\\\"\\\"}\"},\"response_code\":0,\"response_body\":null,\"response_errorMessage\":null}","topic":""}
+[2018-07-27 15:13:07,944] [2676] RunTime: 0.0000 s
+ - INFO 
+ - RestClient.doPost(D:\wamp\www\wscloud\api\ThinkPHP\Library\Vendor\ApiGateway\RestClient.php:83)
+ - {"message":"rest client","data":"{\"request_host\":\"http:\\\/\\\/192.168.1.133:100\",\"request_path\":\"\\\/OpenService\\\/getAccessToken\\\/token\\\/null\",\"request_method\":\"POST\",\"request_bodys\":{\"\":\"{\\\"appId\\\":\\\"2122957687\\\",\\\"secret\\\":\\\"pJ08nsxRw3O8lXWKiiJY57Vb9lAAi3MHX9BRvz0LgGiu8cbJ3b\\\"}\"},\"response_code\":0,\"response_body\":null,\"response_errorMessage\":null}","topic":""}
+[2018-07-27 15:13:29,152] [2676] RunTime: 21.2072 s
+ - INFO 
+ - RestClient.doPost(D:\wamp\www\wscloud\api\ThinkPHP\Library\Vendor\ApiGateway\RestClient.php:83)
+ - {"message":"rest client","data":"{\"request_host\":\"http:\\\/\\\/192.168.1.133:100\",\"request_path\":\"\\\/OpenService\\\/userRegister\\\/token\\\/null\",\"request_method\":\"POST\",\"request_bodys\":{\"\":\"{\\\"name\\\":\\\"\\\\u674e\\\\u6587\\\\u7426\\\",\\\"phone\\\":\\\"13200000000\\\",\\\"account\\\":\\\"wenqi\\\",\\\"password\\\":\\\"123456\\\",\\\"code\\\":\\\"\\\"}\"},\"response_code\":0,\"response_body\":null,\"response_errorMessage\":null}","topic":""}
+[2018-07-27 15:16:43,974] [2676] RunTime: 0.0000 s
+ - INFO 
+ - RestClient.doPost(D:\wamp\www\wscloud\api\ThinkPHP\Library\Vendor\ApiGateway\RestClient.php:83)
+ - {"message":"rest client","data":"{\"request_host\":\"http:\\\/\\\/192.168.1.133:100\",\"request_path\":\"\\\/OpenService\\\/getAccessToken\\\/token\\\/null\",\"request_method\":\"POST\",\"request_bodys\":{\"\":\"{\\\"appId\\\":\\\"2122957687\\\",\\\"secret\\\":\\\"pJ08nsxRw3O8lXWKiiJY57Vb9lAAi3MHX9BRvz0LgGiu8cbJ3b\\\"}\"},\"response_code\":0,\"response_body\":null,\"response_errorMessage\":null}","topic":""}
+[2018-07-27 15:17:05,197] [2676] RunTime: 21.2232 s
+ - INFO 
+ - RestClient.doPost(D:\wamp\www\wscloud\api\ThinkPHP\Library\Vendor\ApiGateway\RestClient.php:83)
+ - {"message":"rest client","data":"{\"request_host\":\"http:\\\/\\\/192.168.1.133:100\",\"request_path\":\"\\\/OpenService\\\/userRegister\\\/token\\\/null\",\"request_method\":\"POST\",\"request_bodys\":{\"\":\"{\\\"name\\\":\\\"\\\\u674e\\\\u6587\\\\u7426\\\",\\\"phone\\\":\\\"13200000000\\\",\\\"account\\\":\\\"wenqi\\\",\\\"password\\\":\\\"123456\\\",\\\"code\\\":\\\"\\\"}\"},\"response_code\":0,\"response_body\":null,\"response_errorMessage\":null}","topic":""}
+[2018-07-27 15:19:47,130] [2676] RunTime: 0.0000 s
+ - INFO 
+ - RestClient.doPost(D:\wamp\www\wscloud\api\ThinkPHP\Library\Vendor\ApiGateway\RestClient.php:83)
+ - {"message":"rest client","data":"{\"request_host\":\"http:\\\/\\\/192.168.1.133:100\",\"request_path\":\"\\\/OpenService\\\/getAccessToken\\\/token\\\/null\",\"request_method\":\"POST\",\"request_bodys\":{\"\":\"{\\\"appId\\\":\\\"2122957687\\\",\\\"secret\\\":\\\"pJ08nsxRw3O8lXWKiiJY57Vb9lAAi3MHX9BRvz0LgGiu8cbJ3b\\\"}\"},\"response_code\":0,\"response_body\":null,\"response_errorMessage\":null}","topic":""}
+[2018-07-27 15:20:08,343] [2676] RunTime: 21.2134 s
+ - INFO 
+ - RestClient.doPost(D:\wamp\www\wscloud\api\ThinkPHP\Library\Vendor\ApiGateway\RestClient.php:83)
+ - {"message":"rest client","data":"{\"request_host\":\"http:\\\/\\\/192.168.1.133:100\",\"request_path\":\"\\\/OpenService\\\/userRegister\\\/token\\\/null\",\"request_method\":\"POST\",\"request_bodys\":{\"\":\"{\\\"name\\\":\\\"\\\\u674e\\\\u6587\\\\u7426\\\",\\\"phone\\\":\\\"13200000000\\\",\\\"account\\\":\\\"wenqi\\\",\\\"password\\\":\\\"123456\\\",\\\"code\\\":\\\"\\\"}\"},\"response_code\":0,\"response_body\":null,\"response_errorMessage\":null}","topic":""}
+[2018-07-27 15:21:11,174] [2676] RunTime: 0.0000 s
+ - INFO 
+ - RestClient.doPost(D:\wamp\www\wscloud\api\ThinkPHP\Library\Vendor\ApiGateway\RestClient.php:83)
+ - {"message":"rest client","data":"{\"request_host\":\"http:\\\/\\\/192.168.1.133:100\",\"request_path\":\"\\\/OpenService\\\/getAccessToken\\\/token\\\/null\",\"request_method\":\"POST\",\"request_bodys\":{\"\":\"{\\\"appId\\\":\\\"2122957687\\\",\\\"secret\\\":\\\"pJ08nsxRw3O8lXWKiiJY57Vb9lAAi3MHX9BRvz0LgGiu8cbJ3b\\\"}\"},\"response_code\":0,\"response_body\":null,\"response_errorMessage\":null}","topic":""}
+[2018-07-27 15:21:32,401] [2676] RunTime: 21.2276 s
+ - INFO 
+ - RestClient.doPost(D:\wamp\www\wscloud\api\ThinkPHP\Library\Vendor\ApiGateway\RestClient.php:83)
+ - {"message":"rest client","data":"{\"request_host\":\"http:\\\/\\\/192.168.1.133:100\",\"request_path\":\"\\\/OpenService\\\/userRegister\\\/token\\\/null\",\"request_method\":\"POST\",\"request_bodys\":{\"\":\"{\\\"name\\\":\\\"\\\\u674e\\\\u6587\\\\u7426\\\",\\\"phone\\\":\\\"13200000000\\\",\\\"account\\\":\\\"wenqi\\\",\\\"password\\\":\\\"123456\\\",\\\"code\\\":\\\"\\\"}\"},\"response_code\":0,\"response_body\":null,\"response_errorMessage\":null}","topic":""}
+[2018-07-27 15:24:04,948] [2676] RunTime: 0.0000 s
+ - INFO 
+ - RestClient.doPost(D:\wamp\www\wscloud\api\ThinkPHP\Library\Vendor\ApiGateway\RestClient.php:83)
+ - {"message":"rest client","data":"{\"request_host\":\"http:\\\/\\\/192.168.1.104:100\",\"request_path\":\"\\\/OpenService\\\/getAccessToken\\\/token\\\/null\",\"request_method\":\"POST\",\"request_bodys\":{\"\":\"{\\\"appId\\\":\\\"2122957687\\\",\\\"secret\\\":\\\"pJ08nsxRw3O8lXWKiiJY57Vb9lAAi3MHX9BRvz0LgGiu8cbJ3b\\\"}\"},\"response_code\":200,\"response_body\":\"{\\\"code\\\":1,\\\"msg\\\":\\\"\\\\u83b7\\\\u53d6token\\\\u6210\\\\u529f\\\",\\\"status_code\\\":3014,\\\"data\\\":{\\\"token\\\":\\\"0cbe7eec365e5589ad4b649c7d5e5f39\\\",\\\"refresh_token\\\":\\\"0cbe7eec365e5589ad4b649c7d5e5f39\\\"}}\",\"response_errorMessage\":null}","topic":""}
+[2018-07-27 15:24:05,602] [2676] RunTime: 0.6539 s
+ - INFO 
+ - RestClient.doPost(D:\wamp\www\wscloud\api\ThinkPHP\Library\Vendor\ApiGateway\RestClient.php:83)
+ - {"message":"rest client","data":"{\"request_host\":\"http:\\\/\\\/192.168.1.104:100\",\"request_path\":\"\\\/OpenService\\\/userRegister\\\/token\\\/0cbe7eec365e5589ad4b649c7d5e5f39\",\"request_method\":\"POST\",\"request_bodys\":{\"\":\"{\\\"name\\\":\\\"\\\\u674e\\\\u6587\\\\u7426\\\",\\\"phone\\\":\\\"13200000000\\\",\\\"account\\\":\\\"wenqi\\\",\\\"password\\\":\\\"123456\\\",\\\"code\\\":\\\"\\\"}\"},\"response_code\":200,\"response_body\":\"{\\\"code\\\":1,\\\"msg\\\":\\\"\\\\u6ce8\\\\u518c\\\\u6210\\\\u529f\\\",\\\"status_code\\\":3005,\\\"data\\\":{\\\"open_id\\\":\\\"H\\\\\\\/cWkcBz7XmjXRKLyKuSlkKWIuutVZSc3zxWDWvlBXyV58Rv1V8pmJkeFAo\\\\\\\/BF1S\\\"}}\",\"response_errorMessage\":null}","topic":""}
+[2018-07-27 15:28:50,019] [2676] RunTime: 0.0000 s
+ - INFO 
+ - RestClient.doPost(D:\wamp\www\wscloud\api\ThinkPHP\Library\Vendor\ApiGateway\RestClient.php:83)
+ - {"message":"rest client","data":"{\"request_host\":\"http:\\\/\\\/192.168.1.104:100\",\"request_path\":\"\\\/OpenService\\\/userRegister\\\/token\\\/0cbe7eec365e5589ad4b649c7d5e5f39\",\"request_method\":\"POST\",\"request_bodys\":{\"\":\"{\\\"name\\\":\\\"\\\\u674e\\\\u6587\\\\u7426\\\",\\\"phone\\\":\\\"13200000001\\\",\\\"account\\\":\\\"wenqi\\\",\\\"password\\\":\\\"123456\\\",\\\"code\\\":\\\"\\\"}\"},\"response_code\":200,\"response_body\":\"{\\\"code\\\":0,\\\"msg\\\":\\\"\\\\u7528\\\\u6237\\\\u540d\\\\u5df2\\\\u5b58\\\\u5728\\\",\\\"status_code\\\":3007}\",\"response_errorMessage\":null}","topic":""}
+[2018-07-27 15:28:55,044] [2676] RunTime: 0.0000 s
+ - INFO 
+ - RestClient.doPost(D:\wamp\www\wscloud\api\ThinkPHP\Library\Vendor\ApiGateway\RestClient.php:83)
+ - {"message":"rest client","data":"{\"request_host\":\"http:\\\/\\\/192.168.1.104:100\",\"request_path\":\"\\\/OpenService\\\/userRegister\\\/token\\\/0cbe7eec365e5589ad4b649c7d5e5f39\",\"request_method\":\"POST\",\"request_bodys\":{\"\":\"{\\\"name\\\":\\\"\\\\u674e\\\\u6587\\\\u7426\\\",\\\"phone\\\":\\\"13200000001\\\",\\\"account\\\":\\\"wenqi1\\\",\\\"password\\\":\\\"123456\\\",\\\"code\\\":\\\"\\\"}\"},\"response_code\":200,\"response_body\":\"{\\\"code\\\":1,\\\"msg\\\":\\\"\\\\u6ce8\\\\u518c\\\\u6210\\\\u529f\\\",\\\"status_code\\\":3005,\\\"data\\\":{\\\"open_id\\\":\\\"LCbWs6L99f3ITUccnGX8\\\\\\\/eP0blamr8M1BLqN4wmDtwCSAgf3t+FHbRTCGVxR9SGC\\\"}}\",\"response_errorMessage\":null}","topic":""}

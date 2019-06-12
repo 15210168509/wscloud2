@@ -1,0 +1,39 @@
+<extend name="./Theme/default/office_base.html"/>
+<block name="page-content">
+    <div class="layui-card">
+        <div class="layui-card-body">
+            <div class="layui-card">
+                <div class="layui-form layui-form-pane layui-card-header" style="height:auto;" >
+                    <div class="layui-form-item">
+                        <div class="layui-inline">
+                            <label class="layui-form-label">起点</label>
+                            <div class="layui-input-block">
+                                <input id="start" type="text"  placeholder="请输入" autocomplete="off" class="layui-input">
+                            </div>
+                        </div>
+                        <div class="layui-inline">
+                            <label class="layui-form-label">终点</label>
+                            <div class="layui-input-block">
+                                <input id="end" type="text"  placeholder="请输入" autocomplete="off" class="layui-input">
+                            </div>
+                        </div>
+                        <div class="layui-inline">
+                            <button id="add" class="layui-btn layuiadmin-btn-useradmin">
+                                确定
+                            </button>
+                            <button id="create" class="layui-btn layuiadmin-btn-useradmin">
+                                保存
+                            </button>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="layui-card-body">
+                    <div id="allmap" style="width: 100%;;height: 600px"></div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+</block>

@@ -1,0 +1,119 @@
+<extend name="./Theme/default/office_data_base.html"/>
+<block name="page-content">
+    <!--排版一-->
+<div class="layui-col-md12 bgimg" style="height: 100%;">
+    <div class="layui-col-md3 height_bgcolor">
+        <!--<div id="tired_no" class="dataBox"></div>
+        <div id="tired_type" class="dataBox"></div>-->
+        <div  style="height: 4%"></div>
+        <div class="dataBox">
+            <div class="corner1"></div>
+            <div class="corner2"></div>
+            <div class="corner3"></div>
+            <div class="corner4"></div>
+            <div class="layui-card my_card" style="height: 100%">
+                <div class="layui-card-header" style="color: #fff;border-bottom: 1px solid #999;">预警次数</div>
+                <div class="layui-card-body" style="height: 85%">
+                    <div id="tired_no" style="height: 100%"></div>
+                </div>
+            </div>
+
+        </div>
+        <div style="height: 4%"></div>
+        <div class="dataBox">
+            <div class="corner1"></div>
+            <div class="corner2"></div>
+            <div class="corner3"></div>
+            <div class="corner4"></div>
+            <div class="layui-card my_card">
+                <div class="layui-card-header" style="color: #fff;border-bottom: 1px solid #999;">行为类型</div>
+                <div class="layui-card-body" style="height: 85%;">
+                    <div id="tired_type" style="height: 100%"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="layui-col-md6 height_bgcolor">
+        <div class="layui-col-md12" style="color: #f1f1f1;text-align: center;height: 170px;">
+            <div class="layui-col-md12" style="margin-top: 10px;">
+                <img style="height: 68px;" src="__PUBLIC__/Images/office/title.png">
+            </div>
+            <div class="layui-col-md12" id="nowDiv" style="color: #e2e2e2"><?php echo date('Y年m月d日 H:i:s');?></div>
+            <input id="sumTiredNo" value="{$sumTiredNo}" type="hidden">
+            <div class="layui-col-md12" id="all">
+                <span class="t_num t_num1"><i style="background-position: 0px 0px;"></i><i style="background-position: 0px 0px;"></i><i style="background-position: 0px 0px;"></i><i style="background-position: 0px 0px;"></i><i style="background-position: 0px 0px;"></i><i style="background-position: 0px 0px;"></i><i style="background-position: 0px 0px;"></i></span>
+            </div>
+        </div>
+        <div id="title"  class="layui-col-md12" style="border: 1px solid rgba(171,171,171,0.5);">
+            <div class="corner1"></div>
+            <div class="corner2"></div>
+            <div class="corner3"></div>
+            <div class="corner4"></div>
+            <div class="vehicleMsg">
+                <img id="closeVehicleMsg" class="closeMsg" src="/Public/CSS/office/driver/close.png"/>
+                <div id="msgBody">
+
+                </div>
+            </div>
+            <div class="layui-col-md12" id="map" style="height: 100%;"></div>
+            <div id="mapStoreClass" style="position: absolute;z-index: 9999;"></div>
+        </div>
+
+    </div>
+
+    <div class="layui-col-md3 height_bgcolor" style="padding-right: 2%">
+        <div class="layui-col-md12" style="height: 4%"></div>
+        <div class="layui-col-md12 dataBox bgcolor" style="height: 20%;">
+            <div class="corner1"></div>
+            <div class="corner2"></div>
+            <div class="corner3"></div>
+            <div class="corner4"></div>
+            <div class="layui-card my_card" style="overflow: hidden">
+                <div class="layui-card-header" style="color: #e2e2e2;border-bottom: 1px solid #999;">选择车辆</div>
+                <div class="layui-card-body" style="height: 64%;overflow:auto;overflow-x:hidden;">
+                    <input type="checkbox" value="1" id="allChecked">全选
+                    <ul id="demo"></ul>
+                </div>
+            </div>
+        </div>
+
+        <!--
+        <div class="layui-col-md12" style="height: 4%"></div>
+        <div class="bgcolor dataBox layui-col-md12" style="height: 38%">
+            <div class="corner1"></div>
+            <div class="corner2"></div>
+            <div class="corner3"></div>
+            <div class="corner4"></div>
+            <div class="layui-card my_card" style="height: 100%">
+                <div class="layui-card-header" style="color: #fff;border-bottom: 1px solid #999;">疲劳值</div>
+                <div class="layui-card-body" style="height: 80%;">
+                    <div id="tired_value" style="height: 100%" ></div>
+                </div>
+            </div>
+        </div>
+        <!--<div id="tired_value" class="layui-col-md12 dataBox" style="height: 46%" ></div>-->
+
+        <div class="layui-col-md12" style="height: 4%"></div>
+        <div class="layui-col-md12 dataBox bgcolor" style="height: 70%">
+            <div class="corner1"></div>
+            <div class="corner2"></div>
+            <div class="corner3"></div>
+            <div class="corner4"></div>
+            <div class="layui-card my_card" style="overflow: hidden">
+                <div class="layui-card-header" style="color: #fff;border-bottom: 1px solid #999;">预警信息</div>
+                <div class="layui-card-body my-card-body">
+                    <div class="layui-col-md3">车辆</div>
+                    <div class="layui-col-md3">司机</div>
+                    <div class="layui-col-md3">时间</div>
+                    <div class="layui-col-md3">预警类型</div>
+                    <div class="layui-col-md12" id="msg">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+</block>

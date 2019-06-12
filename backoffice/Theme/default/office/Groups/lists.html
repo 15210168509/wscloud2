@@ -1,0 +1,63 @@
+<extend name="./Theme/default/office_base.html" />
+<block name="page-content">
+    <div class="layui-card">
+        <div class="layui-card-body">
+            <div class="searchContainer">
+                <form class="form-horizontal" id="src_form">
+                    <div class="searchTop">
+                        <div class="layui-col-xs6 layui-col-sm6 layui-col-md6">
+                            <span class="searchTitle padding-lr20">快速检索</span>
+                        </div>
+                        <div class="layui-col-xs6 layui-col-sm6 layui-col-md6" style="text-align: right">
+                            <button id="src_bt" class="layui-btn" >搜 索</button>
+                            <button type="reset" id="reset_bt" class="layui-btn" >重 置</button>
+                        </div>
+                    </div>
+                    <div class="layui-form layui-form-pane" style=" padding: 5px;">
+                        <div class="layui-col-xs6 layui-col-sm6 layui-col-md4">
+                            <label class="layui-form-label">分组名称</label>
+                            <div class="layui-input-inline">
+                                <input type="text" id="groups_name" placeholder="分组名称" class="layui-input" value="{$where_name}">
+                            </div>
+                        </div>
+
+                        <!--<div class="layui-col-xs6 layui-col-sm6 layui-col-md4">
+                            <label class="layui-form-label">分组类型</label>
+                            <div class="layui-input-inline">
+                                <select id="groups_type">
+                                    {$options}
+                                </select>
+                            </div>
+                        </div>-->
+
+                        <div style="clear: both"></div>
+                    </div>
+                    <div class="clearfix"></div>
+                </form>
+            </div>
+            <table class="layui-hide" id="tableList" lay-filter="tableList"></table>
+        </div>
+    </div>
+
+    <form class="layui-form" action="javascript:;" method="post" id="add_driver" style="display: none">
+
+        <input type="hidden" id="groupsId" name="id">
+
+        <div class="layui-form-item" style="padding-top: 20px">
+            <div class="layui-inline">
+                <label class="layui-form-label"style="width: 90px">分组名称</label>
+                <div class="layui-input-inline">
+                    <input type="tel" name="name" lay-verify="name" id="name" placeholder="分组名称" maxlength="7" autocomplete="off" class="layui-input">
+                </div>
+            </div>
+        </div>
+
+        <div class="layui-form-item">
+            <div class="layui-input-block">
+                <button class="layui-btn" lay-submit="" lay-filter="demo1" id="update_btn">修改</button>
+                <button type="reset" class="layui-btn layui-btn-primary">重置</button>
+            </div>
+        </div>
+    </form>
+
+</block>

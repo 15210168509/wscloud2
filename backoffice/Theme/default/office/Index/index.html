@@ -1,0 +1,74 @@
+<extend name="./Theme/default/office_base.html" />
+<block name="page-content">
+    <div class="layui-row layui-col-space15">
+        <div class="layui-col-md6">
+            <div class="layui-card">
+                <div class="layui-card-header">快捷方式</div>
+                <div class="layui-card-body">
+                    <div class="layui-carousel layadmin-carousel layadmin-shortcut" lay-anim="" lay-indicator="inside" lay-arrow="none" style="width: 100%; height: 280px;">
+
+                        <ul class="layui-row layui-col-space10 layui-this">
+                            <li class="layui-col-xs4">
+                                <a href="/Device/lists">
+                                    <i class="layui-icon layui-icon-console"></i>
+                                    <cite>设备管理</cite>
+                                </a>
+                            </li>
+                            <li class="layui-col-xs4">
+                                <a href="/Vehicle/lists">
+                                    <i class="layui-icon layui-icon-chart"></i>
+                                    <cite>车辆管理</cite>
+                                </a>
+                            </li>
+                            <li class="layui-col-xs4">
+                                <a href="/Driver/lists">
+                                    <i class="layui-icon layui-icon-template-1"></i>
+                                    <cite>司机管理</cite>
+                                </a>
+                            </li>
+                            <li class="layui-col-xs4">
+                                <a href="/Groups/lists">
+                                    <i class="layui-icon layui-icon-chat"></i>
+                                    <cite>分组管理</cite>
+                                </a>
+                            </li>
+                            <li class="layui-col-xs4">
+                                <a href="/Monitor/showData">
+                                    <i class="layui-icon layui-icon-find-fill"></i>
+                                    <cite>数据分析</cite>
+                                </a>
+                            </li>
+                            <li class="layui-col-xs4">
+                                <a href="/Monitor/realTimeData" target="_blank">
+                                    <i class="layui-icon layui-icon-survey"></i>
+                                    <cite>数据大屏</cite>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="layui-col-md6">
+            <div class="layui-card">
+                <div class="layui-card-header">30天内预警次数</div>
+                <div class="layui-card-body">
+                    <div class="layui-carousel layadmin-carousel layadmin-backlog" lay-anim="" lay-indicator="inside" lay-arrow="none" style="width: 100%; height: 280px;">
+                        {$warningHtml}
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="layui-col-md12">
+            <div class="layui-card">
+                <div class="layui-card-header">30天内报警集中时间段</div>
+                <div class="layui-card-body">
+                    <div id="tired_no_time" style="height: 340px;"></div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</block>

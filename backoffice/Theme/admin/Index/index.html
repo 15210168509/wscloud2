@@ -1,0 +1,53 @@
+<extend name="./Theme/admin/admin_base.html" />
+<block name="page-content">
+    <div class="layui-row layui-col-space15">
+        <div class="layui-col-md6">
+            <div class="layui-card">
+                <div class="layui-card-header">快捷方式</div>
+                <div class="layui-card-body">
+                    <div class="layui-carousel layadmin-carousel layadmin-shortcut" lay-anim="" lay-indicator="inside" lay-arrow="none" style="width: 100%; height: 200px;">
+
+                        <ul class="layui-row layui-col-space10 layui-this">
+                            <li class="layui-col-xs4">
+                                <a href="{$baseUrl}/Admin/lists">
+                                    <i class="layui-icon layui-icon-chart"></i>
+                                    <cite>管理员管理</cite>
+                                </a>
+                            </li>
+                            <li class="layui-col-xs4">
+                                <a href="{$baseUrl}/Company/lists">
+                                    <i class="layui-icon layui-icon-survey"></i>
+                                    <cite>公司管理</cite>
+                                </a>
+                            </li>
+                            <li class="layui-col-xs4">
+                                <a href="{$baseUrl}/Device/lists">
+                                    <i class="layui-icon layui-icon-console"></i>
+                                    <cite>设备管理</cite>
+                                </a>
+                            </li>
+                            <li class="layui-col-xs4">
+                                <a href="{$baseUrl}/Driver/lists">
+                                    <i class="layui-icon layui-icon-template-1"></i>
+                                    <cite>司机管理</cite>
+                                </a>
+                            </li>
+                            <li class="layui-col-xs4">
+                                <a href="{$baseUrl}/Vehicle/lists">
+                                    <i class="layui-icon layui-icon-chat"></i>
+                                    <cite>车辆管理</cite>
+                                </a>
+                            </li>
+                            <li class="layui-col-xs4">
+                                <a href="{$baseUrl}/Behavior/lists">
+                                    <i class="layui-icon layui-icon-find-fill"></i>
+                                    <cite>预警管理</cite>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</block>

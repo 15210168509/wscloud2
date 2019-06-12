@@ -1,0 +1,38 @@
+<extend name="./Theme/default/office_base.html"/>
+<block name="page-content">
+    <div class="layui-card">
+        <div class="layui-card-body">
+
+            <form class="layui-form layui-form-pane" action="javascript:;" method="post" id="add_groups">
+
+                <div class="layui-form-item">
+                    <div class="layui-inline">
+                        <label class="layui-form-label"style="width: 90px">组名称</label>
+                        <div class="layui-input-inline">
+                            <input type="text" name="name" lay-verify="name" placeholder="组名称" maxlength="7"  autocomplete="off" class="layui-input">
+                        </div>
+                    </div>
+                </div>
+
+                <!--<div class="layui-form-item">
+                    <div class="layui-inline">
+                        <label class="layui-form-label" style="width: 90px">分组类型</label>
+                        <div class="layui-input-inline">
+                            <select name="type" id="type">
+                                {$options}
+                            </select>
+                        </div>
+                    </div>
+                </div>-->
+
+                <div class="layui-form-item">
+                    <div class="layui-inline">
+                        <button class="layui-btn" lay-submit="" lay-filter="demo1" id="add_btn">提交</button>
+                        <button type="reset" class="layui-btn layui-btn-primary">重置</button>
+                    </div>
+                </div>
+            </form>
+
+        </div>
+    </div>
+</block>

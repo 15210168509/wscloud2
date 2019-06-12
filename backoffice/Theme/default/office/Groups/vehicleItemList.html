@@ -1,0 +1,82 @@
+<extend name="./Theme/default/office_base.html" />
+<block name="page-content">
+    <div class="layui-card">
+        <div class="layui-card-body">
+            <div class="searchContainer">
+                <form class="form-horizontal" id="src_form">
+                    <input type="hidden" id="groupsId" value="{$groupsId}">
+                    <input type="hidden" id="vehicleGroup" value="">
+                    <div class="searchTop">
+                        <div class="layui-col-xs6 layui-col-sm6 layui-col-md6">
+                            <span class="searchTitle padding-lr20">快速检索</span>
+                        </div>
+                        <div class="layui-col-xs6 layui-col-sm6 layui-col-md6" style="text-align: right">
+                            <button id="src_bt" class="layui-btn" >搜 索</button>
+                            <button type="reset" id="reset_bt" class="layui-btn" >重 置</button>
+                        </div>
+                    </div>
+                    <div class="layui-form layui-form-pane" style=" padding: 5px;">
+                        <div class="layui-col-xs6 layui-col-sm6 layui-col-md4">
+                            <label class="layui-form-label">车牌号码</label>
+                            <div class="layui-input-inline">
+                                <input type="text" name="username" id="where_vehicle_no" placeholder="车牌号码" class="layui-input" value="{$where_vehicle_no}">
+                            </div>
+                        </div>
+                        <div class="layui-col-xs6 layui-col-sm6 layui-col-md4">
+                            <label class="layui-form-label">车辆型号</label>
+                            <div class="layui-input-inline">
+                                <input type="text" name="username" id="vehicle_model" placeholder="车辆型号" class="layui-input" value="{$where_model}">
+                            </div>
+                        </div>
+
+                        <div class="layui-col-xs6 layui-col-sm6 layui-col-md4">
+                            <label class="layui-form-label">车辆状态</label>
+                            <div class="layui-input-inline">
+                                <select name="vehicle_status" id="vehicle_status">
+                                    <option value="null" <if condition="$where_status eq 'null'">selected="selected"</if>>所有</option>
+                                    <option value="10" <if condition="$where_status eq 10">selected="selected"</if>>正常</option>
+                                    <option value="20" <if condition="$where_status eq 20">selected="selected"</if>>锁定</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div style="clear: both"></div>
+                    </div>
+
+                    <div class="clearfix"></div>
+                </form>
+            </div>
+            <button class="layui-btn" id="addVehicle">添加车辆</button>
+            <table class="layui-hide" id="tableList" lay-filter="tableList"></table>
+        </div>
+    </div>
+
+    <form class="layui-form" action="javascript:;" method="post" id="alert_form" style="display: none;padding-top: 20px">
+        <input type="hidden" name="vehicleId" id="vehicle_id">
+        <input type="hidden" name="groupsId" value="{$groupsId}">
+        <div class="layui-form-item">
+            <div class="layui-inline">
+                <label class="layui-form-label"style="width: 90px">车牌号码</label>
+                <div class="layui-input-inline">
+                    <input type="tel" name="vehicle_no" id="vehicle_no" lay-verify="required" placeholder="请输入车牌号码" maxlength="7"  autocomplete="off" class="layui-input">
+                </div>
+            </div>
+        </div>
+
+        <div class="layui-form-item">
+            <div class="layui-input-block">
+                <button class="layui-btn" lay-submit="" lay-filter="demo1" id="add_btn">添加</button>
+            </div>
+        </div>
+    </form>
+
+    <form class="layui-form" action="javascript:;" method="post" id="groupListForm" style="display: none;margin: 10px">
+        <div class="layui-form-item" id="groupList">
+
+        </div>
+
+        <div class="layui-form-item" style="text-align: right">
+            <button class="layui-btn" id="moveGroup"  lay-filter="formDemo">确定</button>
+        </div>
+    </form>
+
+</block>

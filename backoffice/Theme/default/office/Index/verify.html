@@ -1,0 +1,50 @@
+<extend name="./Theme/default/office_verify_base.html" />
+<block name="page-content">
+    <div class="layui-card">
+        <div class="layui-card-body">
+            <input type="hidden" id="adminId" value="{$admin_id}">
+            <div style="margin: 10px">您公司当前的审核状态为：{$company['verify_status_str']}</div>
+            <form class="layui-form layui-form-pane" action="javascript:;" method="post" style="text-align: center">
+
+                <div class="layui-form-item">
+                    <div class="layui-inline">
+                        <label class="layui-form-label" style="width: 90px">公司名称</label>
+                        <div class="layui-input-inline">
+                            <input type="text" id="name" name="name" lay-verify="name" placeholder="公司名称"  value="{$company['name']}" autocomplete="off" class="layui-input">
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="layui-form-item">
+                    <div class="layui-inline">
+                        <label class="layui-form-label" style="width: 90px">手机号码</label>
+                        <div class="layui-input-inline">
+                            <input type="text" id="phone" name="phone" lay-verify="phone|required" placeholder="手机号码" value="{$company['phone']}" maxlength="11" autocomplete="off" class="layui-input">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="layui-form-item">
+                    <div class="layui-inline">
+                        <label class="layui-form-label" style="width: 90px">邮箱</label>
+                        <div class="layui-input-inline">
+                            <input type="text" id="email" name="email" lay-verify="email|required" placeholder="邮箱" value="{$company['email']}" autocomplete="off" class="layui-input">
+                        </div>
+                    </div>
+                </div>
+                <if condition="$company.verify_status == 20">
+                    <div class="layui-form-item hidebtn">
+                        <div class="layui-input-block">
+                            <button class="layui-btn" lay-submit="" lay-filter="demo1">修改</button>
+                            <button type="reset" class="layui-btn layui-btn-primary">重置</button>
+                        </div>
+                    </div>
+                </if>
+
+            </form>
+
+
+        </div>
+    </div>
+</block>
